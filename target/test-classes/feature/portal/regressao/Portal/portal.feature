@@ -14,15 +14,15 @@ Funcionalidade: Regressivo do portal
     Exemplos:
       | link                  |
       | LANÇAMENTOS           |
-      | Lançamentos           |
-      | Prontos               |
-      | Aluguel               |
-      | Anuncie seu Imóvel    |
-      | Seja Franqueado       |
-      | Calculadora de Compra |
-      | Fale conosco          |
-      | Favoritos             |
-      | Minha conta           |
+#      | Lançamentos           |
+#      | Prontos               |
+#      | Aluguel               |
+#      | Anuncie seu Imóvel    |
+#      | Seja Franqueado       |
+#      | Calculadora de Compra |
+#      | Fale conosco          |
+#      | Favoritos             |
+#      | Minha conta           |
 
 
   @FOOTER
