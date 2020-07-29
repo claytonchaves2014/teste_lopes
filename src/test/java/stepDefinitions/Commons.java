@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import PageObjects.portal.Home;
 import io.cucumber.java.pt.Dado;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
@@ -32,7 +33,7 @@ public class Commons {
         Commons.configure_browser();
         driver.get(URL_CRM_HOME);
 
-        PageFactory.initElements(driver, PageObjects.Home.class);
+        PageFactory.initElements(driver, Home.class);
     }
 
 

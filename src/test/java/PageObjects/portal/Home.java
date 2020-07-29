@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObjects.portal;
 
 
 import org.openqa.selenium.By;
