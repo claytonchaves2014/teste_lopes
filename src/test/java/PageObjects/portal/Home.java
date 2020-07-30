@@ -5,12 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import stepDefinitions.Commons;
+
+import static stepDefinitions.Commons.driver;
 
 public class Home {
     //    HEADER
     public static @FindBy(how = How.CLASS_NAME, using = "header__button header__link")
     WebElement btn_logo;
-    public static @FindBy(how = How.ID, using = "logo_menu_header-Lançamentos")
+        public static @FindBy(how = How.XPATH, using = "//a[@id='logo_menu_header-Lançamentos']")
     WebElement btn_lancamentos;
     public static @FindBy(how = How.ID, using = "logo_menu_header-Prontos")
     WebElement btn_prontos;
@@ -157,5 +160,18 @@ public class Home {
     public static @FindBy(how = How.XPATH, using = "//p[contains(text(),'Blog')]")
     WebElement blog;
 
+
+//    FUNÇÕES
+
+    public static void clicarLinkHeader(String link){
+        WebElement linkHeader = driver.findElement(By.xpath("//a[@id='logo_menu_header-"+link+"']"));
+        linkHeader.click();
+    }
+
+    public static void clicarLinkFooter(String link){
+        WebElement linkFooter = driver.findElement(By.xpath("//p[contains(text(),'Quem Somos')]"));
+        linkFooter.click();
+
+    }
 
 }

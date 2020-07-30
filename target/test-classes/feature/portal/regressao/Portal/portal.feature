@@ -10,64 +10,57 @@ Funcionalidade: Regressivo do portal
   @HEADER
   Esquema do Cenario: CT_001 - Componente Header - Validar componente
     Quando clico no "<link>" do header
-    Então sou direcionado para tela correspondente
+    Então sou direcionado para "<url>" correspondente
     Exemplos:
-      | link                  |
-      | LANÇAMENTOS           |
-#      | Lançamentos           |
-#      | Prontos               |
-#      | Aluguel               |
-#      | Anuncie seu Imóvel    |
-#      | Seja Franqueado       |
-#      | Calculadora de Compra |
-#      | Fale conosco          |
-#      | Favoritos             |
-#      | Minha conta           |
+      | link                  | url                                                |
+      | Lançamentos           | lancamento                                         |
+      | Prontos               | venda                                              |
+      | Aluguel               | aluguel                                            |
+      | Anuncie seu Imóvel    | anuncie-seu-imovel                                 |
+      | Seja Franqueado       | seja-um-franqueado                                 |
+      | Calculadora de Compra | calculadora-simulador-de-financiamento-imobiliario |
+      | Fale conosco          | fale-conosco                                       |
+      | Favoritos             | favoritos                                          |
 
 
   @FOOTER
   Esquema do Cenario: CT_002 - Componente Footer - Validar componente
     Quando clico no "<link>" do footer
-    Então sou direcionado para tela correspondente
+    Então sou direcionado para "<url>" correspondente
     Exemplos:
-      | link                      |
-      | App Store                 |
-      | Google Play               |
-      | A Lopes                   |
-      | Quem Somos                |
-      | Assessoria de Comunicação |
-      | Linha de ética            |
-      | Trabalhe conosco          |
-      | Relação com investidores  |
-      | Serviços                  |
-      | Venda seu imóvel          |
-      | Alugue seu imóvel         |
-      | Credipronto               |
-      | Serviços de fotografia    |
-      | Redes Sociais             |
-      | Facebook                  |
-      | Twitter                   |
-      | Instagram                 |
-      | LinkedIn                  |
-      | YouTube                   |
-      | Blog                      |
+      | link                      | url                                                            |
+      | Quem Somos                | quem-somos                                                     |
+      | Assessoria de Comunicação | assessoria-de-comunicacao                                      |
+      | Linha de ética            | linha-de-etica                                                 |
+      | Trabalhe conosco          | trabalhe-conosco                                               |
+      | Relação com investidores  | https://ri.lopes.com.br/                                       |
+      | Venda seu imóvel          | anuncie-seu-imovel                                             |
+      | Alugue seu imóvel         | anuncie-seu-imovel                                             |
+      | Credipronto               | https://www.credipronto.com.br/                                |
+      | Serviços de fotografia    | servicos-de-fotografia                                         |
+      | Facebook                  | https://www.facebook.com/imobiliaria.lopes                     |
+      | Twitter                   | https://twitter.com/Lopes_Imoveis                              |
+      | Instagram                 | https://www.instagram.com/lopesimoveis/                        |
+      | LinkedIn                  | https://www.linkedin.com/company/lopes-consultoria-de-imoveis/ |
+      | YouTube                   | https://www.youtube.com/user/lopesconsultoria                  |
+      | Blog                      | https://www8.lopes.com.br/blog/                                |
 
 
   @BUSCA_DE_PRODUTO
   Cenario: CT_003 - Componente Busca - Validar busca de produtos via geolocalização
     E que permita a geolocalização
     Quando eu clico no botão buscar
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_004 - Componente Busca - Validar autocomplete
-    Dado que digito as inicias "Bar"
-    E o sistema carrega autocomplete trazendo sujestões para busca
+    Dado que eu digite as iniciais "Bar" na barra de busca
+    E o sistema carregue o autocomplete trazendo sugestões para a busca
     Quando seleciono uma das opções e clico em buscar
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_005 - Componente Busca - Validar busca de produtos por cidade
     Quando realizo busca pela cidade "Barueri"
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_005 - Componente Busca - Validar busca de produtos pelo produto
     Quando realizo busca pela cidade "One Park Perdizes"
@@ -193,11 +186,11 @@ Funcionalidade: Regressivo do portal
     Quando clico no link fale conosco do header
     Então vejo campo assundo com as opções de atendimento
 
-    @FALE_CONOSCO
-    Cenario: CT_021 - Fale Conosco Validar formulário de atendimento fale conosco
-      E clico no link fale conosco do header
-      Quando seleciono "Comprar um imóvel" no campo assundo
-      E o sistema carrega o formulário
-      E ao preencher clico no botão enviar
-      Então o sistema exibe a mensagem de confirmação do envio "Dados enviados. Em breve entraremos em contato."
+  @FALE_CONOSCO
+  Cenario: CT_021 - Fale Conosco Validar formulário de atendimento fale conosco
+    E clico no link fale conosco do header
+    Quando seleciono "Comprar um imóvel" no campo assundo
+    E o sistema carrega o formulário
+    E ao preencher clico no botão enviar
+    Então o sistema exibe a mensagem de confirmação do envio "Dados enviados. Em breve entraremos em contato."
 
