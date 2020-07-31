@@ -19,8 +19,6 @@ Funcionalidade: Regressivo do portal
       | Anuncie seu Imóvel    | anuncie-seu-imovel                                 |
       | Seja Franqueado       | seja-um-franqueado                                 |
       | Calculadora de Compra | calculadora-simulador-de-financiamento-imobiliario |
-      | Fale conosco          | fale-conosco                                       |
-      | Favoritos             | favoritos                                          |
 
 
   @FOOTER

@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import PageObjects.portal.Home;
+import PageObjects.portal.ResultadoBusca;
 import io.cucumber.java.pt.Dado;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
@@ -34,6 +35,7 @@ public class Commons {
         driver.get(URL_CRM_HOME);
 
         PageFactory.initElements(driver, Home.class);
+        PageFactory.initElements(driver, ResultadoBusca.class);
     }
 
 
@@ -60,6 +62,9 @@ public class Commons {
 //         opt = "firefox_headless";
 
         ChromeOptions options = new ChromeOptions();
+
+
+
         FirefoxOptions firefoxOptions = new FirefoxOptions();
 
 

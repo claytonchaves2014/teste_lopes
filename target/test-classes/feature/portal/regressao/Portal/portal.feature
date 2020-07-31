@@ -19,8 +19,6 @@ Funcionalidade: Regressivo do portal
       | Anuncie seu Imóvel    | anuncie-seu-imovel                                 |
       | Seja Franqueado       | seja-um-franqueado                                 |
       | Calculadora de Compra | calculadora-simulador-de-financiamento-imobiliario |
-      | Fale conosco          | fale-conosco                                       |
-      | Favoritos             | favoritos                                          |
 
 
   @FOOTER
@@ -50,30 +48,30 @@ Funcionalidade: Regressivo do portal
   Cenario: CT_003 - Componente Busca - Validar busca de produtos via geolocalização
     E que permita a geolocalização
     Quando eu clico no botão buscar
-    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_004 - Componente Busca - Validar autocomplete
     Dado que eu digite as iniciais "Bar" na barra de busca
     E o sistema carregue o autocomplete trazendo sugestões para a busca
     Quando seleciono uma das opções e clico em buscar
-    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_005 - Componente Busca - Validar busca de produtos por cidade
     Quando realizo busca pela cidade "Barueri"
-    Então sou direcionado para página de resultado da busca com o seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com o seguimento "Comprar"
 
   Cenario: CT_005 - Componente Busca - Validar busca de produtos pelo produto
     Quando realizo busca pela cidade "One Park Perdizes"
-    Então sou direcionado para pagina do empreendimento
+    Então sou direcionado para a página do empreendimento
 
   Cenario: CT_006 - Componente Busca - Validar busca de produtos de aluguel
     Quando clico na aba Alugar
     E realizo a busca por um bairro
-    Então sou direcionado para pagina de resultado da busca com seguimento "alugar"
+    Então sou direcionado para a página de resultado da busca com seguimento "alugar"
 
   Cenario: CT_007 - Componente de Busca - Validar busca por termo inválido
     Quando realizo busca por um termo inválido
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com seguimento "Comprar"
     E sistema exibe mensagem: "0 Imóveis encontrados"
 
   @BUSCA_AVANÇADA_DE_PRODUTO
@@ -81,13 +79,13 @@ Funcionalidade: Regressivo do portal
     E que permita a geolocalização
     Quando clico no botão Filtros
     E preencho todas as opções de filtro avançadas
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com seguimento "Comprar"
 
   Cenario: CT_009 - Componente de Busca - Validar busca avançada valor mínimo e máximo
     E que permita a geolocalização
     Quando clico no botão Filtros
     E preencho apenas os valores mínimo e máximo
-    Então sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para a página de resultado da busca com seguimento "Comprar"
 
   Cenario: CT_010 - Componente de Busca - Validar limpar filtros de busca avançada
     E que permita a geolocalização
@@ -118,24 +116,24 @@ Funcionalidade: Regressivo do portal
     Então visualizo o carrossel do componente serviços
 
   @RESULTADO_DA_BUSCA
-  @PAGINAÇÃO
-  Cenário: CT_014 - Paginação - Validar paginação do resultado da busca
+  @páginaÇÃO
+  Cenário: CT_014 - páginação - Validar páginação do resultado da busca
     E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    E sou direcionado para a página de resultado da busca com seguimento "Comprar"
     Quando clico na seta para avançar para segunda do resultado da busca
-    Então sou direcionado para segunda pagina de resultado da busca com seguimento "Comprar"
-    Quando clico na seta para voltar a primeira pagina do resultado da busca
-    Então sou direcionado para primeira pagina de resultado da busca com seguimento "Comprar"
+    Então sou direcionado para segunda página de resultado da busca com seguimento "Comprar"
+    Quando clico na seta para voltar a primeira página do resultado da busca
+    Então sou direcionado para primeira página de resultado da busca com seguimento "Comprar"
 
   @RESULTADO_DA_BUSCA
     @ORDENAÇÃO
   Esquema do Cenario: CT_015 - Ordenação - Validar ordenação do resultado da busca
     E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    E sou direcionado para a página de resultado da busca com seguimento "Comprar"
     Quando mudo a ordenação no resultado da busca para "<ordenação>"
-    Então a pagina é reordenada conforme a ordenação escolhida
+    Então a página é reordenada conforme a ordenação escolhida
     Exemplos:
       | ordenação           |
       | Maior Valor         |
@@ -148,7 +146,7 @@ Funcionalidade: Regressivo do portal
   Cenário: CT_016 - Card do Imóvel - Validar Layout do Card do imóvel
     E que permita a geolocalização
     E eu clico no botão buscar
-    Quando sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    Quando sou direcionado para a página de resultado da busca com seguimento "Comprar"
     Então o sistema exibe o card do imóvel com todos os dados do empreendimento
 
   @RESULTADO_DA_BUSCA
@@ -156,16 +154,16 @@ Funcionalidade: Regressivo do portal
   Cenário: CT_017 - Ficha do Imóvel - Validar Layout da Ficha do imóvel
     E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    E sou direcionado para a página de resultado da busca com seguimento "Comprar"
     Quando clico em um imóvel da lista do resultado de busca
-    Então o sistema exibe a pagina do imóvel com todos os dados do empreendimento
+    Então o sistema exibe a página do imóvel com todos os dados do empreendimento
 
   @RESULTADO_DA_BUSCA
   @GALERIA
   Cenário: CT_018 - Galeria de Fotos do Imóvel - Validar galeria de fotos
     E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    E sou direcionado para a página de resultado da busca com seguimento "Comprar"
     Quando clico em um imóvel da lista do resultado de busca
     E clico na imágem do imóvel
     Então sistema exibe modal com imagens e função de troca
@@ -176,7 +174,7 @@ Funcionalidade: Regressivo do portal
   Cenário: CT_019 - Formulário de Lead - Validar formulário de lead
     E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para pagina de resultado da busca com seguimento "Comprar"
+    E sou direcionado para a página de resultado da busca com seguimento "Comprar"
     E clico em um imóvel da lista do resultado de busca
     Quando preencho o formulário de lead na tela do imóvel
     Então o sistema retorna mensagem de confirmação do envio

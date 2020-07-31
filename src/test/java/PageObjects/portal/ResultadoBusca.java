@@ -12,9 +12,10 @@ import static stepDefinitions.Commons.driver;
 public class ResultadoBusca {
 
 
-    public static void getFiltro() {
+    public static String getFiltro() {
         WebElement btn_filtro1 = driver.findElement(By.className("mr-3 operation-btn ant-btn ant-dropdown-trigger ant-btn-default ant-btn-sm"));
         String tipoFiltro = btn_filtro1.getText();
+        return tipoFiltro;
     }
 
 }

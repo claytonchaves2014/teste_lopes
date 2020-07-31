@@ -2,7 +2,9 @@ package PageObjects.portal;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import stepDefinitions.Commons;
@@ -13,7 +15,7 @@ public class Home {
     //    HEADER
     public static @FindBy(how = How.CLASS_NAME, using = "header__button header__link")
     WebElement btn_logo;
-        public static @FindBy(how = How.XPATH, using = "//a[@id='logo_menu_header-Lançamentos']")
+    public static @FindBy(how = How.XPATH, using = "//a[@id='logo_menu_header-Lançamentos']")
     WebElement btn_lancamentos;
     public static @FindBy(how = How.ID, using = "logo_menu_header-Prontos")
     WebElement btn_prontos;
@@ -52,6 +54,8 @@ public class Home {
     WebElement btn_filtros;
     public static @FindBy(how = How.XPATH, using = "//label[@class='checkbox__label']//*[local-name()='svg']")
     WebElement check_buscarPeloCodigoDoImovel;
+    public  static @FindBy(how = How.XPATH, using = "//div[@class='search-input__dropdown-new search-input__dropdown']")
+    WebElement autoComplete;
 
     //    MENSAGENS
     public static @FindBy(how = How.XPATH, using = "//p[contains(text(),'Milhares de opções para encontrar')]")
@@ -163,15 +167,26 @@ public class Home {
 
 //    FUNÇÕES
 
-    public static void clicarLinkHeader(String link){
-        WebElement linkHeader = driver.findElement(By.xpath("//a[@id='logo_menu_header-"+link+"']"));
+    public static void clicarLinkHeader(String link) {
+        WebElement linkHeader = driver.findElement(By.xpath("//a[@id='logo_menu_header-" + link + "']"));
         linkHeader.click();
-    }
-
-    public static void clicarLinkFooter(String link){
-        WebElement linkFooter = driver.findElement(By.xpath("//p[contains(text(),'Quem Somos')]"));
-        linkFooter.click();
 
     }
+
+    public static void clicarLinkFooter(String link) throws InterruptedException {
+        Thread.sleep(1000);
+        WebElement footer = driver.findElement(By.className("under-text"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", footer);
+        Thread.sleep(1000);
+
+        WebElement quemSomos = driver.findElement(By.xpath("//p[contains(text(),'" + link + "')]"));
+        quemSomos.click();
+    }
+
+    public static void realizarBusca(String busca){
+        imputBusca.sendKeys(busca);
+        btn_buscar.click();
+    }
+
 
 }
