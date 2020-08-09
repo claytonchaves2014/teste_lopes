@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import PageObjects.portal.ResultadoBusca;
+import Ultilitarios.Uteis;
 import io.cucumber.java.pt.*;
 import org.junit.Assert;
 
@@ -18,8 +19,7 @@ public class portal {
     @Então("sou direcionado para {string} correspondente")
     public void sou_direcionado_para_correspondente(String urlEsperada) {
         String url = Commons.driver.getCurrentUrl();
-        System.out.println(url);
-        Assert.assertTrue(url.contains(urlEsperada));
+        Uteis.assert_equals(urlEsperada, url);
     }
 
     @Quando("clico no {string} do footer")
@@ -59,6 +59,11 @@ public class portal {
         Thread.sleep(1000);
         btn_buscar.click();
     }
-
-
+    @Quando("realizo busca por {string}")
+    public void realizo_busca_por(String busca) throws InterruptedException {
+        imputBusca.sendKeys(busca);
+        autoComplete.click();
+        Thread.sleep(1000);
+        btn_buscar.click();
+    }
 }

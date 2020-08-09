@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class Commons {
 
     public static WebDriver driver;
@@ -30,12 +31,16 @@ public class Commons {
 //======================================================================================
 
     @Dado("que eu esteja na tela home do portal")
-    public void que_eu_esteja_na_tela_home_do_portal() {
+    public void que_eu_esteja_na_tela_home_do_portal() throws InterruptedException {
         Commons.configure_browser();
         driver.get(URL_CRM_HOME);
 
         PageFactory.initElements(driver, Home.class);
         PageFactory.initElements(driver, ResultadoBusca.class);
+
+        Thread.sleep(2000);
+
+        Home.aceitaCookie();
     }
 
 
@@ -64,7 +69,6 @@ public class Commons {
         ChromeOptions options = new ChromeOptions();
 
 
-
         FirefoxOptions firefoxOptions = new FirefoxOptions();
 
 
@@ -72,6 +76,7 @@ public class Commons {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 options.addArguments("--enable-notifications");
+//                options.addArguments("--enable-strict-powerful-feature-restrictions");
                 options.addArguments("--mute-audio");
                 options.addArguments("--lang=pt-BR");
 //                options.addArguments("--lang=en");

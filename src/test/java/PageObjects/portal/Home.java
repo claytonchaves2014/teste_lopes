@@ -48,13 +48,13 @@ public class Home {
     WebElement abaAlugar;
     public static @FindBy(how = How.ID, using = "search-input")
     WebElement imputBusca;
-    public static @FindBy(how = How.CLASS_NAME, using = "search_btn ant-btn ant-btn-primary")
+    public static @FindBy(how = How.XPATH, using = "//input[@class='search_btn ant-btn ant-btn-primary']")
     WebElement btn_buscar;
     public static @FindBy(how = How.CLASS_NAME, using = "filter_btn ant-btn ant-btn-link")
     WebElement btn_filtros;
     public static @FindBy(how = How.XPATH, using = "//label[@class='checkbox__label']//*[local-name()='svg']")
     WebElement check_buscarPeloCodigoDoImovel;
-    public  static @FindBy(how = How.XPATH, using = "//div[@class='search-input__dropdown-new search-input__dropdown']")
+    public static @FindBy(how = How.XPATH, using = "//div[@class='search-input__dropdown-new search-input__dropdown']")
     WebElement autoComplete;
 
     //    MENSAGENS
@@ -164,7 +164,6 @@ public class Home {
     public static @FindBy(how = How.XPATH, using = "//p[contains(text(),'Blog')]")
     WebElement blog;
 
-
 //    FUNÇÕES
 
     public static void clicarLinkHeader(String link) {
@@ -183,9 +182,17 @@ public class Home {
         quemSomos.click();
     }
 
-    public static void realizarBusca(String busca){
+    public static void realizarBusca(String busca) {
         imputBusca.sendKeys(busca);
         btn_buscar.click();
+    }
+
+    public static void aceitaCookie() {
+        WebElement btn_aceitarCookie = driver.findElement(By.xpath("//button[@class='cookiemodal_btn ant-btn ant-btn-primary']"));
+
+        if (btn_aceitarCookie.isDisplayed()) {
+            btn_aceitarCookie.click();
+        }
     }
 
 

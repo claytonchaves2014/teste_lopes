@@ -13,7 +13,7 @@ public class ResultadoBusca {
 
 
     public static String getFiltro() {
-        WebElement btn_filtro1 = driver.findElement(By.className("mr-3 operation-btn ant-btn ant-dropdown-trigger ant-btn-default ant-btn-sm"));
+        WebElement btn_filtro1 = driver.findElement(By.xpath("//body//lps-search-bar//button[1]"));
         String tipoFiltro = btn_filtro1.getText();
         return tipoFiltro;
     }
