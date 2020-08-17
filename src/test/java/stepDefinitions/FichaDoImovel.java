@@ -15,6 +15,5 @@ public class FichaDoImovel {
     @Então("sou direcionado para a página do empreendimento {string}")
     public void sou_direcionado_para_a_página_do_empreendimento(String titulo) {
         validaTituloDoImovel(titulo);
-
     }
 }

@@ -20,29 +20,27 @@ Funcionalidade: Regressivo do portal
       | Seja Franqueado       | seja-um-franqueado                                 |
       | Calculadora de Compra | calculadora-simulador-de-financiamento-imobiliario |
 
-
   @FOOTER
   Esquema do Cenario: CT_002 - Componente Footer - Validar componente
     Quando clico no "<link>" do footer
     Então sou direcionado para "<url>" correspondente
     Exemplos:
-      | link                      | url                                                               |
-      | Quem Somos                | https://qafrontportal.lpsbr.com/paginas/quem-somos                |
-      | Assessoria de Comunicação | https://qafrontportal.lpsbr.com/paginas/assessoria-de-comunicacao |
-      | Linha de ética            | https://qafrontportal.lpsbr.com/paginas/linha-de-etica            |
-      | Trabalhe conosco          | https://qafrontportal.lpsbr.com/paginas/trabalhe-conosco          |
-      | Relação com investidores  | https://ri.lopes.com.br/                                          |
-      | Venda seu imóvel          | https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel        |
-      | Alugue seu imóvel         | https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel        |
-      | Credipronto               | https://www.credipronto.com.br/                                   |
-      | Serviços de fotografia    | https://qafrontportal.lpsbr.com/paginas/servicos-de-fotografia    |
-      | Facebook                  | https://www.facebook.com/imobiliaria.lopes                        |
-      | Twitter                   | https://twitter.com/Lopes_Imoveis                                 |
-      | Instagram                 | https://www.instagram.com/lopesimoveis/                           |
-      | LinkedIn                  | https://www.linkedin.com/company/lopes-consultoria-de-imoveis/    |
-      | YouTube                   | https://www.youtube.com/user/lopesconsultoria                     |
-      | Blog                      | https://www8.lopes.com.br/blog/                                   |
-
+      | link                      | url                          |
+      | Quem Somos                | quem-somos                   |
+      | Assessoria de Comunicação | assessoria-de-comunicacao    |
+      | Linha de ética            | linha-de-etica               |
+      | Trabalhe conosco          | trabalhe-conosco             |
+      | Relação com investidores  | ri.lopes                     |
+      | Venda seu imóvel          | anuncie-seu-imovel           |
+      | Alugue seu imóvel         | anuncie-seu-imovel           |
+      | Credipronto               | credipronto                  |
+      | Serviços de fotografia    | servicos-de-fotografia       |
+      | Facebook                  | imobiliaria.lopes            |
+      | Twitter                   | Lopes_Imoveis                |
+      | Instagram                 | lopesimoveis                 |
+      | LinkedIn                  | lopes-consultoria-de-imoveis |
+      | YouTube                   | lopesconsultoria             |
+      | Blog                      | blog                         |
 
   @BUSCA_DE_PRODUTO
   Cenario: CT_003 - Componente Busca - Validar busca de produtos via geolocalização
@@ -65,8 +63,7 @@ Funcionalidade: Regressivo do portal
     Então sou direcionado para a página do empreendimento "One Park Perdizes"
 
   Cenario: CT_007 - Componente Busca - Validar busca de produtos de aluguel
-    Quando clico na aba Alugar
-    E realizo a busca por um bairro
+    Quando clico na aba Alugar e no botão buscar
     Então sou direcionado para a página de resultado da busca com seguimento "alugar"
 
   Cenario: CT_008 - Componente de Busca - Validar busca por termo inválido
@@ -191,4 +188,3 @@ Funcionalidade: Regressivo do portal
     E o sistema carrega o formulário
     E ao preencher clico no botão enviar
     Então o sistema exibe a mensagem de confirmação do envio "Dados enviados. Em breve entraremos em contato."
-

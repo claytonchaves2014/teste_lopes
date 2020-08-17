@@ -20,29 +20,27 @@ Funcionalidade: Regressivo do portal
       | Seja Franqueado       | seja-um-franqueado                                 |
       | Calculadora de Compra | calculadora-simulador-de-financiamento-imobiliario |
 
-
   @FOOTER
   Esquema do Cenario: CT_002 - Componente Footer - Validar componente
     Quando clico no "<link>" do footer
     Então sou direcionado para "<url>" correspondente
     Exemplos:
-      | link                      | url                                                               |
-      | Quem Somos                | https://qafrontportal.lpsbr.com/paginas/quem-somos                |
-      | Assessoria de Comunicação | https://qafrontportal.lpsbr.com/paginas/assessoria-de-comunicacao |
-      | Linha de ética            | https://qafrontportal.lpsbr.com/paginas/linha-de-etica            |
-      | Trabalhe conosco          | https://qafrontportal.lpsbr.com/paginas/trabalhe-conosco          |
-      | Relação com investidores  | https://ri.lopes.com.br/                                          |
-      | Venda seu imóvel          | https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel        |
-      | Alugue seu imóvel         | https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel        |
-      | Credipronto               | https://www.credipronto.com.br/                                   |
-      | Serviços de fotografia    | https://qafrontportal.lpsbr.com/paginas/servicos-de-fotografia    |
-      | Facebook                  | https://www.facebook.com/imobiliaria.lopes                        |
-      | Twitter                   | https://twitter.com/Lopes_Imoveis                                 |
-      | Instagram                 | https://www.instagram.com/lopesimoveis/                           |
-      | LinkedIn                  | https://www.linkedin.com/company/lopes-consultoria-de-imoveis/    |
-      | YouTube                   | https://www.youtube.com/user/lopesconsultoria                     |
-      | Blog                      | https://www8.lopes.com.br/blog/                                   |
-
+      | link                      | url                          |
+      | Quem Somos                | quem-somos                   |
+      | Assessoria de Comunicação | assessoria-de-comunicacao    |
+      | Linha de ética            | linha-de-etica               |
+      | Trabalhe conosco          | trabalhe-conosco             |
+      | Relação com investidores  | ri.lopes                     |
+      | Venda seu imóvel          | anuncie-seu-imovel           |
+      | Alugue seu imóvel         | anuncie-seu-imovel           |
+      | Credipronto               | credipronto                  |
+      | Serviços de fotografia    | servicos-de-fotografia       |
+      | Facebook                  | imobiliaria.lopes            |
+      | Twitter                   | Lopes_Imoveis                |
+      | Instagram                 | lopesimoveis                 |
+      | LinkedIn                  | lopes-consultoria-de-imoveis |
+      | YouTube                   | lopesconsultoria             |
+      | Blog                      | blog                         |
 
   @BUSCA_DE_PRODUTO
   Cenario: CT_003 - Componente Busca - Validar busca de produtos via geolocalização
@@ -60,34 +58,34 @@ Funcionalidade: Regressivo do portal
     Quando realizo busca por "Barueri"
     Então sou direcionado para a página de resultado da busca com o seguimento "Compra"
 
-  Cenario: CT_005 - Componente Busca - Validar busca de produtos pelo produto
+  Cenario: CT_006 - Componente Busca - Validar busca de produtos pelo produto
     Quando realizo busca por "One Park Perdizes"
     Então sou direcionado para a página do empreendimento "One Park Perdizes"
 
-  Cenario: CT_006 - Componente Busca - Validar busca de produtos de aluguel
+  Cenario: CT_007 - Componente Busca - Validar busca de produtos de aluguel
     Quando clico na aba Alugar
     E realizo a busca por um bairro
     Então sou direcionado para a página de resultado da busca com seguimento "alugar"
 
-  Cenario: CT_007 - Componente de Busca - Validar busca por termo inválido
+  Cenario: CT_008 - Componente de Busca - Validar busca por termo inválido
     Quando realizo busca por um termo inválido
     Então sou direcionado para a página de resultado da busca com seguimento "Compra"
     E sistema exibe mensagem: "0 Imóveis encontrados"
 
   @BUSCA_AVANÇADA_DE_PRODUTO
-  Cenario: CT_008 - Componente de Busca - Validar busca avançada com todos os filtros
+  Cenario: CT_009 - Componente de Busca - Validar busca avançada com todos os filtros
     E que permita a geolocalização
     Quando clico no botão Filtros
     E preencho todas as opções de filtro avançadas
     Então sou direcionado para a página de resultado da busca com seguimento "Compra"
 
-  Cenario: CT_009 - Componente de Busca - Validar busca avançada valor mínimo e máximo
+  Cenario: CT_010 - Componente de Busca - Validar busca avançada valor mínimo e máximo
     E que permita a geolocalização
     Quando clico no botão Filtros
     E preencho apenas os valores mínimo e máximo
     Então sou direcionado para a página de resultado da busca com seguimento "Compra"
 
-  Cenario: CT_010 - Componente de Busca - Validar limpar filtros de busca avançada
+  Cenario: CT_011 - Componente de Busca - Validar limpar filtros de busca avançada
     E que permita a geolocalização
     Quando clico no botão Filtros
     E preencho todas as opções de filtro avançadas
@@ -95,7 +93,7 @@ Funcionalidade: Regressivo do portal
     Então o sistema exibe todos os filtros limpos
 
   @COMPONENTE_INFORMAÇÃO
-  Esquema do Cenario: CT_011 - Componente Informações - Validar informações Lopes
+  Esquema do Cenario: CT_012 - Componente Informações - Validar informações Lopes
     Então visualizo o componente informações contendo o "<título>" e "<descrição>"
     Exemplos:
       | título                            | descrição                               |
@@ -104,7 +102,7 @@ Funcionalidade: Regressivo do portal
       | Inteligência de mercado para      | te ajudar a fazer o melhor negócio      |
 
   @COMPONENTE_DESTAQUES_ESPECIAIS
-  Esquema do Cenario: CT_012 - Componente Destaques Especiais - Validar destaques especiais
+  Esquema do Cenario: CT_013 - Componente Destaques Especiais - Validar destaques especiais
     Então visualizo o componente destaques especiais contendo o "<título>" e o detalhe dos imóveis
     Exemplos:
       | título             |
@@ -112,12 +110,12 @@ Funcionalidade: Regressivo do portal
       | Prontos para Morar |
 
   @COMPONENTE_SERVIÇOS
-  Cenario: CT_013 - Componente Serviços - Validar componente serviços
+  Cenario: CT_014 - Componente Serviços - Validar componente serviços
     Então visualizo o carrossel do componente serviços
 
   @RESULTADO_DA_BUSCA
   @páginaÇÃO
-  Cenário: CT_014 - páginação - Validar páginação do resultado da busca
+  Cenário: CT_015 - páginação - Validar páginação do resultado da busca
     E que permita a geolocalização
     E eu clico no botão buscar
     E sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -128,7 +126,7 @@ Funcionalidade: Regressivo do portal
 
   @RESULTADO_DA_BUSCA
     @ORDENAÇÃO
-  Esquema do Cenario: CT_015 - Ordenação - Validar ordenação do resultado da busca
+  Esquema do Cenario: CT_016 - Ordenação - Validar ordenação do resultado da busca
     E que permita a geolocalização
     E eu clico no botão buscar
     E sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -143,7 +141,7 @@ Funcionalidade: Regressivo do portal
 
   @RESULTADO_DA_BUSCA
   @CARD_DO_IMOVEL
-  Cenário: CT_016 - Card do Imóvel - Validar Layout do Card do imóvel
+  Cenário: CT_017 - Card do Imóvel - Validar Layout do Card do imóvel
     E que permita a geolocalização
     E eu clico no botão buscar
     Quando sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -151,7 +149,7 @@ Funcionalidade: Regressivo do portal
 
   @RESULTADO_DA_BUSCA
   @FICHA_DO_IMOVEL
-  Cenário: CT_017 - Ficha do Imóvel - Validar Layout da Ficha do imóvel
+  Cenário: CT_018 - Ficha do Imóvel - Validar Layout da Ficha do imóvel
     E que permita a geolocalização
     E eu clico no botão buscar
     E sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -160,7 +158,7 @@ Funcionalidade: Regressivo do portal
 
   @RESULTADO_DA_BUSCA
   @GALERIA
-  Cenário: CT_018 - Galeria de Fotos do Imóvel - Validar galeria de fotos
+  Cenário: CT_019 - Galeria de Fotos do Imóvel - Validar galeria de fotos
     E que permita a geolocalização
     E eu clico no botão buscar
     E sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -171,7 +169,7 @@ Funcionalidade: Regressivo do portal
 
   @RESULTADO_DA_BUSCA
   @FORMULARIO_DE_LEAD
-  Cenário: CT_019 - Formulário de Lead - Validar formulário de lead
+  Cenário: CT_020 - Formulário de Lead - Validar formulário de lead
     E que permita a geolocalização
     E eu clico no botão buscar
     E sou direcionado para a página de resultado da busca com seguimento "Compra"
@@ -180,15 +178,14 @@ Funcionalidade: Regressivo do portal
     Então o sistema retorna mensagem de confirmação do envio
 
   @FALE_CONOSCO
-  Cenario: CT_020 - Fale Conosco - Validar tela de atendimento fale conosco
+  Cenario: CT_021 - Fale Conosco - Validar tela de atendimento fale conosco
     Quando clico no link fale conosco do header
     Então vejo campo assundo com as opções de atendimento
 
   @FALE_CONOSCO
-  Cenario: CT_021 - Fale Conosco Validar formulário de atendimento fale conosco
+  Cenario: CT_022 - Fale Conosco Validar formulário de atendimento fale conosco
     E clico no link fale conosco do header
     Quando seleciono "Comprar um imóvel" no campo assundo
     E o sistema carrega o formulário
     E ao preencher clico no botão enviar
     Então o sistema exibe a mensagem de confirmação do envio "Dados enviados. Em breve entraremos em contato."
-

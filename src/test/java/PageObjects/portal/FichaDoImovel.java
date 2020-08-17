@@ -10,7 +10,7 @@ public class FichaDoImovel {
 
 
     public static void validaTituloDoImovel(String titulo) {
-        WebElement imovel = driver.findElement(By.xpath("/html/body/lps-root/lps-product-layout/nav-layout-default/lps-product/div[1]/div[1]/div[1]/div[1]/div[1]/div/lps-h1/h1"));
+        WebElement imovel = driver.findElement(By.cssSelector("body > lps-root > lps-product-layout > nav-layout-default > lps-product > div.product > div.product__content > div.product__content-details > div.container > div.product__info > lps-h1 > h1"));
         String tituloImovel = imovel.getText();
         Uteis.assert_equals(tituloImovel, titulo);
     }

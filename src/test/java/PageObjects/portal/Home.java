@@ -165,7 +165,6 @@ public class Home {
     WebElement blog;
 
 //    FUNÇÕES
-
     public static void clicarLinkHeader(String link) {
         WebElement linkHeader = driver.findElement(By.xpath("//a[@id='logo_menu_header-" + link + "']"));
         linkHeader.click();
@@ -193,6 +192,28 @@ public class Home {
         if (btn_aceitarCookie.isDisplayed()) {
             btn_aceitarCookie.click();
         }
+    }
+
+    public static void buscarImovel(String busca) throws InterruptedException {
+        imputBusca.sendKeys(busca);
+        autoComplete.click();
+        Thread.sleep(1000);
+        btn_buscar.click();
+    }
+
+    public static void buscarAutoComplete() throws InterruptedException {
+        autoComplete.click();
+        Thread.sleep(1000);
+        btn_buscar.click();
+    }
+
+    public static void preencherBusca(String busca) {
+        imputBusca.sendKeys(busca);
+    }
+
+    public static void aluguelBuscar() {
+        abaAlugar.click();
+        btn_buscar.click();
     }
 
 
