@@ -115,9 +115,7 @@ Funcionalidade: Regressivo do portal
   @RESULTADO_DA_BUSCA
   @páginaÇÃO
   Cenário: CT_015 - páginação - Validar páginação do resultado da busca
-    E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para a página de resultado da busca com seguimento "Compra"
     Quando clico na seta para avançar para segunda do resultado da busca
     Então sou direcionado para segunda página de resultado da busca com seguimento "Compra"
     Quando clico na seta para voltar a primeira página do resultado da busca
@@ -126,9 +124,7 @@ Funcionalidade: Regressivo do portal
   @RESULTADO_DA_BUSCA
     @ORDENAÇÃO
   Esquema do Cenario: CT_016 - Ordenação - Validar ordenação do resultado da busca
-    E que permita a geolocalização
     E eu clico no botão buscar
-    E sou direcionado para a página de resultado da busca com seguimento "Compra"
     Quando mudo a ordenação no resultado da busca para "<ordenação>"
     Então a página é reordenada conforme a ordenação escolhida
     Exemplos:
@@ -141,7 +137,6 @@ Funcionalidade: Regressivo do portal
   @RESULTADO_DA_BUSCA
   @CARD_DO_IMOVEL
   Cenário: CT_017 - Card do Imóvel - Validar Layout do Card do imóvel
-    E que permita a geolocalização
     E eu clico no botão buscar
     Quando sou direcionado para a página de resultado da busca com seguimento "Compra"
     Então o sistema exibe o card do imóvel com todos os dados do empreendimento
@@ -149,18 +144,14 @@ Funcionalidade: Regressivo do portal
   @RESULTADO_DA_BUSCA
   @FICHA_DO_IMOVEL
   Cenário: CT_018 - Ficha do Imóvel - Validar Layout da Ficha do imóvel
-    E que permita a geolocalização
-    E eu clico no botão buscar
-    E sou direcionado para a página de resultado da busca com seguimento "Compra"
+    E clico no botão buscar
     Quando clico em um imóvel da lista do resultado de busca
     Então o sistema exibe a página do imóvel com todos os dados do empreendimento
 
   @RESULTADO_DA_BUSCA
   @GALERIA
   Cenário: CT_019 - Galeria de Fotos do Imóvel - Validar galeria de fotos
-    E que permita a geolocalização
-    E eu clico no botão buscar
-    E sou direcionado para a página de resultado da busca com seguimento "Compra"
+    E clico no botão buscar
     Quando clico em um imóvel da lista do resultado de busca
     E clico na imágem do imóvel
     Então sistema exibe modal com imagens e função de troca
@@ -169,11 +160,9 @@ Funcionalidade: Regressivo do portal
   @RESULTADO_DA_BUSCA
   @FORMULARIO_DE_LEAD
   Cenário: CT_020 - Formulário de Lead - Validar formulário de lead
-    E que permita a geolocalização
-    E eu clico no botão buscar
-    E sou direcionado para a página de resultado da busca com seguimento "Compra"
-    E clico em um imóvel da lista do resultado de busca
-    Quando preencho o formulário de lead na tela do imóvel
+    E clico no botão buscar
+    Quando clico em um imóvel da lista do resultado de busca
+    E preencho o formulário de lead na tela do imóvel
     Então o sistema retorna mensagem de confirmação do envio
 
   @FALE_CONOSCO

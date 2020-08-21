@@ -20,7 +20,7 @@ public class portal {
     public void sou_direcionado_para_correspondente(String urlEsperada) {
         String url = Commons.driver.getCurrentUrl();
         url.contains(urlEsperada);
-//        Uteis.assert_equals(urlEsperada, url);
+        Uteis.assert_equals(urlEsperada, url);
     }
 
     @Quando("clico no {string} do footer")

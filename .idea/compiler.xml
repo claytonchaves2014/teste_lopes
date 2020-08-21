@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="qa_automacoes_lopes" />
+        <module name="regressivo_portal_frontend" />
       </profile>
     </annotationProcessing>
   </component>
