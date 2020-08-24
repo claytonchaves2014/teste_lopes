@@ -1,0 +1,3738 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9867626751,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 106756950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:48:51.493Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1520490116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home Page | Busca | Compra | Busca padrão",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-busca-padrão",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 113434624,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 81692009,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 65095095,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2164451133,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10634181484,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 101168683,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:49:05.415Z",
+        "before": [
+          {
+            "result": {
+              "duration": 972767174,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Home Page | Busca | Compra | Prontos por Estado",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-prontos-por-estado;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp?placeId\u003dChIJrVgvRn1ZzpQRF3x74eJBUh4\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 116900597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 85823846,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 765589117,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "insiro \"São Paulo, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 906945036,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "seleciono a opção \"São Paulo, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 69701592,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1211036243,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 11661906365,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 61081387,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:49:20.279Z",
+        "before": [
+          {
+            "result": {
+              "duration": 931395118,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Home Page | Busca | Compra | Prontos por Cidade",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-prontos-por-cidade;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 103521883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 74844896,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 895815068,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 811309635,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 73585049,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1892072049,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10471808184,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 77831764,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:49:36.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 863036867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Home Page | Busca | Compra | Prontos por Bairro",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-prontos-por-bairro;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/morumbi?placeId\u003dChIJqwjBg9xWzpQRIbwq6Ao9o3c\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 113057568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 80522590,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1228727455,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "insiro \"Morumbi, São Paulo - SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morumbi, São Paulo - SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 900420344,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "seleciono a opção \"Morumbi, São Paulo - SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morumbi, São Paulo - SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68212683,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1474044901,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/morumbi?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/morumbi?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9417775258,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123029762,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:49:52.064Z",
+        "before": [
+          {
+            "result": {
+              "duration": 940119038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Home Page | Busca | Compra | Prontos por Rua",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-prontos-por-rua;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/consolacao/rua-bela-cintra?placeId\u003dEjZSLiBCZWxhIENpbnRyYSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCBCcmF6aWwiLiosChQKEgnt6XvK0lnOlBE1RCRKEnfpRhIUChIJLbKsqspZzpQRflMUqtJkSPE\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 105385672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 79760565,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1762244854,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "insiro \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1317554036,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "seleciono a opção \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 65431474,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1076022544,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/consolacao/rua-bela-cintra?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/consolacao/rua-bela-cintra?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9474752727,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123130828,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:50:06.952Z",
+        "before": [
+          {
+            "result": {
+              "duration": 876074232,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Home Page | Busca | Aluguel | Prontos",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-aluguel-|-prontos;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp?placeId\u003dChIJrVgvRn1ZzpQRF3x74eJBUh4\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 102507181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 120480700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "clico em Alugar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoEmAlugar()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 680861670,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "insiro \"São Paulo, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 837222517,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "seleciono a opção \"São Paulo, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68286248,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1217315787,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "vejo os Resultados de Busca com a url \"/busca/aluguel/br/sp?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/aluguel/br/sp?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9771026007,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 114052788,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:50:20.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 818822087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Home Page | Busca | Aluguel | Prontos",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-aluguel-|-prontos;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 106709025,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 62040463,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "clico em Alugar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoEmAlugar()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 770744593,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 913402919,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 177602997,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1478733519,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "vejo os Resultados de Busca com a url \"/busca/aluguel/br/sp/sao-paulo?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/aluguel/br/sp/sao-paulo?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10511750852,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 122485889,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:50:34.668Z",
+        "before": [
+          {
+            "result": {
+              "duration": 892861076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Home Page | Busca | Aluguel | Prontos",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-aluguel-|-prontos;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo/morumbi?placeId\u003dChIJqwjBg9xWzpQRIbwq6Ao9o3c\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 102107335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 69090941,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "clico em Alugar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoEmAlugar()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1140635479,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "insiro \"Morumbi, São Paulo - SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morumbi, São Paulo - SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 849441362,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "seleciono a opção \"Morumbi, São Paulo - SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morumbi, São Paulo - SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 66506751,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1296491378,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "vejo os Resultados de Busca com a url \"/busca/aluguel/br/sp/sao-paulo/morumbi?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/aluguel/br/sp/sao-paulo/morumbi?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 12286051955,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 100232855,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:50:49.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 823725872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Home Page | Busca | Aluguel | Prontos",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-aluguel-|-prontos;;5",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo/consolacao/rua-bela-cintra?placeId\u003dEjZSLiBCZWxhIENpbnRyYSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCBCcmF6aWwiLiosChQKEgnt6XvK0lnOlBE1RCRKEnfpRhIUChIJLbKsqspZzpQRflMUqtJkSPE\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 117725344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 80447189,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "clico em Alugar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoEmAlugar()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1776688546,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "insiro \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 676456379,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "seleciono a opção \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91221325,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1233177300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "vejo os Resultados de Busca com a url \"/busca/aluguel/br/sp/sao-paulo/consolacao/rua-bela-cintra?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/aluguel/br/sp/sao-paulo/consolacao/rua-bela-cintra?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10883939646,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 76785013,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:51:06.907Z",
+        "before": [
+          {
+            "result": {
+              "duration": 928827298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Home Page | Busca | Compra | Por Lançamento",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-por-lançamento;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/lancamento/REM15992/chez-vitacon-sao-paulo-consolacao"
+            ],
+            "result": {
+              "duration": 115685659,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 76019829,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "retiro a seleção Comprar Pronto",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarPronto()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 494372540,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "insiro \"Chez Vitacon\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chez Vitacon\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 954061639,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "seleciono a opção \"Chez Vitacon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chez Vitacon\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10802618540,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 34782593,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "vejo a Ficha do Imóvel com a url \"/lancamento/REM15992/chez-vitacon-sao-paulo-consolacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/lancamento/REM15992/chez-vitacon-sao-paulo-consolacao\"",
+                  "offset": 33
+                }
+              ],
+              "location": "FichaImovelSteps.vejoAFichaDoImóvelComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10484865212,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 69346950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:51:31.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 885503880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "Home Page | Busca | Compra | Busca inválida",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-busca-inválida",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/lancamento/br/ac?placeId\u003dChIJuQaRTqqNf5ERwQc2CMUK7CU\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 102077119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66685580,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "retiro a seleção Comprar Pronto",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarPronto()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 274589987,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "insiro \"Acre\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acre\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 872795911,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "seleciono a opção \"Acre, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acre, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 111224763,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 786621552,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "vejo a mensagem \"Nenhum imóvel disponível no momento.\" de resultados não encontrados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nenhum imóvel disponível no momento.\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ResultadosBuscaSteps.vejoAMensagemDeResultadosNãoEncontrados(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9677998455,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 59452544,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:51:44.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 766641001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 100,
+        "name": "Home Page | Busca | Compra | Validar autocomplete",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-validar-autocomplete;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-bernardo-do-campo?placeId\u003dChIJw9B9ksY_zpQRz1aWD1UNzc0\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 111899750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73960922,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "retiro a seleção Comprar na Planta",
+            "match": {
+              "location": "HomeBuscaSteps.retiroASeleçãoComprarNaPlanta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 266466955,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "insiro \"Sao\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sao\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 37024261,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "vejo o autocomplete com as sugestões de busca",
+            "match": {
+              "location": "HomeBuscaSteps.vejoOAutocompleteComAsSugestõesDeBusca()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1297902476,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "seleciono a opção \"São Bernardo do Campo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Bernardo do Campo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 77092138,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1330141907,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-bernardo-do-campo?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-bernardo-do-campo?\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeBusca"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page | Fazer buscas de empreendimentos por Localização",
+    "description": "",
+    "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HomeBusca.feature",
+    "tags": [
+      {
+        "name": "@HomeBusca",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9656489570,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 68099796,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:51:58.630Z",
+        "before": [
+          {
+            "result": {
+              "duration": 752760824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home Page | Footer | Quem Somos",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-quem-somos",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/quem-somos"
+            ],
+            "result": {
+              "duration": 100722246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2052576292,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2259050665,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em Quem Somos",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmQuemSomos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3631913,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verifico que a URL é aberta \"/paginas/quem-somos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/quem-somos\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9249070565,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 127287157,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:52:13.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 900616202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Home Page | Footer | Assessoria de Comunicação",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-assessoria-de-comunicação",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/assessoria-de-comunicacao"
+            ],
+            "result": {
+              "duration": 104342949,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2058215327,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1058138190,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em Assessoria de Comunicação",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmAssessoriaDeComunicação()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 21676760,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verifico que a URL é aberta \"/paginas/assessoria-de-comunicacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/assessoria-de-comunicacao\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10979751959,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 66800232,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:52:27.045Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1282267046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Home Page | Footer | Linha de ética",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-linha-de-ética",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/linha-de-etica"
+            ],
+            "result": {
+              "duration": 113783099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049883106,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 696095356,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clico em Linha de ética",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmLinhaDeÉtica()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 11833082,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verifico que a URL é aberta \"/paginas/linha-de-etica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/linha-de-etica\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 13013919720,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 247731025,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:52:42.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 779878668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Home Page | Footer | Trabalhe conosco",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-trabalhe-conosco",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/trabalhe-conosco"
+            ],
+            "result": {
+              "duration": 108783057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2057423689,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4338449842,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico em Trabalhe conosco",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmTrabalheConosco()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3585173,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verifico que a URL é aberta \"/paginas/trabalhe-conosco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/trabalhe-conosco\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9482425689,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 135722787,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:53:02.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 778418156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Home Page | Footer | Relação com investidores",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-relação-com-investidores",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/"
+            ],
+            "result": {
+              "duration": 103279697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2048277153,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 111804638,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Relação com investidores",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmRelaçãoComInvestidores()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 13530470,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verifico que a URL de Relação com investores aberta é \"https://ri.lopes.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ri.lopes.com.br/\"",
+                  "offset": 54
+                }
+              ],
+              "location": "HomeFooterSteps.verificoQueAURLDeRelaçãoComInvestoresAbertaÉ(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8817468517,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137413177,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:53:15.466Z",
+        "before": [
+          {
+            "result": {
+              "duration": 775405503,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Home Page | Footer | Venda seu imóvel",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-venda-seu-imóvel",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
+            ],
+            "result": {
+              "duration": 101389467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2060319736,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2129892200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clico em Venda seu imóvel",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmVendaSeuImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3516555,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "verifico que a URL é aberta \"/paginas/anuncie-seu-imovel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/anuncie-seu-imovel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8257310254,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 131665068,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:53:29.492Z",
+        "before": [
+          {
+            "result": {
+              "duration": 796779740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Home Page | Footer | Alugue seu imóvel",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-alugue-seu-imóvel",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
+            ],
+            "result": {
+              "duration": 102035552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050307076,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1746150672,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clico em Alugue seu imóvel",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmAlugueSeuImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2974441,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "verifico que a URL é aberta \"/paginas/anuncie-seu-imovel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/anuncie-seu-imovel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9783272378,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 119057781,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:53:42.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 825775619,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Home Page | Footer | Credipronto",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-credipronto",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/"
+            ],
+            "result": {
+              "duration": 103374672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051621248,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 113963716,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clico em Credipronto",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmCredipronto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 16678625,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "verifico que a URL de Credipronto aberta é \"https://www.credipronto.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.credipronto.com.br/\"",
+                  "offset": 43
+                }
+              ],
+              "location": "HomeFooterSteps.verificoQueAURLDeCrediprontoAbertaÉ(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9444241025,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 116772327,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:53:55.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 826645694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Home Page | Footer | Serviços de fotografia",
+        "description": "",
+        "id": "home-page-|-validar-os-links-localizados-no-footer-da-página;home-page-|-footer-|-serviços-de-fotografia",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/servicos-de-fotografia"
+            ],
+            "result": {
+              "duration": 107489629,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2080768598,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3487430497,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clico em Serviços de fotografia",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmServiçosDeFotografia()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2888418,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "verifico que a URL é aberta \"/paginas/servicos-de-fotografia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/servicos-de-fotografia\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Footer"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page | Validar os links localizados no Footer da página",
+    "description": "",
+    "id": "home-page-|-validar-os-links-localizados-no-footer-da-página",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HomeFooter.feature",
+    "tags": [
+      {
+        "name": "@Footer",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9847561131,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 69314491,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:54:11.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 891655371,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home Page | Header | Lançamentos",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-lançamentos",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/lancamento/br/sp/sao-paulo"
+            ],
+            "result": {
+              "duration": 100524055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 969294586,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no header Lançamentos",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderLançamentos()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5281472,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verifico que a URL é aberta \"/busca/lancamento/br/sp/sao-paulo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/lancamento/br/sp/sao-paulo\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9139693349,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 85620682,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:54:23.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 784049461,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Home Page | Header | Prontos",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-prontos",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate"
+            ],
+            "result": {
+              "duration": 107838642,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3527764493,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no header Prontos",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderProntos()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5238703,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verifico que a URL é aberta \"/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8518445216,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 142368610,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:54:37.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 780587402,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Home Page | Header | Aluguel",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-aluguel",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo"
+            ],
+            "result": {
+              "duration": 117685200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 11826505604,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico no header Aluguel",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderAluguel()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3465577,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verifico que a URL é aberta \"/busca/aluguel/br/sp/sao-paulo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/aluguel/br/sp/sao-paulo\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8774940030,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 148032153,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:54:58.587Z",
+        "before": [
+          {
+            "result": {
+              "duration": 766451559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Home Page | Header | Anuncie seu imóvel",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-anuncie-seu-imóvel",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
+            ],
+            "result": {
+              "duration": 102723776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4239451145,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico no header Anuncie seu imóvel",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderAnuncieSeuImóvel()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2922596,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verifico que a URL é aberta \"/paginas/anuncie-seu-imovel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/anuncie-seu-imovel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8598445271,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 147493689,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:55:12.622Z",
+        "before": [
+          {
+            "result": {
+              "duration": 751246036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Home Page | Header | Seja um franqueado",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-seja-um-franqueado",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/seja-um-franqueado"
+            ],
+            "result": {
+              "duration": 101672406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1252150578,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico no header Seja um franqueado",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderSejaUmFranqueado()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4187208,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verifico que a URL é aberta \"/paginas/seja-um-franqueado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/seja-um-franqueado\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9259854638,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137488772,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:55:23.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 742452404,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Home Page | Header | Calculadora de Compra",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-calculadora-de-compra",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/calculadora-simulador-de-financiamento-imobiliario"
+            ],
+            "result": {
+              "duration": 106232350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 716937243,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico no header Calculadora de Compra",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderCalculadoraDeCompra()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5786857,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verifico que a URL é aberta \"/calculadora-simulador-de-financiamento-imobiliario\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/calculadora-simulador-de-financiamento-imobiliario\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10810512275,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 59198094,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:55:34.447Z",
+        "before": [
+          {
+            "result": {
+              "duration": 726898107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Home Page | Header | Fale conosco",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-fale-conosco",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/paginas/fale-conosco"
+            ],
+            "result": {
+              "duration": 99507843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 432586591,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clico no header Fale conosco",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderFaleConosco()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3683166,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verifico que a URL é aberta \"/paginas/fale-conosco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/fale-conosco\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9783983478,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 134256745,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T20:55:46.580Z",
+        "before": [
+          {
+            "result": {
+              "duration": 802647296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Home Page | Header | Favoritos",
+        "description": "",
+        "id": "home-page-|-validar-os-links-do-header;home-page-|-header-|-favoritos",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/favoritos"
+            ],
+            "result": {
+              "duration": 105564973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2947884617,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "clico no header Favoritos",
+            "match": {
+              "location": "HomeHeaderSteps.clicoNoHeaderFavoritos()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2768863,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "verifico que a URL é aberta \"/favoritos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/favoritos\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeHeader"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page | Validar os links do Header",
+    "description": "",
+    "id": "home-page-|-validar-os-links-do-header",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HomeHeader.feature",
+    "tags": [
+      {
+        "name": "@HomeHeader",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
