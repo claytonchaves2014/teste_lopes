@@ -9,6 +9,8 @@ public class HomeHeaderSteps extends BaseSteps {
 
     private static HomeHeader homeHeader = new HomeHeader(driver);
 
+    public HomeHeaderSteps() {}
+
     @Dado("acesso o Portal da Lopes")
     public void acessoOPortalDaLopes() {
         homeHeader.abrirPortal();
