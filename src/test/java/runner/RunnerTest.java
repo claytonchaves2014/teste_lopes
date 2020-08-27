@@ -7,7 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/features"},
-        plugin = {"pretty", "json:target/reports/CucumberReport.json"},
+        plugin = {"usage:target/usage"
+                , "pretty"
+                , "summary"
+                , "json:target/reports/CucumberReport.json"
+                , "html:target/html/"
+                , "junit:target/cucumber-reports/Cucumber.xml"},
         glue = {"steps"},
         tags = {"@REGRESSAO"}
 )

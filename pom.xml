@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Lopes</groupId>
-    <artifactId>br.com.lopes</artifactId>
+    <groupId>regressivo_portal_frontend</groupId>
+    <artifactId>regressivo_portal_frontend</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
