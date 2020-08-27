@@ -1,0 +1,15 @@
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/support/BaseSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/HomeFooter.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/ResultadosBuscaSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/FichaImovel.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/ResultadosBusca.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/HomeHeaderSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/support/Setup.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/runner/RunnerTest.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/HomeBusca.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/FichaImovelSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/HomeFiltrosSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/HomeHeader.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/HomeFooterSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/steps/HomeBuscaSteps.java
+/home/oem/workspace/LOPES/regressivo_portal_frontend/src/test/java/pages/HomeFiltros.java
