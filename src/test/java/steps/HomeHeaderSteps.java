@@ -2,6 +2,7 @@ package steps;
 
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
+import org.openqa.selenium.support.PageFactory;
 import pages.HomeHeader;
 import support.BaseSteps;
 
@@ -9,7 +10,9 @@ public class HomeHeaderSteps extends BaseSteps {
 
     private static HomeHeader homeHeader = new HomeHeader(driver);
 
-    public HomeHeaderSteps() {}
+    public HomeHeaderSteps() {
+        driver.start("chrome");
+    }
 
     @Dado("acesso o Portal da Lopes")
     public void acessoOPortalDaLopes() {
