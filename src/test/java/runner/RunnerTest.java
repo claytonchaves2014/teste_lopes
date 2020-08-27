@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
                 , "json:target/reports/CucumberReport.json"
                 , "html:target/html/"},
         glue = {"steps"},
+        monochrome = true,
         tags = {"@REGRESSAO"}
 )
 
