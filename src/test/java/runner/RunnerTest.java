@@ -9,10 +9,8 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         plugin = {"usage:target/usage"
                 , "pretty"
-                , "summary"
                 , "json:target/reports/CucumberReport.json"
-                , "html:target/html/"
-                , "junit:target/cucumber-reports/Cucumber.xml"},
+                , "html:target/html/"},
         glue = {"steps"},
         tags = {"@REGRESSAO"}
 )
