@@ -9,7 +9,6 @@ import static steps.HomeBuscaSteps.*;
 import static steps.HomeFiltrosSteps.*;
 import static steps.HomeFooterSteps.*;
 import static steps.HomeHeaderSteps.*;
-import static steps.Hooks.*;
 import static steps.ResultadosBuscaSteps.*;
 
 @RunWith(Cucumber.class)
