@@ -116,6 +116,11 @@ public class Setup {
         element.click();
     }
 
+    public void forceClick(String parValue, String... parType) {
+        final WebElement element = findElem(parValue, parType);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+    }
+
     public void openURL(String parUrl) {
         driver.get(parUrl);
     }
@@ -177,6 +182,23 @@ public class Setup {
         } catch (TimeoutException e) {
             System.err.println("Element is not clickable => " + e.toString());
         }
+    }
+
+    public void waitElement(String parName, String... parType) {
+        final WebDriverWait wait = new WebDriverWait(driver, DEFAULT_WAIT_TIMEOUT);
+        final By locator = getLocatorBy(parName, parType);
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        } catch (NoSuchElementException e) {
+            System.out.println("ERROR WAIT => " + e.toString());
+        } catch (TimeoutException e) {
+            System.err.println("Timeout reached while waiting for element =>" + e.toString());
+        }
+    }
+
+    public void waitURL(String... parValue) {
+        final WebDriverWait wait = new WebDriverWait(driver, DEFAULT_WAIT_TIMEOUT);
+        wait.until(ExpectedConditions.urlToBe(String.valueOf(parValue)));
     }
 
     public Set<String> getWindowHandles() {

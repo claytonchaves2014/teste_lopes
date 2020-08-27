@@ -21,7 +21,7 @@ public class HomeHeader {
         driver.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/header/div[1]/a", "xpath");
     }
 
-    public void verificarURL(String value) {
+    public void verificarURL(String value) throws InterruptedException {
         String currentURL = driver.getCurrentUrl();
         Assert.assertTrue(currentURL.contains(value));
     }

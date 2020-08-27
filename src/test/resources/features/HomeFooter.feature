@@ -1,5 +1,5 @@
 #language: pt
-@Footer
+@REGRESSAO @Footer
 Funcionalidade: Home Page | Validar os links localizados no Footer da página
 
   Contexto:

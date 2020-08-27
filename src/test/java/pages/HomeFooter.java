@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
-import java.util.ArrayList;
-
 public class HomeFooter {
 
     private Setup driver;
@@ -19,10 +17,6 @@ public class HomeFooter {
         WebElement footer = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]", "xpath");
         driver.ScrollTo(footer);
         Thread.sleep(2000);
-
-
-        ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
-        System.out.println("A TAB é: " + tabs2.size());
     }
 
     public void clicarQuemSomos() throws InterruptedException {

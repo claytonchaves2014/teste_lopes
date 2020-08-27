@@ -1,5 +1,5 @@
 #language: pt
-@HomeHeader
+@REGRESSAO @HomeHeader
 Funcionalidade: Home Page | Validar os links do Header
 
   Contexto:
@@ -8,15 +8,15 @@ Funcionalidade: Home Page | Validar os links do Header
 
   Cenário: Home Page | Header | Lançamentos
     Dado clico no header Lançamentos
-    Então verifico que a URL é aberta "/busca/lancamento/br/sp/sao-paulo"
+    Então vejo os Resultados de Busca com a url "/busca/lancamento/br/sp/sao-paulo"
 
   Cenário: Home Page | Header | Prontos
     Dado clico no header Prontos
-    Então verifico que a URL é aberta "/busca/venda/br/sp/sao-paulo?estagio=real_estate"
+    Então vejo os Resultados de Busca com a url "/busca/venda/br/sp/sao-paulo"
 
   Cenário: Home Page | Header | Aluguel
     Dado clico no header Aluguel
-    Então verifico que a URL é aberta "/busca/aluguel/br/sp/sao-paulo"
+    Então vejo os Resultados de Busca com a url "/busca/aluguel/br/sp/sao-paulo"
 
   Cenário: Home Page | Header | Anuncie seu imóvel
     Dado clico no header Anuncie seu imóvel

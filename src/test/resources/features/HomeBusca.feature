@@ -1,5 +1,5 @@
 #language: pt
-@HomeBusca
+@REGRESSAO @HomeBusca
 Funcionalidade: Home Page | Fazer buscas de empreendimentos por Localização
 
   Contexto:

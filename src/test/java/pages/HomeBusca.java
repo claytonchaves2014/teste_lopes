@@ -23,7 +23,8 @@ public class HomeBusca {
         driver.click("//*[@value=\"Buscar\"]", "xpath");
     }
 
-    public void aguardarResultados() {
+    public void aguardarResultados() throws InterruptedException {
+        Thread.sleep(2000);
         driver.findElem("/html/body/lps-root/lps-search/div/div/div[1]/lps-search-grid/lps-search-content/div", "xpath").isDisplayed();
     }
 

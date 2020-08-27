@@ -22,7 +22,7 @@ public class HomeBuscaSteps extends BaseSteps {
     }
 
     @Então("vejo os Resultados de Busca com a url {string}")
-    public void vejoOsResultadosDeBuscaFiltradosComAUrl(String value) {
+    public void vejoOsResultadosDeBuscaFiltradosComAUrl(String value) throws InterruptedException {
         homeBusca.aguardarResultados();
         homeBusca.validarResultados(value);
     }

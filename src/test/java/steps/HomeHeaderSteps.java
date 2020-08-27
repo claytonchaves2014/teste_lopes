@@ -25,7 +25,7 @@ public class HomeHeaderSteps extends BaseSteps {
     }
 
     @Então("verifico que a URL é aberta {string}")
-    public void verificoQueAURLÉAberta(String value) {
+    public void verificoQueAURLÉAberta(String value) throws InterruptedException {
         homeHeader.verificarURL(value);
     }
 

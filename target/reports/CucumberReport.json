@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9867626751,
+              "duration": 7257626149,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 106756950,
+              "duration": 133242937,
               "status": "passed"
             },
             "line": 7,
@@ -36,11 +36,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:48:51.493Z",
+        "start_timestamp": "2020-08-27T14:51:17.685Z",
         "before": [
           {
             "result": {
-              "duration": 1520490116,
+              "duration": 1404272492,
               "status": "passed"
             },
             "match": {
@@ -58,7 +58,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 113434624,
+              "duration": 103502330,
               "status": "passed"
             },
             "match": {
@@ -71,7 +71,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81692009,
+              "duration": 98469053,
               "status": "passed"
             },
             "line": 10,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 65095095,
+              "duration": 77950798,
               "status": "passed"
             },
             "line": 11,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 2164451133,
+              "duration": 3460429653,
               "status": "passed"
             },
             "line": 12,
@@ -114,6 +114,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -127,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10634181484,
+              "duration": 7058213872,
               "status": "passed"
             },
             "line": 6,
@@ -139,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 101168683,
+              "duration": 78548094,
               "status": "passed"
             },
             "line": 7,
@@ -152,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:49:05.415Z",
+        "start_timestamp": "2020-08-27T14:51:30.223Z",
         "before": [
           {
             "result": {
-              "duration": 972767174,
+              "duration": 2016826107,
               "status": "passed"
             },
             "match": {
@@ -174,7 +177,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp?placeId\u003dChIJrVgvRn1ZzpQRF3x74eJBUh4\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 116900597,
+              "duration": 107809825,
               "status": "passed"
             },
             "match": {
@@ -187,7 +190,7 @@
         "steps": [
           {
             "result": {
-              "duration": 85823846,
+              "duration": 82975629,
               "status": "passed"
             },
             "line": 15,
@@ -199,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 765589117,
+              "duration": 666749213,
               "status": "passed"
             },
             "line": 16,
@@ -217,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 906945036,
+              "duration": 1052162245,
               "status": "passed"
             },
             "line": 17,
@@ -235,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 69701592,
+              "duration": 87319063,
               "status": "passed"
             },
             "line": 18,
@@ -247,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 1211036243,
+              "duration": 2030486478,
               "status": "passed"
             },
             "line": 19,
@@ -266,6 +269,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -279,7 +285,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11661906365,
+              "duration": 8273679553,
               "status": "passed"
             },
             "line": 6,
@@ -291,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 61081387,
+              "duration": 124104274,
               "status": "passed"
             },
             "line": 7,
@@ -304,11 +310,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:49:20.279Z",
+        "start_timestamp": "2020-08-27T14:51:43.405Z",
         "before": [
           {
             "result": {
-              "duration": 931395118,
+              "duration": 878493281,
               "status": "passed"
             },
             "match": {
@@ -326,7 +332,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 103521883,
+              "duration": 104348657,
               "status": "passed"
             },
             "match": {
@@ -339,7 +345,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74844896,
+              "duration": 95411481,
               "status": "passed"
             },
             "line": 26,
@@ -351,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 895815068,
+              "duration": 800319797,
               "status": "passed"
             },
             "line": 27,
@@ -369,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 811309635,
+              "duration": 1052618356,
               "status": "passed"
             },
             "line": 28,
@@ -387,7 +393,7 @@
           },
           {
             "result": {
-              "duration": 73585049,
+              "duration": 63428672,
               "status": "passed"
             },
             "line": 29,
@@ -399,7 +405,7 @@
           },
           {
             "result": {
-              "duration": 1892072049,
+              "duration": 2042378547,
               "status": "passed"
             },
             "line": 30,
@@ -418,6 +424,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -431,7 +440,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10471808184,
+              "duration": 8968567113,
               "status": "passed"
             },
             "line": 6,
@@ -443,7 +452,7 @@
           },
           {
             "result": {
-              "duration": 77831764,
+              "duration": 66798943,
               "status": "passed"
             },
             "line": 7,
@@ -456,11 +465,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:49:36.785Z",
+        "start_timestamp": "2020-08-27T14:51:56.841Z",
         "before": [
           {
             "result": {
-              "duration": 863036867,
+              "duration": 864327563,
               "status": "passed"
             },
             "match": {
@@ -478,7 +487,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/morumbi?placeId\u003dChIJqwjBg9xWzpQRIbwq6Ao9o3c\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 113057568,
+              "duration": 112034418,
               "status": "passed"
             },
             "match": {
@@ -491,7 +500,7 @@
         "steps": [
           {
             "result": {
-              "duration": 80522590,
+              "duration": 73959387,
               "status": "passed"
             },
             "line": 37,
@@ -503,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 1228727455,
+              "duration": 1034906728,
               "status": "passed"
             },
             "line": 38,
@@ -521,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 900420344,
+              "duration": 886472706,
               "status": "passed"
             },
             "line": 39,
@@ -539,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 68212683,
+              "duration": 74551543,
               "status": "passed"
             },
             "line": 40,
@@ -551,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 1474044901,
+              "duration": 2036829396,
               "status": "passed"
             },
             "line": 41,
@@ -570,6 +579,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -583,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9417775258,
+              "duration": 9291481517,
               "status": "passed"
             },
             "line": 6,
@@ -595,7 +607,7 @@
           },
           {
             "result": {
-              "duration": 123029762,
+              "duration": 134915857,
               "status": "passed"
             },
             "line": 7,
@@ -608,11 +620,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:49:52.064Z",
+        "start_timestamp": "2020-08-27T14:52:10.958Z",
         "before": [
           {
             "result": {
-              "duration": 940119038,
+              "duration": 2015192684,
               "status": "passed"
             },
             "match": {
@@ -626,11 +638,8 @@
         "id": "home-page-|-fazer-buscas-de-empreendimentos-por-localização;home-page-|-busca-|-compra-|-prontos-por-rua;;2",
         "after": [
           {
-            "output": [
-              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/consolacao/rua-bela-cintra?placeId\u003dEjZSLiBCZWxhIENpbnRyYSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCBCcmF6aWwiLiosChQKEgnt6XvK0lnOlBE1RCRKEnfpRhIUChIJLbKsqspZzpQRflMUqtJkSPE\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
-            ],
             "result": {
-              "duration": 105385672,
+              "duration": 97806257,
               "status": "passed"
             },
             "match": {
@@ -643,7 +652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79760565,
+              "duration": 121612932,
               "status": "passed"
             },
             "line": 48,
@@ -655,7 +664,7 @@
           },
           {
             "result": {
-              "duration": 1762244854,
+              "duration": 1505466941,
               "status": "passed"
             },
             "line": 49,
@@ -673,8 +682,9 @@
           },
           {
             "result": {
-              "duration": 1317554036,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d84.0.4147.135)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro-de-UserTQI.local\u0027, ip: \u00272804:14d:90af:4ba3:0:0:0:1000%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/bb/v_9p47_n19s...}, goog:chromeOptions: {debuggerAddress: localhost:60862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b3bc949c993acc6b864cdeb95d439c2b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat pages.HomeBusca.selecionarBusca(HomeBusca.java:41)\n\tat steps.HomeBuscaSteps.selecionoAOpção(HomeBuscaSteps.java:37)\n\tat ✽.seleciono a opção \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"(file:src/test/resources/features/HomeBusca.feature:50)\n",
+              "duration": 1058904246,
+              "status": "failed"
             },
             "line": 50,
             "name": "seleciono a opção \"Rua Bela Cintra - Consolação, São Paulo - SP, Brasil\"",
@@ -691,8 +701,8 @@
           },
           {
             "result": {
-              "duration": 65431474,
-              "status": "passed"
+              "duration": 7748,
+              "status": "skipped"
             },
             "line": 51,
             "name": "clico no botão Buscar",
@@ -703,8 +713,8 @@
           },
           {
             "result": {
-              "duration": 1076022544,
-              "status": "passed"
+              "duration": 4474,
+              "status": "skipped"
             },
             "line": 52,
             "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/consolacao/rua-bela-cintra?\"",
@@ -722,6 +732,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -735,7 +748,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9474752727,
+              "duration": 6986841827,
               "status": "passed"
             },
             "line": 6,
@@ -747,7 +760,7 @@
           },
           {
             "result": {
-              "duration": 123130828,
+              "duration": 659197174,
               "status": "passed"
             },
             "line": 7,
@@ -760,11 +773,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:50:06.952Z",
+        "start_timestamp": "2020-08-27T14:52:25.182Z",
         "before": [
           {
             "result": {
-              "duration": 876074232,
+              "duration": 885209991,
               "status": "passed"
             },
             "match": {
@@ -782,7 +795,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp?placeId\u003dChIJrVgvRn1ZzpQRF3x74eJBUh4\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 102507181,
+              "duration": 112149697,
               "status": "passed"
             },
             "match": {
@@ -795,7 +808,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120480700,
+              "duration": 71569564,
               "status": "passed"
             },
             "line": 59,
@@ -807,7 +820,7 @@
           },
           {
             "result": {
-              "duration": 680861670,
+              "duration": 617832091,
               "status": "passed"
             },
             "line": 60,
@@ -825,7 +838,7 @@
           },
           {
             "result": {
-              "duration": 837222517,
+              "duration": 854387810,
               "status": "passed"
             },
             "line": 61,
@@ -843,7 +856,7 @@
           },
           {
             "result": {
-              "duration": 68286248,
+              "duration": 61452623,
               "status": "passed"
             },
             "line": 62,
@@ -855,7 +868,7 @@
           },
           {
             "result": {
-              "duration": 1217315787,
+              "duration": 2092750412,
               "status": "passed"
             },
             "line": 63,
@@ -874,6 +887,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -887,7 +903,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9771026007,
+              "duration": 7540518804,
               "status": "passed"
             },
             "line": 6,
@@ -899,7 +915,7 @@
           },
           {
             "result": {
-              "duration": 114052788,
+              "duration": 187595445,
               "status": "passed"
             },
             "line": 7,
@@ -912,11 +928,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:50:20.454Z",
+        "start_timestamp": "2020-08-27T14:52:37.523Z",
         "before": [
           {
             "result": {
-              "duration": 818822087,
+              "duration": 892763373,
               "status": "passed"
             },
             "match": {
@@ -934,7 +950,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 106709025,
+              "duration": 111618054,
               "status": "passed"
             },
             "match": {
@@ -947,7 +963,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62040463,
+              "duration": 68367734,
               "status": "passed"
             },
             "line": 59,
@@ -959,7 +975,7 @@
           },
           {
             "result": {
-              "duration": 770744593,
+              "duration": 753222905,
               "status": "passed"
             },
             "line": 60,
@@ -977,7 +993,7 @@
           },
           {
             "result": {
-              "duration": 913402919,
+              "duration": 777437645,
               "status": "passed"
             },
             "line": 61,
@@ -995,7 +1011,7 @@
           },
           {
             "result": {
-              "duration": 177602997,
+              "duration": 68382220,
               "status": "passed"
             },
             "line": 62,
@@ -1007,7 +1023,7 @@
           },
           {
             "result": {
-              "duration": 1478733519,
+              "duration": 2030519172,
               "status": "passed"
             },
             "line": 63,
@@ -1026,6 +1042,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1039,7 +1058,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10511750852,
+              "duration": 8222948829,
               "status": "passed"
             },
             "line": 6,
@@ -1051,7 +1070,7 @@
           },
           {
             "result": {
-              "duration": 122485889,
+              "duration": 63152661,
               "status": "passed"
             },
             "line": 7,
@@ -1064,11 +1083,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:50:34.668Z",
+        "start_timestamp": "2020-08-27T14:52:49.953Z",
         "before": [
           {
             "result": {
-              "duration": 892861076,
+              "duration": 828611932,
               "status": "passed"
             },
             "match": {
@@ -1086,7 +1105,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo/morumbi?placeId\u003dChIJqwjBg9xWzpQRIbwq6Ao9o3c\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 102107335,
+              "duration": 114709008,
               "status": "passed"
             },
             "match": {
@@ -1099,7 +1118,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69090941,
+              "duration": 78413421,
               "status": "passed"
             },
             "line": 59,
@@ -1111,7 +1130,7 @@
           },
           {
             "result": {
-              "duration": 1140635479,
+              "duration": 935674829,
               "status": "passed"
             },
             "line": 60,
@@ -1129,7 +1148,7 @@
           },
           {
             "result": {
-              "duration": 849441362,
+              "duration": 829179590,
               "status": "passed"
             },
             "line": 61,
@@ -1147,7 +1166,7 @@
           },
           {
             "result": {
-              "duration": 66506751,
+              "duration": 75819311,
               "status": "passed"
             },
             "line": 62,
@@ -1159,7 +1178,7 @@
           },
           {
             "result": {
-              "duration": 1296491378,
+              "duration": 2034305499,
               "status": "passed"
             },
             "line": 63,
@@ -1178,6 +1197,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1191,7 +1213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12286051955,
+              "duration": 6137550421,
               "status": "passed"
             },
             "line": 6,
@@ -1203,7 +1225,7 @@
           },
           {
             "result": {
-              "duration": 100232855,
+              "duration": 268697200,
               "status": "passed"
             },
             "line": 7,
@@ -1216,11 +1238,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:50:49.720Z",
+        "start_timestamp": "2020-08-27T14:53:03.137Z",
         "before": [
           {
             "result": {
-              "duration": 823725872,
+              "duration": 825107358,
               "status": "passed"
             },
             "match": {
@@ -1238,7 +1260,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo/consolacao/rua-bela-cintra?placeId\u003dEjZSLiBCZWxhIENpbnRyYSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCBCcmF6aWwiLiosChQKEgnt6XvK0lnOlBE1RCRKEnfpRhIUChIJLbKsqspZzpQRflMUqtJkSPE\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 117725344,
+              "duration": 119907715,
               "status": "passed"
             },
             "match": {
@@ -1251,7 +1273,7 @@
         "steps": [
           {
             "result": {
-              "duration": 80447189,
+              "duration": 66434518,
               "status": "passed"
             },
             "line": 59,
@@ -1263,7 +1285,7 @@
           },
           {
             "result": {
-              "duration": 1776688546,
+              "duration": 1455090508,
               "status": "passed"
             },
             "line": 60,
@@ -1281,7 +1303,7 @@
           },
           {
             "result": {
-              "duration": 676456379,
+              "duration": 924569437,
               "status": "passed"
             },
             "line": 61,
@@ -1299,7 +1321,7 @@
           },
           {
             "result": {
-              "duration": 91221325,
+              "duration": 67477899,
               "status": "passed"
             },
             "line": 62,
@@ -1311,7 +1333,7 @@
           },
           {
             "result": {
-              "duration": 1233177300,
+              "duration": 2034122965,
               "status": "passed"
             },
             "line": 63,
@@ -1330,6 +1352,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1343,7 +1368,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10883939646,
+              "duration": 7046980263,
               "status": "passed"
             },
             "line": 6,
@@ -1355,7 +1380,7 @@
           },
           {
             "result": {
-              "duration": 76785013,
+              "duration": 254293484,
               "status": "passed"
             },
             "line": 7,
@@ -1368,11 +1393,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:51:06.907Z",
+        "start_timestamp": "2020-08-27T14:53:15.036Z",
         "before": [
           {
             "result": {
-              "duration": 928827298,
+              "duration": 1842656758,
               "status": "passed"
             },
             "match": {
@@ -1390,7 +1415,7 @@
               "URL: https://qafrontportal.lpsbr.com/lancamento/REM15992/chez-vitacon-sao-paulo-consolacao"
             ],
             "result": {
-              "duration": 115685659,
+              "duration": 118636998,
               "status": "passed"
             },
             "match": {
@@ -1403,7 +1428,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76019829,
+              "duration": 91166196,
               "status": "passed"
             },
             "line": 73,
@@ -1415,7 +1440,7 @@
           },
           {
             "result": {
-              "duration": 494372540,
+              "duration": 525064695,
               "status": "passed"
             },
             "line": 74,
@@ -1433,7 +1458,7 @@
           },
           {
             "result": {
-              "duration": 954061639,
+              "duration": 924067799,
               "status": "passed"
             },
             "line": 75,
@@ -1451,7 +1476,7 @@
           },
           {
             "result": {
-              "duration": 10802618540,
+              "duration": 6240538750,
               "status": "passed"
             },
             "line": 76,
@@ -1463,7 +1488,7 @@
           },
           {
             "result": {
-              "duration": 34782593,
+              "duration": 34979823,
               "status": "passed"
             },
             "line": 77,
@@ -1482,6 +1507,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1495,7 +1523,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10484865212,
+              "duration": 6258763887,
               "status": "passed"
             },
             "line": 6,
@@ -1507,7 +1535,7 @@
           },
           {
             "result": {
-              "duration": 69346950,
+              "duration": 120362274,
               "status": "passed"
             },
             "line": 7,
@@ -1520,11 +1548,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:51:31.276Z",
+        "start_timestamp": "2020-08-27T14:53:32.116Z",
         "before": [
           {
             "result": {
-              "duration": 885503880,
+              "duration": 949192557,
               "status": "passed"
             },
             "match": {
@@ -1542,7 +1570,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/lancamento/br/ac?placeId\u003dChIJuQaRTqqNf5ERwQc2CMUK7CU\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 102077119,
+              "duration": 104704624,
               "status": "passed"
             },
             "match": {
@@ -1555,7 +1583,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66685580,
+              "duration": 68705664,
               "status": "passed"
             },
             "line": 84,
@@ -1567,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 274589987,
+              "duration": 258739488,
               "status": "passed"
             },
             "line": 85,
@@ -1585,7 +1613,7 @@
           },
           {
             "result": {
-              "duration": 872795911,
+              "duration": 999722668,
               "status": "passed"
             },
             "line": 86,
@@ -1603,7 +1631,7 @@
           },
           {
             "result": {
-              "duration": 111224763,
+              "duration": 67138330,
               "status": "passed"
             },
             "line": 87,
@@ -1615,7 +1643,7 @@
           },
           {
             "result": {
-              "duration": 786621552,
+              "duration": 690624380,
               "status": "passed"
             },
             "line": 88,
@@ -1634,6 +1662,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1647,7 +1678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9677998455,
+              "duration": 5775717888,
               "status": "passed"
             },
             "line": 6,
@@ -1659,7 +1690,7 @@
           },
           {
             "result": {
-              "duration": 59452544,
+              "duration": 83608369,
               "status": "passed"
             },
             "line": 7,
@@ -1672,11 +1703,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:51:44.931Z",
+        "start_timestamp": "2020-08-27T14:53:41.635Z",
         "before": [
           {
             "result": {
-              "duration": 766641001,
+              "duration": 830523930,
               "status": "passed"
             },
             "match": {
@@ -1694,7 +1725,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-bernardo-do-campo?placeId\u003dChIJw9B9ksY_zpQRz1aWD1UNzc0\u0026estagio\u003dreal_estate\u0026origem\u003dhome"
             ],
             "result": {
-              "duration": 111899750,
+              "duration": 109056366,
               "status": "passed"
             },
             "match": {
@@ -1707,7 +1738,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73960922,
+              "duration": 125455092,
               "status": "passed"
             },
             "line": 91,
@@ -1719,7 +1750,7 @@
           },
           {
             "result": {
-              "duration": 266466955,
+              "duration": 259573571,
               "status": "passed"
             },
             "line": 92,
@@ -1737,7 +1768,7 @@
           },
           {
             "result": {
-              "duration": 37024261,
+              "duration": 29790945,
               "status": "passed"
             },
             "line": 93,
@@ -1749,7 +1780,7 @@
           },
           {
             "result": {
-              "duration": 1297902476,
+              "duration": 814349358,
               "status": "passed"
             },
             "line": 94,
@@ -1767,7 +1798,7 @@
           },
           {
             "result": {
-              "duration": 77092138,
+              "duration": 65410393,
               "status": "passed"
             },
             "line": 95,
@@ -1779,7 +1810,7 @@
           },
           {
             "result": {
-              "duration": 1330141907,
+              "duration": 2033814757,
               "status": "passed"
             },
             "line": 96,
@@ -1798,6 +1829,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeBusca"
           }
         ]
@@ -1810,11 +1844,19 @@
     "uri": "file:src/test/resources/features/HomeBusca.feature",
     "tags": [
       {
-        "name": "@HomeBusca",
+        "name": "@REGRESSAO",
         "type": "Tag",
         "location": {
           "line": 2,
           "column": 1
+        }
+      },
+      {
+        "name": "@HomeBusca",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
         }
       }
     ]
@@ -1831,7 +1873,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9656489570,
+              "duration": 10940463034,
               "status": "passed"
             },
             "line": 6,
@@ -1843,7 +1885,7 @@
           },
           {
             "result": {
-              "duration": 68099796,
+              "duration": 62681024,
               "status": "passed"
             },
             "line": 7,
@@ -1856,11 +1898,2167 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:51:58.630Z",
+        "start_timestamp": "2020-08-27T14:53:51.763Z",
         "before": [
           {
             "result": {
-              "duration": 752760824,
+              "duration": 918304481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Home Page | Busca | Filtros | Valor",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-valor;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026preco-maior\u003d10000000\u0026preco-menor\u003d100\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 114562317,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 96650151,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 486020114,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "insiro um valor mínimo de \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMínimoDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 294906979,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "insiro um valor máximo de \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMáximoDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 90818220,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2048351527,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo os Resultados de Busca com a url \"preco-maior\u003d10000000\u0026preco-menor\u003d100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"preco-maior\u003d10000000\u0026preco-menor\u003d100\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5664943378,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 75063841,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:06.817Z",
+        "before": [
+          {
+            "result": {
+              "duration": 832439408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Home Page | Busca | Filtros | Validar Valor",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-validar-valor;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/"
+            ],
+            "result": {
+              "duration": 98851242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 80315041,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 626219343,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "insiro um valor mínimo de \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMínimoDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 135929131,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "insiro um valor máximo de \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMáximoDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 127888119,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "vejo o alerta para Valor \"O mínimo não pode ser maior que o máximo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"O mínimo não pode ser maior que o máximo\"",
+                  "offset": 25
+                }
+              ],
+              "location": "HomeFiltrosSteps.vejoOAlertaParaValor(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6035603377,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123649635,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:14.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 774474634,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Home Page | Busca | Filtros | Área do imóvel",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-área-do-imóvel;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026area-maior\u003d10000000\u0026area-menor\u003d100\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 607345367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 64237405,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 468968919,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "insiro uma área mínima de \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMínimaDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 330057124,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "insiro uma área máxima de \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMáximaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 95802475,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2104770412,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "vejo os Resultados de Busca com a url \"area-maior\u003d10000000\u0026area-menor\u003d100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"area-maior\u003d10000000\u0026area-menor\u003d100\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4520873807,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 252595765,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:25.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1865352891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Home Page | Busca | Filtros | Validar Área do imóvel",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-validar-área-do-imóvel;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/"
+            ],
+            "result": {
+              "duration": 99611453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 93361015,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 602362860,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "insiro uma área mínima de \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMínimaDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 119627719,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "insiro uma área máxima de \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMáximaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 154199419,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "vejo o alerta para Area \"O mínimo não pode ser maior que o máximo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"O mínimo não pode ser maior que o máximo\"",
+                  "offset": 24
+                }
+              ],
+              "location": "HomeFiltrosSteps.vejoOAlertaParaArea(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5961804653,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 61044138,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:32.773Z",
+        "before": [
+          {
+            "result": {
+              "duration": 789020883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Home Page | Busca | Filtros | Dormitórios",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-dormitórios;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026quartos\u003d1\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 102454257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 70649057,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 338777342,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleciono \"1\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 78342290,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2040508500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "vejo os Resultados de Busca com a url \"quartos\u003d1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quartos\u003d1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5983092159,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 63513954,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:42.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1803167407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Home Page | Busca | Filtros | Dormitórios",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-dormitórios;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026quartos\u003d2\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 102349861,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 68941767,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 331753259,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleciono \"2\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 64520275,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2039376122,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "vejo os Resultados de Busca com a url \"quartos\u003d2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quartos\u003d2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6154854221,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 336057571,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:54:52.674Z",
+        "before": [
+          {
+            "result": {
+              "duration": 775718285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Home Page | Busca | Filtros | Dormitórios",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-dormitórios;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sorocaba/jardim-prestes-de-barros/rua-coronel-paulo-foot-guimaraes?placeId\u003dChIJ40TCZ0xgz5QR2PBPPmOXkv8\u0026quartos\u003d3\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 110664304,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 87455407,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 334574976,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleciono \"3\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 83549549,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2051709731,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "vejo os Resultados de Busca com a url \"quartos\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quartos\u003d3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7423527475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 118446657,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:02.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 760326169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Home Page | Busca | Filtros | Dormitórios",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-dormitórios;;5",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026quartos\u003d4\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 107482414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 72391706,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 298437118,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleciono \"4+\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4+\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 95527111,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2220888993,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "vejo os Resultados de Busca com a url \"quartos\u003d4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quartos\u003d4\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5992006243,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 621169565,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:13.707Z",
+        "before": [
+          {
+            "result": {
+              "duration": 757323403,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Home Page | Busca | Filtros | Vagas",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-vagas;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sorocaba/jardim-prestes-de-barros/rua-coronel-paulo-foot-guimaraes?placeId\u003dChIJ40TCZ0xgz5QR2PBPPmOXkv8\u0026vagas\u003d1\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 113099023,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 66768898,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 327954988,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "seleciono \"1\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 77219892,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2034420997,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "vejo os Resultados de Busca com a url \"vagas\u003d1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vagas\u003d1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6056343646,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 126301877,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:23.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 770024074,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Home Page | Busca | Filtros | Vagas",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-vagas;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026vagas\u003d2\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 105363381,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 63831572,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 343499327,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "seleciono \"2\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 58854355,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2063462770,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "vejo os Resultados de Busca com a url \"vagas\u003d2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vagas\u003d2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5347706657,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 93579995,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:33.286Z",
+        "before": [
+          {
+            "result": {
+              "duration": 793146644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Home Page | Busca | Filtros | Vagas",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-vagas;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sorocaba/jardim-prestes-de-barros/rua-coronel-paulo-foot-guimaraes?placeId\u003dChIJ40TCZ0xgz5QR2PBPPmOXkv8\u0026vagas\u003d3\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 104374642,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 75298890,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 338352525,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "seleciono \"3\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 80073037,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2030046339,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "vejo os Resultados de Busca com a url \"vagas\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vagas\u003d3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6492744409,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 65886428,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:42.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 777722382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Home Page | Busca | Filtros | Vagas",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-vagas;;5",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026vagas\u003d4\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 104270424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 68999322,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 331086681,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "seleciono \"4+\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4+\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 116821123,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2036707628,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "vejo os Resultados de Busca com a url \"vagas\u003d4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vagas\u003d4\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6208489671,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 121355708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:55:52.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2823623868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "Home Page | Busca | Filtros | Selecionar todos os filtros",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-selecionar-todos-os-filtros;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJR4AiA6tZzpQR61OfsaJWKhY\u0026area-maior\u003d300\u0026preco-maior\u003d1000000\u0026area-menor\u003d100\u0026preco-menor\u003d100000\u0026vagas\u003d2\u0026quartos\u003d3\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dhome"
+            ],
+            "result": {
+              "duration": 111129066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 64788718,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 557656545,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "insiro um valor mínimo de \"100.000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100.000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMínimoDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 316047768,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "insiro um valor máximo de \"1.000.000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1.000.000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMáximoDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 199784808,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "insiro uma área mínima de \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMínimaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 180540585,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "insiro uma área máxima de \"300\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"300\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMáximaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 77787334,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "seleciono \"3\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 56920618,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "seleciono \"2\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 75060939,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2047783000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "vejo os Resultados de Busca com a url \"area-maior\u003d300\u0026preco-maior\u003d1000000\u0026area-menor\u003d100\u0026preco-menor\u003d100000\u0026vagas\u003d2\u0026quartos\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"area-maior\u003d300\u0026preco-maior\u003d1000000\u0026area-menor\u003d100\u0026preco-menor\u003d100000\u0026vagas\u003d2\u0026quartos\u003d3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5409662893,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 410678485,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:56:04.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 772820086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 104,
+        "name": "Home Page | Busca | Filtros | Limpar filtros",
+        "description": "",
+        "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros;home-page-|-busca-|-filtros-|-limpar-filtros;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/"
+            ],
+            "result": {
+              "duration": 148952346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 71381140,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "clico em Filtros na Home Page",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmFiltrosNaHomePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 564729538,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "insiro um valor mínimo de \"100.000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100.000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMínimoDe(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 285668699,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "insiro um valor máximo de \"400.000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400.000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmValorMáximoDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 166203641,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "insiro uma área mínima de \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMínimaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 161611292,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "insiro uma área máxima de \"300\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"300\"",
+                  "offset": 26
+                }
+              ],
+              "location": "HomeFiltrosSteps.insiroUmaÁreaMáximaDe(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 66335468,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "seleciono \"3\" como quantidade de Dormitórios",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeDormitórios(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 69300816,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "seleciono \"2\" como quantidade de Vagas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                }
+              ],
+              "location": "HomeFiltrosSteps.selecionoComoQuantidadeDeVagas(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 47213778,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "clico em Limpar filtros na Home",
+            "match": {
+              "location": "HomeFiltrosSteps.clicoEmLimparFiltrosNaHome()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@HomeFiltros"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page | Fazer buscas avançadas de empreendimentos utilizando Filtros",
+    "description": "",
+    "id": "home-page-|-fazer-buscas-avançadas-de-empreendimentos-utilizando-filtros",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HomeFiltros.feature",
+    "tags": [
+      {
+        "name": "@REGRESSAO",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@HomeFiltros",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6813295343,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 121648712,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T14:56:13.162Z",
+        "before": [
+          {
+            "result": {
+              "duration": 769531745,
               "status": "passed"
             },
             "match": {
@@ -1878,7 +4076,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/quem-somos"
             ],
             "result": {
-              "duration": 100722246,
+              "duration": 106667215,
               "status": "passed"
             },
             "match": {
@@ -1891,7 +4089,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2052576292,
+              "duration": 2060581925,
               "status": "passed"
             },
             "line": 10,
@@ -1903,7 +4101,7 @@
           },
           {
             "result": {
-              "duration": 2259050665,
+              "duration": 1627811525,
               "status": "passed"
             },
             "line": 11,
@@ -1915,7 +4113,7 @@
           },
           {
             "result": {
-              "duration": 3631913,
+              "duration": 3693000,
               "status": "passed"
             },
             "line": 12,
@@ -1934,6 +4132,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -1947,7 +4148,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9249070565,
+              "duration": 6653321051,
               "status": "passed"
             },
             "line": 6,
@@ -1959,7 +4160,7 @@
           },
           {
             "result": {
-              "duration": 127287157,
+              "duration": 140848284,
               "status": "passed"
             },
             "line": 7,
@@ -1972,11 +4173,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:52:13.525Z",
+        "start_timestamp": "2020-08-27T14:56:24.666Z",
         "before": [
           {
             "result": {
-              "duration": 900616202,
+              "duration": 848390130,
               "status": "passed"
             },
             "match": {
@@ -1994,7 +4195,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/assessoria-de-comunicacao"
             ],
             "result": {
-              "duration": 104342949,
+              "duration": 103200254,
               "status": "passed"
             },
             "match": {
@@ -2007,7 +4208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2058215327,
+              "duration": 2066288950,
               "status": "passed"
             },
             "line": 15,
@@ -2019,7 +4220,7 @@
           },
           {
             "result": {
-              "duration": 1058138190,
+              "duration": 785869753,
               "status": "passed"
             },
             "line": 16,
@@ -2031,7 +4232,7 @@
           },
           {
             "result": {
-              "duration": 21676760,
+              "duration": 18402833,
               "status": "passed"
             },
             "line": 17,
@@ -2050,6 +4251,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2063,7 +4267,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10979751959,
+              "duration": 10038573482,
               "status": "passed"
             },
             "line": 6,
@@ -2075,7 +4279,7 @@
           },
           {
             "result": {
-              "duration": 66800232,
+              "duration": 139874510,
               "status": "passed"
             },
             "line": 7,
@@ -2088,11 +4292,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:52:27.045Z",
+        "start_timestamp": "2020-08-27T14:56:35.283Z",
         "before": [
           {
             "result": {
-              "duration": 1282267046,
+              "duration": 881614917,
               "status": "passed"
             },
             "match": {
@@ -2110,7 +4314,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/linha-de-etica"
             ],
             "result": {
-              "duration": 113783099,
+              "duration": 104064026,
               "status": "passed"
             },
             "match": {
@@ -2123,7 +4327,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2049883106,
+              "duration": 2037417161,
               "status": "passed"
             },
             "line": 20,
@@ -2135,7 +4339,7 @@
           },
           {
             "result": {
-              "duration": 696095356,
+              "duration": 693625414,
               "status": "passed"
             },
             "line": 21,
@@ -2147,7 +4351,7 @@
           },
           {
             "result": {
-              "duration": 11833082,
+              "duration": 30648036,
               "status": "passed"
             },
             "line": 22,
@@ -2166,6 +4370,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2179,7 +4386,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13013919720,
+              "duration": 7862888656,
               "status": "passed"
             },
             "line": 6,
@@ -2191,7 +4398,7 @@
           },
           {
             "result": {
-              "duration": 247731025,
+              "duration": 137730080,
               "status": "passed"
             },
             "line": 7,
@@ -2204,11 +4411,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:52:42.246Z",
+        "start_timestamp": "2020-08-27T14:56:49.209Z",
         "before": [
           {
             "result": {
-              "duration": 779878668,
+              "duration": 797129943,
               "status": "passed"
             },
             "match": {
@@ -2226,7 +4433,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/trabalhe-conosco"
             ],
             "result": {
-              "duration": 108783057,
+              "duration": 106989776,
               "status": "passed"
             },
             "match": {
@@ -2239,7 +4446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2057423689,
+              "duration": 2039821876,
               "status": "passed"
             },
             "line": 25,
@@ -2251,7 +4458,7 @@
           },
           {
             "result": {
-              "duration": 4338449842,
+              "duration": 4446658734,
               "status": "passed"
             },
             "line": 26,
@@ -2263,7 +4470,7 @@
           },
           {
             "result": {
-              "duration": 3585173,
+              "duration": 3627544,
               "status": "passed"
             },
             "line": 27,
@@ -2282,6 +4489,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2295,7 +4505,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9482425689,
+              "duration": 8153450475,
               "status": "passed"
             },
             "line": 6,
@@ -2307,7 +4517,7 @@
           },
           {
             "result": {
-              "duration": 135722787,
+              "duration": 74958667,
               "status": "passed"
             },
             "line": 7,
@@ -2320,11 +4530,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:53:02.792Z",
+        "start_timestamp": "2020-08-27T14:57:04.601Z",
         "before": [
           {
             "result": {
-              "duration": 778418156,
+              "duration": 858670919,
               "status": "passed"
             },
             "match": {
@@ -2342,7 +4552,7 @@
               "URL: https://qafrontportal.lpsbr.com/"
             ],
             "result": {
-              "duration": 103279697,
+              "duration": 102866007,
               "status": "passed"
             },
             "match": {
@@ -2355,7 +4565,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2048277153,
+              "duration": 2051179975,
               "status": "passed"
             },
             "line": 30,
@@ -2367,7 +4577,7 @@
           },
           {
             "result": {
-              "duration": 111804638,
+              "duration": 102879990,
               "status": "passed"
             },
             "line": 31,
@@ -2379,7 +4589,7 @@
           },
           {
             "result": {
-              "duration": 13530470,
+              "duration": 12493806,
               "status": "passed"
             },
             "line": 32,
@@ -2398,6 +4608,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2411,7 +4624,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8817468517,
+              "duration": 7463027913,
               "status": "passed"
             },
             "line": 6,
@@ -2423,7 +4636,7 @@
           },
           {
             "result": {
-              "duration": 137413177,
+              "duration": 62828976,
               "status": "passed"
             },
             "line": 7,
@@ -2436,11 +4649,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:53:15.466Z",
+        "start_timestamp": "2020-08-27T14:57:15.957Z",
         "before": [
           {
             "result": {
-              "duration": 775405503,
+              "duration": 871165944,
               "status": "passed"
             },
             "match": {
@@ -2458,7 +4671,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
             ],
             "result": {
-              "duration": 101389467,
+              "duration": 103992698,
               "status": "passed"
             },
             "match": {
@@ -2471,7 +4684,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2060319736,
+              "duration": 2049927528,
               "status": "passed"
             },
             "line": 35,
@@ -2483,7 +4696,7 @@
           },
           {
             "result": {
-              "duration": 2129892200,
+              "duration": 1456188175,
               "status": "passed"
             },
             "line": 36,
@@ -2495,7 +4708,7 @@
           },
           {
             "result": {
-              "duration": 3516555,
+              "duration": 2986480,
               "status": "passed"
             },
             "line": 37,
@@ -2514,6 +4727,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2527,7 +4743,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8257310254,
+              "duration": 6856507658,
               "status": "passed"
             },
             "line": 6,
@@ -2539,7 +4755,7 @@
           },
           {
             "result": {
-              "duration": 131665068,
+              "duration": 188350067,
               "status": "passed"
             },
             "line": 7,
@@ -2552,11 +4768,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:53:29.492Z",
+        "start_timestamp": "2020-08-27T14:57:27.967Z",
         "before": [
           {
             "result": {
-              "duration": 796779740,
+              "duration": 836331418,
               "status": "passed"
             },
             "match": {
@@ -2574,7 +4790,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
             ],
             "result": {
-              "duration": 102035552,
+              "duration": 106256685,
               "status": "passed"
             },
             "match": {
@@ -2587,7 +4803,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2050307076,
+              "duration": 2055299704,
               "status": "passed"
             },
             "line": 40,
@@ -2599,7 +4815,7 @@
           },
           {
             "result": {
-              "duration": 1746150672,
+              "duration": 1747567777,
               "status": "passed"
             },
             "line": 41,
@@ -2611,7 +4827,7 @@
           },
           {
             "result": {
-              "duration": 2974441,
+              "duration": 3308784,
               "status": "passed"
             },
             "line": 42,
@@ -2630,6 +4846,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2643,7 +4862,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9783272378,
+              "duration": 7686576717,
               "status": "passed"
             },
             "line": 6,
@@ -2655,7 +4874,7 @@
           },
           {
             "result": {
-              "duration": 119057781,
+              "duration": 300664758,
               "status": "passed"
             },
             "line": 7,
@@ -2668,11 +4887,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:53:42.579Z",
+        "start_timestamp": "2020-08-27T14:57:39.761Z",
         "before": [
           {
             "result": {
-              "duration": 825775619,
+              "duration": 765348492,
               "status": "passed"
             },
             "match": {
@@ -2690,7 +4909,7 @@
               "URL: https://qafrontportal.lpsbr.com/"
             ],
             "result": {
-              "duration": 103374672,
+              "duration": 125062184,
               "status": "passed"
             },
             "match": {
@@ -2703,7 +4922,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2051621248,
+              "duration": 2039870354,
               "status": "passed"
             },
             "line": 45,
@@ -2715,7 +4934,7 @@
           },
           {
             "result": {
-              "duration": 113963716,
+              "duration": 121780295,
               "status": "passed"
             },
             "line": 46,
@@ -2727,7 +4946,7 @@
           },
           {
             "result": {
-              "duration": 16678625,
+              "duration": 15048235,
               "status": "passed"
             },
             "line": 47,
@@ -2746,6 +4965,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2759,7 +4981,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9444241025,
+              "duration": 6264493886,
               "status": "passed"
             },
             "line": 6,
@@ -2771,7 +4993,7 @@
           },
           {
             "result": {
-              "duration": 116772327,
+              "duration": 71595840,
               "status": "passed"
             },
             "line": 7,
@@ -2784,11 +5006,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:53:55.594Z",
+        "start_timestamp": "2020-08-27T14:57:50.826Z",
         "before": [
           {
             "result": {
-              "duration": 826645694,
+              "duration": 806733057,
               "status": "passed"
             },
             "match": {
@@ -2806,7 +5028,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/servicos-de-fotografia"
             ],
             "result": {
-              "duration": 107489629,
+              "duration": 110754702,
               "status": "passed"
             },
             "match": {
@@ -2819,7 +5041,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2080768598,
+              "duration": 2048623705,
               "status": "passed"
             },
             "line": 50,
@@ -2831,7 +5053,7 @@
           },
           {
             "result": {
-              "duration": 3487430497,
+              "duration": 2867837588,
               "status": "passed"
             },
             "line": 51,
@@ -2843,7 +5065,7 @@
           },
           {
             "result": {
-              "duration": 2888418,
+              "duration": 3123997,
               "status": "passed"
             },
             "line": 52,
@@ -2862,6 +5084,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@Footer"
           }
         ]
@@ -2874,11 +5099,19 @@
     "uri": "file:src/test/resources/features/HomeFooter.feature",
     "tags": [
       {
-        "name": "@Footer",
+        "name": "@REGRESSAO",
         "type": "Tag",
         "location": {
           "line": 2,
           "column": 1
+        }
+      },
+      {
+        "name": "@Footer",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
         }
       }
     ]
@@ -2895,7 +5128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9847561131,
+              "duration": 7637137195,
               "status": "passed"
             },
             "line": 6,
@@ -2907,7 +5140,7 @@
           },
           {
             "result": {
-              "duration": 69314491,
+              "duration": 128648045,
               "status": "passed"
             },
             "line": 7,
@@ -2920,11 +5153,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:54:11.661Z",
+        "start_timestamp": "2020-08-27T14:58:03.005Z",
         "before": [
           {
             "result": {
-              "duration": 891655371,
+              "duration": 912373265,
               "status": "passed"
             },
             "match": {
@@ -2939,10 +5172,10 @@
         "after": [
           {
             "output": [
-              "URL: https://qafrontportal.lpsbr.com/busca/lancamento/br/sp/sao-paulo"
+              "URL: https://qafrontportal.lpsbr.com/busca/lancamento/br/sp/sao-paulo?estagio\u003dreal_estate_parent"
             ],
             "result": {
-              "duration": 100524055,
+              "duration": 107708980,
               "status": "passed"
             },
             "match": {
@@ -2955,7 +5188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 969294586,
+              "duration": 1129413249,
               "status": "passed"
             },
             "line": 10,
@@ -2967,24 +5200,27 @@
           },
           {
             "result": {
-              "duration": 5281472,
+              "duration": 2042833574,
               "status": "passed"
             },
             "line": 11,
-            "name": "verifico que a URL é aberta \"/busca/lancamento/br/sp/sao-paulo\"",
+            "name": "vejo os Resultados de Busca com a url \"/busca/lancamento/br/sp/sao-paulo\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"/busca/lancamento/br/sp/sao-paulo\"",
-                  "offset": 28
+                  "offset": 38
                 }
               ],
-              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
             },
             "keyword": "Então "
           }
         ],
         "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
           {
             "name": "@HomeHeader"
           }
@@ -2999,7 +5235,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9139693349,
+              "duration": 6209085987,
               "status": "passed"
             },
             "line": 6,
@@ -3011,7 +5247,7 @@
           },
           {
             "result": {
-              "duration": 85620682,
+              "duration": 69607814,
               "status": "passed"
             },
             "line": 7,
@@ -3024,11 +5260,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:54:23.545Z",
+        "start_timestamp": "2020-08-27T14:58:14.966Z",
         "before": [
           {
             "result": {
-              "duration": 784049461,
+              "duration": 1815696093,
               "status": "passed"
             },
             "match": {
@@ -3046,7 +5282,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate"
             ],
             "result": {
-              "duration": 107838642,
+              "duration": 107604020,
               "status": "passed"
             },
             "match": {
@@ -3059,7 +5295,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3527764493,
+              "duration": 1312983691,
               "status": "passed"
             },
             "line": 14,
@@ -3071,24 +5307,27 @@
           },
           {
             "result": {
-              "duration": 5238703,
+              "duration": 2044870077,
               "status": "passed"
             },
             "line": 15,
-            "name": "verifico que a URL é aberta \"/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate\"",
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"/busca/venda/br/sp/sao-paulo?estagio\u003dreal_estate\"",
-                  "offset": 28
+                  "val": "\"/busca/venda/br/sp/sao-paulo\"",
+                  "offset": 38
                 }
               ],
-              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
             },
             "keyword": "Então "
           }
         ],
         "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
           {
             "name": "@HomeHeader"
           }
@@ -3103,7 +5342,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8518445216,
+              "duration": 7107023382,
               "status": "passed"
             },
             "line": 6,
@@ -3115,7 +5354,7 @@
           },
           {
             "result": {
-              "duration": 142368610,
+              "duration": 153345679,
               "status": "passed"
             },
             "line": 7,
@@ -3128,11 +5367,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:54:37.196Z",
+        "start_timestamp": "2020-08-27T14:58:26.527Z",
         "before": [
           {
             "result": {
-              "duration": 780587402,
+              "duration": 1839412974,
               "status": "passed"
             },
             "match": {
@@ -3150,7 +5389,7 @@
               "URL: https://qafrontportal.lpsbr.com/busca/aluguel/br/sp/sao-paulo"
             ],
             "result": {
-              "duration": 117685200,
+              "duration": 111186132,
               "status": "passed"
             },
             "match": {
@@ -3163,7 +5402,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11826505604,
+              "duration": 1400575516,
               "status": "passed"
             },
             "line": 18,
@@ -3175,24 +5414,27 @@
           },
           {
             "result": {
-              "duration": 3465577,
+              "duration": 2044741955,
               "status": "passed"
             },
             "line": 19,
-            "name": "verifico que a URL é aberta \"/busca/aluguel/br/sp/sao-paulo\"",
+            "name": "vejo os Resultados de Busca com a url \"/busca/aluguel/br/sp/sao-paulo\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"/busca/aluguel/br/sp/sao-paulo\"",
-                  "offset": 28
+                  "offset": 38
                 }
               ],
-              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
             },
             "keyword": "Então "
           }
         ],
         "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
           {
             "name": "@HomeHeader"
           }
@@ -3207,7 +5449,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8774940030,
+              "duration": 8081679465,
               "status": "passed"
             },
             "line": 6,
@@ -3219,7 +5461,7 @@
           },
           {
             "result": {
-              "duration": 148032153,
+              "duration": 131638756,
               "status": "passed"
             },
             "line": 7,
@@ -3232,11 +5474,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:54:58.587Z",
+        "start_timestamp": "2020-08-27T14:58:39.185Z",
         "before": [
           {
             "result": {
-              "duration": 766451559,
+              "duration": 1816599968,
               "status": "passed"
             },
             "match": {
@@ -3254,7 +5496,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/anuncie-seu-imovel"
             ],
             "result": {
-              "duration": 102723776,
+              "duration": 98361679,
               "status": "passed"
             },
             "match": {
@@ -3267,7 +5509,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4239451145,
+              "duration": 2793613969,
               "status": "passed"
             },
             "line": 22,
@@ -3279,7 +5521,7 @@
           },
           {
             "result": {
-              "duration": 2922596,
+              "duration": 3675665,
               "status": "passed"
             },
             "line": 23,
@@ -3298,6 +5540,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeHeader"
           }
         ]
@@ -3311,7 +5556,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8598445271,
+              "duration": 7795291809,
               "status": "passed"
             },
             "line": 6,
@@ -3323,7 +5568,7 @@
           },
           {
             "result": {
-              "duration": 147493689,
+              "duration": 125778684,
               "status": "passed"
             },
             "line": 7,
@@ -3336,11 +5581,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:55:12.622Z",
+        "start_timestamp": "2020-08-27T14:58:52.112Z",
         "before": [
           {
             "result": {
-              "duration": 751246036,
+              "duration": 792825202,
               "status": "passed"
             },
             "match": {
@@ -3358,7 +5603,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/seja-um-franqueado"
             ],
             "result": {
-              "duration": 101672406,
+              "duration": 101321366,
               "status": "passed"
             },
             "match": {
@@ -3371,7 +5616,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1252150578,
+              "duration": 728215728,
               "status": "passed"
             },
             "line": 26,
@@ -3383,7 +5628,7 @@
           },
           {
             "result": {
-              "duration": 4187208,
+              "duration": 5657513,
               "status": "passed"
             },
             "line": 27,
@@ -3402,6 +5647,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeHeader"
           }
         ]
@@ -3415,7 +5663,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9259854638,
+              "duration": 7478038490,
               "status": "passed"
             },
             "line": 6,
@@ -3427,7 +5675,7 @@
           },
           {
             "result": {
-              "duration": 137488772,
+              "duration": 73702913,
               "status": "passed"
             },
             "line": 7,
@@ -3440,11 +5688,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:55:23.478Z",
+        "start_timestamp": "2020-08-27T14:59:01.661Z",
         "before": [
           {
             "result": {
-              "duration": 742452404,
+              "duration": 894702897,
               "status": "passed"
             },
             "match": {
@@ -3462,7 +5710,7 @@
               "URL: https://qafrontportal.lpsbr.com/calculadora-simulador-de-financiamento-imobiliario"
             ],
             "result": {
-              "duration": 106232350,
+              "duration": 105726970,
               "status": "passed"
             },
             "match": {
@@ -3475,7 +5723,7 @@
         "steps": [
           {
             "result": {
-              "duration": 716937243,
+              "duration": 476075946,
               "status": "passed"
             },
             "line": 30,
@@ -3487,7 +5735,7 @@
           },
           {
             "result": {
-              "duration": 5786857,
+              "duration": 4529883,
               "status": "passed"
             },
             "line": 31,
@@ -3506,6 +5754,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeHeader"
           }
         ]
@@ -3519,7 +5770,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10810512275,
+              "duration": 7073375865,
               "status": "passed"
             },
             "line": 6,
@@ -3531,7 +5782,7 @@
           },
           {
             "result": {
-              "duration": 59198094,
+              "duration": 60517349,
               "status": "passed"
             },
             "line": 7,
@@ -3544,11 +5795,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:55:34.447Z",
+        "start_timestamp": "2020-08-27T14:59:10.695Z",
         "before": [
           {
             "result": {
-              "duration": 726898107,
+              "duration": 811428424,
               "status": "passed"
             },
             "match": {
@@ -3566,7 +5817,7 @@
               "URL: https://qafrontportal.lpsbr.com/paginas/fale-conosco"
             ],
             "result": {
-              "duration": 99507843,
+              "duration": 104534192,
               "status": "passed"
             },
             "match": {
@@ -3579,7 +5830,7 @@
         "steps": [
           {
             "result": {
-              "duration": 432586591,
+              "duration": 1125503740,
               "status": "passed"
             },
             "line": 34,
@@ -3591,7 +5842,7 @@
           },
           {
             "result": {
-              "duration": 3683166,
+              "duration": 5788160,
               "status": "passed"
             },
             "line": 35,
@@ -3610,6 +5861,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeHeader"
           }
         ]
@@ -3623,7 +5877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9783983478,
+              "duration": 7381420498,
               "status": "passed"
             },
             "line": 6,
@@ -3635,7 +5889,7 @@
           },
           {
             "result": {
-              "duration": 134256745,
+              "duration": 74628420,
               "status": "passed"
             },
             "line": 7,
@@ -3648,11 +5902,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-24T20:55:46.580Z",
+        "start_timestamp": "2020-08-27T14:59:19.877Z",
         "before": [
           {
             "result": {
-              "duration": 802647296,
+              "duration": 767975590,
               "status": "passed"
             },
             "match": {
@@ -3670,7 +5924,7 @@
               "URL: https://qafrontportal.lpsbr.com/favoritos"
             ],
             "result": {
-              "duration": 105564973,
+              "duration": 101736269,
               "status": "passed"
             },
             "match": {
@@ -3683,7 +5937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2947884617,
+              "duration": 1221210044,
               "status": "passed"
             },
             "line": 38,
@@ -3695,7 +5949,7 @@
           },
           {
             "result": {
-              "duration": 2768863,
+              "duration": 2440669,
               "status": "passed"
             },
             "line": 39,
@@ -3714,6 +5968,9 @@
         ],
         "tags": [
           {
+            "name": "@REGRESSAO"
+          },
+          {
             "name": "@HomeHeader"
           }
         ]
@@ -3726,11 +5983,19 @@
     "uri": "file:src/test/resources/features/HomeHeader.feature",
     "tags": [
       {
-        "name": "@HomeHeader",
+        "name": "@REGRESSAO",
         "type": "Tag",
         "location": {
           "line": 2,
           "column": 1
+        }
+      },
+      {
+        "name": "@HomeHeader",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
         }
       }
     ]
