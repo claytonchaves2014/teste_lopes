@@ -4,18 +4,18 @@
   
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.tablesorter.min.js"></script>
-<script src="js/Chart.min.js"></script>
-<script src="js/moment.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
 <link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="shortcut icon" href="images/favicon.png"/>
 
-<script>
+<script type="text/javascript">
 $(document).ready(function() {
     // this will tell tablesorter to try looking for the data-value attribute
     // if present, it'll sort by that instead
@@ -40,6 +40,7 @@ $(document).ready(function() {
 
 
 
+
   
 <title>Cucumber Reports (no 1) - Error Page</title>
 
@@ -53,7 +54,6 @@ $(document).ready(function() {
   }
   </style>
 </head>
-
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
@@ -70,33 +70,6 @@ $(document).ready(function() {
   </div>
 </nav>
 
-
-<div class="container-fluid">
-  <div class="col-md-5 col-md-offset-1">
-    
-<table class="table table-bordered" id="build-info">
-  <thead>
-    <tr>
-      <th>Project</th>
-              <th>Number</th>
-            <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="info">
-      <td>Lopes</td>
-              <td>1</td>
-            <td>26 ago. 2020, 16:36</td>
-    </tr>
-  </tbody>
-</table>
-
-  </div>
-  <div class="col-md-3 col-md-offset-2">
-      </div>
-</div>
-
-
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
     <h2>Error</h2>
@@ -108,10 +81,11 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="message">
-        <pre>net.masterthought.cucumber.ValidationException: None report file was added!
-	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:60)
+        <pre>net.masterthought.cucumber.ValidationException: File '/home/oem/workspace/LOPES/regressivo_portal_frontend/target/reports/CucumberReport.json' is not proper Cucumber report!
+	at net.masterthought.cucumber.ReportParser.parseForFeature(ReportParser.java:90)
+	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:61)
 	at net.masterthought.cucumber.ReportBuilder.generateReports(ReportBuilder.java:88)
-	at net.masterthought.cucumber.CucumberReportGeneratorMojo.execute(CucumberReportGeneratorMojo.java:198)
+	at net.masterthought.cucumber.CucumberReportGeneratorMojo.execute(CucumberReportGeneratorMojo.java:112)
 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
@@ -129,16 +103,26 @@ $(document).ready(function() {
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
+ at [Source: java.io.InputStreamReader@67d5ac2f; line: 1, column: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:270)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3838)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3783)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2887)
+	at net.masterthought.cucumber.ReportParser.parseForFeature(ReportParser.java:84)
+	... 26 more
 </pre>
       </div>
       <div>Trying to generate report from following files. Make sure they are valid cucumber report files:</div>
       <div class="error-files">
         <pre>
+           /home/oem/workspace/LOPES/regressivo_portal_frontend/target/reports/CucumberReport.json
                   </pre>
       </div>
     </div>
