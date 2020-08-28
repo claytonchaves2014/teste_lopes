@@ -42,14 +42,12 @@ public class Setup {
 
                     ChromeOptions chromeOptions = new ChromeOptions();
 
-                    // chromeOptions.addArguments("--incognito");
+                    chromeOptions.addArguments("--incognito");
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
                     chromeOptions.addArguments("--headless");
                     chromeOptions.addArguments("--disable-dev-shm-usage");
 
-                    DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-                    capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
                     driver = new ChromeDriver(chromeOptions);
                     break;
                 default:
