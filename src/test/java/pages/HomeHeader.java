@@ -1,65 +1,64 @@
 package pages;
 
 import org.junit.Assert;
-import org.openqa.selenium.support.PageFactory;
 import support.Setup;
 
 public class HomeHeader {
 
-    private Setup setup;
+    private Setup driver;
 
     public HomeHeader(Setup stepDriver) {
-        setup = stepDriver;
+        driver = stepDriver;
     }
 
     String url = "https://qafrontportal.lpsbr.com";
 
     public void abrirPortal() {
-        setup.openURL(url);
+        driver.openURL(url);
     }
 
     public void clicarLogo() {
-        setup.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/header/div[1]/a", "xpath");
+        driver.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/header/div[1]/a", "xpath");
     }
 
     public void verificarURL(String value) throws InterruptedException {
-        String currentURL = setup.getCurrentUrl();
+        String currentURL = driver.getCurrentUrl();
         Assert.assertTrue(currentURL.contains(value));
     }
 
     public void clicarCookies() {
-        setup.click("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
+        driver.click("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
     }
 
     public void clicarLancamentos() {
-        setup.click("logo_menu_header-Lançamentos", "id");
+        driver.click("logo_menu_header-Lançamentos", "id");
     }
 
     public void clicarProntos() {
-        setup.click("logo_menu_header-Prontos", "id");
+        driver.click("logo_menu_header-Prontos", "id");
     }
 
     public void clicarAluguel() {
-        setup.click("logo_menu_header-Aluguel", "id");
+        driver.click("logo_menu_header-Aluguel", "id");
     }
 
     public void clicarAnuncieImovel() {
-        setup.click("logo_menu_header-Anuncie seu Imóvel", "id");
+        driver.click("logo_menu_header-Anuncie seu Imóvel", "id");
     }
 
     public void clicarSejaFranqueado() {
-        setup.click("logo_menu_header-Seja Franqueado", "id");
+        driver.click("logo_menu_header-Seja Franqueado", "id");
     }
 
     public void clicarCalculadora() {
-        setup.click("logo_menu_header-Calculadora de Compra", "id");
+        driver.click("logo_menu_header-Calculadora de Compra", "id");
     }
 
     public void clicarFaleConosco() {
-        setup.click("//*[@class=\"header__contact-us header__link\"]", "xpath");
+        driver.click("//*[@class=\"header__contact-us header__link\"]", "xpath");
     }
 
     public void clicarFavoritos() {
-        setup.click("//*[@title=\"Meus Imóveis\"]", "xpath");
+        driver.click("//*[@title=\"Meus Imóveis\"]", "xpath");
     }
 }
