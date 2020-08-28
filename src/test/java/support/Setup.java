@@ -43,6 +43,8 @@ public class Setup {
 
                     ChromeOptions chromeOptions = new ChromeOptions();
 
+
+                    chromeOptions.addArguments("- headless", "--no-sandbox");
                     chromeOptions.addArguments("--enable-notifications");
                     chromeOptions.addArguments("--mute-audio");
                     chromeOptions.addArguments("--lang=pt-BR");
