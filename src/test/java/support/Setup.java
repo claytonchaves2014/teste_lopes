@@ -44,7 +44,10 @@ public class Setup {
                     ChromeOptions chromeOptions = new ChromeOptions();
 
 
-                    chromeOptions.addArguments("- headless", "--no-sandbox");
+                    chromeOptions.addArguments("--no-sandbox");
+                    chromeOptions.addArguments("--headless"); //!!!should be enabled for Jenkins
+                    chromeOptions.addArguments("--disable-dev-shm-usage"); //!!!should be enabled for Jenkins
+                    chromeOptions.addArguments("--window-size=1920x1080");
                     chromeOptions.addArguments("--enable-notifications");
                     chromeOptions.addArguments("--mute-audio");
                     chromeOptions.addArguments("--lang=pt-BR");
