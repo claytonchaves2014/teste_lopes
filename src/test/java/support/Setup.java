@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,6 +19,8 @@ public class Setup {
     public static WebDriver driver;
     private static final long IMPLICITLY_WAIT_TIMEOUT = 80;
     private static final long DEFAULT_WAIT_TIMEOUT = 80;
+    public static WebDriverWait wait;
+
 
     public void start(String parBrowser) {
         String title;
@@ -41,19 +42,27 @@ public class Setup {
                     WebDriverManager.chromedriver().setup();
 
                     ChromeOptions chromeOptions = new ChromeOptions();
-//                    chromeOptions.addArguments("--incognito");
-                    chromeOptions.addArguments("--disable-geolocation");
 
-                    DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-                    capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+                    chromeOptions.addArguments("--enable-notifications");
+                    chromeOptions.addArguments("--mute-audio");
+                    chromeOptions.addArguments("--lang=pt-BR");
+
                     driver = new ChromeDriver(chromeOptions);
-                    driver.manage().window().maximize();
                     break;
                 default:
                     break;
             }
         }
-        driver.manage().timeouts().implicitlyWait(IMPLICITLY_WAIT_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DEFAULT_WAIT_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+
+        int size = driver.manage().window().getSize().getWidth();
+
+        if (size < 1400) {
+            driver.manage().window().setSize(new Dimension(1920, 1080));
+        }
+
+        wait = new WebDriverWait(driver, DEFAULT_WAIT_TIMEOUT);
     }
 
     private String getAttributeType(String... parType) {
