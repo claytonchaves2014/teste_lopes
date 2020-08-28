@@ -2,13 +2,13 @@
 
 @REGRESSAO @HomeDestaques
 
-Funcionalidade: Home Page | Validar os destaques do Portal
+Funcionalidade: [QA-12] Home Page | Validar os destaques do Portal
 
   Contexto:
     Dado acesso o Portal da Lopes
     Quando clico em Aceitar Cookies
 
-  Cenário: Home Page | Destaques | Lançamentos Exclusivos
+  Cenário: [CT_012] Home Page | Destaques | Lançamentos Exclusivos
     Dado vejo o titulo dos destaques "Inspire-se com a nossa seleção"
     E vejo o subtitulo dos destaques "Confira as oportunidades apaixonantes que separamos para você"
     Quando vejo os destaques de Lançamentos exclusivos
@@ -21,7 +21,7 @@ Funcionalidade: Home Page | Validar os destaques do Portal
     E vejo a quantidade de chuveiros do empreendimento
     E vejo a quantidade de vagas do empreendimento
 
-  Cenário: Home Page | Destaques | Próximos Lançamentos
+  Cenário: [CT_012] Home Page | Destaques | Próximos Lançamentos
     Dado vejo o titulo dos destaques "Inspire-se com a nossa seleção"
     E vejo o subtitulo dos destaques "Confira as oportunidades apaixonantes que separamos para você"
     Quando vejo os destaques de Próximos Lançamentos

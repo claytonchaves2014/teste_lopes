@@ -6,7 +6,7 @@ Funcionalidade: Login | Validar o login de Cliente
     Dado acesso o Portal da Lopes
     E clico em Aceitar Cookies
 
-  Esquema do Cenário: Login | Cliente | Acessar conta
+  Esquema do Cenário: [QA-76] Login | Cliente | Acessar conta
     Dado clico em Minha conta
     Quando insiro meu E-mail com "<Email>"
     E insiro minha Senha com "<Senha>"
@@ -17,7 +17,7 @@ Funcionalidade: Login | Validar o login de Cliente
       | Email                               | Senha     |
       | keflin.rosa@tqi.com.br              | Teste1234 |
 
-  Esquema do Cenário: Login | Cliente | Acesso inválido
+  Esquema do Cenário: [QA-78] Login | Cliente | Acesso inválido
     Dado clico em Minha conta
     Quando insiro meu E-mail com "<Email>"
     E insiro minha Senha com "<Senha>"
@@ -28,7 +28,7 @@ Funcionalidade: Login | Validar o login de Cliente
       | Email                               | Senha     |
       | keflin.rosa@sharklasers.com         | Teste1234 |
 
-  Esquema do Cenário: Login | Cliente | Esqueceu a senha
+  Esquema do Cenário: [QA-86] Login | Cliente | Esqueceu a senha
     Dado clico em Minha conta
     Quando clico em Esqueceu a senha
     E insiro meu E-mail para recuperar senha com "<Email>"
@@ -39,7 +39,7 @@ Funcionalidade: Login | Validar o login de Cliente
       | Email                  | Instrucoes                                                               |
       | keflin.rosa@tqi.com.br | Acesse o e-mail enviado para o endereço cadastrado e siga as instruções. |
 
-  Esquema do Cenário: Login | Corretor | Acesso inválido
+  Esquema do Cenário: [QA-83] Login | Corretor | Acesso inválido
     Dado clico em Minha conta
     Quando clico em Corretor
     E insiro meu CPF de corretor "<CPF>"
@@ -51,7 +51,7 @@ Funcionalidade: Login | Validar o login de Cliente
       | CPF            | Senha     | Mensagem                       |
       | 084.069.078-94 | Teste1234 | Usuário e/ou senha incorretos. |
 
-  Esquema do Cenário: Login | Corretor | Esqueceu a Senha
+  Esquema do Cenário: [QA-85] Login | Corretor | Esqueceu a Senha
     Dado clico em Minha conta
     Quando clico em Corretor
     E clico em Esqueceu a senha

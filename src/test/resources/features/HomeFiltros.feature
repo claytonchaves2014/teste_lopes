@@ -1,12 +1,12 @@
 #language: pt
 @REGRESSAO @HomeFiltros
-Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizando Filtros
+Funcionalidade: [QA-10] Home Page | Fazer buscas avançadas de empreendimentos utilizando Filtros
 
   Contexto:
     Dado acesso o Portal da Lopes
     Quando clico em Aceitar Cookies
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Valor
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Valor
     Dado clico em Filtros na Home Page
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
@@ -17,7 +17,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | Minimo | Maximo   | URL                                  |
       | 100    | 10000000 | preco-maior=10000000&preco-menor=100 |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Validar Valor
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Validar Valor
     Dado clico em Filtros na Home Page
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
@@ -27,7 +27,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | Minimo   | Maximo | Alerta                                   |
       | 10000000 | 1      | O mínimo não pode ser maior que o máximo |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Área do imóvel
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Área do imóvel
     Dado clico em Filtros na Home Page
     Quando insiro uma área mínima de "<Minimo>"
     E insiro uma área máxima de "<Maximo>"
@@ -38,7 +38,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | Minimo | Maximo   | URL                                |
       | 100    | 10000000 | area-maior=10000000&area-menor=100 |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Validar Área do imóvel
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Validar Área do imóvel
     Dado clico em Filtros na Home Page
     Quando insiro uma área mínima de "<Minimo>"
     E insiro uma área máxima de "<Maximo>"
@@ -48,7 +48,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | Minimo   | Maximo | Alerta                                   |
       | 10000000 | 1      | O mínimo não pode ser maior que o máximo |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Dormitórios
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Dormitórios
     Dado clico em Filtros na Home Page
     Quando seleciono "<Qtd>" como quantidade de Dormitórios
     E clico no botão Buscar
@@ -61,7 +61,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | 3     | quartos=3 |
       | 4+    | quartos=4 |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Vagas
+  Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Vagas
     Dado clico em Filtros na Home Page
     Quando seleciono "<Qtd>" como quantidade de Vagas
     E clico no botão Buscar
@@ -74,7 +74,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | 3     | vagas=3 |
       | 4+    | vagas=4 |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Selecionar todos os filtros
+  Esquema do Cenário: [CT_008] Home Page | Busca | Filtros | Selecionar todos os filtros
     Dado clico em Filtros na Home Page
     Quando insiro um valor mínimo de "<Valor Minimo>"
     E insiro um valor máximo de "<Valor Maximo>"
@@ -89,7 +89,7 @@ Funcionalidade: Home Page | Fazer buscas avançadas de empreendimentos utilizand
       | Valor Minimo | Valor Maximo | Area Minima | Area Maxima | Dormitorios | Vagas | URL                                                                                   |
       | 100.000      | 1.000.000    | 100         | 300         | 3           | 2     | area-maior=300&preco-maior=1000000&area-menor=100&preco-menor=100000&vagas=2&quartos=3 |
 
-  Esquema do Cenário: Home Page | Busca | Filtros | Limpar filtros
+  Esquema do Cenário: [CT_010] Home Page | Busca | Filtros | Limpar filtros
     Dado clico em Filtros na Home Page
     Quando insiro um valor mínimo de "<Valor Minimo>"
     E insiro um valor máximo de "<Valor Maximo>"
