@@ -16,7 +16,7 @@ Funcionalidade: [QA-13] Home Page | Validar os links dos Serviços da Lopes
   Cenário: [CT_013] Home Page | Serviços | Financiamento
     Dado vejo Encontre a solução para você com nossos serviços
     Quando clico no serviço de Financiamento
-    Então verifico que a URL de Credipronto aberta é "https://www.credipronto.com.br/"
+    Então verifico que a URL é aberta "https://www.credipronto.com.br/"
 
   Cenário: [CT_013] Home Page | Serviços | Seja um franqueado
     Dado vejo Encontre a solução para você com nossos serviços

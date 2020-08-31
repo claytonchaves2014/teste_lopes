@@ -75,4 +75,19 @@ public class LoginSteps extends BaseSteps {
     public void insiroMinhaSenhaDeCorretor(String value) {
         login.inserirSenhaCorretor(value);
     }
+
+    @io.cucumber.java.pt.Então("acesso a conta do Corretor")
+    public void acessoAContaDoCorretor() {
+        login.validarContaCorretor();
+    }
+
+    @io.cucumber.java.pt.E("insiro meu CPF de corretor")
+    public void insiroMeuCPFDeCorretor() {
+        login.inserirCPF();
+    }
+
+    @io.cucumber.java.pt.E("insiro minha Senha de corretor")
+    public void insiroMinhaSenhaDeCorretor() {
+        login.inserirSeCorretor();
+    }
 }

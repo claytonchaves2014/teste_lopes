@@ -11,7 +11,7 @@ public class HomeHeader {
         driver = stepDriver;
     }
 
-    String url = "https://qafrontportal.lpsbr.com";
+    String url = "https://qafrontportal.lpsbr.com/";
 
     public void abrirPortal() {
         driver.openURL(url);
@@ -27,6 +27,7 @@ public class HomeHeader {
     }
 
     public void clicarCookies() {
+        driver.waitElementToBeClickable("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
         driver.click("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
     }
 
