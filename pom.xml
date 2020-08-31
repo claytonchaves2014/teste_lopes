@@ -13,6 +13,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <cucumber.version>4.7.4</cucumber.version>
+        <jvm.options>
+            -Durl=http://qafrontportal.lpsbr.com -Dheadless=false
+        </jvm.options>
     </properties>
 
     <dependencies>
@@ -86,10 +89,24 @@
             <artifactId>javafaker</artifactId>
             <version>0.18</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <commandlineArgs>${jvm.options}</commandlineArgs>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -105,6 +122,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <argLine>${jvm.options}</argLine>
                 </configuration>
             </plugin>
         </plugins>

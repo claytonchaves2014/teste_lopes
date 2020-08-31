@@ -1,6 +1,6 @@
 package steps;
 
-import cucumber.api.java.pt.Então;
+import io.cucumber.java.pt.Então;
 import pages.ResultadosBusca;
 import support.BaseSteps;
 
