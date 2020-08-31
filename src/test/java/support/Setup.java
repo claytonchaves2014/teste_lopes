@@ -40,13 +40,16 @@ public class Setup {
                     break;
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-
                     ChromeOptions chromeOptions = new ChromeOptions();
 
 //                    chromeOptions.addArguments("--incognito");
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
-                    chromeOptions.addArguments("--headless");
+
+                    if(System.getProperty("headless") != null &&
+                            System.getProperty("headless").equals("true")){
+                        chromeOptions.addArguments("--headless");
+                    }
                     chromeOptions.addArguments("--disable-dev-shm-usage");
 
                     driver = new ChromeDriver(chromeOptions);
