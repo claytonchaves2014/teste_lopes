@@ -14,7 +14,7 @@
         <java.version>1.8</java.version>
         <cucumber.version>4.7.4</cucumber.version>
         <jvm.options>
-            -Durl=http://qafrontportal.lpsbr.com -Dheadless=false
+            -Durl=http://qafrontportal.lpsbr.com -Dheadless=true
         </jvm.options>
     </properties>
 
@@ -99,14 +99,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.0.0</version>
-                <configuration>
-                    <commandlineArgs>${jvm.options}</commandlineArgs>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
