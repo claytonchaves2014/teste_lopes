@@ -39,6 +39,7 @@ public class HomeBusca {
     }
 
     public void selecionarBusca(String value) {
+        driver.waitElement("//*[@class='search-input__dropdown-new search-input__dropdown']", "xpath");
         driver.findElem("//*[text()='" + value + "']", "xpath").click();
     }
 

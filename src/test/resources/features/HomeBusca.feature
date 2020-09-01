@@ -78,7 +78,7 @@ Funcionalidade: [QA-9] Home Page | Fazer buscas de empreendimentos por Localiza�
 
      Exemplos:
      | Busca         | URL                                                       |
-     | Chez Vitacon  | /lancamento/REM15992/chez-vitacon-sao-paulo-consolacao    |
+     | Reserva Mundi | /lancamento/REM16511/reserva-mundi-sao-paulo-vila-formosa |
 
   Cenario: [CT_007] Home Page | Busca | Compra | Busca inválida
     Dado retiro a seleção Comprar Pronto

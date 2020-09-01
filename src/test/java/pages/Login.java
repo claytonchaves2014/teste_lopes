@@ -64,7 +64,7 @@ public class Login {
 
     public void inserirCPF() {
         if(driver.getCurrentUrl().contains("dev")) {
-            driver.sendKeys("02285295812", "username");
+            System.out.println("aguardando");
         }
         else {
             driver.sendKeys("531.981.237-04", "username");
@@ -77,7 +77,7 @@ public class Login {
 
     public void inserirSeCorretor() {
         if(driver.getCurrentUrl().contains("dev")) {
-            driver.sendKeys("02285295812", "password");
+            System.out.println("aguardando");
         }
         else {
             driver.sendKeys("531collavizza.rj", "password");

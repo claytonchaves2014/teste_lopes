@@ -39,13 +39,13 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
       | Email                  | Instrucoes                                                               |
       | keflin.rosa@tqi.com.br | Acesse o e-mail enviado para o endereço cadastrado e siga as instruções. |
 
-  Cenário: [QA-80] Login | Corretor | Acessar conta
-    Dado clico em Minha conta
-    Quando clico em Corretor
-    E insiro meu CPF de corretor
-    E insiro minha Senha de corretor
-    E clico em Entrar
-    Então acesso a conta do Corretor
+#  Cenário: [QA-80] Login | Corretor | Acessar conta
+#    Dado clico em Minha conta
+#    Quando clico em Corretor
+#    E insiro meu CPF de corretor
+#    E insiro minha Senha de corretor
+#    E clico em Entrar
+#    Então acesso a conta do Corretor
 
   Esquema do Cenário: [QA-83] Login | Corretor | Acesso inválido
     Dado clico em Minha conta
