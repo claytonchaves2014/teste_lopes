@@ -33,4 +33,9 @@ public class HomePageSteps extends BaseSteps {
         homePage.terceiroTitulo(titulo);
         homePage.terceiroDescricao(descricao);
     }
+
+    @Então("a Home Page é aberta")
+    public void aHomePageÉAberta() {
+        homePage.verificarHomePage();
+    }
 }
