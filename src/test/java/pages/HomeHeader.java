@@ -25,6 +25,7 @@ public class HomeHeader {
     }
 
     public void clicarCookies() {
+        driver.waitElementToBeClickable("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
         driver.click("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
     }
 

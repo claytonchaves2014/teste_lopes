@@ -1,8 +1,7 @@
 package steps;
 
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Então;
-import io.cucumber.java.pt.Quando;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Quando;
 import pages.HomeFooter;
 import support.BaseSteps;
 
@@ -38,6 +37,7 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Relação com investidores")
     public void clicoEmRelaçãoComInvestidores() throws InterruptedException {
         homeFooter.clicarRelacaoInvestidores();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Venda seu imóvel")
@@ -53,6 +53,7 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Credipronto")
     public void clicoEmCredipronto() throws InterruptedException {
         homeFooter.clicarCredipronto();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Serviços de fotografia")
@@ -60,13 +61,39 @@ public class HomeFooterSteps extends BaseSteps {
         homeFooter.clicarServFotografia();
     }
 
-    @Então("verifico que a URL de Relação com investores aberta é {string}")
-    public void verificoQueAURLDeRelaçãoComInvestoresAbertaÉ(String value) {
-        homeFooter.urlRelacaoInv(value);
+    @Quando("clico em Facebook")
+    public void clicoEmFacebook() throws InterruptedException {
+        homeFooter.clicarFacebook();
+        homeFooter.trocarJanela();
     }
 
-    @Então("verifico que a URL de Credipronto aberta é {string}")
-    public void verificoQueAURLDeCrediprontoAbertaÉ(String value) {
-        homeFooter.urlCredipronto(value);
+    @Quando("clico em Twitter")
+    public void clicoEmTwitter() throws InterruptedException {
+        homeFooter.clicarTwitter();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em Instagram")
+    public void clicoEmInstagram() throws InterruptedException {
+        homeFooter.clicarInstagram();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em Linkedin")
+    public void clicoEmLinkedin() throws InterruptedException {
+        homeFooter.clicarLinkedin();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em YouTube")
+    public void clicoEmYouTube() throws InterruptedException {
+        homeFooter.clicarYoutube();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em Blog")
+    public void clicoEmBlog() throws InterruptedException {
+        homeFooter.clicarBlog();
+        homeFooter.trocarJanela();
     }
 }

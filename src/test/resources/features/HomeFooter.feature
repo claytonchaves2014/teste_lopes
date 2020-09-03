@@ -29,7 +29,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Relação com investidores
     Dado verifico o Footer da página
     Quando clico em Relação com investidores
-    Então verifico que a URL de Relação com investores aberta é "https://ri.lopes.com.br/"
+    Então verifico que a URL é aberta "https://ri.lopes.com.br/"
 
   Cenário: [CT_002] Home Page | Footer | Venda seu imóvel
     Dado verifico o Footer da página
@@ -44,9 +44,39 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Credipronto
     Dado verifico o Footer da página
     Quando clico em Credipronto
-    Então verifico que a URL de Credipronto aberta é "https://www.credipronto.com.br/"
+    Então verifico que a URL é aberta "https://www.credipronto.com.br/"
 
   Cenário: [CT_002] Home Page | Footer | Serviços de fotografia
     Dado verifico o Footer da página
     Quando clico em Serviços de fotografia
     Então verifico que a URL é aberta "/paginas/servicos-de-fotografia"
+
+  Cenário: [CT_002] Home Page | Footer | Facebook
+    Dado verifico o Footer da página
+    Quando clico em Facebook
+    Então verifico que a URL é aberta "https://www.facebook.com/imobiliaria.lopes"
+
+  Cenário: [CT_002] Home Page | Footer | Twitter
+    Dado verifico o Footer da página
+    Quando clico em Twitter
+    Então verifico que a URL é aberta "https://twitter.com/Lopes_Imoveis"
+
+  Cenário: [CT_002] Home Page | Footer | Instagram
+    Dado verifico o Footer da página
+    Quando clico em Instagram
+    Então verifico que a URL é aberta "https://www.instagram.com/lopesimoveis/"
+
+  Cenário: [CT_002] Home Page | Footer | Linkedin
+    Dado verifico o Footer da página
+    Quando clico em Linkedin
+    Então verifico que a URL é aberta "www.linkedin.com"
+
+  Cenário: [CT_002] Home Page | Footer | YouTube
+    Dado verifico o Footer da página
+    Quando clico em YouTube
+    Então verifico que a URL é aberta "https://www.youtube.com/user/lopesconsultoria"
+
+  Cenário: [CT_002] Home Page | Footer | Blog
+    Dado verifico o Footer da página
+    Quando clico em Blog
+    Então verifico que a URL é aberta "https://www.lopes.com.br/blog"

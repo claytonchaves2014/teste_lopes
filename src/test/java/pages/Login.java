@@ -62,7 +62,29 @@ public class Login {
         driver.sendKeys(value, "username");
     }
 
+    public void inserirCPF() {
+        if(driver.getCurrentUrl().contains("dev")) {
+            System.out.println("aguardando");
+        }
+        else {
+            driver.sendKeys("531.981.237-04", "username");
+        }
+    }
+
     public void inserirSenhaCorretor(String value) {
         driver.sendKeys(value, "password");
+    }
+
+    public void inserirSeCorretor() {
+        if(driver.getCurrentUrl().contains("dev")) {
+            System.out.println("aguardando");
+        }
+        else {
+            driver.sendKeys("531collavizza.rj", "password");
+        }
+    }
+
+    public void validarContaCorretor() {
+        driver.findElem("//*[@class='sub-header-title']", "xpath").isDisplayed();
     }
 }

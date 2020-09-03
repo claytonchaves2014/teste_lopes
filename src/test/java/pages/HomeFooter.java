@@ -1,8 +1,9 @@
 package pages;
 
-import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import support.Setup;
+
+import java.util.ArrayList;
 
 public class HomeFooter {
 
@@ -64,13 +65,38 @@ public class HomeFooter {
         driver.click("//*[@id=\"link/paginas/servicos-de-fotografia\"]/p", "xpath");
     }
 
-    public void urlRelacaoInv(String value) {
-        String href  = driver.getHref("//*[@id=\"linkhttps://ri.lopes.com.br/\"]", "xpath");
-        Assert.assertEquals(value, href);
+    public void clicarFacebook() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.facebook.com/imobiliaria.lopes\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.facebook.com/imobiliaria.lopes\"]/div/p", "xpath");
     }
 
-    public void urlCredipronto(String value) {
-        String href  = driver.getHref("//*[@id=\"linkhttps://www.credipronto.com.br\"]", "xpath");
-        Assert.assertEquals(value, href);
+    public void trocarJanela() {
+        ArrayList tabs = new ArrayList(driver.getWindowHandles());
+        driver.switchWin("2");
+    }
+
+    public void clicarTwitter() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.twitter.com/Lopes_Imoveis\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.twitter.com/Lopes_Imoveis\"]/div/p", "xpath");
+    }
+
+    public void clicarInstagram() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.instagram.com/lopesimoveis/\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.instagram.com/lopesimoveis/\"]/div/p", "xpath");
+    }
+
+    public void clicarLinkedin() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis/\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis/\"]/div/p", "xpath");
+    }
+
+    public void clicarYoutube() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.youtube.com/user/lopesconsultoria\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.youtube.com/user/lopesconsultoria\"]/div/p", "xpath");
+    }
+
+    public void clicarBlog() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.lopes.com.br/blog/\"]/div/p", "xpath");
+        driver.click("//*[@id=\"linkhttps://www.lopes.com.br/blog/\"]/div/p", "xpath");
     }
 }

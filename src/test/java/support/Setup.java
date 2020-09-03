@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
@@ -41,7 +42,7 @@ public class Setup {
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
 
-                    chromeOptions.addArguments("--incognito");
+//                    chromeOptions.addArguments("--incognito");
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 
@@ -177,6 +178,12 @@ public class Setup {
         return element.getAttribute("href");
     }
 
+    public String getSrc(String parValue, String... parType) {
+        final WebElement element = findElem(parValue, parType);
+
+        return element.getAttribute("src");
+    }
+
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
@@ -227,7 +234,9 @@ public class Setup {
     }
 
     public void switchWin(String... parValue) {
-        driver.switchTo().defaultContent();
+        ArrayList tabs = new ArrayList(driver.getWindowHandles());
+        System.out.println(tabs.size());
+        driver.switchTo().window((String) tabs.get(parValue.length));
     }
 
     public void ScrollTo(WebElement parValue) {

@@ -20,7 +20,8 @@ public class HomeBusca {
     }
 
     public void clicarBuscar() {
-        driver.click("//*[@value=\"Buscar\"]", "xpath");
+        driver.waitElementToBeClickable("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/div/div/div[2]/div/input", "xpath");
+        driver.click("//*[@value='Buscar']", "xpath");
     }
 
     public void aguardarResultados() throws InterruptedException {
@@ -38,6 +39,7 @@ public class HomeBusca {
     }
 
     public void selecionarBusca(String value) {
+        driver.waitElement("//*[@class='search-input__dropdown-new search-input__dropdown']", "xpath");
         driver.findElem("//*[text()='" + value + "']", "xpath").click();
     }
 
