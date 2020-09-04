@@ -234,7 +234,7 @@ public class ResultadoFiltros {
     }
 
     public void selecionarOutrosFiltros(String value) {
-        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[6]/div[2]/div/div/lps-more-type-filter/form/div/lps-checkbox-list[1]/div/div[2]", "xpath");
+        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[6]/div[2]/div/div/lps-more-type-filter/form/div", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
         for (WebElement option : options) {

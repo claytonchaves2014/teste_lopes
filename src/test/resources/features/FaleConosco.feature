@@ -2,7 +2,7 @@
 
 @REGRESSAO @FaleConosco
 
-Funcionalidade: [QA-26] Fale Conosco | Validar os destaques do Portal
+Funcionalidade: [QA-26] Fale Conosco | Validar a página e preencher formulário
 
   Contexto:
     Dado acesso o Portal da Lopes

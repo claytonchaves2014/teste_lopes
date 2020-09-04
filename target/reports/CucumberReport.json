@@ -1,0 +1,621 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5249491107,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 104789045,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 170463493,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1112776327,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1053159829,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T21:40:40.523Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1071850560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 199,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Outros filtros",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-outros-filtros;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-academia?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 151814244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2537795906,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 602219856,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "clico em Outros filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmOutrosFiltros()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2699797401,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "seleciono \"Academia de ginástica\" como Outros Filtros",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Academia de ginástica\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoComoOutrosFiltros(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 226414254,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2124340869,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "vejo os Resultados de Busca com a url \"/comodidade/com-academia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/comodidade/com-academia\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6972063824,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 205601724,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 196190182,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1630552871,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1057787541,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T21:40:57.655Z",
+        "before": [
+          {
+            "result": {
+              "duration": 621096634,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 200,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Outros filtros",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-outros-filtros;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-churrasqueira?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 94402454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2946835103,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 680677399,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "clico em Outros filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmOutrosFiltros()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2669633538,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "seleciono \"Churrasqueira\" como Outros Filtros",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Churrasqueira\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoComoOutrosFiltros(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 234975766,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2158819740,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "vejo os Resultados de Busca com a url \"comodidade/com-churrasqueira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"comodidade/com-churrasqueira\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9247279811,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 83610826,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 167610163,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1112018142,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1050499858,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T21:41:17.120Z",
+        "before": [
+          {
+            "result": {
+              "duration": 606989759,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 201,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Outros filtros",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-outros-filtros;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-piscina?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
+            ],
+            "result": {
+              "duration": 93934749,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2438781156,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 656972179,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "clico em Outros filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmOutrosFiltros()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2863495142,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "seleciono \"Piscina\" como Outros Filtros",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Piscina\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoComoOutrosFiltros(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 262011417,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2129512831,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "vejo os Resultados de Busca com a url \"comodidade/com-piscina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"comodidade/com-piscina\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      }
+    ],
+    "name": "[QA-16] Resultado de Busca | Filtrar os resultados de busca",
+    "description": "",
+    "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/ResultadoFiltros.feature",
+    "tags": [
+      {
+        "name": "@REGRESSAO",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@ResultadoFiltros",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
