@@ -42,7 +42,7 @@ public class Setup {
                     ChromeOptions chromeOptions = new ChromeOptions();
 
 //                    chromeOptions.addArguments("--incognito");
-//                    chromeOptions.addArguments("--disable-geolocation");
+                    chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 
                     if(System.getProperty("headless") != null &&
