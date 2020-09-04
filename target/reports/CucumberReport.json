@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5249491107,
+              "duration": 5891857925,
               "status": "passed"
             },
             "line": 8,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 104789045,
+              "duration": 96324771,
               "status": "passed"
             },
             "line": 9,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 170463493,
+              "duration": 179836464,
               "status": "passed"
             },
             "line": 10,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 1112776327,
+              "duration": 2684161763,
               "status": "passed"
             },
             "line": 11,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1053159829,
+              "duration": 1053615804,
               "status": "passed"
             },
             "line": 12,
@@ -84,11 +84,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-04T21:40:40.523Z",
+        "start_timestamp": "2020-09-04T21:44:08.991Z",
         "before": [
           {
             "result": {
-              "duration": 1071850560,
+              "duration": 1027617301,
               "status": "passed"
             },
             "match": {
@@ -106,7 +106,7 @@
               "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-academia?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
             ],
             "result": {
-              "duration": 151814244,
+              "duration": 94339871,
               "status": "passed"
             },
             "match": {
@@ -119,7 +119,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2537795906,
+              "duration": 2399376288,
               "status": "passed"
             },
             "line": 191,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 602219856,
+              "duration": 710435215,
               "status": "passed"
             },
             "line": 192,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2699797401,
+              "duration": 2701187168,
               "status": "passed"
             },
             "line": 193,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 226414254,
+              "duration": 226797434,
               "status": "passed"
             },
             "line": 194,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 2124340869,
+              "duration": 2531981053,
               "status": "passed"
             },
             "line": 195,
@@ -208,7 +208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6972063824,
+              "duration": 4260192057,
               "status": "passed"
             },
             "line": 8,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 205601724,
+              "duration": 91788920,
               "status": "passed"
             },
             "line": 9,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 196190182,
+              "duration": 172854636,
               "status": "passed"
             },
             "line": 10,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 1630552871,
+              "duration": 1109216017,
               "status": "passed"
             },
             "line": 11,
@@ -268,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 1057787541,
+              "duration": 1054243933,
               "status": "passed"
             },
             "line": 12,
@@ -281,11 +281,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-04T21:40:57.655Z",
+        "start_timestamp": "2020-09-04T21:44:28.615Z",
         "before": [
           {
             "result": {
-              "duration": 621096634,
+              "duration": 621097425,
               "status": "passed"
             },
             "match": {
@@ -303,7 +303,7 @@
               "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-churrasqueira?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
             ],
             "result": {
-              "duration": 94402454,
+              "duration": 91222580,
               "status": "passed"
             },
             "match": {
@@ -316,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2946835103,
+              "duration": 2508358620,
               "status": "passed"
             },
             "line": 191,
@@ -328,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 680677399,
+              "duration": 593023521,
               "status": "passed"
             },
             "line": 192,
@@ -340,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 2669633538,
+              "duration": 2715443630,
               "status": "passed"
             },
             "line": 193,
@@ -358,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 234975766,
+              "duration": 226867127,
               "status": "passed"
             },
             "line": 194,
@@ -370,7 +370,7 @@
           },
           {
             "result": {
-              "duration": 2158819740,
+              "duration": 2035517705,
               "status": "passed"
             },
             "line": 195,
@@ -405,7 +405,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9247279811,
+              "duration": 6915832999,
               "status": "passed"
             },
             "line": 8,
@@ -417,7 +417,7 @@
           },
           {
             "result": {
-              "duration": 83610826,
+              "duration": 90597237,
               "status": "passed"
             },
             "line": 9,
@@ -429,7 +429,7 @@
           },
           {
             "result": {
-              "duration": 167610163,
+              "duration": 171474523,
               "status": "passed"
             },
             "line": 10,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 1112018142,
+              "duration": 1105485216,
               "status": "passed"
             },
             "line": 11,
@@ -465,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 1050499858,
+              "duration": 1053132276,
               "status": "passed"
             },
             "line": 12,
@@ -478,11 +478,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-04T21:41:17.120Z",
+        "start_timestamp": "2020-09-04T21:44:44.098Z",
         "before": [
           {
             "result": {
-              "duration": 606989759,
+              "duration": 792782559,
               "status": "passed"
             },
             "match": {
@@ -500,7 +500,7 @@
               "URL: https://devfrontportaltqi.lpsbr.com/busca/venda/br/sp/sao-paulo/comodidade/com-piscina?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent"
             ],
             "result": {
-              "duration": 93934749,
+              "duration": 99386581,
               "status": "passed"
             },
             "match": {
@@ -513,7 +513,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2438781156,
+              "duration": 4949799298,
               "status": "passed"
             },
             "line": 191,
@@ -525,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 656972179,
+              "duration": 679900558,
               "status": "passed"
             },
             "line": 192,
@@ -537,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 2863495142,
+              "duration": 2852159912,
               "status": "passed"
             },
             "line": 193,
@@ -555,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 262011417,
+              "duration": 228670494,
               "status": "passed"
             },
             "line": 194,
@@ -567,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 2129512831,
+              "duration": 2200258350,
               "status": "passed"
             },
             "line": 195,
