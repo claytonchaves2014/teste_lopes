@@ -17,7 +17,7 @@ public class HomeBuscaSteps extends BaseSteps {
     }
 
     @Quando("clico no botão Buscar")
-    public void clicoNoBotãoBuscar() {
+    public void clicoNoBotãoBuscar() throws InterruptedException {
         homeBusca.clicarBuscar();
     }
 

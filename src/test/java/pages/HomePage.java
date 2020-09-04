@@ -45,4 +45,8 @@ public class HomePage {
         WebElement desc = driver.findElem("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[2]/div/lps-information-lopes/div/ul/li[3]/div/div[2]/p[2]", "xpath");
         Assert.assertEquals(descricao, desc.getText());
     }
+
+    public void verificarHomePage() {
+        driver.findElem("//*[@class='search-container']", "xpath").isDisplayed();
+    }
 }

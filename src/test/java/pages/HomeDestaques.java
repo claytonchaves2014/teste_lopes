@@ -83,4 +83,12 @@ public class HomeDestaques {
     public void validarObraProxLanc() {
         driver.findElem("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[3]/section[2]/lps-card-grid/div[1]/ul/li[1]/lps-card-product/lps-link-product/div/a/article/lps-attributes/div/div[2]", "xpath").isDisplayed();
     }
+
+    public void validarAtributos() {
+        driver.findElem("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[3]/section[1]/lps-card-grid/div[1]/ul/li[1]/lps-card-product/lps-link-product/div/a/article/lps-attributes/div", "xpath").isDisplayed();
+    }
+
+    public void validarAtributosProxLan() {
+        driver.findElem("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[3]/section[2]/lps-card-grid/div[1]/ul/li[1]/lps-card-product/lps-link-product/div/a/article/lps-attributes/div", "xpath").isDisplayed();
+    }
 }

@@ -1,8 +1,11 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import support.Setup;
+
+import java.util.List;
 
 public class FaleConosco {
 
@@ -35,7 +38,15 @@ public class FaleConosco {
     }
 
     public void selecionarAssunto(String value) {
-        driver.findElem("//*[text()='" + value + "']", "xpath").click();
+        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
+
+        List<WebElement> options = select.findElements(By.tagName("li"));
+        for (WebElement option : options) {
+
+            if(value.equals(option.getText())) {
+                option.click();
+            }
+        }
     }
 
     public void inserirNome(String value) {
@@ -56,19 +67,14 @@ public class FaleConosco {
     }
 
     public void selecionarContato(String value) throws InterruptedException {
-        switch (value) {
-            case "E-mail":
-                driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[1]", "xpath");
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[1]", "xpath");
-                break;
-            case "Telefone":
-                driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[2]", "xpath");
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[2]", "xpath");
-                break;
-            case "Indiferente":
-                driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[3]", "xpath");
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[3]", "xpath");
-                break;
+        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-2\"]/div/div/ul", "xpath");
+
+        List<WebElement> options = select.findElements(By.tagName("li"));
+        for (WebElement option : options) {
+
+            if(value.equals(option.getText())) {
+                option.click();
+            }
         }
     }
 

@@ -85,6 +85,6 @@ public class Login {
     }
 
     public void validarContaCorretor() {
-        driver.findElem("//*[@class='sub-header-title']", "xpath").isDisplayed();
+        driver.findElem("widget-container-sm", "id").isDisplayed();
     }
 }
