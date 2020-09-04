@@ -8,6 +8,7 @@ Funcionalidade: [QA-24] Ficha do Imóvel | Validar as dinâmicas SEO
     E insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
+    E clico no botão avançar
     Então clico em uma card
 
   Cenario: [QA-24] Ficha do Imóvel | SEO | Validar as dinâmicas

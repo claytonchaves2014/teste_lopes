@@ -31,5 +31,6 @@ public class FichaGaleriaSteps extends BaseSteps {
 
     @E("vejo a lista de imagens")
     public void vejoAListaDeImagens() {
+        fichaGaleria.verificarListaImg();
     }
 }

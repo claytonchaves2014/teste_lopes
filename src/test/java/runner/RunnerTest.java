@@ -10,8 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "json:target/reports/CucumberReport.json"},
-        glue = {"steps"},
-        tags = {"@REGRESSAO"}
+        glue = {"steps"}
 )
 
 public class RunnerTest {

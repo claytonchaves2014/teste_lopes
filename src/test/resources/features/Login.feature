@@ -39,13 +39,20 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
       | Email                  | Instrucoes                                                               |
       | keflin.rosa@tqi.com.br | Acesse o e-mail enviado para o endereço cadastrado e siga as instruções. |
 
-#  Cenário: [QA-80] Login | Corretor | Acessar conta
-#    Dado clico em Minha conta
-#    Quando clico em Corretor
-#    E insiro meu CPF de corretor
+  Esquema do Cenario: Cenário: [QA-80] Login | Corretor | Acessar conta
+    Dado clico em Minha conta
+    Quando clico em Corretor
+    E insiro meu CPF de corretor "<CPF>"
+    E insiro minha Senha de corretor "<Senha>"
+    E clico em Entrar
+    Então acesso a conta do Corretor
+
+#        E insiro meu CPF de corretor
 #    E insiro minha Senha de corretor
-#    E clico em Entrar
-#    Então acesso a conta do Corretor
+
+    Exemplos:
+      | CPF            | Senha    |
+      | 056.957.720-95 | lopes123 |
 
   Esquema do Cenário: [QA-83] Login | Corretor | Acesso inválido
     Dado clico em Minha conta
@@ -69,5 +76,5 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
     Então vejo as instruções para recuperar a senha "<Instrucoes>"
 
     Exemplos:
-      | CPF            | Email               | Instrucoes                                                               |
-      | 084.069.078-94 | boni@mailinator.com | Acesse o e-mail enviado para o endereço cadastrado e siga as instruções. |
+      | CPF            | Email                      | Instrucoes                                                               |
+      | 056.957.720-95 | user_mock_1@mailinator.com | Acesse o e-mail enviado para o endereço cadastrado e siga as instruções. |

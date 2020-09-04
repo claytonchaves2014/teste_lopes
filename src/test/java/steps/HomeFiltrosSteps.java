@@ -47,12 +47,12 @@ public class HomeFiltrosSteps extends BaseSteps {
     }
 
     @Quando("seleciono {string} como quantidade de Dormitórios")
-    public void selecionoComoQuantidadeDeDormitórios(String value) {
+    public void selecionoComoQuantidadeDeDormitórios(String value) throws InterruptedException {
         homeFiltros.selecionarBanheiro(value);
     }
 
     @Quando("seleciono {string} como quantidade de Vagas")
-    public void selecionoComoQuantidadeDeVagas(String value) {
+    public void selecionoComoQuantidadeDeVagas(String value) throws InterruptedException {
         homeFiltros.selecionarVaga(value);
     }
 

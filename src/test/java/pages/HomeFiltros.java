@@ -22,6 +22,7 @@ public class HomeFiltros {
 
     public void inserirValorMax(String value) {
         driver.sendKeys(value, "maxValue");
+        driver.click("minArea");
     }
 
     public void inserirAreaMin(String value) {
@@ -30,6 +31,7 @@ public class HomeFiltros {
 
     public void inserirAreaMax(String value) {
         driver.sendKeys(value, "maxArea");
+        driver.click("maxValue");
     }
 
     public void selecionarBanheiro(String value) {

@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -40,8 +41,8 @@ public class Setup {
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
 
-                    chromeOptions.addArguments("--incognito");
-                    chromeOptions.addArguments("--disable-geolocation");
+//                    chromeOptions.addArguments("--incognito");
+//                    chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 
                     if(System.getProperty("headless") != null &&
@@ -242,7 +243,8 @@ public class Setup {
     }
 
     public void allowGeo() {
-        ((JavascriptExecutor)driver).executeScript("navigator.geolocation.getCurrentPosition = function(success) { success({coords: {latitude: -23.5534427, longitude: --46.4481535}}); }");
+//        ((JavascriptExecutor)driver).executeScript("navigator.geolocation.getCurrentPosition = function(success) { success({coords: {latitude: -23.5534427, longitude: --46.4481535}}); }");
+        ((JavascriptExecutor)driver).executeScript("window.navigator.geolocation.getCurrentPosition = function(success){ var position = {\"coords\" : {  \"latitude\": \"18.975080\",   \"longitude\": \"72.825838\" }  };  success(position);}");
     }
 
     public String getTitle() {
@@ -263,13 +265,23 @@ public class Setup {
 
     public void blockGeolocation() {
         ChromeOptions options = new ChromeOptions();
-        Map< String, Object > prefs = new HashMap < String, Object > ();
-        Map < String, Object > profile = new HashMap < String, Object > ();
-        Map < String, Object > contentSettings = new HashMap < String, Object > ();
+        DesiredCapabilities caps = new DesiredCapabilities();
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        Map<String, Object> profile = new HashMap<String, Object>();
+        Map<String, Object> contentSettings = new HashMap<String, Object>();
 
-        contentSettings.put("geolocation", 2);
+        contentSettings.put("geolocation", 1);
         profile.put("managed_default_content_settings", contentSettings);
         prefs.put("profile", profile);
+        options.setExperimentalOption("prefs", prefs);
+        caps.setCapability(ChromeOptions.CAPABILITY, options);
+    }
+
+    public void desativarGeo() {
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("profile.default_content_setting_values.notifications", 2);
+
+        ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs", prefs);
     }
 }

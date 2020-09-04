@@ -10,6 +10,7 @@ Funcionalidade: [QA-22] Ficha do Imóvel | Validar a galeria do imóvel
     Dado insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
+    E clico no botão avançar
     Quando clico em uma card
     E vejo a Ficha do Imóvel
     E clico na imagem do imóvel

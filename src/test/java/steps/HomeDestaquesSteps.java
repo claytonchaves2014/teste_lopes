@@ -95,4 +95,14 @@ public class HomeDestaquesSteps extends BaseSteps {
     public void vejoOEstadoDaObraDoEmpreendimentoDePróximosLançamentos() {
         homeDestaques.validarObraProxLanc();
     }
+
+    @E("vejo os atributos do empreendimento")
+    public void vejoOsAtributosDoEmpreendimento() {
+        homeDestaques.validarAtributos();
+    }
+
+    @E("vejo os atributos do empreendimento de Próximos Lançamentos")
+    public void vejoOsAtributosDoEmpreendimentoDePróximosLançamentos() {
+        homeDestaques.validarAtributosProxLan();
+    }
 }

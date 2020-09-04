@@ -45,5 +45,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Quando insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
+    E clico no botão avançar
     Quando clico em uma card
     Então vejo a Ficha do Imóvel

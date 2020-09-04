@@ -8,10 +8,8 @@ Funcionalidade: [QA-75] Favoritos | Validar os imóveis favoritados
     E insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
-    Então clico em uma card
 
   Cenario: [QA-75] Favoritos | Validar os imóveis favoritados
-    Dado vejo a Ficha do Imóvel
-    Quando favorito um imóvel
+    Quando clico para favoritar um imóvel
     E clico no header Favoritos
     Então vejo meus imóveis favoritos

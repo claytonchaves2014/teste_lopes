@@ -8,6 +8,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
+    E clico no botão avançar
     Então clico em uma card
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Falar por Chat

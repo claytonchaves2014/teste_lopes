@@ -19,9 +19,10 @@ public class HomeBusca {
         driver.click("//*[@text=\"Comprar Pronto\"]", "xpath");
     }
 
-    public void clicarBuscar() {
+    public void clicarBuscar() throws InterruptedException {
+        Thread.sleep(1000);
         driver.waitElementToBeClickable("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/div/div/div[2]/div/input", "xpath");
-        driver.click("//*[@value='Buscar']", "xpath");
+        driver.forceClick("//*[@value='Buscar']", "xpath");
     }
 
     public void aguardarResultados() throws InterruptedException {

@@ -1,0 +1,5310 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10312873317,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 117863007,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 767454104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1136604912,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1063985608,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:37:36.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1125149154,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Casa",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-casa;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/casa?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dHOUSE\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 94256676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1789734117,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 484683970,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 351046992,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono o subtipo \"Casa\" do tipo Casa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Casa\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoCasa(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 215540091,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2036893523,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/casa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/casa\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8593974308,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 109319716,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 682877989,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1122197213,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1065885521,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:37:55.559Z",
+        "before": [
+          {
+            "result": {
+              "duration": 901704903,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Casa",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-casa;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/casa-de-vila?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 92803255,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1721117708,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 496429621,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 391274475,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono o subtipo \"Casa de Vila\" do tipo Casa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Casa de Vila\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoCasa(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 177815095,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2030487193,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/casa-de-vila\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/casa-de-vila\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8542000568,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 100689845,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 697479140,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1643436524,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1071046090,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:38:12.948Z",
+        "before": [
+          {
+            "result": {
+              "duration": 944769980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Casa",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-casa;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/casa-terrea?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 105624689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2277854718,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 457215022,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 400554934,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono o subtipo \"Casa Térrea\" do tipo Casa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Casa Térrea\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoCasa(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 171160386,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2035335066,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/casa-terrea\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/casa-terrea\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8153926617,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 109993489,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 702729572,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1123279806,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1074378250,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:38:31.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 847834783,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Apartamento",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-apartamento;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/apartamento?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dAPARTMENT\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 90990676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1795779395,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 470335053,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 418311089,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono o subtipo \"Apartamento\" do tipo Apartamento",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apartamento\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoApartamento(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 176853763,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2029984348,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/apartamento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/apartamento\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7833523266,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 154451861,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 701854357,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1124660588,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1062175553,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:38:48.400Z",
+        "before": [
+          {
+            "result": {
+              "duration": 600564361,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Apartamento",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-apartamento;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/cobertura?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dAPARTMENT\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 89958269,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1614162667,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 513611789,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 369790187,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono o subtipo \"Cobertura\" do tipo Apartamento",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cobertura\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoApartamento(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 173730992,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2023480813,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/cobertura\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/cobertura\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7293840663,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 108925477,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 692742420,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1125930894,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1068656432,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:39:04.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 786451685,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Apartamento",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-apartamento;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/duplex?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dAPARTMENT\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 93405812,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1797107881,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 393321553,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 525537086,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono o subtipo \"Duplex\" do tipo Apartamento",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Duplex\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoApartamento(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 168676211,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2025174512,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/duplex\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/duplex\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8508769185,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123686478,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 680261581,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1122477963,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1062259536,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:39:20.746Z",
+        "before": [
+          {
+            "result": {
+              "duration": 917769703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Flat",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-flat",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/flat?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dFLAT\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 91979611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1548845124,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 508711709,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 201026841,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "seleciono o subtipo \"Flat\" do tipo Flat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flat\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoFlat(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 273460329,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2025458464,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/flat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/flat\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8677235623,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 104827375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 686619115,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1120266782,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1065856856,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:39:37.813Z",
+        "before": [
+          {
+            "result": {
+              "duration": 597875534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Galpão",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-galpão;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/galpao?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 89819014,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2504717402,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 497464253,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 305228493,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "seleciono o subtipo \"Galpão\" do tipo Galpão",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Galpão\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoGalpão(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 192164446,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2025246213,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/galpao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/galpao\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9428523503,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 124402205,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 736917269,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2158493968,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1059829474,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:39:55.683Z",
+        "before": [
+          {
+            "result": {
+              "duration": 593856323,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Galpão",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-galpão;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/barracao?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 88874660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2267461188,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 484328741,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 261776684,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "seleciono o subtipo \"Barracão\" do tipo Galpão",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Barracão\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoGalpão(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 172395824,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2021559703,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/barracao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/barracao\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10859112549,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 94632516,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 696693730,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1122158255,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1059799883,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:40:15.083Z",
+        "before": [
+          {
+            "result": {
+              "duration": 789168294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Hotel",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-hotel",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/hotel?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dHOTEL\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 88986056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2399703506,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 495420624,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 235814365,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "seleciono o subtipo \"Hotel\" do tipo Hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoHotel(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 189555822,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2026211650,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/hotel\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7668910371,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 101425700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 695114479,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1116013240,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1066701795,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:40:35.143Z",
+        "before": [
+          {
+            "result": {
+              "duration": 837250287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Lajes corporativas",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-lajes-corporativas",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/lajes-corporativas?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 90654386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2094111631,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 488071502,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 247879738,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "seleciono o subtipo \"Lajes corporativas\" do tipo Lajes corporativas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lajes corporativas\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoLajesCorporativas(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 214008723,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2031548878,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/lajes-corporativas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/lajes-corporativas\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8259767444,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 106512592,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 681902829,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1118118724,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1061522253,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:40:51.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 597377704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Loteamento",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-loteamento",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/loteamento?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dALLOTMENT\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 87643230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883677360,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 500532269,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 246629982,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "seleciono o subtipo \"Loteamento\" do tipo Loteamento",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loteamento\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoLoteamento(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 193568981,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2030360277,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/loteamento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/loteamento\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8925174873,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123014099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 673655272,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1122522816,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1068291967,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:41:08.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 783063853,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Mall",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-mall;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/loja?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dMALL\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 92877563,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2010106862,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 488658215,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 305561707,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "seleciono o subtipo \"Loja\" do tipo Mall",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loja\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoMall(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 170238797,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2026549694,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/loja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/loja\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 11018023380,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 103059355,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 756932355,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1118720394,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1057282942,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:41:26.358Z",
+        "before": [
+          {
+            "result": {
+              "duration": 609590321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 97,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Mall",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-mall;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/mall?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dMALL\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 89485746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1650092135,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 437884808,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 311461566,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "seleciono o subtipo \"Mall\" do tipo Mall",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mall\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoMall(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 169418353,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2028377638,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/mall\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/mall\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8524232514,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 110631494,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 740175453,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1633001410,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1062287693,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:41:45.710Z",
+        "before": [
+          {
+            "result": {
+              "duration": 838074601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Rural",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-rural;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/rural?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026tipo\u003dRURAL\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 90395153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1817014307,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 526533880,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 350927806,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "seleciono o subtipo \"Rural\" do tipo Rural",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rural\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoRural(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 168129908,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2025080798,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/rural\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/rural\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7651626147,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 162239264,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 692659993,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1116764056,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1061205993,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:42:03.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 838346966,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 109,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Rural",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-rural;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/chacara?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 90345617,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2167483512,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 465895346,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 343965468,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "seleciono o subtipo \"Chácara\" do tipo Rural",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chácara\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoRural(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 179576146,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2024461110,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/chacara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/chacara\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8755177229,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 109757569,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 757976304,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1118473090,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1063501474,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:42:20.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 595413832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 113,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Tipo de Imóvel | Salão",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-tipo-de-imóvel-|-salão",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/salao-comercial?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 89453617,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2390270521,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 489438425,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 258587613,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "seleciono o subtipo \"Salão Comercial\" do tipo Salão",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salão Comercial\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoSalão(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 207845660,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2029234641,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/salao-comercial\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/salao-comercial\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7710761133,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 106386512,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 681967959,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1135309787,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1065751495,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:42:38.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 799839132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 129,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Salas",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-salas;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/salas-comerciais?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 93848473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1854700166,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 464746308,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 300611594,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "seleciono o subtipo \"Salas Comerciais\" do tipo Salas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salas Comerciais\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoSalas(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 199691924,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2032995689,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/salas-comerciais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/salas-comerciais\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8871296433,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 118934808,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 741945808,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1132613736,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1069129559,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:42:54.718Z",
+        "before": [
+          {
+            "result": {
+              "duration": 793444837,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 130,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Salas",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-salas;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo/tipo/predio-inteiro?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 94356311,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648082455,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 501321427,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 295359902,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "seleciono o subtipo \"Prédio inteiro\" do tipo Salas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prédio inteiro\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoSalas(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 180160268,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2026530092,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/predio-inteiro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/predio-inteiro\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7580030867,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 107243062,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 712922504,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1127195300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1059505621,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:43:12.194Z",
+        "before": [
+          {
+            "result": {
+              "duration": 794418030,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 132,
+        "name": "[QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Terreno",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-tipo-de-imóvel-|-por-terreno",
+        "after": [
+          {
+            "result": {
+              "duration": 87192847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1749189279,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 517827071,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "clico em Tipo do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmTipoDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 152580720,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "seleciono o subtipo \"Terreno\" do tipo Terreno",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Terreno\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoOSubtipoDoTipoTerreno(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 217272190,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat pages.HomeBusca.validarResultados(HomeBusca.java:35)\n\tat steps.HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(HomeBuscaSteps.java:27)\n\tat ✽.vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/terreno\"(file:src/test/resources/features/ResultadoFiltros.feature:137)\n",
+              "duration": 2034412027,
+              "status": "failed"
+            },
+            "line": 137,
+            "name": "vejo os Resultados de Busca com a url \"/busca/venda/br/sp/sao-paulo/tipo/terreno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/busca/venda/br/sp/sao-paulo/tipo/terreno\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10737562334,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 111618246,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 713163968,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1121162831,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1059756627,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:43:28.342Z",
+        "before": [
+          {
+            "result": {
+              "duration": 609017698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 149,
+        "name": "[QA-16] Resultados de Busca | Filtros | Características do Imóvel",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-características-do-imóvel;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026quartos\u003d2\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 97668995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1978778394,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 460141390,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "clico em Características do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmCaracterísticasDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 211458713,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "seleciono \"2\" em \"Dormitórios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Dormitórios\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoEm(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 167116112,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2032652195,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "vejo os Resultados de Busca com a url \"quartos\u003d2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quartos\u003d2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7864225204,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 99565926,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 677343539,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1126421675,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1065794269,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:43:47.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 792878609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 155,
+        "name": "[QA-16] Resultados de Busca | Filtros | Características do Imóvel",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-características-do-imóvel;;3",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026vagas\u003d4\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 94418321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1609326941,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 508438145,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "clico em Características do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmCaracterísticasDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 198093890,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "seleciono \"4+\" em \"Vagas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4+\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Vagas\"",
+                  "offset": 18
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoEm(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 147365964,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2028664106,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "vejo os Resultados de Busca com a url \"vagas\u003d4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vagas\u003d4\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7877087962,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 107634553,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 678088819,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1121957978,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1060052464,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:44:03.859Z",
+        "before": [
+          {
+            "result": {
+              "duration": 843817175,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 158,
+        "name": "[QA-16] Resultados de Busca | Filtros | Características do Imóvel",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-características-do-imóvel;;4",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026suites\u003d3\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 90953643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631484767,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 488866803,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "clico em Características do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmCaracterísticasDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 201490555,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "seleciono \"3\" em \"Suítes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Suítes\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoEm(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 202744621,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2029045977,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "vejo os Resultados de Busca com a url \"suites\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suites\u003d3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7609579382,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 109867581,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 736955560,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1126104814,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1062036389,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:44:20.194Z",
+        "before": [
+          {
+            "result": {
+              "duration": 655327981,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 162,
+        "name": "[QA-16] Resultados de Busca | Filtros | Características do Imóvel",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-características-do-imóvel;;5",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026banheiros\u003d3\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 88357069,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1882002565,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 494565822,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "clico em Características do Imóvel",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmCaracterísticasDoImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 254102559,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "seleciono \"3\" em \"Banheiros\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Banheiros\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoEm(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 153314146,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2043248630,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "vejo os Resultados de Busca com a url \"banheiros\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"banheiros\u003d3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8350879437,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 140409467,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 630669937,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1114538879,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1067449685,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:44:36.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 600089451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 175,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Área",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-área;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026area-maior\u003d200\u0026area-menor\u003d100\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 93372775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2458715771,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 458152083,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "clico em Área",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmÁrea()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 320871399,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "insiro \"100\" como área mínima",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.insiroComoÁreaMínima(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 125534059,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "insiro \"200\" como área máxima",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.insiroComoÁreaMáxima(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 167262763,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2034204683,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "vejo os Resultados de Busca com a url \"area-maior\u003d200\u0026area-menor\u003d100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"area-maior\u003d200\u0026area-menor\u003d100\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9777167853,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 97287822,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 687993998,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1126694127,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1056098969,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:44:53.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 842178613,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 187,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Valor",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-valor;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026preco-maior\u003d300000\u0026preco-menor\u003d100000\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 96085672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2446877066,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 468276362,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "clico em Valor",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmValor()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 344451900,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "insiro \"100000\" como valor mínimo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.insiroComoValorMínimo(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 163665251,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "insiro \"300000\" como valor máximo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"300000\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.insiroComoValorMáximo(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 157307475,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2029508876,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "vejo os Resultados de Busca com a url \"preco-maior\u003d300000\u0026preco-menor\u003d100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"preco-maior\u003d300000\u0026preco-menor\u003d100000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10958811370,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 93692976,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 681455494,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insiro \"São Paulo, SP, Brasil\" no campo de busca",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 7
+                }
+              ],
+              "location": "HomeBuscaSteps.insiroNoCampoDeBusca(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1145340051,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono a opção \"São Paulo, SP, Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"São Paulo, SP, Brasil\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeBuscaSteps.selecionoAOpção(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1060910044,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botão Buscar",
+            "match": {
+              "location": "HomeBuscaSteps.clicoNoBotãoBuscar()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-04T18:45:13.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 620080541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 205,
+        "name": "[QA-16] Resultados de Busca | Filtros | Por Outros filtros",
+        "description": "",
+        "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca;[qa-16]-resultados-de-busca-|-filtros-|-por-outros-filtros;;2",
+        "after": [
+          {
+            "output": [
+              "URL: https://qafrontportal.lpsbr.com/busca/venda/br/sp/sao-paulo?placeId\u003dChIJ0WGkg4FEzpQRrlsz_whLqZs\u0026estagio\u003dreal_estate\u0026estagio\u003dreal_estate_parent\u0026comodidade\u003darborismo\u0026origem\u003dsearch"
+            ],
+            "result": {
+              "duration": 92056020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995452648,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "clico no botão Filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoNoBotãoFiltros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 528217887,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "clico em Outros filtros",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmOutrosFiltros()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 496600585,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "seleciono \"Arborismo\" como Outros Filtros",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arborismo\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultadoFiltrosSteps.selecionoComoOutrosFiltros(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 202319978,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "clico em Aplicas os filtros selecionados",
+            "match": {
+              "location": "ResultadoFiltrosSteps.clicoEmAplicasOsFiltrosSelecionados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2029086611,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "vejo os Resultados de Busca com a url \"comodidade\u003darborismo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"comodidade\u003darborismo\"",
+                  "offset": 38
+                }
+              ],
+              "location": "HomeBuscaSteps.vejoOsResultadosDeBuscaFiltradosComAUrl(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ResultadoFiltros"
+          }
+        ]
+      }
+    ],
+    "name": "[QA-16] Resultado de Busca | Filtrar os resultados de busca",
+    "description": "",
+    "id": "[qa-16]-resultado-de-busca-|-filtrar-os-resultados-de-busca",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/ResultadoFiltros.feature",
+    "tags": [
+      {
+        "name": "@ResultadoFiltros",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
