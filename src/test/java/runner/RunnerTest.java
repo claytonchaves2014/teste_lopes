@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "json:target/reports/CucumberReport.json"},
-//        tags = {},
         tags = {__JENKINS_PIPELINE_TAG__},
         glue = {"steps"}
+
 )
 
 public class RunnerTest {

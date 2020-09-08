@@ -64,7 +64,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Instagram
     Dado verifico o Footer da página
     Quando clico em Instagram
-    Então verifico que a URL é aberta "https://www.instagram.com/lopesimoveis/"
+    Então verifico que a URL é aberta "instagram.com/lopesimoveis"
 
   Cenário: [CT_002] Home Page | Footer | Linkedin
     Dado verifico o Footer da página
