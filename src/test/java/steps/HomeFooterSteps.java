@@ -1,7 +1,7 @@
 package steps;
 
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Quando;
 import pages.HomeFooter;
 import support.BaseSteps;
 
