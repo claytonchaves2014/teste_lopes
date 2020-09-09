@@ -1,0 +1,1815 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9005870975,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 126150654,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:55:10.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1129302415,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "[CT_002] Home Page | Footer | Quem Somos",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-quem-somos",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/quem-somos"
+            ],
+            "result": {
+              "duration": 87849394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2045785225,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1878621127,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em Quem Somos",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmQuemSomos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5935898,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verifico que a URL é aberta \"/paginas/quem-somos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/quem-somos\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9849457123,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 104029136,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:55:24.630Z",
+        "before": [
+          {
+            "result": {
+              "duration": 716184954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "[CT_002] Home Page | Footer | Assessoria de Imprensa",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-assessoria-de-imprensa",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/assessoria-de-imprensa"
+            ],
+            "result": {
+              "duration": 88162755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051704582,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 667144314,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico em Assessoria de Imprensa",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmAssessoriaDeImprensa()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 12029103,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verifico que a URL é aberta \"/paginas/assessoria-de-imprensa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/assessoria-de-imprensa\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8877824630,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 113661850,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:55:38.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 680363354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "[CT_002] Home Page | Footer | Linha de ética",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-linha-de-ética",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/linha-de-etica"
+            ],
+            "result": {
+              "duration": 83533750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051016618,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 695580962,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clico em Linha de ética",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmLinhaDeÉtica()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 12122459,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verifico que a URL é aberta \"/paginas/linha-de-etica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/linha-de-etica\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9194206979,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 113396078,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:55:50.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 661177829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "[CT_002] Home Page | Footer | Trabalhe conosco",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-trabalhe-conosco",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/trabalhe-conosco"
+            ],
+            "result": {
+              "duration": 85827376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049053118,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6462070833,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico em Trabalhe conosco",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmTrabalheConosco()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3921035,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verifico que a URL é aberta \"/paginas/trabalhe-conosco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/trabalhe-conosco\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9629589528,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 97182582,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:56:09.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 661689802,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "[CT_002] Home Page | Footer | Relação com investidores",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-relação-com-investidores",
+        "after": [
+          {
+            "output": [
+              "URL: https://ri.lopes.com.br/"
+            ],
+            "result": {
+              "duration": 88970016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2047626696,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 95223227,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Relação com investidores",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmRelaçãoComInvestidores()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2921314306,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verifico que a URL é aberta \"https://ri.lopes.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ri.lopes.com.br/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8723928231,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 111077775,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:56:24.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 670337222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "[CT_002] Home Page | Footer | Venda seu imóvel",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-venda-seu-imóvel",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/anuncie-seu-imovel"
+            ],
+            "result": {
+              "duration": 85285807,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050072019,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1840407380,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clico em Venda seu imóvel",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmVendaSeuImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3198116,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "verifico que a URL é aberta \"/paginas/anuncie-seu-imovel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/anuncie-seu-imovel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9608568801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 99953536,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:56:38.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 652568466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "[CT_002] Home Page | Footer | Alugue seu imóvel",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-alugue-seu-imóvel",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/anuncie-seu-imovel"
+            ],
+            "result": {
+              "duration": 80858147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2046032274,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1622115896,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clico em Alugue seu imóvel",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmAlugueSeuImóvel()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9285795,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "verifico que a URL é aberta \"/paginas/anuncie-seu-imovel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/anuncie-seu-imovel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8806190534,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123631227,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:56:52.361Z",
+        "before": [
+          {
+            "result": {
+              "duration": 673155714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "[CT_002] Home Page | Footer | Credipronto",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-credipronto",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.credipronto.com.br/"
+            ],
+            "result": {
+              "duration": 97215777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2048707151,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 71557299,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clico em Credipronto",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmCredipronto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3211473145,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "verifico que a URL é aberta \"https://www.credipronto.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.credipronto.com.br/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9563320717,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 99036264,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:57:07.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 737217967,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "[CT_002] Home Page | Footer | Serviços de fotografia",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-serviços-de-fotografia",
+        "after": [
+          {
+            "output": [
+              "URL: https://devfrontportaltqi.lpsbr.com/paginas/servicos-de-fotografia"
+            ],
+            "result": {
+              "duration": 85245384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050655690,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4461267651,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clico em Serviços de fotografia",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmServiçosDeFotografia()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3653531,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "verifico que a URL é aberta \"/paginas/servicos-de-fotografia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/paginas/servicos-de-fotografia\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8180154382,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 110350418,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:57:24.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 604167356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "[CT_002] Home Page | Footer | Facebook",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-facebook",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.facebook.com/imobiliaria.lopes"
+            ],
+            "result": {
+              "duration": 106110196,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2047861726,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 76948082,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "clico em Facebook",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmFacebook()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4728927157,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "verifico que a URL é aberta \"https://www.facebook.com/imobiliaria.lopes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/imobiliaria.lopes\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9170901667,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 108497291,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:57:40.253Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2271514190,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "[CT_002] Home Page | Footer | Twitter",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-twitter",
+        "after": [
+          {
+            "output": [
+              "URL: https://twitter.com/Lopes_Imoveis"
+            ],
+            "result": {
+              "duration": 85436404,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049278363,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 73427336,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "clico em Twitter",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmTwitter()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1483217197,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verifico que a URL é aberta \"https://twitter.com/Lopes_Imoveis\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://twitter.com/Lopes_Imoveis\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9685404505,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 108672935,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:57:55.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 604802874,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "[CT_002] Home Page | Footer | Instagram",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-instagram",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.instagram.com/lopesimoveis/"
+            ],
+            "result": {
+              "duration": 86514371,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2058492108,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 78102940,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "clico em Instagram",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmInstagram()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2007574436,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "verifico que a URL é aberta \"https://www.instagram.com/lopesimoveis/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.instagram.com/lopesimoveis/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9433048692,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 105292225,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:58:10.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 597556679,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "[CT_002] Home Page | Footer | Linkedin",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-linkedin",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.linkedin.com/authwall?trk\u003dgf\u0026trkInfo\u003dAQEi4IGxwieuqwAAAXRzKQQwV93mP1sMXl48okdnbcDVrw9l3CMTHbP3Cy0M_0nxDwEWGYHrOiKvFfbQQZ1vRqrWQ2hnkxPKGcvQie8pkMtEaoi3w2_RWeoSBAOeC4Tded_Y3dc\u003d\u0026originalReferer\u003dhttps://devfrontportaltqi.lpsbr.com/\u0026sessionRedirect\u003dhttps%3A%2F%2Fwww.linkedin.com%2Fcompany%2Flopes-consultoria-de-imoveis%2F"
+            ],
+            "result": {
+              "duration": 82001550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2044610432,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 73659223,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "clico em Linkedin",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmLinkedin()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 793682194,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "verifico que a URL é aberta \"www.linkedin.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.linkedin.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7526896851,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 106518500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:58:23.260Z",
+        "before": [
+          {
+            "result": {
+              "duration": 596204894,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "[CT_002] Home Page | Footer | YouTube",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-youtube",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.youtube.com/user/lopesconsultoria"
+            ],
+            "result": {
+              "duration": 89719085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049232258,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 71517100,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "clico em YouTube",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmYouTube()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2348756349,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "verifico que a URL é aberta \"https://www.youtube.com/user/lopesconsultoria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.youtube.com/user/lopesconsultoria\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6639252568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "acesso o Portal da Lopes",
+            "match": {
+              "location": "HomeHeaderSteps.acessoOPortalDaLopes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 113039559,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Aceitar Cookies",
+            "match": {
+              "location": "HomeHeaderSteps.clicoEmAceitarCookies()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T13:58:36.051Z",
+        "before": [
+          {
+            "result": {
+              "duration": 621099315,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "[CT_002] Home Page | Footer | Blog",
+        "description": "",
+        "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página;[ct-002]-home-page-|-footer-|-blog",
+        "after": [
+          {
+            "output": [
+              "URL: https://www.lopes.com.br/blog"
+            ],
+            "result": {
+              "duration": 82783053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050279269,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "verifico o Footer da página",
+            "match": {
+              "location": "HomeFooterSteps.verificoOFooterDaPágina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 71943127,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "clico em Blog",
+            "match": {
+              "location": "HomeFooterSteps.clicoEmBlog()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4468432647,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "verifico que a URL é aberta \"https://www.lopes.com.br/blog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.lopes.com.br/blog\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeHeaderSteps.verificoQueAURLÉAberta(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGRESSAO"
+          },
+          {
+            "name": "@Footer"
+          }
+        ]
+      }
+    ],
+    "name": "[QA-8] Home Page | Validar os links localizados no Footer da página",
+    "description": "",
+    "id": "[qa-8]-home-page-|-validar-os-links-localizados-no-footer-da-página",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HomeFooter.feature",
+    "tags": [
+      {
+        "name": "@REGRESSAO",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Footer",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 12
+        }
+      }
+    ]
+  }
+]
