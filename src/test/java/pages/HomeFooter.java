@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
@@ -98,5 +99,11 @@ public class HomeFooter {
     public void clicarBlog() {
         driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.lopes.com.br/blog/\"]/div/p", "xpath");
         driver.forceClick("//*[@id=\"linkhttps://www.lopes.com.br/blog/\"]/div/p", "xpath");
+    }
+
+    public void validarInstagram(String value) {
+        String currentURL = driver.getCurrentUrl();
+        Assert.assertTrue(currentURL.contains("instagram.com"));
+        Assert.assertTrue(currentURL.contains(value));
     }
 }
