@@ -19,9 +19,9 @@ public class HomeFooterSteps extends BaseSteps {
         homeFooter.clicarQuemSomos();
     }
 
-    @Quando("clico em Assessoria de Comunicação")
-    public void clicoEmAssessoriaDeComunicação() throws InterruptedException {
-        homeFooter.clicarAssessoriaComunicacao();
+    @Quando("clico em Assessoria de Imprensa")
+    public void clicoEmAssessoriaDeImprensa() throws InterruptedException {
+        homeFooter.clicarAssessoriaImprensa();
     }
 
     @Quando("clico em Linha de ética")

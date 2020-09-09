@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
                 "json:target/reports/CucumberReport.json"},
         tags = {__JENKINS_PIPELINE_TAG__},
         glue = {"steps"}
-
 )
 
 public class RunnerTest {

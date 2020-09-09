@@ -11,10 +11,10 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Quem Somos
     Então verifico que a URL é aberta "/paginas/quem-somos"
 
-  Cenário: [CT_002] Home Page | Footer | Assessoria de Comunicação
+  Cenário: [CT_002] Home Page | Footer | Assessoria de Imprensa
     Dado verifico o Footer da página
-    Quando clico em Assessoria de Comunicação
-    Então verifico que a URL é aberta "/paginas/assessoria-de-comunicacao"
+    Quando clico em Assessoria de Imprensa
+    Então verifico que a URL é aberta "/paginas/assessoria-de-imprensa"
 
   Cenário: [CT_002] Home Page | Footer | Linha de ética
     Dado verifico o Footer da página
@@ -64,7 +64,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Instagram
     Dado verifico o Footer da página
     Quando clico em Instagram
-    Então verifico que a URL é aberta "instagram.com/lopesimoveis"
+    Então verifico que a URL é aberta "https://www.instagram.com/lopesimoveis/"
 
   Cenário: [CT_002] Home Page | Footer | Linkedin
     Dado verifico o Footer da página

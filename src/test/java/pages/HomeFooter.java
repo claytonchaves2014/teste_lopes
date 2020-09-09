@@ -25,9 +25,9 @@ public class HomeFooter {
         driver.forceClick("//*[@id=\"link/paginas/quem-somos\"]/p", "xpath");
     }
 
-    public void clicarAssessoriaComunicacao() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/assessoria-de-comunicacao\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/assessoria-de-comunicacao\"]/p", "xpath");
+    public void clicarAssessoriaImprensa() throws InterruptedException {
+        driver.waitElementToBeClickable("//*[@id=\"link/paginas/assessoria-de-imprensa\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"link/paginas/assessoria-de-imprensa\"]/p", "xpath");
     }
 
     public void clicarLinhaEtica() throws InterruptedException {
