@@ -45,19 +45,19 @@ public class ResultadoFiltrosSteps extends BaseSteps {
         resultadoFiltros.selecionarTipoGalpao(value);
     }
 
-    @E("seleciono o subtipo {string} do tipo Hotel")
-    public void selecionoOSubtipoDoTipoHotel(String value) {
-        resultadoFiltros.selecionarTipoHotel(value);
+    @E("seleciono o subtipo Hotel do tipo Hotel")
+    public void selecionoOSubtipoHotelDoTipoHotel() {
+        resultadoFiltros.selecionarTipoHotel();
     }
 
-    @E("seleciono o subtipo {string} do tipo Lajes corporativas")
-    public void selecionoOSubtipoDoTipoLajesCorporativas(String value) {
-        resultadoFiltros.selecionarTipoLajesCorporativas(value);
+    @E("seleciono o subtipo Lajes corporativas do tipo Lajes corporativas")
+    public void selecionoOSubtipoLajesCorporativasDoTipoLajesCorporativas() {
+        resultadoFiltros.selecionarTipoLajesCorporativas();
     }
 
-    @E("seleciono o subtipo {string} do tipo Loteamento")
-    public void selecionoOSubtipoDoTipoLoteamento(String value) {
-        resultadoFiltros.selecionarTipoLoteamento(value);
+    @E("seleciono o subtipo Loteamento do tipo Loteamento")
+    public void selecionoOSubtipoLoteamentoDoTipoLoteamento() {
+        resultadoFiltros.selecionarTipoLoteamento();
     }
 
     @E("seleciono o subtipo {string} do tipo Mall")
@@ -70,9 +70,9 @@ public class ResultadoFiltrosSteps extends BaseSteps {
         resultadoFiltros.selecionarTipoRural(value);
     }
 
-    @E("seleciono o subtipo {string} do tipo Salão")
-    public void selecionoOSubtipoDoTipoSalão(String value) {
-        resultadoFiltros.selecionarTipoSalao(value);
+    @E("seleciono o subtipo Salão Comercial do tipo Salão")
+    public void selecionoOSubtipoSalãoComercialDoTipoSalão() {
+        resultadoFiltros.selecionarTipoSalao();
     }
 
     @E("seleciono o subtipo {string} do tipo Salas")
@@ -80,9 +80,9 @@ public class ResultadoFiltrosSteps extends BaseSteps {
         resultadoFiltros.selecionarTipoSalas(value);
     }
 
-    @E("seleciono o subtipo {string} do tipo Terreno")
-    public void selecionoOSubtipoDoTipoTerreno(String value) {
-        resultadoFiltros.selecionarTipoTerreno(value);
+    @E("seleciono o subtipo Terreno do tipo Terreno")
+    public void selecionoOSubtipoTerrenoDoTipoTerreno() {
+        resultadoFiltros.selecionarTipoTerreno();
     }
 
     @Quando("clico em Características do Imóvel")
