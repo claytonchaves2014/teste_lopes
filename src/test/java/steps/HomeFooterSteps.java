@@ -4,7 +4,7 @@ import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Quando;
 import pages.HomeFooter;
-import support.BaseSteps;git
+import support.BaseSteps;
 
 public class HomeFooterSteps extends BaseSteps {
     
