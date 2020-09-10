@@ -43,7 +43,7 @@ public class ResultadoFiltros {
         driver.click("//*[@class='ant-collapse-header ng-tns-c80-10']", "xpath");
     }
 
-    public void selecionarTipoCasa(String value) {
+    public void selecionarTipoCasa(String value) throws InterruptedException {
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[1]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
