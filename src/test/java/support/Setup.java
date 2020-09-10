@@ -215,9 +215,9 @@ public class Setup {
         }
     }
 
-    public void waitURL(boolean parValue) {
+    public void waitURL(String parValue) {
         final WebDriverWait wait = new WebDriverWait(driver, DEFAULT_WAIT_TIMEOUT);
-        wait.until(ExpectedConditions.urlToBe(String.valueOf(parValue)));
+        wait.until(ExpectedConditions.urlContains(String.valueOf(parValue)));
     }
 
     public Set<String> getWindowHandles() {

@@ -21,7 +21,7 @@ public class ResultadoFiltrosSteps extends BaseSteps {
     }
 
     @E("seleciono o subtipo {string} do tipo Casa")
-    public void selecionoOSubtipoDoTipoCasa(String value) {
+    public void selecionoOSubtipoDoTipoCasa(String value) throws InterruptedException {
         resultadoFiltros.selecionarTipoCasa(value);
     }
 

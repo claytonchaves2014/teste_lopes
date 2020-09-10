@@ -32,6 +32,8 @@ public class HomeBusca {
 
     public void validarResultados(String value) {
         String currentURL = driver.getCurrentUrl();
+        System.out.println(currentURL);
+        driver.waitURL(value);
         Assert.assertTrue(currentURL.contains(value));
     }
 
