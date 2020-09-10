@@ -44,6 +44,7 @@ public class ResultadoFiltros {
     }
 
     public void selecionarTipoCasa(String value) throws InterruptedException {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[1]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[1]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -56,6 +57,7 @@ public class ResultadoFiltros {
     }
 
     public void selecionarTipoApartamento(String value) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[2]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[2]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -68,10 +70,12 @@ public class ResultadoFiltros {
     }
 
     public void selecionarTipoFlat(String value) {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[3]/div/div[2]/div/label", "xpath");
         driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[3]/div/div[2]/div/label", "xpath");
     }
 
     public void selecionarTipoGalpao(String value) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[4]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[4]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -83,19 +87,23 @@ public class ResultadoFiltros {
         }
     }
 
-    public void selecionarTipoHotel(String value) {
+    public void selecionarTipoHotel() {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[5]/div/div[2]/div/label", "xpath");
         driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[5]/div/div[2]/div/label", "xpath");
     }
 
-    public void selecionarTipoLajesCorporativas(String value) {
+    public void selecionarTipoLajesCorporativas() {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[6]/div/div[2]/div/label", "xpath");
         driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[6]/div/div[2]/div/label", "xpath");
     }
 
-    public void selecionarTipoLoteamento(String value) {
+    public void selecionarTipoLoteamento() {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[7]/div/div[2]/div/label", "xpath");
         driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[7]/div/div[2]/div/label", "xpath");
     }
 
     public void selecionarTipoMall(String value) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[8]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[8]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -108,6 +116,7 @@ public class ResultadoFiltros {
     }
 
     public void selecionarTipoRural(String value) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[9]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[9]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -119,11 +128,13 @@ public class ResultadoFiltros {
         }
     }
 
-    public void selecionarTipoSalao(String value) {
+    public void selecionarTipoSalao() {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[10]/div/div[2]/div/label", "xpath");
         driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[10]/div/div[2]/div/label", "xpath");
     }
 
     public void selecionarTipoSalas(String value) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[11]/div/div[2]", "xpath");
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[11]/div/div[2]", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("label"));
@@ -135,16 +146,9 @@ public class ResultadoFiltros {
         }
     }
 
-    public void selecionarTipoTerreno(String value) {
-        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[12]/div/div[2]", "xpath");
-
-        List<WebElement> options = select.findElements(By.tagName("label"));
-        for (WebElement option : options) {
-
-            if(value.equals(option.getText())) {
-                option.click();
-            }
-        }
+    public void selecionarTipoTerreno() {
+        driver.waitElementToBeClickable("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[12]/div/div[2]/div/label", "xpath");
+        driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[2]/div[2]/div/div/lps-property-type-filter/form/div/lps-checkbox-list[12]/div/div[2]/div/label", "xpath");
     }
 
     public void selecionarCaracteristicas(String qtd, String tipo) {

@@ -67,21 +67,21 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
   Cenário: [QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Hotel
     Dado clico no botão Filtros
     Quando clico em Tipo do Imóvel
-    E seleciono o subtipo "Hotel" do tipo Hotel
+    E seleciono o subtipo Hotel do tipo Hotel
     E clico em Aplicas os filtros selecionados
     Então vejo os Resultados de Busca com a url "/tipo/hotel"
 
   Cenário: [QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Lajes corporativas
     Dado clico no botão Filtros
     Quando clico em Tipo do Imóvel
-    E seleciono o subtipo "Lajes corporativas" do tipo Lajes corporativas
+    E seleciono o subtipo Lajes corporativas do tipo Lajes corporativas
     E clico em Aplicas os filtros selecionados
     Então vejo os Resultados de Busca com a url "/tipo/lajes-corporativas"
 
   Cenário: [QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Loteamento
     Dado clico no botão Filtros
     Quando clico em Tipo do Imóvel
-    E seleciono o subtipo "Loteamento" do tipo Loteamento
+    E seleciono o subtipo Loteamento do tipo Loteamento
     E clico em Aplicas os filtros selecionados
     Então vejo os Resultados de Busca com a url "/tipo/loteamento"
 
@@ -114,7 +114,7 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
   Cenário: [QA-16] Resultados de Busca | Filtros | Por Tipo de Imóvel | Salão
     Dado clico no botão Filtros
     Quando clico em Tipo do Imóvel
-    E seleciono o subtipo "Salão Comercial" do tipo Salão
+    E seleciono o subtipo Salão Comercial do tipo Salão
     E clico em Aplicas os filtros selecionados
     Então vejo os Resultados de Busca com a url "/tipo/salao-comercial"
 
@@ -133,7 +133,7 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
   Cenário: [QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Terreno
     Dado clico no botão Filtros
     Quando clico em Tipo do Imóvel
-    E seleciono o subtipo "Terreno" do tipo Terreno
+    E seleciono o subtipo Terreno do tipo Terreno
     E clico em Aplicas os filtros selecionados
     Então vejo os Resultados de Busca com a url "/tipo/terreno"
 
