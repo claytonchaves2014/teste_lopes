@@ -1,9 +1,10 @@
 package steps;
 
+import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Quando;
 import pages.HomeFooter;
-import support.BaseSteps;
+import support.BaseSteps;git
 
 public class HomeFooterSteps extends BaseSteps {
     
@@ -95,5 +96,10 @@ public class HomeFooterSteps extends BaseSteps {
     public void clicoEmBlog() throws InterruptedException {
         homeFooter.clicarBlog();
         homeFooter.trocarJanela();
+    }
+
+    @Então("verifico que a URL do Instagram é aberta {string}")
+    public void verificoQueAURLDoInstagramÉAberta(String value) {
+        homeFooter.validarInstagram(value);
     }
 }
