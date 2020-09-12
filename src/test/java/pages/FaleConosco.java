@@ -38,8 +38,8 @@ public class FaleConosco {
     }
 
     public void selecionarAssunto(String value) {
-        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
-
+        driver.waitElement("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
+        WebElement select = driver.findElem("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
         List<WebElement> options = select.findElements(By.tagName("li"));
         for (WebElement option : options) {
 
