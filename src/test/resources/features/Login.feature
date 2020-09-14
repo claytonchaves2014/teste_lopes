@@ -45,10 +45,8 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
     E insiro meu CPF de corretor "<CPF>"
     E insiro minha Senha de corretor "<Senha>"
     E clico em Entrar
-    Então acesso a conta do Corretor
-
-#        E insiro meu CPF de corretor
-#    E insiro minha Senha de corretor
+#    Então acesso a conta do Corretor
+    Então sou direcionado ao Portal do Corretor pela URL "frontcrm.lpsbr.com"
 
     Exemplos:
       | CPF            | Senha    |
