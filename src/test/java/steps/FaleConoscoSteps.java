@@ -31,7 +31,7 @@ public class FaleConoscoSteps extends BaseSteps {
     }
 
     @E("seleciono a opção {string} de contato")
-    public void selecionoAOpçãoDeContato(String value) {
+    public void selecionoAOpçãoDeContato(String value) throws InterruptedException{
         faleConosco.selecionarAssunto(value);
     }
 
