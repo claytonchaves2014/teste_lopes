@@ -37,7 +37,8 @@ public class FaleConosco {
         driver.click("//*[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
     }
 
-    public void selecionarAssunto(String value) {
+    public void selecionarAssunto(String value) throws InterruptedException{
+        Thread.sleep(2000);
         driver.waitElement("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
         WebElement select = driver.findElem("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
         List<WebElement> options = select.findElements(By.tagName("li"));
