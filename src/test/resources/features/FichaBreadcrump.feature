@@ -32,14 +32,14 @@ Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
     E clico para abrir o Breadcrump
     Quando vejo o breadcrump Rua do imóvel
     E clico no breacrump Bairro
-    Então vejo os Resultados de Busca com a url "/busca/venda/br/sp/sao-paulo/"
+    Então vejo os Resultados de Busca com a url "/br/sp/sao-paulo/"
 
   Cenario: [QA-25] Ficha do Imóvel | Breadcrump | Abrir Tipo do Imóvel
     Dado vejo a Ficha do Imóvel
     E clico para abrir o Breadcrump
     Quando vejo o breadcrump Rua do imóvel
     E clico no breacrump Tipo do Imóvel
-    Então vejo os Resultados de Busca com a url "/tipo/apartamento?tipo=APARTMENT"
+    Então vejo os Resultados de Busca com a url "/tipo/apartamento"
 
   Cenario: [QA-25] Ficha do Imóvel | Breadcrump | Abrir Home
     Dado vejo a Ficha do Imóvel
