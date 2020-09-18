@@ -106,4 +106,10 @@ public class HomeFooter {
         Assert.assertTrue(currentURL.contains("instagram.com"));
         Assert.assertTrue(currentURL.contains(value));
     }
+
+    public void validarRodape(String value) {
+        driver.waitElement("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]/p", "xpath");
+        WebElement rodape = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]/p", "xpath");
+        Assert.assertEquals(value, rodape.getText());
+    }
 }
