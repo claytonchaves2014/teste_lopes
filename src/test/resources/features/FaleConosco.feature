@@ -16,6 +16,7 @@ Funcionalidade: [QA-26] Fale Conosco | Validar a página e preencher formulário
 
   Esquema do Cenario: Cenário: [CT_021] Fale Conosco | Preencher formulário
     Dado clico no header Fale conosco
+    E vejo o titulo de Fale conosco como "Entre em contato conosco"
     Quando clico em Assunto do Fale conosco
     E seleciono a opção "<Assunto>" de contato
     E preencho meu Nome "<Nome>" em Fale conosco

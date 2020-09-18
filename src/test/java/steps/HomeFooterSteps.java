@@ -102,4 +102,9 @@ public class HomeFooterSteps extends BaseSteps {
     public void verificoQueAURLDoInstagramÉAberta(String value) {
         homeFooter.validarInstagram(value);
     }
+
+    @Então("vejo o rodapé com o texto {string}")
+    public void vejoORodapéComOTexto(String value) {
+        homeFooter.validarRodape(value);
+    }
 }

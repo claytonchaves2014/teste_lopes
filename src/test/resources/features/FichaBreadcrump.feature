@@ -1,6 +1,6 @@
 #language: pt
 @REGRESSAO @FichaBreadcrump
-Funcionalidade: [QA-25] Ficha do Imóvel | Preencher o formulário do Lead
+Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
 
   Contexto:
     Dado acesso o Portal da Lopes

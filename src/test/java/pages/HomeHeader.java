@@ -1,6 +1,7 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import support.Setup;
 
 public class HomeHeader {
@@ -29,8 +30,11 @@ public class HomeHeader {
     }
 
     public void clicarCookies() {
-        driver.waitElementToBeClickable("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
-        driver.click("//*[@class=\"cookiemodal_btn ant-btn ant-btn-primary\"]", "xpath");
+        WebElement cookies = driver.findElem("//*[@class='cookiemodal_btn ant-btn ant-btn-primary']", "xpath");
+
+        if (cookies.isEnabled()) {
+            cookies.click();
+        }
     }
 
     public void clicarLancamentos() {

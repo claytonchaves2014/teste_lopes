@@ -39,15 +39,15 @@ public class FaleConosco {
 
     public void selecionarAssunto(String value) throws InterruptedException{
         Thread.sleep(2000);
-        driver.waitElement("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
-        WebElement select = driver.findElem("//*[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
-        List<WebElement> options = select.findElements(By.tagName("li"));
-        for (WebElement option : options) {
+        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
+        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
 
-            if(value.equals(option.getText())) {
-                option.click();
+        List<WebElement> options = select.findElements(By.tagName("li"));
+            for (WebElement option : options) {
+                if(value.equals(option.getText())) {
+                    option.click();
+                }
             }
-        }
     }
 
     public void inserirNome(String value) {
