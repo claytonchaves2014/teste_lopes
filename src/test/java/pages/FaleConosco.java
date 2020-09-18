@@ -39,10 +39,10 @@ public class FaleConosco {
 
     public void selecionarAssunto(String value) throws InterruptedException{
         Thread.sleep(2000);
-        driver.waitElement("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
-        WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
+        driver.waitElement("//ul[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
+        WebElement select = driver.findElem("//li[@class='ant-dropdown-menu-item ng-star-inserted']", "xpath");
 
-        List<WebElement> options = select.findElements(By.tagName("li"));
+        List<WebElement> options = select.findElements(By.tagName("span"));
         for (WebElement option : options) {
             if(value.equals(option.getText())) {
                 option.click();
