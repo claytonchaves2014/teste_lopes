@@ -43,11 +43,11 @@ public class FaleConosco {
         WebElement select = driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/ul", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("li"));
-            for (WebElement option : options) {
-                if(value.equals(option.getText())) {
-                    option.click();
-                }
+        for (WebElement option : options) {
+            if(value.equals(option.getText())) {
+                option.click();
             }
+        }
     }
 
     public void inserirNome(String value) {
