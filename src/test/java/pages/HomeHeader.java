@@ -30,7 +30,6 @@ public class HomeHeader {
     }
 
     public void clicarCookies() {
-        driver.waitElement("//*[@class='cookiemodal_btn ant-btn ant-btn-primary']", "xpath");
         WebElement cookies = driver.findElem("//*[@class='cookiemodal_btn ant-btn ant-btn-primary']", "xpath");
 
         if (cookies.isDisplayed()) {
