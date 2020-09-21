@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
+import java.util.ArrayList;
+
 public class HomeServicos {
 
     private Setup driver;
@@ -31,6 +33,27 @@ public class HomeServicos {
     }
 
     public void clicarServFotografia() {
-        driver.findElem("//*[text()='Serviços de fotografia']", "xpath").click();
+        String url = driver.getCurrentUrl();
+
+        if (url.contains("qa")) {
+            driver.findElem("//*[text()='Serviços de fotografia']", "xpath").click();
+        }
+
+        else {
+            System.out.println("Não aplicável em DEV");
+        }
+    }
+
+    public void clicarConsorcio() {
+        String url = driver.getCurrentUrl();
+
+        if(url.contains("dev")) {
+            driver.findElem("//*[text()='Consórcio Lopes']", "xpath").click();
+            ArrayList tabs = new ArrayList(driver.getWindowHandles());
+            driver.switchWin("2");
+        }
+        else {
+            System.out.println("Não aplicável em QA");
+        }
     }
 }

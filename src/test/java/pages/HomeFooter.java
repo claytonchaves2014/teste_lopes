@@ -62,8 +62,15 @@ public class HomeFooter {
     }
 
     public void clicarServFotografia() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/servicos-de-fotografia\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/servicos-de-fotografia\"]/p", "xpath");
+        String url = driver.getCurrentUrl();
+
+        if(url.contains("qa")) {
+            driver.waitElementToBeClickable("//*[@id=\"link/paginas/servicos-de-fotografia\"]/p", "xpath");
+            driver.forceClick("//*[@id=\"link/paginas/servicos-de-fotografia\"]/p", "xpath");
+        }
+        else {
+            System.out.println("Não aplicável em DEV");
+        }
     }
 
     public void clicarFacebook() {
@@ -111,5 +118,40 @@ public class HomeFooter {
         driver.waitElement("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]/p", "xpath");
         WebElement rodape = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]/p", "xpath");
         Assert.assertEquals(value, rodape.getText());
+    }
+
+    public void clicarConsorcio() {
+        String url = driver.getCurrentUrl();
+
+        if (url.contains("dev")) {
+            driver.waitElementToBeClickable("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
+            driver.forceClick("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
+
+            ArrayList tabs = new ArrayList(driver.getWindowHandles());
+            driver.switchWin("2");
+        }
+        else {
+            System.out.println("Não aplicável em QA");
+        }
+    }
+
+    public void validarConsorcio(String value) {
+        String currentURL = driver.getCurrentUrl();
+        if(currentURL.contains("dev")) {
+            Assert.assertTrue(currentURL.contains(value));
+        }
+        else {
+            System.out.println("Não aplicável em QA");
+        }
+    }
+
+    public void validarFotografia(String value) {
+        String currentURL = driver.getCurrentUrl();
+        if(currentURL.contains("qa")) {
+            Assert.assertTrue(currentURL.contains(value));
+        }
+        else {
+            System.out.println("Não aplicável em DEV");
+        }
     }
 }

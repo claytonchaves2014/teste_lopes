@@ -61,7 +61,7 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
 
     Exemplos:
       | CPF            | Senha     | Mensagem                       |
-      | 084.069.078-94 | Teste1234 | Usuário e/ou senha incorretos. |
+      | 084.069.078-94 | Teste0000 | Usuário e/ou senha incorretos. |
 
   Esquema do Cenário: [QA-85] Login | Corretor | Esqueceu a Senha
     Dado clico em Minha conta

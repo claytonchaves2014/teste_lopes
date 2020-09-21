@@ -46,10 +46,15 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Credipronto
     Então verifico que a URL é aberta "https://www.credipronto.com.br/"
 
-  Cenário: [CT_002] Home Page | Footer | Serviços de fotografia
+  Cenário: [CT_002] Home Page | Footer | Serviços de Fotografia
     Dado verifico o Footer da página
     Quando clico em Serviços de fotografia
-    Então verifico que a URL é aberta "/paginas/servicos-de-fotografia"
+    Então verifico que a URL de Serviços de Fotografia é aberta "/paginas/servicos-de-fotografia"
+
+  Cenário: [CT_002] Home Page | Footer | Consórcio Lopes
+    Dado verifico o Footer da página
+    Quando clico em Consórcio Lopes
+    Então verifico que a URL do Consórcio Lopes é aberta "https://consorcio.lopes.com.br/"
 
   Cenário: [CT_002] Home Page | Footer | Facebook
     Dado verifico o Footer da página

@@ -107,4 +107,20 @@ public class HomeFooterSteps extends BaseSteps {
     public void vejoORodapéComOTexto(String value) {
         homeFooter.validarRodape(value);
     }
+
+    @Quando("clico em Consórcio Lopes")
+    public void clicoEmConsórcioLopes() {
+        homeFooter.clicarConsorcio();
+//        homeFooter.trocarJanela();
+    }
+
+    @Então("verifico que a URL do Consórcio Lopes é aberta {string}")
+    public void verificoQueAURLDoConsórcioLopesÉAberta(String value) {
+        homeFooter.validarConsorcio(value);
+    }
+
+    @Então("verifico que a URL de Serviços de Fotografia é aberta {string}")
+    public void verificoQueAURLDeServiçosDeFotografiaÉAberta(String value) {
+        homeFooter.validarFotografia(value);
+    }
 }
