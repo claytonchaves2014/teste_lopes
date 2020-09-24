@@ -121,28 +121,16 @@ public class HomeFooter {
     }
 
     public void clicarConsorcio() {
-        String url = driver.getCurrentUrl();
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
 
-        if (url.contains("dev")) {
-            driver.waitElementToBeClickable("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
-            driver.forceClick("//*[@id=\"linkhttps://consorcio.lopes.com.br/?utm_source=site&utm_medium=home&utm_campaign=lopes\"]/p", "xpath");
-
-            ArrayList tabs = new ArrayList(driver.getWindowHandles());
-            driver.switchWin("2");
-        }
-        else {
-            System.out.println("Não aplicável em QA");
-        }
+        ArrayList tabs = new ArrayList(driver.getWindowHandles());
+        driver.switchWin("2");
     }
 
     public void validarConsorcio(String value) {
         String currentURL = driver.getCurrentUrl();
-        if(currentURL.contains("dev")) {
-            Assert.assertTrue(currentURL.contains(value));
-        }
-        else {
-            System.out.println("Não aplicável em QA");
-        }
+        Assert.assertTrue(currentURL.contains(value));
     }
 
     public void validarFotografia(String value) {

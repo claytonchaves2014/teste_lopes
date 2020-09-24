@@ -45,15 +45,8 @@ public class HomeServicos {
     }
 
     public void clicarConsorcio() {
-        String url = driver.getCurrentUrl();
-
-        if(url.contains("dev")) {
-            driver.findElem("//*[text()='Consórcio Lopes']", "xpath").click();
-            ArrayList tabs = new ArrayList(driver.getWindowHandles());
-            driver.switchWin("2");
-        }
-        else {
-            System.out.println("Não aplicável em QA");
-        }
+        driver.findElem("//*[text()='Consórcio Lopes']", "xpath").click();
+        ArrayList tabs = new ArrayList(driver.getWindowHandles());
+        driver.switchWin("2");
     }
 }
