@@ -111,7 +111,6 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Consórcio Lopes")
     public void clicoEmConsórcioLopes() {
         homeFooter.clicarConsorcio();
-//        homeFooter.trocarJanela();
     }
 
     @Então("verifico que a URL do Consórcio Lopes é aberta {string}")

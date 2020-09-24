@@ -40,7 +40,6 @@ public class HomeServicosSteps extends BaseSteps {
     @io.cucumber.java.pt.Quando("clico no serviço de Consórcio Lopes")
     public void clicoNoServiçoDeConsórcioLopes() {
         homeServicos.clicarConsorcio();
-//        homeFooter.trocarJanela();
     }
 
 }
