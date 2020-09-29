@@ -76,4 +76,35 @@ public class Login {
         System.out.println(currentURL);
         Assert.assertTrue(currentURL.contains(value));
     }
+
+    public void validarAplicacoes() throws InterruptedException {
+        driver.wait(3000);
+//        driver.waitElement("//*[@class='main-welcome']", "xpath");
+//        driver.findElem("menu-handler", "id").isDisplayed();
+    }
+
+    public void clicarAplicacoes() {
+        driver.findElem("user-menu-profile-no-pic", "id").isDisplayed();
+//        driver.waitElementToBeClickable("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/nav-sub-header/div/div/button","xpath");
+        driver.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/nav-sub-header/div/div/button", "xpath");
+    }
+
+    public void clicarCMS() {
+        driver.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/nav-sidemenu/nav/div[2]/div/div[1]", "xpath");
+    }
+
+    public void clicarBI() {
+        driver.click("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/nav-sidemenu/nav/div[2]/div/div[2]", "xpath");
+    }
+
+    public void validarCRM(String value) {
+        driver.waitElement("/html/body/app-root/div/nav-header/nav-sidemenu/nav/div[2]/div/div/h2", "xpath");
+        WebElement crm = driver.findElem("/html/body/app-root/div/nav-header/nav-sidemenu/nav/div[2]/div/div/h2", "xpath");
+        Assert.assertEquals(value, crm.getText());
+    }
+
+    public void clicarAplicacoesAgentes() {
+        driver.findElem("user-menu-profile-no-pic", "id").isDisplayed();
+        driver.click("/html/body/app-root/div/nav-header/nav-sub-header/div/div/button", "xpath");
+    }
 }

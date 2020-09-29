@@ -85,4 +85,34 @@ public class LoginSteps extends BaseSteps {
     public void souDirecionadoAoPortalDoCorretorPelaURL(String value) {
         login.validarAcessoCorretor(value);
     }
+
+    @Então("vejo o menu de aplicações")
+    public void vejoOMenuDeAplicações() throws InterruptedException {
+        login.validarAplicacoes();
+    }
+
+    @E("clico em Aplicações")
+    public void clicoEmAplicações() {
+        login.clicarAplicacoes();
+    }
+
+    @E("clico na aplicação CMS")
+    public void clicoNaAplicaçãoCMS() {
+        login.clicarCMS();
+    }
+
+    @E("clico na aplicação BI")
+    public void clicoNaAplicaçãoBI() {
+        login.clicarBI();
+    }
+
+    @E("vejo a aplicação {string}")
+    public void vejoAAplicação(String value) {
+        login.validarCRM(value);
+    }
+
+    @Então("clico em Aplicações do Agente")
+    public void clicoEmAplicaçõesDoAgente() {
+        login.clicarAplicacoesAgentes();
+    }
 }
