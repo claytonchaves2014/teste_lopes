@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
+import java.util.ArrayList;
+
 public class QuemSomos {
 
     private Setup driver;
@@ -23,7 +25,40 @@ public class QuemSomos {
     }
 
     public void validarSubTitulo(String value) {
-        WebElement subtitulo = driver.findElem("", "xpath");
+        WebElement subtitulo = driver.findElem("//p[@class='about-us__main-banner-text']", "xpath");
         Assert.assertEquals(value, subtitulo.getText());
+    }
+
+    public void validarPrimeiraCard(String value) {
+        WebElement card = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/lps-about-us/div[2]/div/lps-card-features[1]/div/div[2]/div/span", "xpath");
+        Assert.assertEquals(value, card.getText());
+    }
+
+    public void validarSegundaCard(String value) {
+        WebElement card = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/lps-about-us/div[2]/div/lps-card-features[2]/div/div[2]/div/span", "xpath");
+        Assert.assertEquals(value, card.getText());
+    }
+
+    public void validarTerceiraCard(String value) {
+        WebElement card = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/lps-about-us/div[2]/div/lps-card-features[3]/div/div[2]/div/span", "xpath");
+        Assert.assertEquals(value, card.getText());
+    }
+
+    public void validarQuartaCard(String value) {
+        WebElement card = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/lps-about-us/div[2]/div/lps-card-features[4]/div/div[2]/div/span", "xpath");
+        Assert.assertEquals(value, card.getText());
+    }
+
+    public void validarQuintaCard(String value) {
+        WebElement card = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/lps-about-us/div[2]/div/lps-card-features[5]/div/div[2]/div/span", "xpath");
+        Assert.assertEquals(value, card.getText());
+    }
+
+    public void clicarQueroInvestir() {
+//        WebElement footer = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/nav-footer/div/div[3]", "xpath");
+//        driver.ScrollTo(footer);
+        driver.forceClick("//a[@class='link--primary about-us__investment__info__link']", "xpath");
+        ArrayList tabs = new ArrayList(driver.getWindowHandles());
+        driver.switchWin("2");
     }
 }

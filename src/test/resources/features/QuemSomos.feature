@@ -23,4 +23,4 @@ Funcionalidade: [2808] Quem Somos | Validar a página
     Dado verifico o Footer da página
     Quando clico em Quem Somos
     E clico em Quero investir
-    Então verifico que a URL é aberta "/busca/venda/br/sp/sao-paulo"
+    Então verifico que a URL é aberta "/busca/venda/br/"
