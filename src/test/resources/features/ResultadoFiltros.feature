@@ -6,7 +6,6 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
 
   Contexto:
     Dado acesso o Portal da Lopes
-    E clico em Aceitar Cookies
     Quando insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     Então clico no botão Buscar

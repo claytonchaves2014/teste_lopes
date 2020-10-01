@@ -4,7 +4,6 @@ Funcionalidade: [QA-18] Resultado de Busca | Validar a ordenação dos resultado
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_015] Resultados de Busca | Ordenação | Por Relevância
     Dado insiro "São Paulo, SP, Brasil" no campo de busca

@@ -4,7 +4,6 @@ Funcionalidade: [QA-22] Ficha do Imóvel | Validar a galeria do imóvel
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenario: [CT_018] Ficha do Imóvel | Galeria | Validar galeria
     Dado insiro "São Paulo, SP, Brasil" no campo de busca

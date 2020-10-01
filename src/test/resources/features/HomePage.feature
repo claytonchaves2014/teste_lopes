@@ -6,7 +6,6 @@ Funcionalidade: [QA-11] Home Page | Validar os destaques do Portal
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_011] Home Page | Informações | Validar informações Lopes
     Dado visualizo o componente de informações

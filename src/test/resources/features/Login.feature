@@ -2,9 +2,9 @@
 @REGRESSAO @Login
 
 Funcionalidade: [QA-76] Login | Validar o login de Cliente
+
   Contexto:
     Dado acesso o Portal da Lopes
-    E clico em Aceitar Cookies
 
   Esquema do Cenário: [QA-76] Login | Cliente | Acessar conta
     Dado clico em Minha conta
@@ -104,19 +104,19 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
       | CPF            | Senha    |
       | 435.576.040-55 | lopes123 |
 
-  Esquema do Cenario: [3087] Login | Marketing | Acessar aplicação CMS
-    Dado clico em Minha conta
-    Quando clico em Corretor
-    E insiro meu CPF de corretor "<CPF>"
-    E insiro minha Senha de corretor "<Senha>"
-    E clico em Entrar
-    Então clico em Aplicações
-    E clico na aplicação CMS
-    E verifico que a URL é aberta "frontcms.lpsbr.com"
-
-    Exemplos:
-      | CPF            | Senha    |
-      | 009.282.600-89 | lopes123 |
+#  Esquema do Cenario: [3087] Login | Marketing | Acessar aplicação CMS
+#    Dado clico em Minha conta
+#    Quando clico em Corretor
+#    E insiro meu CPF de corretor "<CPF>"
+#    E insiro minha Senha de corretor "<Senha>"
+#    E clico em Entrar
+#    Então clico em Aplicações
+#    E clico na aplicação CMS
+#    E verifico que a URL é aberta "frontcms.lpsbr.com"
+#
+#    Exemplos:
+#      | CPF            | Senha    |
+#      | 009.282.600-89 | lopes123 |
 
   Esquema do Cenario: [3087] Login | Lopes | Acessar aplicação CMS
     Dado clico em Minha conta

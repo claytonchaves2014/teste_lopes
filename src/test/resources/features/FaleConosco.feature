@@ -6,7 +6,6 @@ Funcionalidade: [QA-26] Fale Conosco | Validar a página e preencher formulário
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_020] Fale Conosco | Validar layout
     Dado clico no header Fale conosco

@@ -4,7 +4,6 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_002] Home Page | Footer | Quem Somos
     Dado verifico o Footer da página

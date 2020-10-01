@@ -20,7 +20,7 @@ public class ResultadoFiltros {
     }
 
     public void clicarAplicarFiltros() {
-        driver.click("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/div/div/button", "xpath");
+        driver.forceClick("//*[contains(text(), 'Aplicar os filtros selecionados')]", "xpath");
     }
 
     public void clicarTipoImovel() {
@@ -227,6 +227,7 @@ public class ResultadoFiltros {
 
     public void inserirAreaMaxima(String value) {
         driver.sendKeys(value, "maxArea");
+        driver.click("minArea");
     }
 
     public void inserirValorMinimo(String value) {
@@ -235,6 +236,7 @@ public class ResultadoFiltros {
 
     public void inserirValorMaximo(String value) {
         driver.sendKeys(value, "maxValue");
+        driver.click("minValue");
     }
 
     public void selecionarOutrosFiltros(String value) {

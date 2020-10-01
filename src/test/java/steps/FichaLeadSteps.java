@@ -69,4 +69,24 @@ public class FichaLeadSteps extends BaseSteps {
     public void selecionoAOpçãoPorEMail() {
         fichaLead.selecionarEmail();
     }
+
+    @Então("vejo o botão Falar por Chat")
+    public void vejoOBotãoFalarPorChat() {
+        fichaLead.verificarFalarChat();
+    }
+
+    @E("vejo o botão Falar por WhatsApp")
+    public void vejoOBotãoFalarPorWhatsApp() {
+        fichaLead.verificarWhatsApp();
+    }
+
+    @E("vejo o botão Telefone ou e-mail")
+    public void vejoOBotãoTelefoneOuEMail() {
+        fichaLead.verificarTelefoneEmail();
+    }
+
+    @Então("não vejo o botão Falar por Chat")
+    public void nãoVejoOBotãoFalarPorChat() {
+        fichaLead.verificarNaoFalarChat();
+    }
 }

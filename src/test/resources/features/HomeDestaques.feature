@@ -6,7 +6,6 @@ Funcionalidade: [QA-12] Home Page | Validar os destaques do Portal
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_012] Home Page | Destaques | Lançamentos Exclusivos
     Dado vejo o titulo dos destaques "Inspire-se com a nossa seleção"

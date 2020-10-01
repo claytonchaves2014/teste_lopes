@@ -4,7 +4,6 @@ Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
     E insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
