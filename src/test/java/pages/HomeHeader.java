@@ -21,12 +21,9 @@ public class HomeHeader {
     }
 
     public void verificarURL(String value) throws InterruptedException {
-        System.out.println(value);
-
         String currentURL = driver.getCurrentUrl();
-        System.out.println(currentURL);
-
         Assert.assertTrue(currentURL.contains(value));
+        System.out.println("A página aberta é: " + currentURL);
     }
 
     public void clicarCookies() {
