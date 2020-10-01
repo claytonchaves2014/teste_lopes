@@ -4,7 +4,6 @@ Funcionalidade: [QA-10] Home Page | Fazer buscas avançadas de empreendimentos u
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Esquema do Cenário: [CT_009] Home Page | Busca | Filtros | Valor
     Dado clico em Filtros na Home Page

@@ -18,15 +18,15 @@ public class FichaLead {
 
     public void clicarFalarChat() {
         driver.waitElementToBeClickable("//*[@id=\"web\"]/div[1]/div[2]/button[1]", "xpath");
-        driver.forceClick("//*[@id=\"web\"]/div[1]/div[2]/button[1]", "xpath");
+        driver.forceClick("//*[contains(text(), 'Falar por Chat')]", "xpath");
     }
 
     public void clicarFalarWhatsApp() {
-        driver.forceClick("//*[@id=\"web\"]/div[1]/div[2]/button[2]", "xpath");
+        driver.forceClick("//*[contains(text(), 'Falar por WhatsApp')]", "xpath");
     }
 
     public void clicarFalarTelefoneEmail() {
-        driver.forceClick("//*[@id=\"web\"]/div[1]/div[2]/button[3]", "xpath");
+        driver.forceClick("//*[contains(text(), 'Telefone ou e-mail')]", "xpath");
     }
 
     public void inserirNome(String value) {
@@ -60,5 +60,22 @@ public class FichaLead {
 
     public void clicarFalarEspecialista() {
         driver.forceClick("//*[@class='btn-item btn-tel_email mb-3 mt-3']", "xpath");
+    }
+
+    public void verificarFalarChat() {
+        driver.findElem("//*[contains(text(), 'Falar por Chat')]", "xpath").isDisplayed();
+    }
+
+    public void verificarNaoFalarChat() {
+        WebElement chat = driver.findElem("//*[contains(text(), 'Falar por Chat')]", "xpath");
+        Assert.assertNull(chat);
+    }
+
+    public void verificarWhatsApp() {
+        driver.findElem("//*[contains(text(), 'Falar por WhatsApp')]", "xpath").isDisplayed();
+    }
+
+    public void verificarTelefoneEmail() {
+        driver.findElem("//*[contains(text(), 'Telefone ou e-mail')]", "xpath").isDisplayed();
     }
 }

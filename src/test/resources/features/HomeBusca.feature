@@ -4,7 +4,6 @@ Funcionalidade: [QA-9] Home Page | Fazer buscas de empreendimentos por Localiza�
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_005] Home Page | Busca | Compra | Busca padrão
     Dado retiro a seleção Comprar na Planta

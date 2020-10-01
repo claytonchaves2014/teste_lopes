@@ -176,6 +176,11 @@ public class Setup {
 
         return element.getAttribute("href");
     }
+    public String getAlt(String parValue, String... parType) {
+        final WebElement element = findElem(parValue, parType);
+
+        return element.getAttribute("alt");
+    }
 
     public String getSrc(String parValue, String... parType) {
         final WebElement element = findElem(parValue, parType);

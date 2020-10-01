@@ -4,7 +4,6 @@ Funcionalidade: [QA-7] Home Page | Validar os links do Header
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Então clico em Aceitar Cookies
 
   Cenário: [CT_001] Home Page | Header | Lançamentos
     Dado clico no header Lançamentos

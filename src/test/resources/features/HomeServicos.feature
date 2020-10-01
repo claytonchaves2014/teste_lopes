@@ -6,7 +6,6 @@ Funcionalidade: [QA-13] Home Page | Validar os links dos Serviços da Lopes
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [CT_013] Home Page | Serviços | Anuncie seu imóvel
     Dado vejo Encontre a solução para você com nossos serviços

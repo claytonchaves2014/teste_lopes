@@ -4,7 +4,6 @@
 Funcionalidade: [QA-16] Resultado de Busca | Validar a busca avançada
   Contexto:
     Dado acesso o Portal da Lopes
-    E clico em Aceitar Cookies
 
   Esquema do Cenario: Cenário: [QA-16] Resultado de Busca | Busca Avançada | Por Estado
     Dado insiro "<Busca>" no campo de busca

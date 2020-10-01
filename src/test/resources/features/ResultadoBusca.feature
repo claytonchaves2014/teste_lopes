@@ -4,7 +4,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando clico em Aceitar Cookies
 
   Cenário: [QA-14] Resultado de Busca | Grid | Validar resultados
     Dado insiro "São Paulo, SP, Brasil" no campo de busca
