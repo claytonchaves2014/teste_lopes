@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO @Login
+@Login
 
 Funcionalidade: [QA-76] Login | Validar o login de Cliente
 
