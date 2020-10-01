@@ -31,10 +31,10 @@ public class HomeBusca {
     }
 
     public void validarResultados(String value) {
-        String currentURL = driver.getCurrentUrl();
-        System.out.println(currentURL);
         driver.waitURL(value);
+        String currentURL = driver.getCurrentUrl();
         Assert.assertTrue(currentURL.contains(value));
+        System.out.println(currentURL);
     }
 
     public void inserirBusca(String value) {
