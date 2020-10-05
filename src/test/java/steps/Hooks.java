@@ -19,7 +19,7 @@ public class Hooks extends BaseSteps {
         System.out.println("\n--- Scenario Finished >>> " + scenario.getName() + " <<< ---");
 
         if(scenario.isFailed()){
-//            driver.quit();
+            driver.quit();
             return;
         }
 
@@ -30,6 +30,6 @@ public class Hooks extends BaseSteps {
             byte[] screenshot = camera.getScreenshotAs(BYTES);
             scenario.embed(screenshot, "image/png");
         }
-//        driver.quit();
+        driver.quit();
     }
 }
