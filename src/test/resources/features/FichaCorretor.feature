@@ -1,5 +1,6 @@
 #language: pt
-#@REGRESSAO
+
+@REGRESSAO
 @FichaCorretor
 
 Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor

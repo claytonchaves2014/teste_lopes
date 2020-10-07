@@ -1,12 +1,11 @@
 #language: pt
 
-@FichaLead
+@REGRESSAO @FichaLead
 Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Contexto:
     Dado acesso o Portal da Lopes
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Validar opções de contato
     Dado clico no header Lançamentos
     E clico no botão avançar
@@ -33,7 +32,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E vejo o botão Falar por WhatsApp
     E vejo o botão Telefone ou e-mail
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por Chat
     Dado clico no header Lançamentos
     E clico no botão avançar
@@ -46,7 +44,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento |Falar por WhatsApp
     Dado clico no header Lançamentos
     E clico no botão avançar
@@ -59,7 +56,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por Telefone
     Dado clico no header Lançamentos
     E clico no botão avançar
@@ -73,7 +69,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com especialista
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por E-mail
     Dado clico no header Lançamentos
     E clico no botão avançar
@@ -87,7 +82,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com especialista
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por WhatsApp
     Dado clico no header Prontos
     E clico no botão avançar
@@ -100,7 +94,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por Telefone
     Dado clico no header Prontos
     E clico no botão avançar
@@ -114,7 +107,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com especialista
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por E-mail
     Dado clico no header Prontos
     E clico no botão avançar
@@ -128,7 +120,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com especialista
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por WhatsApp
     Dado clico no header Aluguel
     E clico em uma card
@@ -140,7 +131,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por Telefone
     Dado clico no header Aluguel
     E clico em uma card
@@ -153,7 +143,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com especialista
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
-  @REGRESSAO
   Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por E-mail
     Dado clico no header Aluguel
     E clico em uma card
