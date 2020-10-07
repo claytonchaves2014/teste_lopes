@@ -6,8 +6,6 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando insiro "São Paulo, SP, Brasil" no campo de busca
-    E seleciono a opção "São Paulo, SP, Brasil"
     Então clico no botão Buscar
 
   Esquema do Cenário: [QA-16] Resultados de Busca | Filtros | Tipo de Imóvel | Por Casa
