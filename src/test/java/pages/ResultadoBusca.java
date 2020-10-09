@@ -39,7 +39,7 @@ public class ResultadoBusca {
     public void clicarVoltarPag() {
         WebElement footer = driver.findElem("//*[@class='search-content__pagination ng-star-inserted']", "xpath");
         driver.ScrollTo(footer);
-        driver.waitElement("//*[@title='Página anterior']", "xpath");
+        driver.waitElement("//li[@class='ant-pagination-next ng-star-inserted']", "xpath");
         driver.click("//*[@title='Página anterior']", "xpath");
     }
 

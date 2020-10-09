@@ -51,7 +51,7 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
     Dado acesso a Ficha do Imóvel "REO292862"
     E verifico o Cartão do Corretor em "Corretores associados ao imóvel"
     Quando clico no botão Falar com o corretor
-    Então vejo o popup "Entrar em contato"
+    Então vejo o popup "Entrar em Contato"
     E vejo o texto do popup "Fale agora com o corretor pelo:"
     E vejo o número do Corretor no popup
     E vejo o botão Fechar popup

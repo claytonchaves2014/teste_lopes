@@ -16,7 +16,7 @@ public class ResultadoFiltros {
 
     public void clicarFiltros() {
         driver.waitElement("//*[@class='filter-btn ant-btn ant-dropdown-trigger nz-animate-disabled ng-star-inserted ant-btn-default ant-btn-sm']","xpath");
-        driver.click("//*[@class='filter-btn ant-btn ant-dropdown-trigger nz-animate-disabled ng-star-inserted ant-btn-default ant-btn-sm']","xpath");
+        driver.forceClick("//*[@class='filter-btn ant-btn ant-dropdown-trigger nz-animate-disabled ng-star-inserted ant-btn-default ant-btn-sm']","xpath");
     }
 
     public void clicarAplicarFiltros() {
@@ -40,7 +40,8 @@ public class ResultadoFiltros {
     }
 
     public void clicarOutrosFiltros() {
-        driver.click("//*[@class='ant-collapse-header ng-tns-c80-10']", "xpath");
+        driver.waitElement("//*[@class='ant-collapse-header ng-tns-c80-10']", "xpath");
+        driver.forceClick("//*[@class='ant-collapse-header ng-tns-c80-10']", "xpath");
     }
 
     public void selecionarTipoCasa(String value) throws InterruptedException {

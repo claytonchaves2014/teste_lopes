@@ -22,23 +22,23 @@ public class HomeFooter {
     }
 
     public void clicarQuemSomos() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/quem-somos\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/quem-somos\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/quem-somos\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/quem-somos\"]/p", "xpath");
     }
 
     public void clicarAssessoriaImprensa() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/assessoria-de-imprensa\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/assessoria-de-imprensa\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/assessoria-de-imprensa\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/assessoria-de-imprensa\"]/p", "xpath");
     }
 
     public void clicarLinhaEtica() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/linha-de-etica\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/linha-de-etica\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/linha-de-etica\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/linha-de-etica\"]/p", "xpath");
     }
 
     public void clicarTrabalheConosco() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/trabalhe-conosco\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/trabalhe-conosco\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/trabalhe-conosco\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/trabalhe-conosco\"]/p", "xpath");
     }
 
     public void clicarRelacaoInvestidores() throws InterruptedException {
@@ -47,13 +47,13 @@ public class HomeFooter {
     }
 
     public void clicarVendaImovel() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/anuncie-seu-imovel\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/anuncie-seu-imovel\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/anuncie-seu-imovel\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/anuncie-seu-imovel\"]/p", "xpath");
     }
 
     public void clicarAlugueImovel() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"link/paginas/anuncie-seu-imovel\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"link/paginas/anuncie-seu-imovel\"]/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/anuncie-seu-imovel\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/anuncie-seu-imovel\"]/p", "xpath");
     }
 
     public void clicarCredipronto() throws InterruptedException {
