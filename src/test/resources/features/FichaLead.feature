@@ -44,7 +44,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
 
-  Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento |Falar por WhatsApp
+  Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por WhatsApp
     Dado clico no header Lançamentos
     E clico no botão avançar
     E clico em uma card
@@ -54,7 +54,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico em Fale com o corretor
-    Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
+    Então vejo a mensagem de lead enviado "Aguarde o contato do corretor."
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por Telefone
     Dado clico no header Lançamentos

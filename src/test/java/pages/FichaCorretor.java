@@ -104,11 +104,11 @@ public class FichaCorretor {
     }
 
     public void verificarFoto() {
-        driver.findElem("//img[@class='card__picture ng-star-inserted']", "xpath").isDisplayed();
+        driver.findElem("//img[@alt='imagem corretor']", "xpath").isDisplayed();
     }
 
     public void verificarLogo() {
-        driver.findElem("//img[@class='card__logo-lopes ng-star-inserted']", "xpath").isDisplayed();
+        driver.findElem("//img[@alt='Logo da Lopes']", "xpath").isDisplayed();
     }
 
     public void verificarNomeCompleto() {
