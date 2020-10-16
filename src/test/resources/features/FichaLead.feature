@@ -1,6 +1,7 @@
 #language: pt
 
-@REGRESSAO @FichaLead
+#@REGRESSAO
+@FichaLead
 Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Contexto:
