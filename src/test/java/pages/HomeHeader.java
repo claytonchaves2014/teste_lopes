@@ -65,4 +65,8 @@ public class HomeHeader {
     public void clicarFavoritos() {
         driver.click("//*[@title=\"Meus Imóveis\"]", "xpath");
     }
+
+    public void verificarHomePage() {
+        driver.findElem("//div[@class='home_container']", "xpath").isDisplayed();
+    }
 }

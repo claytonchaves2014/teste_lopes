@@ -196,3 +196,14 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
       | Academia de ginástica           | /comodidade/com-academia                   |
       | Churrasqueira                   | comodidade/com-churrasqueira               |
       | Piscina                         | comodidade/com-piscina                     |
+
+  Cenário: [3154] Resultados de Busca | Filtros | Aplicar filtro e alterar Tipo de Transação
+    Dado clico no botão Filtros
+    E clico em Características do Imóvel
+    E seleciono "3" em "Dormitórios"
+    E seleciono "2" em "Vagas"
+    E clico em Aplicas os filtros selecionados
+    E visualizo os filtros como "Filtros (2)"
+    Quando clico em Tipo de Transação
+    E seleciono o tipo de transação "Aluguel"
+    Então visualizo os filtros como "Filtros (2)"

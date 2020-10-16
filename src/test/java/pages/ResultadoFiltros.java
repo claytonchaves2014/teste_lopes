@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import support.Setup;
@@ -249,6 +250,33 @@ public class ResultadoFiltros {
             if(value.equals(option.getText())) {
                 option.click();
             }
+        }
+    }
+
+    public void validarFiltrosAplicados(String value) {
+        WebElement filtros = driver.findElem("/html/body/lps-root/lps-search/div/div/div[1]/lps-search-bar/div/div/div[2]/button/span[2]", "xpath");
+        Assert.assertEquals(value, filtros.getText());
+    }
+
+    public void clicarTipoTransacao() {
+        driver.waitElementToBeClickable("//button[@class='mr-3 operation-btn ant-btn ant-dropdown-trigger ant-btn-default ant-btn-sm']", "xpath");
+        driver.forceClick("//button[@class='mr-3 operation-btn ant-btn ant-dropdown-trigger ant-btn-default ant-btn-sm']", "xpath");
+    }
+
+    public void selecionarTipoTransacao(String value) {
+        switch (value) {
+            case "Aluguel":
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/div/lps-operation-type-filter/div/nz-radio-group/label[2]/span[2]", "xpath");
+                break;
+            case "Compra":
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/div/lps-operation-type-filter/div/nz-radio-group/label[1]/span[2]", "xpath");
+                break;
+            case "Pronto":
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/div/lps-operation-type-filter/div/nz-radio-group/div/div[2]/label/span[2]", "xpath");
+                break;
+            case "Lançamento":
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/div/lps-operation-type-filter/div/nz-radio-group/div/div[1]/label/span[2]", "xpath");
+                break;
         }
     }
 }

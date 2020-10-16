@@ -129,7 +129,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico em Fale com o corretor
-    Então vejo a mensagem de lead enviado "Aguarde o carregamento da página para conversar com nossos corretores."
+    Então vejo a mensagem de lead enviado "Aguarde o contato do corretor."
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por Telefone
     Dado clico no header Aluguel

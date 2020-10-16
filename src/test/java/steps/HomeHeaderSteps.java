@@ -68,4 +68,9 @@ public class HomeHeaderSteps extends BaseSteps {
     public void clicoNoHeaderFavoritos() {
         homeHeader.clicarFavoritos();
     }
+
+    @Então("verifico que a Home Page é aberta")
+    public void verificoQueAHomePageÉAberta() {
+        homeHeader.verificarHomePage();
+    }
 }
