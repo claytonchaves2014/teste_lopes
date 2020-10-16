@@ -90,8 +90,17 @@ public class FichaCorretor {
     }
 
     public void validarCelularLead(String value) {
-        WebElement celular = driver.findElem("//*[@id=\"web\"]/div[2]/div[1]/span", "xpath");
-        Assert.assertEquals(value, celular.getText());
+        String url = driver.getCurrentUrl();
+
+        if (url.contains("dev")) {
+            WebElement celular = driver.findElem("//*[@id=\"web\"]/div[2]/div[1]/span", "xpath");
+            Assert.assertEquals("+55 11 999995360", celular.getText());
+        }
+
+        if (url.contains("qa")) {
+            WebElement celular = driver.findElem("//*[@id=\"web\"]/div[2]/div[1]/span", "xpath");
+            Assert.assertEquals(value, celular.getText());
+        }
     }
 
     public void verificarCartaoCorretor(String value) {
@@ -104,7 +113,7 @@ public class FichaCorretor {
     }
 
     public void verificarFoto() {
-        driver.findElem("//img[@alt='imagem corretor']", "xpath").isDisplayed();
+        driver.findElem("//img[@alt='imagem padrão']", "xpath").isDisplayed();
     }
 
     public void verificarLogo() {

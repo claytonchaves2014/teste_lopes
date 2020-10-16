@@ -134,4 +134,19 @@ public class ResultadoFiltrosSteps extends BaseSteps {
     public void selecionoComoOutrosFiltros(String value) {
         resultadoFiltros.selecionarOutrosFiltros(value);
     }
+
+    @E("visualizo os filtros como {string}")
+    public void visualizoOsFiltrosComo(String value) {
+        resultadoFiltros.validarFiltrosAplicados(value);
+    }
+
+    @Quando("clico em Tipo de Transação")
+    public void clicoEmTipoDeTransação() {
+        resultadoFiltros.clicarTipoTransacao();
+    }
+
+    @E("seleciono o tipo de transação {string}")
+    public void selecionoOTipoDeTransação(String value) {
+        resultadoFiltros.selecionarTipoTransacao(value);
+    }
 }
