@@ -91,16 +91,9 @@ public class FichaCorretor {
 
     public void validarCelularLead(String value) {
         String url = driver.getCurrentUrl();
-
-        if (url.contains("dev")) {
-            WebElement celular = driver.findElem("//*[@id=\"web\"]/div[2]/div[1]/span", "xpath");
-            Assert.assertEquals("+55 11 999995360", celular.getText());
-        }
-
-        if (url.contains("qa")) {
-            WebElement celular = driver.findElem("//*[@id=\"web\"]/div[2]/div[1]/span", "xpath");
-            Assert.assertEquals(value, celular.getText());
-        }
+        WebElement elemento = driver.findElem("//div[@class='phone ng-star-inserted']", "xpath");
+        String celular = elemento.getText();
+        Assert.assertTrue(celular.contains(value));
     }
 
     public void verificarCartaoCorretor(String value) {

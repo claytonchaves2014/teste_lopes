@@ -1,6 +1,6 @@
 #language: pt
 
-#@REGRESSAO
+@REGRESSAO
 @FichaCorretor
 
 Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
@@ -24,7 +24,6 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
   Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Celular do lead
     Dado acesso a Ficha do Imóvel "REO41647"
     Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
-    E clico em Ver telefone no Lead
     Então visualizo o celular do Corretor no Lead como "+55 11 991535279"
 
   Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Validar layout
