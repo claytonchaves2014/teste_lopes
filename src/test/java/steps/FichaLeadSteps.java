@@ -89,4 +89,34 @@ public class FichaLeadSteps extends BaseSteps {
     public void nãoVejoOBotãoFalarPorChat() {
         fichaLead.verificarNaoFalarChat();
     }
+
+    @E("clico no dropdown de formas de contato")
+    public void clicoNoDropdownDeFormasDeContato() {
+        fichaLead.clicarFormaContato();
+    }
+
+    @Então("vejo {string} como opção de forma de contato")
+    public void vejoComoOpçãoDeFormaDeContato(String value) {
+        fichaLead.validarFormaContato(value);
+    }
+
+    @Então("não vejo {string} como opção de forma de contato")
+    public void nãoVejoComoOpçãoDeFormaDeContato(String value) {
+        fichaLead.verificarOpcaoChat(value);
+    }
+
+    @E("seleciono {string} como Forma de Contato de Lançamento")
+    public void selecionoComoFormaDeContatoDeLançamento(String value) {
+        fichaLead.selecionarOpcaoContatoLancamentos(value);
+    }
+
+    @E("seleciono {string} como Forma de Contato de Prontos")
+    public void selecionoComoFormaDeContatoDeProntos(String value) {
+        fichaLead.selecionarOpcaoContatoProntos(value);
+    }
+
+    @E("seleciono {string} como Forma de Contato de Aluguel")
+    public void selecionoComoFormaDeContatoDeAluguel(String value) {
+        fichaLead.selecionarOpcaoContatoAluguel(value);
+    }
 }

@@ -30,10 +30,10 @@ public class ResultadoBusca {
     }
 
     public void clicarAvançarPag() {
-        WebElement footer = driver.findElem("//*[@class='search-content__pagination ng-star-inserted']", "xpath");
+        WebElement footer = driver.findElem("//*[@class='ant-pagination mini ng-star-inserted']", "xpath");
         driver.ScrollTo(footer);
         driver.waitElement("//*[@title='Próxima página']", "xpath");
-        driver.click("//*[@title='Próxima página']", "xpath");
+        driver.forceClick("//*[@title='Próxima página']", "xpath");
     }
 
     public void clicarVoltarPag() {
