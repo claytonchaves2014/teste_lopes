@@ -67,6 +67,7 @@ public class HomeHeader {
     }
 
     public void verificarHomePage() {
-        driver.findElem("//div[@class='home_container']", "xpath").isDisplayed();
+        driver.waitElement("//img[@class='search-background-img']", "xpath");
+        driver.findElem("//img[@class='search-background-img']", "xpath").isDisplayed();
     }
 }
