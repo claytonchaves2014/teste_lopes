@@ -66,8 +66,14 @@ public class HomeHeader {
         driver.click("//*[@title=\"Meus Imóveis\"]", "xpath");
     }
 
-    public void verificarHomePage() {
-        driver.waitElement("//img[@class='search-background-img']", "xpath");
-        driver.findElem("//img[@class='search-background-img']", "xpath").isDisplayed();
+    public void verificarHomePage() throws InterruptedException {
+        Thread.sleep(2000);
+        String currentURL = driver.getCurrentUrl();
+        if (currentURL.contains("dev")) {
+            Assert.assertEquals("https://devfrontportaltqi.lpsbr.com/", currentURL);
+        }
+        if (currentURL.contains("qa")) {
+            Assert.assertEquals("https://qafrontportal.lpsbr.com/", currentURL);
+        }
     }
 }
