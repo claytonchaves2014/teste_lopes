@@ -70,7 +70,7 @@ public class HomeHeaderSteps extends BaseSteps {
     }
 
     @Então("verifico que a Home Page é aberta")
-    public void verificoQueAHomePageÉAberta() {
+    public void verificoQueAHomePageÉAberta() throws InterruptedException {
         homeHeader.verificarHomePage();
     }
 }

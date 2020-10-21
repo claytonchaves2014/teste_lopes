@@ -129,39 +129,3 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E seleciono "Email" como Forma de Contato de Prontos
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
-
-  Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por WhatsApp
-    Dado clico no header Aluguel
-    E clico em uma card
-    Quando vejo a Ficha do Imóvel
-    E insiro meu Nome como "QA Automação"
-    E insiro meu E-mail como "qa.automacao@mailinator.com"
-    E insiro meu Celular como "(84) 99752-8519"
-    E clico no dropdown de formas de contato
-    E seleciono "Whatsapp" como Forma de Contato de Aluguel
-    E clico em Fale com o corretor
-    Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
-
-  Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por Telefone
-    Dado clico no header Aluguel
-    E clico em uma card
-    Quando vejo a Ficha do Imóvel
-    E insiro meu Nome como "QA Automação"
-    E insiro meu E-mail como "qa.automacao@mailinator.com"
-    E insiro meu Celular como "(84) 99752-8519"
-    E clico no dropdown de formas de contato
-    E seleciono "Telefone" como Forma de Contato de Aluguel
-    E clico em Fale com o corretor
-    Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
-
-  Cenario: [CT_019] Ficha do Imóvel | Lead | Aluguel | Falar por E-mail
-    Dado clico no header Aluguel
-    E clico em uma card
-    Quando vejo a Ficha do Imóvel
-    E insiro meu Nome como "QA Automação"
-    E insiro meu E-mail como "qa.automacao@mailinator.com"
-    E insiro meu Celular como "(84) 99752-8519"
-    E clico no dropdown de formas de contato
-    E seleciono "Email" como Forma de Contato de Aluguel
-    E clico em Fale com o corretor
-    Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
