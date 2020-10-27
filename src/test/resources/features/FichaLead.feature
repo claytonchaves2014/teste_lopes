@@ -48,7 +48,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Chat" como Forma de Contato de Lançamento
+    E seleciono "Chat" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -61,7 +61,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Whatsapp" como Forma de Contato de Lançamento
+    E seleciono "Whatsapp" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -74,7 +74,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Telefone" como Forma de Contato de Lançamento
+    E seleciono "Telefone" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -87,7 +87,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Email" como Forma de Contato de Lançamento
+    E seleciono "Email" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -100,7 +100,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Whatsapp" como Forma de Contato de Prontos
+    E seleciono "Whatsapp" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -113,7 +113,7 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Telefone" como Forma de Contato de Prontos
+    E seleciono "Telefone" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."
 
@@ -126,6 +126,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
     E insiro meu E-mail como "qa.automacao@mailinator.com"
     E insiro meu Celular como "(84) 99752-8519"
     E clico no dropdown de formas de contato
-    E seleciono "Email" como Forma de Contato de Prontos
+    E seleciono "Email" como Forma de Contato
     E clico em Fale com o corretor
     Então vejo a mensagem de lead enviado "Aguarde a confirmação com um consultor."

@@ -49,10 +49,10 @@ public class FichaCorretor {
     public void validarQntCartaoCorretor() {
         WebElement select = driver.findElem("//div[@class='card ng-star-inserted']", "xpath");
 
-        List<WebElement> options = select.findElements(By.xpath("//div[@class='card__nickname']"));
+        List<WebElement> options = select.findElements(By.xpath("//div[@class='card__information__nickname']"));
         int count = options.size();
 
-        if (count <= 5) {
+        if (count <= 6) {
             System.out.println("Existe essa qnt de corretor: " + count);
         }
         else {
@@ -61,7 +61,7 @@ public class FichaCorretor {
     }
 
     public void validarNumCreci(String value) {
-        WebElement elemento = driver.findElem("//div[@class='card__creci']", "xpath");
+        WebElement elemento = driver.findElem("//div[@class='card__information__creci']", "xpath");
         String creci = elemento.getText();
         Assert.assertTrue(creci.contains(value));
     }
@@ -70,7 +70,7 @@ public class FichaCorretor {
         WebElement card = driver.findElem("//span[@class='realtor__title-card']", "xpath");
         driver.ScrollTo(card);
 
-        WebElement nickname = driver.findElem("//div[@class='card__nickname']", "xpath");
+        WebElement nickname = driver.findElem("//div[@class='card__information__nickname']", "xpath");
         Assert.assertEquals(value, nickname.getText());
     }
 
@@ -102,7 +102,7 @@ public class FichaCorretor {
     }
 
     public void verificarApelido() {
-        driver.findElem("//div[@class='card__nickname']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='card__information__nickname']", "xpath").isDisplayed();
     }
 
     public void verificarFoto() {
@@ -114,11 +114,11 @@ public class FichaCorretor {
     }
 
     public void verificarNomeCompleto() {
-        driver.findElem("//div[@class='card__name']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='card__information__name']", "xpath").isDisplayed();
     }
 
     public void verificarCreci() {
-        driver.findElem("//div[@class='card__creci']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='card__information__creci']", "xpath").isDisplayed();
     }
 
     public void verificarFalarComCorretor() {
@@ -130,13 +130,13 @@ public class FichaCorretor {
     }
 
     public void verificarPopup(String value) {
-        driver.waitElement("//p[@class='modal-realtor__title ng-star-inserted']", "xpath");
-        WebElement popup = driver.findElem("//p[@class='modal-realtor__title ng-star-inserted']", "xpath");
+        driver.waitElement("//p[@class='modal-realtor__title']", "xpath");
+        WebElement popup = driver.findElem("//p[@class='modal-realtor__title']", "xpath");
         Assert.assertEquals(value, popup.getText());
     }
 
     public void verificarTxtPopup(String value) {
-        WebElement popup = driver.findElem("//p[@class='modal-realtor__description ng-star-inserted']", "xpath");
+        WebElement popup = driver.findElem("//p[@class='modal-realtor__description']", "xpath");
         Assert.assertEquals(value, popup.getText());
     }
 
@@ -145,10 +145,10 @@ public class FichaCorretor {
     }
 
     public void verificarFecharPopup() {
-        driver.findElem("//a[@class='modal-realtor__close ng-star-inserted']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='modal-realtor__close']", "xpath").isDisplayed();
     }
 
     public void clicarFecharPopup() {
-        driver.forceClick("//a[@class='modal-realtor__close ng-star-inserted']", "xpath");
+        driver.forceClick("//div[@class='modal-realtor__close']", "xpath");
     }
 }
