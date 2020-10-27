@@ -12,11 +12,8 @@ public class HomeHeader {
         driver = stepDriver;
     }
 
-    String url = "https://devfrontportaltqi.lpsbr.com/";
-
     public void abrirPortal() {
-//        driver.openURL(System.getProperty("url"));
-        driver.openURL(url);
+        driver.openURL(System.getProperty("url"));
     }
 
     public void clicarLogo() {

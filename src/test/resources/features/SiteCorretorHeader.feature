@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO
+#@REGRESSAO
 @SiteCorretor
 
 Funcionalidade: [3111] Site do Corretor | Validar o header
