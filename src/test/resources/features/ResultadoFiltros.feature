@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO
+#@REGRESSAO
 @ResultadoFiltros
 
 Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
