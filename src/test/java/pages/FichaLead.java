@@ -109,17 +109,14 @@ public class FichaLead {
         }
     }
 
-    public void selecionarOpcaoContatoProntos(String value) {
-        switch (value) {
-            case "Telefone":
-                driver.forceClick("//*[@id=\"cdk-overlay-4\"]/div/div/ul/li[1]/span", "xpath");
-                break;
-            case "Email":
-                driver.forceClick("//*[@id=\"cdk-overlay-4\"]/div/div/ul/li[2]/span", "xpath");
-                break;
-            case "Whatsapp":
-                driver.forceClick("//*[@id=\"cdk-overlay-4\"]/div/div/ul/li[3]/span", "xpath");
-                break;
+    public void selecionarFormaContato(String value) {
+        WebElement select = driver.findElem("//ul[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-2']", "xpath");
+        List<WebElement> options = select.findElements(By.tagName("li"));
+
+        for (WebElement option : options) {
+            if(value.equals(option.getText())) {
+                option.click();
+            }
         }
     }
 

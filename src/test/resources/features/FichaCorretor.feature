@@ -39,7 +39,7 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
   Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Validar quantidade de cartões
     Dado acesso a Ficha do Imóvel "REO41647"
     Quando verifico o Cartão do Corretor em "Corretores associados ao imóvel"
-    Então vejo que há no máximo cinto corretores listados
+    Então vejo que há no máximo seis corretores listados
 
   Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Validar CRECI do Corretor
     Dado acesso a Ficha do Imóvel "REO41647"
