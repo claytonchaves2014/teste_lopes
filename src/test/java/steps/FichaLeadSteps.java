@@ -105,18 +105,8 @@ public class FichaLeadSteps extends BaseSteps {
         fichaLead.verificarOpcaoChat(value);
     }
 
-    @E("seleciono {string} como Forma de Contato de Lançamento")
-    public void selecionoComoFormaDeContatoDeLançamento(String value) {
-        fichaLead.selecionarOpcaoContatoLancamentos(value);
-    }
-
-    @E("seleciono {string} como Forma de Contato de Prontos")
-    public void selecionoComoFormaDeContatoDeProntos(String value) {
-        fichaLead.selecionarOpcaoContatoProntos(value);
-    }
-
-    @E("seleciono {string} como Forma de Contato de Aluguel")
-    public void selecionoComoFormaDeContatoDeAluguel(String value) {
-        fichaLead.selecionarOpcaoContatoAluguel(value);
+    @E("seleciono {string} como Forma de Contato")
+    public void selecionoComoFormaDeContato(String value) {
+        fichaLead.validarFormaContato(value);
     }
 }
