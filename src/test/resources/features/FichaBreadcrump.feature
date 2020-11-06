@@ -24,7 +24,7 @@ Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
     E clico para abrir o Breadcrump
     Quando vejo o breadcrump Rua do imóvel
     E clico no breacrump Rua
-    Então vejo os Resultados de Busca com a url "/rua-"
+    Então vejo os Resultados de Busca com a url de nível de rua
 
   Cenario: [QA-25] Ficha do Imóvel | Breadcrump | Abrir Bairro
     Dado vejo a Ficha do Imóvel

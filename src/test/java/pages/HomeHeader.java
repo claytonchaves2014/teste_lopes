@@ -12,11 +12,8 @@ public class HomeHeader {
         driver = stepDriver;
     }
 
-    String url = "https://devfrontportaltqi.lpsbr.com/";
-
     public void abrirPortal() {
-//        driver.openURL(System.getProperty("url"));
-        driver.openURL(url);
+        driver.openURL(System.getProperty("url"));
     }
 
     public void clicarLogo() {
@@ -25,8 +22,8 @@ public class HomeHeader {
 
     public void verificarURL(String value) throws InterruptedException {
         String currentURL = driver.getCurrentUrl();
-        Assert.assertTrue(currentURL.contains(value));
         System.out.println("A página aberta é: " + currentURL);
+        Assert.assertTrue(currentURL.contains(value));
     }
 
     public void clicarCookies() {

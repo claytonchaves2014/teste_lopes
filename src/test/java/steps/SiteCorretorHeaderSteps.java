@@ -70,4 +70,9 @@ public class SiteCorretorHeaderSteps extends BaseSteps {
     public void nãoVisualizoOLinkMinhaConta() {
         siteCorretorHeader.validarLinkLogin();
     }
+
+    @Quando("clico no Logo do CRM")
+    public void clicoNoLogoDoCRM() {
+        siteCorretorHeader.clicarLogo();
+    }
 }

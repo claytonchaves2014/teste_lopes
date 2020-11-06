@@ -111,13 +111,13 @@ public class FichaCorretorSteps extends BaseSteps {
         fichaCorretor.clicarFecharPopup();
     }
 
-    @Então("vejo que há no máximo cinto corretores listados")
-    public void vejoQueHáNoMáximoCintoCorretoresListados() {
-        fichaCorretor.validarQntCartaoCorretor();
-    }
-
     @Então("vejo que o número CRECI possui {string} no final")
     public void vejoQueONúmeroCRECIPossuiNoFinal(String value) {
         fichaCorretor.validarNumCreci(value);
+    }
+
+    @Então("vejo que há no máximo seis corretores listados")
+    public void vejoQueHáNoMáximoSeisCorretoresListados() {
+        fichaCorretor.validarQntCartaoCorretor();
     }
 }

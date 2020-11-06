@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO
+#@REGRESSAO
 @SiteCorretor
 
 Funcionalidade: [2641] Site do Corretor | Validar o cabeçalho
@@ -8,14 +8,14 @@ Funcionalidade: [2641] Site do Corretor | Validar o cabeçalho
     Dado acesso o Portal da Lopes
 
   Cenário: [2641] Site do Corretor | Cabeçalho | Validar o layout
-    Dado acesso o Site do Corretor "MAYARA"
+    Dado acesso o Site do Corretor "VASTHI"
     Quando verifico o cabeçalho do Site do Corretor
     Então vejo a Foto do Corretor no cabeçalho
-    E vejo o Apelido do Corretor  como "MAYARA" no cabeçalho
-    E vejo o Nome completo do Corretor como "MARGARETE AMANCIO BASTIANE" no cabeçalho
-    E vejo o Título do Corretor como "Diretor" no cabeçalho
-    E vejo o CRECI do Corretor como "100579-F" no cabeçalho
-    E vejo a descrição do Corretor como "Olá, seja bem vindo ao meu perfil! Meu nome é MARGARETE AMANCIO BASTIANE, tenho 36 anos e sou um(a) Diretor(a)." no cabeçalho
+    E vejo o Apelido do Corretor  como "VASTHI" no cabeçalho
+    E vejo o Nome completo do Corretor como "Vasthi Rodrigues Pereira De Souza" no cabeçalho
+    E vejo o Título do Corretor como "Corretor on-line" no cabeçalho
+    E vejo o CRECI do Corretor como "70911-F" no cabeçalho
+    E vejo a descrição do Corretor como "Olá, seja bem vindo ao meu perfil! Meu nome é Vasthi Rodrigues Pereira De Souza, tenho 62 anos e sou um(a) Corretor on-line(a)." no cabeçalho
     E vejo o botão Entrar em contato no cabeçalho
     E vejo o botão Whatsapp no cabeçalho
 
@@ -33,9 +33,9 @@ Funcionalidade: [2641] Site do Corretor | Validar o cabeçalho
 
     Exemplos:
     | Corretor | Nome         | Email                  | Telefone        | Forma de Contato | Mensagem                                                               |
-    | MAYARA   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Telefone         | Aguarde a confirmação com um consultor.                                |
-    | MAYARA   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Email            | Aguarde a confirmação com um consultor.                                |
-    | MAYARA   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Whatsapp         | Aguarde o carregamento da página para conversar com nossos corretores. |
+    | VASTHI   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Telefone         | Aguarde a confirmação com um consultor.                                |
+    | VASTHI   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Email            | Aguarde a confirmação com um consultor.                                |
+    | VASTHI   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Whatsapp         | Aguarde o carregamento da página para conversar com nossos corretores. |
 
   Cenário: Cenário: [2641] Site do Corretor | Cabeçalho | Validar campos em Entrar em contato
     Dado acesso o Site do Corretor "VASTHI"
@@ -69,5 +69,4 @@ Funcionalidade: [2641] Site do Corretor | Validar o cabeçalho
 
     Exemplos:
       | Corretor | Nome         | Email                  | Telefone        | Mensagem                                                               |
-      | MAYARA   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Aguarde o carregamento da página para conversar com nossos corretores. |
       | VASTHI   | QA Automação | qa.automacao@teste.com | (69) 99398-6429 | Aguarde o carregamento da página para conversar com nossos corretores. |

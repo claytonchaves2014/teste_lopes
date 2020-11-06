@@ -10,8 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "json:target/reports/CucumberReport.json"},
-//        tags = {__JENKINS_PIPELINE_TAG__},
-        tags = {"@SiteCorretor"},
+        tags = {__JENKINS_PIPELINE_TAG__},
         glue = {"steps"}
 )
 

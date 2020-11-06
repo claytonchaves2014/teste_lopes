@@ -94,8 +94,8 @@ public class HomeFooter {
     }
 
     public void clicarLinkedin() {
-        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis/\"]/div/p", "xpath");
-        driver.forceClick("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis/\"]/div/p", "xpath");
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis\"]/div/p", "xpath");
+        driver.forceClick("//*[@id=\"linkhttps://www.linkedin.com/company/lopes-consultoria-de-imoveis\"]/div/p", "xpath");
     }
 
     public void clicarYoutube() {

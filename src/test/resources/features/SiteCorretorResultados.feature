@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO
+#@REGRESSAO
 @SiteCorretor
 
 Funcionalidade: [3047] Site do Corretor | Validar o cabeçalho
@@ -8,7 +8,7 @@ Funcionalidade: [3047] Site do Corretor | Validar o cabeçalho
     Dado acesso o Portal da Lopes
 
   Cenário: [3047] Site do Corretor | Resultados | Validar o layout
-    Dado acesso o Site do Corretor "MAYARA"
+    Dado acesso o Site do Corretor "VASTHI"
     Quando verifico os resultados de imóveis do corretor
     Então visualizo a descrição com o total dos imóveis encontrados
     E visualizo o botão Ordenar
@@ -18,7 +18,7 @@ Funcionalidade: [3047] Site do Corretor | Validar o cabeçalho
     E visualizo o footer como "2020 Copyright - LPS SÃO PAULO CONSULTORIA DE IMÓVEIS LTDA - CRECI 024073-J - CNPJ 15.673.605/0001-10 - Todos os direitos reservados"
 
   Cenário: [3047] Site do Corretor | Resultados | Validar card
-    Dado acesso o Site do Corretor "MAYARA"
+    Dado acesso o Site do Corretor "VASTHI"
     Quando verifico os resultados de imóveis do corretor
     Então visualizo a card do imóvel
     E visualizo a foto do imóvel na card
@@ -27,7 +27,7 @@ Funcionalidade: [3047] Site do Corretor | Validar o cabeçalho
     E visualizo os atributos do imóvel na card
 
   Cenário: [3047] Site do Corretor | Resultados | Validar a paginação
-    Dado acesso o Site do Corretor "MAYARA"
+    Dado acesso o Site do Corretor "VASTHI"
     E verifico os resultados de imóveis do corretor
     Quando visualizo a paginação
     E clico no botão avançar para a próxima página
@@ -42,8 +42,8 @@ Funcionalidade: [3047] Site do Corretor | Validar o cabeçalho
 
     Exemplos:
     | Corretor | Ordenar             |
-    | MAYARA   | Relevância          |
-    | MAYARA   | Menor valor         |
-    | MAYARA   | Maior valor         |
-    | MAYARA   | Data de atualização |
-    | MAYARA   | Área do imóvel      |
+    | VASTHI   | Relevância          |
+    | VASTHI   | Menor valor         |
+    | VASTHI   | Maior valor         |
+    | VASTHI   | Data de atualização |
+    | VASTHI   | Área do imóvel      |
