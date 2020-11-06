@@ -94,7 +94,7 @@ public class SiteCorretorResultados {
     }
 
     public void validarProxPagina() {
-        WebElement page = driver.findElem("//li[@class='ant-pagination-item ant-pagination-item-active ng-star-inserted']", "xpath");
+        WebElement page = driver.findElem("//li[@class='ant-pagination-item ng-star-inserted ant-pagination-item-active']", "xpath");
         Assert.assertTrue(page.getAttribute("title").equals("2"));
     }
 

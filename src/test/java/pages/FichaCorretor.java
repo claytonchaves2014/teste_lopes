@@ -41,9 +41,14 @@ public class FichaCorretor {
     public void validarCartaoCorretor() {
         WebElement select = driver.findElem("//div[@class='card ng-star-inserted']", "xpath");
 
-        List<WebElement> options = select.findElements(By.xpath("//div[@class='card__nickname']"));
+        List<WebElement> options = select.findElements(By.xpath("//div[@class='card__information__nickname']"));
         int count = options.size();
-        System.out.println("Existe essa qnt de corretor: " + count);
+        if (count <= 1) {
+            System.out.println("Existe essa qnt de corretor: " + count);
+        }
+        else {
+            Assert.fail("Existem mais de 1 Cartão do Corretor");
+        }
     }
 
     public void validarQntCartaoCorretor() {
@@ -56,7 +61,7 @@ public class FichaCorretor {
             System.out.println("Existe essa qnt de corretor: " + count);
         }
         else {
-            Assert.fail("Existem mais de 5 Cartões do Corretor");
+            Assert.fail("Existem mais de 6 Cartões do Corretor");
         }
     }
 
@@ -110,7 +115,7 @@ public class FichaCorretor {
     }
 
     public void verificarLogo() {
-        driver.findElem("//img[@alt='Logo da Lopes']", "xpath").isDisplayed();
+        driver.findElem("//img[@alt='Logo parceira']", "xpath").isDisplayed();
     }
 
     public void verificarNomeCompleto() {

@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import support.Setup;
 
 public class FichaBreadcrump {
@@ -48,5 +49,22 @@ public class FichaBreadcrump {
 
     public void clicarHome() {
         driver.forceClick("/html/body/lps-root/lps-product-layout/nav-layout-default/lps-product/div[2]/lps-breadcrumb/div/ul/li[1]/a", "xpath");
+    }
+
+    public void validarRua(String value) {
+        String currentUrl = driver.getCurrentUrl();
+
+        if (currentUrl.contains("/rua-")) {
+            Assert.assertTrue(currentUrl.contains("/rua-"));
+        }
+        if (currentUrl.contains("/alameda-")) {
+            Assert.assertTrue(currentUrl.contains("/alameda-"));
+        }
+        if (currentUrl.contains("/avenida-")) {
+            Assert.assertTrue(currentUrl.contains("/avenida-"));
+        }
+        else {
+            Assert.fail();
+        }
     }
 }

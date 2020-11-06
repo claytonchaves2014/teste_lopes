@@ -75,4 +75,8 @@ public class SiteCorretorHeader {
         WebElement menu = driver.findElem("//a[@title='Minha conta']", "xpath");
         Assert.assertNull(menu);
     }
+
+    public void clicarLogo() {
+        driver.forceClick("//a[@class='header__button header__link']", "xpath");
+    }
 }

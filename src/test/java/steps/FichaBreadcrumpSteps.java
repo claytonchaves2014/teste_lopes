@@ -59,4 +59,8 @@ public class FichaBreadcrumpSteps extends BaseSteps {
     public void clicoNoBreacrumpHome() {
         fichaBreadcrump.clicarHome();
     }
+
+    @Então("vejo os Resultados de Busca com a url de nível de rua")
+    public void vejoOsResultadosDeBuscaComAUrlDeNívelDeRua() {
+    }
 }

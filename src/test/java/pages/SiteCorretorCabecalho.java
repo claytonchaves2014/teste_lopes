@@ -22,7 +22,7 @@ public class SiteCorretorCabecalho {
     }
 
     public void verificarFoto() {
-        driver.findElem("//img[@class='pfl-img']", "xpath").isDisplayed();
+        driver.findElem("//img[@class='pfl-img img_default']", "xpath").isDisplayed();
     }
 
     public void verificarApelido(String value) {
