@@ -122,4 +122,22 @@ public class HomeFooterSteps extends BaseSteps {
     public void verificoQueAURLDeServiçosDeFotografiaÉAberta(String value) {
         homeFooter.validarFotografia(value);
     }
+
+    @Quando("clico em Fale Conosco")
+    public void clicoEmFaleConosco() {
+        homeFooter.clicarFaleConosco();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em Seja um corretor associado")
+    public void clicoEmSejaUmCorretorAssociado() {
+        homeFooter.clicarQueroSerCorretor();
+        homeFooter.trocarJanela();
+    }
+
+    @Quando("clico em Mapa do site")
+    public void clicoEmMapaDoSite() {
+        homeFooter.clicarMapaSite();
+        homeFooter.trocarJanela();
+    }
 }
