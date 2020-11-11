@@ -25,10 +25,15 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Trabalhe conosco
     Então verifico que a URL é aberta "/paginas/trabalhe-conosco"
 
+  Cenário: [CT_002] Home Page | Footer | Seja um corretor associado
+    Dado verifico o Footer da página
+    Quando clico em Seja um corretor associado
+    Então verifico que a URL é aberta "/campanha/quero-ser-corretor"
+
   Cenário: [CT_002] Home Page | Footer | Relação com investidores
     Dado verifico o Footer da página
     Quando clico em Relação com investidores
-    Então verifico que a URL é aberta "https://ri.lopes.com.br/"
+    Então verifico que a URL é aberta "https://ri.lopes.com.br"
 
   Cenário: [CT_002] Home Page | Footer | Venda seu imóvel
     Dado verifico o Footer da página

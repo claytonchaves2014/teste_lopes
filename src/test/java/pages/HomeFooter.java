@@ -26,6 +26,11 @@ public class HomeFooter {
         driver.forceClick("//*[@id=\"linkpaginas/quem-somos\"]/p", "xpath");
     }
 
+    public void clicarFaleConosco() {
+        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/fale-conosco\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkpaginas/fale-conosco\"]/p", "xpath");
+    }
+
     public void clicarAssessoriaImprensa() throws InterruptedException {
         driver.waitElementToBeClickable("//*[@id=\"linkpaginas/assessoria-de-imprensa\"]/p", "xpath");
         driver.forceClick("//*[@id=\"linkpaginas/assessoria-de-imprensa\"]/p", "xpath");
@@ -41,9 +46,18 @@ public class HomeFooter {
         driver.forceClick("//*[@id=\"linkpaginas/trabalhe-conosco\"]/p", "xpath");
     }
 
+    public void clicarQueroSerCorretor() {
+        driver.waitElementToBeClickable("//*[@id=\"linkhttps://www.lopes.com.br/campanha/quero-ser-corretor\"]/p", "xpath");
+        driver.forceClick("//*[@id=\"linkhttps://www.lopes.com.br/campanha/quero-ser-corretor\"]/p", "xpath");
+    }
+
     public void clicarRelacaoInvestidores() throws InterruptedException {
         driver.waitElementToBeClickable("//*[@id=\"linkhttps://ri.lopes.com.br/\"]/p", "xpath");
         driver.forceClick("//*[@id=\"linkhttps://ri.lopes.com.br/\"]", "xpath");
+    }
+
+    public void clicarMapaSite() {
+        driver.forceClick("link/paginas/mapa-do-site", "id");
     }
 
     public void clicarVendaImovel() throws InterruptedException {
