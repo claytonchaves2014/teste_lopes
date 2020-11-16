@@ -16,7 +16,7 @@ public class ResultadoSEO {
     }
 
     public void verificarDinamicas() {
-        WebElement footer = driver.findElem("//*[@class='search-grid-about__title']", "xpath");
+        WebElement footer = driver.findElem("//div[@class='search-content__breadcrumb-list ng-star-inserted']", "xpath");
         driver.ScrollTo(footer);
     }
 

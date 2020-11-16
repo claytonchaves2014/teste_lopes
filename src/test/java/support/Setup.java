@@ -42,7 +42,7 @@ public class Setup {
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
 
-//                    chromeOptions.addArguments("--incognito");
+                    chromeOptions.addArguments("--incognito");
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 
@@ -128,6 +128,11 @@ public class Setup {
     public void click(String parValue, String... parType) {
         final WebElement element = findElem(parValue, parType);
         element.click();
+    }
+
+    public void clearText(String parValue, String... parType) {
+        final WebElement element = findElem(parValue, parType);
+        element.clear();
     }
 
     public void doubleclick(String parValue, String... parType) {
