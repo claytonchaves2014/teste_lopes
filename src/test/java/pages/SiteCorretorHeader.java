@@ -14,6 +14,7 @@ public class SiteCorretorHeader {
 
     public void acessarSiteCorretor(String value) {
         String url = driver.getCurrentUrl();
+        System.out.println(url);
 
         if (url.contains("dev")) {
             driver.openURL("https://devfrontcrm.lpsbr.com/associado/" + value);

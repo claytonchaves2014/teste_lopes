@@ -29,10 +29,9 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então vejo os Resultados de Busca com a url "/busca/venda/br/sp/sao-paulo?"
 
   Cenário: [CT_016] Resultado de Busca | Grid | Validar a card do imóvel
-    Dado insiro "São Paulo, SP, Brasil" no campo de busca
-    E seleciono a opção "São Paulo, SP, Brasil"
-    Quando clico no botão Buscar
-    Então vejo a card do imóvel
+    Dado clico no header Prontos
+    E clico no botão avançar
+    Quando vejo a card do imóvel
     E vejo o tipo de imóvel na card
     E vejo o valor do imóvel na card
     E vejo o valor de condomínio na card

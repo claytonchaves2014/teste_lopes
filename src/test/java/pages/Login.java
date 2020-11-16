@@ -26,6 +26,7 @@ public class Login {
 
     public void clicarEntrar() {
         driver.click("//*[@class='button-submit button-submit__primary']", "xpath");
+        driver.findElem("widget-container-sm").isDisplayed();
     }
 
     public void verificarProfile() {

@@ -68,7 +68,7 @@ public class ResultadoBusca {
     }
 
     public void verificarFavorito() {
-        driver.findElem("//*[@title='Favoritar']", "xpath").isDisplayed();
+        driver.findElem("//div[@title='Favoritar']", "xpath").isDisplayed();
     }
 
     public void clicarCard() {

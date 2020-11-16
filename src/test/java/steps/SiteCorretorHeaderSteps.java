@@ -12,7 +12,7 @@ public class SiteCorretorHeaderSteps extends BaseSteps {
     private static SiteCorretorHeader siteCorretorHeader = new SiteCorretorHeader(driver);
 
     @Dado("acesso o Site do Corretor {string}")
-    public void acessoOSiteDoCorretor(String value) {
+    public void acessoOSiteDoCorretor(String value) throws InterruptedException {
         siteCorretorHeader.acessarSiteCorretor(value);
     }
 

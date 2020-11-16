@@ -12,8 +12,11 @@ public class HomeHeader {
         driver = stepDriver;
     }
 
+    String url = "https://qafrontportal.lpsbr.com/";
+
     public void abrirPortal() {
-        driver.openURL(System.getProperty("url"));
+//        driver.openURL(System.getProperty("url"));
+        driver.openURL(url);
     }
 
     public void clicarLogo() {
@@ -59,7 +62,7 @@ public class HomeHeader {
     }
 
     public void clicarFaleConosco() {
-        driver.click("//*[@class=\"header__contact-us header__link\"]", "xpath");
+        driver.click("//a[@class='header__contact-us header__link']", "xpath");
     }
 
     public void clicarFavoritos() {
