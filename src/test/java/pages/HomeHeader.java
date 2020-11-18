@@ -59,7 +59,7 @@ public class HomeHeader {
     }
 
     public void clicarFaleConosco() {
-        driver.click("//a[@class='header__contact-us header__link']", "xpath");
+        driver.click("//span[@class='header__contact-us--text']", "xpath");
     }
 
     public void clicarFavoritos() {

@@ -1,6 +1,7 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
@@ -82,8 +83,11 @@ public class SiteCorretorEditar {
     }
 
     public void inserirTelPrincipalBranco() {
-        driver.click("telefone_principal");
-        driver.clearText("telefone_principal");
+        WebElement telefone = driver.findElem("telefone_principal");
+        telefone.clear();
+        telefone.sendKeys("1");
+        telefone.sendKeys(Keys.BACK_SPACE);
+        telefone.sendKeys(Keys.BACK_SPACE);
 
         driver.click("telefone_alternativo");
     }
@@ -94,7 +98,12 @@ public class SiteCorretorEditar {
     }
 
     public void inserirTelAlternativoBranco() {
-        driver.clearText("telefone_alternativo");
+        WebElement telefone = driver.findElem("telefone_alternativo");
+        telefone.clear();
+        telefone.sendKeys("1");
+        telefone.sendKeys(Keys.BACK_SPACE);
+        telefone.sendKeys(Keys.BACK_SPACE);
+        telefone.sendKeys(Keys.BACK_SPACE);
         driver.click("telefone_principal");
     }
 
@@ -105,13 +114,13 @@ public class SiteCorretorEditar {
     public void selecionarPaisTelPrincipal(String value) {
         switch (value) {
             case "Brasil":
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[1]", "xpath");
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[1]/div", "xpath");
                 break;
             case "Estados Unidos":
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[2]", "xpath");
+                driver.forceClick("//*[@id=\"cdk-overlay-1\"]/div/div/ul/li[2]/div", "xpath");
                 break;
             case "Portugual":
-                driver.click("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[3]", "xpath");
+                driver.forceClick("//*[@id=\"cdk-overlay-2\"]/div/div/ul/li[3]/div", "xpath");
                 break;
         }
     }
@@ -123,13 +132,13 @@ public class SiteCorretorEditar {
     public void selecionarPaisTelAlternativo(String value) {
         switch (value) {
             case "Brasil":
-                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[1]", "xpath");
+                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[1]/div", "xpath");
                 break;
             case "Estados Unidos":
-                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[2]", "xpath");
+                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[2]/div", "xpath");
                 break;
             case "Portugual":
-                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[3]", "xpath");
+                driver.click("//*[@id=\"cdk-overlay-3\"]/div/div/ul/li[3]/div", "xpath");
                 break;
         }
     }
