@@ -1,6 +1,6 @@
 #language: pt
-#@REGRESSAO
-#@SiteCorretor
+@REGRESSAO
+@SiteCorretor
   @EditarCorretor
 
 Funcionalidade: [3068] Site do Corretor | Editar o perfil
@@ -8,9 +8,10 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
   Contexto:
     Dado acesso o Portal da Lopes
 
-    Cenario: [3068] Site do Corretor | Editar | Validar o perfil público
+  @ignore
+  Cenario: [3068] Site do Corretor | Editar | Validar o perfil público
       Dado acesso o Site do Corretor "Maria.Luiza"
-#      Então não visualizo o botão Editar
+      Então não visualizo o botão Editar
 
   Esquema do Cenário: Cenário: [3068] Site do Corretor | Editar | Validar o botão Editar
     Dado clico em Minha conta
@@ -94,25 +95,25 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
     Quando acesso o Site do Corretor "Maria.Luiza"
     E clico no botão Editar
     E deixo o Telefone Principal em branco
-#    Então vejo a mensagem de validação "Esse telefone principal é inválido!" no Telefone Principal
+    Então vejo a mensagem de validação "Esse telefone principal é inválido!" no Telefone Principal
 
-  Esquema do Cenário: [3068] Site do Corretor | Editar | Telefone principal de outros países
-    Dado clico em Minha conta
-    E clico em Corretor
-    E insiro meu CPF de corretor "<CPF>"
-    E insiro minha Senha de corretor "<Senha>"
-    E clico em Entrar
-    Quando acesso o Site do Corretor "<Corretor>"
-    E clico no botão Editar
-    E clico do dropdown para trocar o país do Telefone Principal
-    E seleciono o país "<País>" para Telefone Principal
-    E insiro o número "<Telefone Principal>" no campo Telefone Principal
-    Então clico em Salvar
-
-    Exemplos:
-      | CPF         | Senha     | Corretor    | País           | Telefone Principal |
-      | 26317760896 | 2631lopes | Maria.Luiza | Estados Unidos | (123) 456-7890     |
-      | 26317760896 | 2631lopes | Maria.Luiza | Portugal       | 987 654 321        |
+#  Esquema do Cenário: [3068] Site do Corretor | Editar | Telefone principal de outros países
+#    Dado clico em Minha conta
+#    E clico em Corretor
+#    E insiro meu CPF de corretor "<CPF>"
+#    E insiro minha Senha de corretor "<Senha>"
+#    E clico em Entrar
+#    Quando acesso o Site do Corretor "<Corretor>"
+#    E clico no botão Editar
+#    E clico do dropdown para trocar o país do Telefone Principal
+#    E seleciono o país "<País>" para Telefone Principal
+#    E insiro o número "<Telefone Principal>" no campo Telefone Principal
+#    Então clico em Salvar
+#
+#    Exemplos:
+#      | CPF         | Senha     | Corretor    | País           | Telefone Principal |
+#      | 26317760896 | 2631lopes | Maria.Luiza | Estados Unidos | (123) 456-7890     |
+#      | 26317760896 | 2631lopes | Maria.Luiza | Portugal       | 987 654 321        |
 
   Esquema do Cenário: [3068] Site do Corretor | Editar | Editar telefone alternativo
     Dado clico em Minha conta
@@ -127,7 +128,7 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
 
     Exemplos:
       | CPF         | Senha     | Corretor    | Telefone Alternativo |
-#      | 26317760896 | 2631lopes | Maria.Luiza | (11) 99951-0869      |
+      | 26317760896 | 2631lopes | Maria.Luiza | (11) 99951-0869      |
       | 26317760896 | 2631lopes | Maria.Luiza | (11) 3949-8767       |
 
   Esquema do Cenário: [3068] Site do Corretor | Editar | Telefone alternativo inválido
@@ -145,34 +146,23 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
       | CPF         | Senha     | Corretor    | Telefone Alternativo | Validação                             |
       | 26317760896 | 2631lopes | Maria.Luiza | (11) 0000-00         | Esse telefone alternativo é inválido! |
 
-  Cenário: [3068] Site do Corretor | Editar | Telefone alternativo em branco
-    Dado clico em Minha conta
-    E clico em Corretor
-    E insiro meu CPF de corretor "26317760896"
-    E insiro minha Senha de corretor "2631lopes"
-    E clico em Entrar
-    Quando acesso o Site do Corretor "Maria.Luiza"
-    E clico no botão Editar
-    E deixo o Telefone Alternativo em branco
-    Então vejo a mensagem de validação "Esse telefone alternativo é inválido!" no Telefone Alternativo
-
-  Esquema do Cenário: [3068] Site do Corretor | Editar | Telefone alternativo de outros países
-    Dado clico em Minha conta
-    E clico em Corretor
-    E insiro meu CPF de corretor "<CPF>"
-    E insiro minha Senha de corretor "<Senha>"
-    E clico em Entrar
-    Quando acesso o Site do Corretor "<Corretor>"
-    E clico no botão Editar
-    E clico do dropdown para trocar o país do Telefone Alternativo
-    E seleciono o país "<País>" para Telefone Alternativo
-    E insiro o número "<Telefone Alternativo>" no campo Telefone Alternativo
-    Então clico em Salvar
-
-    Exemplos:
-      | CPF         | Senha     | Corretor    | País           | Telefone Alternativo |
-      | 26317760896 | 2631lopes | Maria.Luiza | Estados Unidos | (123) 456-7890       |
-      | 26317760896 | 2631lopes | Maria.Luiza | Portugal       | 987 654 321          |
+#  Esquema do Cenário: [3068] Site do Corretor | Editar | Telefone alternativo de outros países
+#    Dado clico em Minha conta
+#    E clico em Corretor
+#    E insiro meu CPF de corretor "<CPF>"
+#    E insiro minha Senha de corretor "<Senha>"
+#    E clico em Entrar
+#    Quando acesso o Site do Corretor "<Corretor>"
+#    E clico no botão Editar
+#    E clico do dropdown para trocar o país do Telefone Alternativo
+#    E seleciono o país "<País>" para Telefone Alternativo
+#    E insiro o número "<Telefone Alternativo>" no campo Telefone Alternativo
+#    Então clico em Salvar
+#
+#    Exemplos:
+#      | CPF         | Senha     | Corretor    | País           | Telefone Alternativo |
+#      | 26317760896 | 2631lopes | Maria.Luiza | Estados Unidos | (123) 456-7890       |
+#      | 26317760896 | 2631lopes | Maria.Luiza | Portugal       | 987 654 321          |
 
   Esquema do Cenário: [3068] Site do Corretor | Editar | Editar Biografia
     Dado clico em Minha conta

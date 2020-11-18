@@ -85,7 +85,7 @@ public class SiteCorretorEditarSteps extends BaseSteps {
     }
 
     @E("deixo o Telefone Principal em branco")
-    public void deixoOTelefonePrincipalEmBranco() {
+    public void deixoOTelefonePrincipalEmBranco() throws InterruptedException {
         siteCorretorEditar.inserirTelPrincipalBranco();
     }
 

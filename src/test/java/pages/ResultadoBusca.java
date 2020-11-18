@@ -37,10 +37,10 @@ public class ResultadoBusca {
     }
 
     public void clicarVoltarPag() {
-        WebElement footer = driver.findElem("//*[@class='search-content__pagination ng-star-inserted']", "xpath");
+        WebElement footer = driver.findElem("//div[@class='search-content__pagination ng-star-inserted']", "xpath");
         driver.ScrollTo(footer);
         driver.waitElement("//li[@class='ant-pagination-next ng-star-inserted']", "xpath");
-        driver.click("//*[@title='Página anterior']", "xpath");
+        driver.forceClick("//li[@title='Página anterior']", "xpath");
     }
 
     public void verificarCard() {

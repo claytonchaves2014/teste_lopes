@@ -1,6 +1,7 @@
 #language: pt
-#@REGRESSAO
+@REGRESSAO
 @SiteCorretor
+  @HeaderCorretor
 
 Funcionalidade: [3111] Site do Corretor | Validar o header
 
@@ -8,8 +9,13 @@ Funcionalidade: [3111] Site do Corretor | Validar o header
     Dado acesso o Portal da Lopes
 
   Cenário: [3111] Site do Corretor | Header | Validar o header
-    Dado acesso o Site do Corretor "VASTHI"
-    Quando verifico o header do Site do Corretor
+    Dado clico em Minha conta
+    E clico em Corretor
+    E insiro meu CPF de corretor "26317760896"
+    E insiro minha Senha de corretor "2631lopes"
+    E clico em Entrar
+    Quando acesso o Site do Corretor "Maria.Luiza"
+    E verifico o header do Site do Corretor
     Então visualizo o Logo da Lopes
     E não visualizo o link Lançamentos
     E não visualizo o link Prontos
@@ -21,18 +27,18 @@ Funcionalidade: [3111] Site do Corretor | Validar o header
     E não visualizo o link Favoritos
     E não visualizo o link Minha Conta
 
-  Cenário: [3111] Site do Corretor | Header | Logo | Clicar no logo sem estar logado
-    Dado acesso o Site do Corretor "VASTHI"
-    Quando clico no Logo do CRM
-    Então verifico que a URL é aberta "frontcrm.lpsbr.com/associado/"
-
-  Cenário: [3111] Site do Corretor | Header | Logo | Logado como estagiário
-    Dado clico em Minha conta
-    E clico em Corretor
-    E insiro meu CPF de corretor "44167715848"
-    E insiro minha Senha de corretor "lopes123"
-    E clico em Entrar
-    E acesso o Site do Corretor "PEDRO.BROOKLIN"
-    Quando clico no Logo do CRM
-    Então verifico que a URL é aberta "frontcrm.lpsbr.com/associado"
+#  Cenário: [3111] Site do Corretor | Header | Logo | Clicar no logo sem estar logado
+#    Dado acesso o Site do Corretor "VASTHI"
+#    Quando clico no Logo do CRM
+#    Então verifico que a URL é aberta "frontcrm.lpsbr.com/associado/"
+#
+#  Cenário: [3111] Site do Corretor | Header | Logo | Logado como estagiário
+#    Dado clico em Minha conta
+#    E clico em Corretor
+#    E insiro meu CPF de corretor "44167715848"
+#    E insiro minha Senha de corretor "lopes123"
+#    E clico em Entrar
+#    E acesso o Site do Corretor "PEDRO.BROOKLIN"
+#    Quando clico no Logo do CRM
+#    Então verifico que a URL é aberta "frontcrm.lpsbr.com/associado"
 
