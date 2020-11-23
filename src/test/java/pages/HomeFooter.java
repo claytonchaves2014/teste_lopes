@@ -22,8 +22,8 @@ public class HomeFooter {
     }
 
     public void clicarQuemSomos() throws InterruptedException {
-        driver.waitElementToBeClickable("//*[@id=\"linkpaginas/quem-somos\"]/p", "xpath");
-        driver.forceClick("//*[@id=\"linkpaginas/quem-somos\"]/p", "xpath");
+        driver.waitElementToBeClickable("//p[@class='ng-star-inserted' and contains(text(), 'Quem Somos')]", "xpath");
+        driver.forceClick("//p[@class='ng-star-inserted' and contains(text(), 'Quem Somos')]", "xpath");
     }
 
     public void clicarFaleConosco() {

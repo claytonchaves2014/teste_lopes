@@ -119,4 +119,9 @@ public class SiteCorretorCabecalhoSteps extends BaseSteps {
     public void vejoAMensagemDeValidaçãoNoCampoFormaDeContato(String value) {
         siteCorretorCabecalho.validacaoFormaContato(value);
     }
+
+    @E("vejo a biografia do Corretor no cabeçalho")
+    public void vejoABiografiaDoCorretorNoCabeçalho() {
+        siteCorretorCabecalho.verificarBiografia();
+    }
 }

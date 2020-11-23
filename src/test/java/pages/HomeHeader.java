@@ -10,7 +10,7 @@ public class HomeHeader {
 
     public HomeHeader(Setup stepDriver) {
         driver = stepDriver;
-    }
+    };
 
     public void abrirPortal() {
         driver.openURL(System.getProperty("url"));

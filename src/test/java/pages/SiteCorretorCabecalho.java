@@ -51,6 +51,10 @@ public class SiteCorretorCabecalho {
         Assert.assertEquals(value, descricao.getText());
     }
 
+    public void verificarBiografia() {
+        driver.findElem("//p[@class='broker_bio']", "xpath").isDisplayed();
+    }
+
     public void verificarBtnEntrarContato() {
         driver.findElem("//button[@class='btn-base btn-outline-lopes']", "xpath").isDisplayed();
     }

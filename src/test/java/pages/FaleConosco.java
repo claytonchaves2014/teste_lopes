@@ -34,7 +34,7 @@ public class FaleConosco {
     public void clicarAssunto() throws InterruptedException {
         Thread.sleep(2000);
         driver.waitElementToBeClickable("//*[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
-        driver.click("//*[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
+        driver.forceClick("//button[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
     }
 
     public void selecionarAssunto(String value) throws InterruptedException{
