@@ -21,7 +21,7 @@ Funcionalidade: [2641] Site do Corretor | Validar o cabeçalho
     E vejo o Nome completo do Corretor como "Maria Luiza Russo Nobrega de Freitas" no cabeçalho
     E vejo o Título do Corretor como "Corretor" no cabeçalho
     E vejo o CRECI do Corretor como "42633-F" no cabeçalho
-    E vejo a descrição do Corretor como "[QA] Teste de biografia" no cabeçalho
+    E vejo a biografia do Corretor no cabeçalho
     E vejo o botão Entrar em contato no cabeçalho
     E vejo o botão Whatsapp no cabeçalho
 
