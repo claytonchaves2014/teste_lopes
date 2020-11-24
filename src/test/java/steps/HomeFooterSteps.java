@@ -18,21 +18,25 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Quem Somos")
     public void clicoEmQuemSomos() throws InterruptedException {
         homeFooter.clicarQuemSomos();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Assessoria de Imprensa")
     public void clicoEmAssessoriaDeImprensa() throws InterruptedException {
         homeFooter.clicarAssessoriaImprensa();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Linha de ética")
     public void clicoEmLinhaDeÉtica() throws InterruptedException {
         homeFooter.clicarLinhaEtica();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Trabalhe conosco")
     public void clicoEmTrabalheConosco() throws InterruptedException {
         homeFooter.clicarTrabalheConosco();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Relação com investidores")
@@ -44,11 +48,13 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Venda seu imóvel")
     public void clicoEmVendaSeuImóvel() throws InterruptedException {
         homeFooter.clicarVendaImovel();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Alugue seu imóvel")
     public void clicoEmAlugueSeuImóvel() throws InterruptedException {
         homeFooter.clicarAlugueImovel();
+        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Credipronto")
