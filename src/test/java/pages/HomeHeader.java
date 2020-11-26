@@ -70,10 +70,10 @@ public class HomeHeader {
         Thread.sleep(2000);
         String currentURL = driver.getCurrentUrl();
         if (currentURL.contains("dev")) {
-            Assert.assertEquals("https://devfrontportaltqi.lpsbr.com/", currentURL);
+            Assert.assertTrue(currentURL.contains("devfrontportaltqi.lpsbr.com/"));
         }
         if (currentURL.contains("qa")) {
-            Assert.assertEquals("https://qafrontportal.lpsbr.com/", currentURL);
+            Assert.assertTrue(currentURL.contains("qafrontportal.lpsbr.com/"));
         }
     }
 }

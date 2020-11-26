@@ -11,7 +11,7 @@ public class Favoritos {
     }
 
     public void verificarFavoritos() {
-        driver.findElem("//*[@class='heading-tag--title-1-light align-left align-desktop-left ']", "xpath").isDisplayed();
+        driver.findElem("//*[@class='bookmark-header-component']", "xpath").isDisplayed();
     }
 
     public void clicarFavoritar() {

@@ -3,12 +3,14 @@ package steps;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
+import pages.HomeFooter;
 import pages.ResultadoBusca;
 import support.BaseSteps;
 
 public class ResultadosBuscaSteps extends BaseSteps {
 
     private static ResultadoBusca resultadosBusca = new ResultadoBusca(driver);
+    private static HomeFooter homeFooter = new HomeFooter(driver);
 
     @Então("vejo a mensagem {string} de resultados não encontrados")
     public void vejoAMensagemDeResultadosNãoEncontrados(String value) {
@@ -78,5 +80,6 @@ public class ResultadosBuscaSteps extends BaseSteps {
     @Quando("clico em uma card")
     public void clicoEmUmaCard() {
         resultadosBusca.clicarCard();
+
     }
 }

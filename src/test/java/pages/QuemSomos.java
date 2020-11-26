@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import support.Setup;
 
-import java.util.ArrayList;
-
 public class QuemSomos {
 
     private Setup driver;
@@ -55,10 +53,8 @@ public class QuemSomos {
     }
 
     public void clicarQueroInvestir() {
-//        WebElement footer = driver.findElem("/html/body/lps-root/lps-landing/lps-application-layout/nav-layout-default/nav-footer/div/div[3]", "xpath");
-//        driver.ScrollTo(footer);
+        WebElement footer = driver.findElem("//div[@class='red-border']", "xpath");
+        driver.ScrollTo(footer);
         driver.forceClick("//a[@class='link--primary about-us__investment__info__link']", "xpath");
-        ArrayList tabs = new ArrayList(driver.getWindowHandles());
-        driver.switchWin("2");
     }
 }

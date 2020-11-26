@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Quando;
@@ -144,6 +145,11 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Mapa do site")
     public void clicoEmMapaDoSite() {
         homeFooter.clicarMapaSite();
+        homeFooter.trocarJanela();
+    }
+
+    @E("vejo a nova aba aberta")
+    public void vejoANovaAbaAberta() {
         homeFooter.trocarJanela();
     }
 }
