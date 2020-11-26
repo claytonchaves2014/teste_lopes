@@ -1,5 +1,6 @@
 #language: pt
-@REGRESSAO @Favoritos
+@REGRESSAO
+@Favoritos
 Funcionalidade: [QA-75] Favoritos | Validar os imóveis favoritados
 
   Contexto:

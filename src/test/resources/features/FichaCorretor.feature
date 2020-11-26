@@ -19,6 +19,7 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
     E clico no header Lançamentos
     E clico no botão avançar
     E clico em uma card
+    E vejo a nova aba aberta
     Então visualizo que o parâmetro do Corretor continua como "?Corretor=Vasthi"
 
   Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Celular do lead
