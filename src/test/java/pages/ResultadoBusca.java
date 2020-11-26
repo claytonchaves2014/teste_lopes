@@ -72,6 +72,8 @@ public class ResultadoBusca {
     }
 
     public void clicarCard() {
+        String url = driver.getCurrentUrl();
+        System.out.println("URL: " + url);
         driver.waitElement("//*[@class='search-content__summary']", "xpath");
         driver.findElem("//*[@class='card ng-star-inserted']", "xpath").click();
     }

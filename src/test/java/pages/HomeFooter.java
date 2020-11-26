@@ -95,6 +95,8 @@ public class HomeFooter {
     public void trocarJanela() {
         ArrayList tabs = new ArrayList(driver.getWindowHandles());
         driver.switchWin("2");
+        String url = driver.getCurrentUrl();
+        System.out.println("URL: " + url);
     }
 
     public void clicarTwitter() {

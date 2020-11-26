@@ -84,6 +84,7 @@ public class FichaCorretor {
         driver.switchWin("2");
 
         String parametro = driver.getCurrentUrl();
+        System.out.println("URL" + parametro);
         Assert.assertTrue(parametro.contains(value));
     }
 

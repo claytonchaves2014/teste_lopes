@@ -1,5 +1,5 @@
 #language: pt
-@REGRESSAO
+#@REGRESSAO
 @SiteCorretor
   @EditarCorretor
 
@@ -7,11 +7,6 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
 
   Contexto:
     Dado acesso o Portal da Lopes
-
-#  @ignore
-#  Cenario: [3068] Site do Corretor | Editar | Validar o perfil público
-#      Dado acesso o Site do Corretor "Maria.Luiza"
-#      Então não visualizo o botão Editar
 
   Esquema do Cenário: Cenário: [3068] Site do Corretor | Editar | Validar o botão Editar
     Dado clico em Minha conta

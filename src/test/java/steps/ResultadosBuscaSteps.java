@@ -80,6 +80,5 @@ public class ResultadosBuscaSteps extends BaseSteps {
     @Quando("clico em uma card")
     public void clicoEmUmaCard() {
         resultadosBusca.clicarCard();
-
     }
 }
