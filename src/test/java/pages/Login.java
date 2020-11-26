@@ -25,8 +25,8 @@ public class Login {
     }
 
     public void clicarEntrar() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.forceClick("//*[@class='button-submit button-submit__primary']", "xpath");
+        driver.waitElement("//button[@class='button-submit button-submit__primary']", "xpath");
+        driver.forceClick("//button[@class='button-submit button-submit__primary']", "xpath");
         driver.findElem("widget-container-sm").isDisplayed();
     }
 
