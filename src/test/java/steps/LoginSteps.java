@@ -27,7 +27,7 @@ public class LoginSteps extends BaseSteps {
     }
 
     @E("clico em Entrar")
-    public void clicoEmEntrar() {
+    public void clicoEmEntrar() throws InterruptedException {
         login.clicarEntrar();
     }
 

@@ -33,13 +33,13 @@ public class FaleConosco {
 
     public void clicarAssunto() throws InterruptedException {
         Thread.sleep(2000);
-        driver.waitElementToBeClickable("//*[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
+        driver.waitElementToBeClickable("//button[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
         driver.forceClick("//button[@class='dropdown-button ant-btn ant-dropdown-trigger nz-animate-disabled ant-btn-default']", "xpath");
     }
 
     public void selecionarAssunto(String value) throws InterruptedException{
         Thread.sleep(2000);
-        driver.waitElement("//ul[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-1']", "xpath");
+        driver.waitElement("//ul[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-0']", "xpath");
         WebElement select = driver.findElem("//li[@class='ant-dropdown-menu-item ng-star-inserted']", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("span"));

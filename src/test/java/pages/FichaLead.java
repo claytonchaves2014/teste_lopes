@@ -49,7 +49,8 @@ public class FichaLead {
     }
 
     public void verificarEnvio(String value) {
-        WebElement mensagem = driver.findElem("//*[@class='success-txt']", "xpath");
+        driver.waitElement("//div[@class='success-txt']", "xpath");
+        WebElement mensagem = driver.findElem("//div[@class='success-txt']", "xpath");
         Assert.assertEquals(value, mensagem.getText());
     }
 
