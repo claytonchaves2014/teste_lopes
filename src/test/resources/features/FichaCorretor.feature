@@ -13,13 +13,13 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
     Então visualizo apenas um Cartão do Corretor
     E o Cartão do Corretor pertence ao "VASTHI"
 
-  Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Navegar entre produtos
-    Dado acesso a Ficha do Imóvel "REO41647"
-    Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
-    E clico no header Lançamentos
-    E clico no botão avançar
-    E clico em uma card
-    Então visualizo que o parâmetro do Corretor continua como "?Corretor=Vasthi"
+#  Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Navegar entre produtos
+#    Dado acesso a Ficha do Imóvel "REO41647"
+#    Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
+#    E clico no header Lançamentos
+#    E clico no botão avançar
+#    E clico em uma card
+#    Então visualizo que o parâmetro do Corretor continua como "?Corretor=Vasthi"
 
   Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Celular do lead
     Dado acesso a Ficha do Imóvel "REO41647"
