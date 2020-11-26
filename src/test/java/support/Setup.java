@@ -42,7 +42,7 @@ public class Setup {
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
 
-                    chromeOptions.addArguments("--incognito");
+//                    chromeOptions.addArguments("--incognito");
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 

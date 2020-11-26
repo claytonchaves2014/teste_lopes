@@ -1,6 +1,6 @@
 #language: pt
 
-#@REGRESSAO
+@REGRESSAO
 @FichaCorretor
 
 Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
@@ -13,20 +13,19 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
     Então visualizo apenas um Cartão do Corretor
     E o Cartão do Corretor pertence ao "VASTHI"
 
-#  Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Navegar entre produtos
-#    Dado acesso a Ficha do Imóvel "REO41647"
-#    Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
-#    E clico no header Lançamentos
-#    E clico no botão avançar
-#    E clico em uma card
-##    E vejo a nova aba aberta
-#    Então visualizo que o parâmetro do Corretor continua como "?Corretor=Vasthi"
+  Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Navegar entre produtos
+    Dado acesso a Ficha do Imóvel "REO41647"
+    Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
+    E clico no header Lançamentos
+    E clico no botão avançar
+    E clico em uma card
+    Então visualizo que o parâmetro do Corretor continua como "?Corretor=Vasthi"
 
   Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Celular do lead
     Dado acesso a Ficha do Imóvel "REO41647"
     Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
     Então visualizo o celular do Corretor no Lead como "+55 11 991535279"
-
+#
   Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Validar layout
     Dado acesso a Ficha do Imóvel "REO41647"
     Quando verifico o Cartão do Corretor em "Corretores associados ao imóvel"
