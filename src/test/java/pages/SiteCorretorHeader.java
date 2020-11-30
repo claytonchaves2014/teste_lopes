@@ -12,15 +12,17 @@ public class SiteCorretorHeader {
         driver = stepDriver;
     }
 
-    public void acessarSiteCorretor(String value) {
-        String url = driver.getCurrentUrl();
-        System.out.println(url);
+    public void acessarSiteCorretor(String value) throws InterruptedException {
+        driver.waitElement("//div[@class='dash-content ng-star-inserted']", "xpath");
+        String urlAtual = driver.getCurrentUrl();
+        System.out.println("URL: " + urlAtual);
 
-        if (url.contains("dev")) {
-            driver.openURL("https://devfrontcrm.lpsbr.com/associado/" + value);
-        }
-        if (url.contains("qa")) {
+        if (urlAtual.equals("https://qafrontcrm.lpsbr.com/home")) {
             driver.openURL("https://qafrontcrm.lpsbr.com/associado/" + value);
+        }
+
+        if (urlAtual.equals("https://devfrontcrm.lpsbr.com/home")) {
+            driver.openURL("https://devfrontcrm.lpsbr.com/associado/" + value);
         }
     }
 

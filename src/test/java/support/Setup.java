@@ -37,6 +37,7 @@ public class Setup {
                     options.addPreference(FirefoxDriver.MARIONETTE, true);
                     driver = new FirefoxDriver(options);
                     driver.manage().window().maximize();
+
                     break;
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
