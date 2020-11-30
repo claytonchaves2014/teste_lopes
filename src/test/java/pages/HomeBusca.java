@@ -47,7 +47,7 @@ public class HomeBusca {
     }
 
     public void clicarAlugar() {
-        driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-tabs/div/div[2]/span", "xpath");
+        driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-tabs/div/div[2]/span", "xpath");
     }
 
     public void clicarCodigo() {

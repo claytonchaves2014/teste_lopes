@@ -37,16 +37,16 @@ public class HomeFiltros {
     public void selecionarBanheiro(String value) {
         switch (value) {
             case "1":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[1]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[1]/span", "xpath");
                 break;
             case "2":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[2]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[2]/span", "xpath");
                 break;
             case "3":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[3]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[3]/span", "xpath");
                 break;
             case "4+":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[4]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[4]/span", "xpath");
                 break;
         }
     }
@@ -54,16 +54,16 @@ public class HomeFiltros {
     public void selecionarVaga(String value) {
         switch (value) {
             case "1":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[1]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[1]/span", "xpath");
                 break;
             case "2":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[2]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[2]/span", "xpath");
                 break;
             case "3":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[3]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[3]/span", "xpath");
                 break;
             case "4+":
-                driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[4]/span", "xpath");
+                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[4]/span", "xpath");
                 break;
         }
     }

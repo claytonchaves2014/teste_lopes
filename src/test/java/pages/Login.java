@@ -25,9 +25,10 @@ public class Login {
     }
 
     public void clicarEntrar() throws InterruptedException {
-        driver.waitElement("//button[@class='button-submit button-submit__primary']", "xpath");
-        driver.forceClick("//button[@class='button-submit button-submit__primary']", "xpath");
-        driver.findElem("widget-container-sm").isDisplayed();
+//        driver.findElem("password").sendKeys(Keys.RETURN);
+        driver.findElem("//*[@class='button-submit button-submit__primary']", "xpath").isDisplayed();
+        driver.forceClick("/html/body/lps-root/lps-home/div/lps-header-layout/nav-header/nav-modal/div/div/div/nav-login-layout/div/div[1]/div[2]/nav-login-wrapper/div/nav-login-credentials/div/form/div/nav-button-submit", "xpath");
+        driver.findElem("user-menu-profile-no-pic", "id").isDisplayed();
     }
 
     public void verificarProfile() {
