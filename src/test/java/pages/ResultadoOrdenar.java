@@ -40,6 +40,6 @@ public class ResultadoOrdenar {
     }
 
     public void clicarAreaImovel() {
-        driver.click("//*[text()=' Área do imóvel ']", "xpath");
+        driver.forceClick("//*[text()=' Área do imóvel ']", "xpath");
     }
 }
