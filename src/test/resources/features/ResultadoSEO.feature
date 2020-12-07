@@ -1,5 +1,6 @@
 #language: pt
-@REGRESSAO @ResultadoSEO
+@REGRESSAO
+@ResultadoSEO
 
 Funcionalidade: [QA-88] Resultado de Busca | Validar as dinâmicas SEO
 
