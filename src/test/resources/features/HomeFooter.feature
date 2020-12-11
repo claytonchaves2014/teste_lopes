@@ -10,6 +10,11 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Quem Somos
     Então verifico que a URL é aberta "/paginas/quem-somos"
 
+  Cenário: [CT_002] Home Page | Footer | Fale Conosco
+    Dado verifico o Footer da página
+    Quando clico em Fale Conosco
+    Então verifico que a URL é aberta "/paginas/fale-conosco"
+
   Cenário: [CT_002] Home Page | Footer | Assessoria de Imprensa
     Dado verifico o Footer da página
     Quando clico em Assessoria de Imprensa
@@ -25,21 +30,31 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Trabalhe conosco
     Então verifico que a URL é aberta "/paginas/trabalhe-conosco"
 
-#  Cenário: [CT_002] Home Page | Footer | Seja um corretor associado
-#    Dado verifico o Footer da página
-#    Quando clico em Seja um corretor associado
-#    Então verifico que a URL é aberta "/campanha/quero-ser-corretor"
+  Cenário: [CT_002] Home Page | Footer | Seja um corretor associado
+    Dado verifico o Footer da página
+    Quando clico em Seja um corretor associado
+    Então verifico que a URL é aberta "/campanha/quero-ser-corretor"
 
   Cenário: [CT_002] Home Page | Footer | Relação com investidores
     Dado verifico o Footer da página
     Quando clico em Relação com investidores
     Então verifico que a URL é aberta "https://ri.lopes.com.br"
 
+  Cenário: [CT_002] Home Page | Footer | Mapa do site
+    Dado verifico o Footer da página
+    Quando clico em Mapa do site
+    Então verifico que a URL é aberta "/paginas/mapa-do-site"
+
+  Cenário: [CT_002] Home Page | Footer | Condomínios e edifícios
+    Dado verifico o Footer da página
+    Quando clico em Condomínios e edifícios
+    Então verifico que a URL é aberta "/paginas/condominios"
+
   Cenário: [CT_002] Home Page | Footer | Venda seu imóvel
     Dado verifico o Footer da página
     Quando clico em Venda seu imóvel
     Então verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
-
+#
   Cenário: [CT_002] Home Page | Footer | Alugue seu imóvel
     Dado verifico o Footer da página
     Quando clico em Alugue seu imóvel
@@ -54,7 +69,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Dado verifico o Footer da página
     Quando clico em Consórcio Lopes
     Então verifico que a URL do Consórcio Lopes é aberta "https://consorcio.lopes.com.br/"
-
+#
   Cenário: [CT_002] Home Page | Footer | Facebook
     Dado verifico o Footer da página
     Quando clico em Facebook
@@ -68,7 +83,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Instagram
     Dado verifico o Footer da página
     Quando clico em Instagram
-    Então verifico que a URL do Instagram é aberta "/lopesimoveis/"
+    Então verifico que a URL do Instagram é aberta "instagram.com"
 
   Cenário: [CT_002] Home Page | Footer | Linkedin
     Dado verifico o Footer da página
