@@ -156,6 +156,5 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Condomínios e edifícios")
     public void clicoEmCondomíniosEEdifícios() {
         homeFooter.clicarCondominiosEdificios();
-        homeFooter.trocarJanela();
     }
 }

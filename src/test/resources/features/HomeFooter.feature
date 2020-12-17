@@ -45,10 +45,10 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
     Quando clico em Mapa do site
     Então verifico que a URL é aberta "/paginas/mapa-do-site"
 
-  Cenário: [CT_002] Home Page | Footer | Condomínios e edifícios
-    Dado verifico o Footer da página
-    Quando clico em Condomínios e edifícios
-    Então verifico que a URL é aberta "/paginas/condominios"
+#  Cenário: [CT_002] Home Page | Footer | Condomínios e edifícios
+#    Dado verifico o Footer da página
+#    Quando clico em Condomínios e edifícios
+#    Então verifico que a URL é aberta "/paginas/condominios"
 
   Cenário: [CT_002] Home Page | Footer | Venda seu imóvel
     Dado verifico o Footer da página
