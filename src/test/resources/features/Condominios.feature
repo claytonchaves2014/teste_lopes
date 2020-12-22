@@ -1,6 +1,6 @@
 #language: pt
 
-#@REGRESSAO
+@REGRESSAO
 @Condominios
 
 Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio no Portal
