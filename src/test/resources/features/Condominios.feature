@@ -68,7 +68,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     E vejo as instalações do condomínio
     E vejo o botão Ver Imóveis
     E vejo o texto "Precisa de ajuda para encontrar o seu imóvel?" em Ver Imóveis
-    E vejo o link "Entrar em contato com a Lopes" em Ver Imóveis
+    E vejo o link "Entre em contato com a Lopes" em Ver Imóveis
     E vejo o breadcrumb na página do Condomínio
 
   Cenário: [102] Condomínios | Clicar em Entrar em contato

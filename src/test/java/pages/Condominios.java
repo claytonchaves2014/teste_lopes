@@ -63,7 +63,7 @@ public class Condominios {
     }
 
     public void verificarEndereco() {
-        driver.findElem("//p[@class='condominium__info-address']", "xpath").isDisplayed();
+        driver.findElem("//p[@class='condominium__info-address ng-star-inserted']", "xpath").isDisplayed();
     }
 
     public void verificarAtributos() {
@@ -85,7 +85,7 @@ public class Condominios {
     }
 
     public void verificarBreadcrump() {
-        driver.findElem("//div[@class='condominium__breadcrumbs']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='breadcrumb ng-star-inserted']", "xpath").isDisplayed();
     }
 
     public void clicarEntrarContato() {

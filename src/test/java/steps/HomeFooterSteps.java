@@ -19,25 +19,25 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Quem Somos")
     public void clicoEmQuemSomos() throws InterruptedException {
         homeFooter.clicarQuemSomos();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Assessoria de Imprensa")
     public void clicoEmAssessoriaDeImprensa() throws InterruptedException {
         homeFooter.clicarAssessoriaImprensa();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Linha de ética")
     public void clicoEmLinhaDeÉtica() throws InterruptedException {
         homeFooter.clicarLinhaEtica();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Trabalhe conosco")
     public void clicoEmTrabalheConosco() throws InterruptedException {
         homeFooter.clicarTrabalheConosco();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Relação com investidores")
@@ -49,13 +49,13 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Venda seu imóvel")
     public void clicoEmVendaSeuImóvel() throws InterruptedException {
         homeFooter.clicarVendaImovel();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Alugue seu imóvel")
     public void clicoEmAlugueSeuImóvel() throws InterruptedException {
         homeFooter.clicarAlugueImovel();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Credipronto")
@@ -133,7 +133,7 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Fale Conosco")
     public void clicoEmFaleConosco() {
         homeFooter.clicarFaleConosco();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @Quando("clico em Seja um corretor associado")
@@ -145,7 +145,7 @@ public class HomeFooterSteps extends BaseSteps {
     @Quando("clico em Mapa do site")
     public void clicoEmMapaDoSite() {
         homeFooter.clicarMapaSite();
-        homeFooter.trocarJanela();
+//        homeFooter.trocarJanela();
     }
 
     @E("vejo a nova aba aberta")
