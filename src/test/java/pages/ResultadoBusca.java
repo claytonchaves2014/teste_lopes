@@ -26,7 +26,7 @@ public class ResultadoBusca {
     }
 
     public void verificarMapa() {
-        driver.findElem("//*[@class='app-layout__content--child app-layout__content--right app-layout__content--right--deactivated']", "xpath").isDisplayed();
+        driver.findElem("//*[@class='agm-map-container-inner sebm-google-map-container-inner']", "xpath").isDisplayed();
     }
 
     public void clicarAvançarPag() {
