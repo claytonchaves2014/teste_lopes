@@ -102,4 +102,4 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
 
   Cenário: [3040] Home Page | Footer | Validar rodapé
     Dado verifico o Footer da página
-    Então vejo o rodapé com o texto "2020 Copyright - LPS SÃO PAULO CONSULTORIA DE IMÓVEIS LTDA - CRECI 024073-J - CNPJ 15.673.605/0001-10 - Todos os direitos reservados"
+    Então vejo o rodapé com o texto "2021 Copyright - LPS SÃO PAULO CONSULTORIA DE IMÓVEIS LTDA - CRECI 024073-J - CNPJ 15.673.605/0001-10 - Todos os direitos reservados"
