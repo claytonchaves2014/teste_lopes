@@ -11,7 +11,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Quando clico no botão Buscar
     Então vejo a quantidade de imóveis encontrados
     E vejo os resultados na grid
-    E vejo o Mapa do resultado de busca
 
   Cenário: [CT_014] Resultado de Busca | Paginação | Avançar página
     Dado insiro "São Paulo, SP, Brasil" no campo de busca
