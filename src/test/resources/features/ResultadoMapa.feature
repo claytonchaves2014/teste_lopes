@@ -1,5 +1,6 @@
 #language: pt
-@REGRESSAO @ResultadoMapa
+#@REGRESSAO
+@ResultadoMapa
 Funcionalidade: [QA-15] Resultado de Busca | Validar os resultados de busca
 
   Contexto:
