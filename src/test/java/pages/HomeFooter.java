@@ -62,8 +62,8 @@ public class HomeFooter {
     }
 
     public void clicarCondominiosEdificios() {
-        driver.waitElementToBeClickable("linkpaginas/condominios");
-        driver.forceClick("linkpaginas/condominios");
+        driver.waitElementToBeClickable("linkpaginas/condominios/sp");
+        driver.forceClick("linkpaginas/condominios/sp");
     }
 
     public void clicarVendaImovel() throws InterruptedException {
