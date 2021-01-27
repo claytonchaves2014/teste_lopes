@@ -38,7 +38,7 @@ Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
     E clico para abrir o Breadcrump
     Quando vejo o breadcrump Rua do imóvel
     E clico no breacrump Tipo do Imóvel
-    Então vejo os Resultados de Busca com a url "/tipo/apartamento"
+    Então vejo os Resultados de Busca com a url "/tipo/"
 
   Cenario: [QA-25] Ficha do Imóvel | Breadcrump | Abrir Home
     Dado vejo a Ficha do Imóvel
