@@ -85,4 +85,9 @@ public class CalculadoraSteps extends BaseSteps {
     public void clicoEmProcurarImóveisProntos() {
         calculadora.clicarProcurarImoveis();
     }
+
+    @Dado("clico em Calcular com base em parcelas")
+    public void clicoEmCalcularComBaseEmParcelas() {
+        calculadora.clicarCalcularParcelas();
+    }
 }

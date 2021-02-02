@@ -90,4 +90,8 @@ public class Calculadora {
     public void clicarProcurarImoveis() {
         driver.forceClick("//*[@id=\"product-search\"]/div/form/div[3]/lps-submit-button/button", "xpath");
     }
+
+    public void clicarCalcularParcelas() {
+        driver.forceClick("/html/body/lps-root/lps-calculator/lps-application-layout/nav-layout-default/div/div[2]/form/lps-radio-card-group/div/div[2]/label/div[2]/div", "xpath");
+    }
 }
