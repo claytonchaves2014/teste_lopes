@@ -84,7 +84,7 @@ public class Calculadora {
     }
 
     public void verificarMensagem(String value) {
-        driver.findElem("//p[@class='product-search__dropdown__title']", "xpath").isDisplayed();
+        driver.findElem("//div[@class='product-search']", "xpath").isDisplayed();
     }
 
     public void clicarProcurarImoveis() {
