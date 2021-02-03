@@ -28,8 +28,8 @@ Funcionalidade: [GROWTH-188] Calculadora | Formulário do lead
       E insiro meu E-mail "teste@qa.com"
       E seleciono minha preferencia de contato "<Contato>"
       E clico em Receber sugestões
-      E clico em Procurar imóveis prontos
-      Então visualizo a mensagem "Enviado com sucesso!"
+      Então clico em Procurar imóveis prontos
+#      Então visualizo a mensagem "Enviado com sucesso!"
 
       Exemplos:
       | Contato  |
@@ -66,8 +66,8 @@ Funcionalidade: [GROWTH-188] Calculadora | Formulário do lead
       E insiro meu E-mail "teste@qa.com"
       E seleciono minha preferencia de contato "<Contato>"
       E clico em Receber sugestões
-      E clico em Procurar imóveis prontos
-      Então visualizo a mensagem "Enviado com sucesso!"
+      Então clico em Procurar imóveis prontos
+#      Então visualizo a mensagem "Enviado com sucesso!"
 
       Exemplos:
         | Contato  |
