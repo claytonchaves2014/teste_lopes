@@ -69,4 +69,9 @@ public class FaleConoscoSteps extends BaseSteps {
     public void clicoEmEnviarContato() {
         faleConosco.clicarEnviar();
     }
+
+    @E("preencho meu CPF {string} em Fale conosco")
+    public void preenchoMeuCPFEmFaleConosco(String value) {
+        faleConosco.inserirCPF(value);
+    }
 }
