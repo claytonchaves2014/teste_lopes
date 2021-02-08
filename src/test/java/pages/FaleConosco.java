@@ -39,6 +39,7 @@ public class FaleConosco {
 
     public void selecionarAssunto(String value) throws InterruptedException{
         Thread.sleep(2000);
+
         driver.waitElement("//ul[@class='ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-light ant-dropdown-menu-vertical ng-tns-c60-0']", "xpath");
         WebElement select = driver.findElem("//li[@class='ant-dropdown-menu-item ng-star-inserted']", "xpath");
 
@@ -56,6 +57,10 @@ public class FaleConosco {
 
     public void inserirEmail(String value) {
         driver.sendKeys(value, "email");
+    }
+
+    public void inserirCPF(String value) {
+        driver.sendKeys(value, "cpf");
     }
 
     public void inserirTelefone(String value) {
