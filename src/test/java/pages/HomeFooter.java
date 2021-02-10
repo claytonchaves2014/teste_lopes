@@ -16,7 +16,8 @@ public class HomeFooter {
 
     public void verificarFooter() throws InterruptedException {
         driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[2]", "xpath").isDisplayed();
-        WebElement footer = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]", "xpath");
+//        WebElement footer = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]", "xpath");
+        WebElement footer = driver.findElem("//div[@class='red-border']", "xpath");
         driver.ScrollTo(footer);
         Thread.sleep(2000);
     }

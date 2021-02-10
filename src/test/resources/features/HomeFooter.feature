@@ -73,7 +73,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Facebook
     Dado verifico o Footer da página
     Quando clico em Facebook
-    Então verifico que a URL é aberta "https://www.facebook.com/imobiliaria.lopes"
+    Então verifico que a URL é aberta "www.facebook.com/imobiliaria.lopes"
 
   Cenário: [CT_002] Home Page | Footer | Twitter
     Dado verifico o Footer da página
