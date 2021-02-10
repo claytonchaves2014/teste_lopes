@@ -5,11 +5,13 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import pages.Calculadora;
+import pages.HomeFooter;
 import support.BaseSteps;
 
 public class CalculadoraSteps extends BaseSteps {
 
     private static Calculadora calculadora = new Calculadora(driver);
+    private static HomeFooter homeFooter = new HomeFooter(driver);
 
     @Dado("insiro {string} como Renda Familiar Mensal")
     public void insiroComoRendaFamiliarMensal(String value) {
@@ -84,6 +86,7 @@ public class CalculadoraSteps extends BaseSteps {
     @Quando("clico em Procurar imóveis prontos")
     public void clicoEmProcurarImóveisProntos() {
         calculadora.clicarProcurarImoveis();
+        homeFooter.trocarJanela();
     }
 
     @Dado("clico em Calcular com base em parcelas")
