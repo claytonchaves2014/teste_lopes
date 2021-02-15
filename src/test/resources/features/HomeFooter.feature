@@ -28,7 +28,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | Trabalhe conosco
     Dado verifico o Footer da página
     Quando clico em Trabalhe conosco
-    Então verifico que a URxL é aberta "/paginas/trabalhe-conosco"
+    Então verifico que a URL é aberta "/paginas/trabalhe-conosco"
 
   Cenário: [CT_002] Home Page | Footer | Seja um corretor associado
     Dado verifico o Footer da página
