@@ -45,3 +45,12 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     E clico no botão avançar
     Quando clico em uma card
     Então vejo a Ficha do Imóvel
+
+  Cenário: [GROWTH-204] Resultado de Busca | Grid | Abrir um imóvel
+    Dado clico no botão Buscar
+    Então vejo o card da calculadora na segunda posição
+
+  Cenário: [GROWTH-204] Resultado da busca | Card da calculadora | Validar o clique no card
+    Dado clico no botão Buscar
+    Quando clico na card da calculadora
+    Entao verifico que a URL é aberta "/calculadora-simulador-de-financiamento-imobiliario"

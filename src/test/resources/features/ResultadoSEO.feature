@@ -6,8 +6,6 @@ Funcionalidade: [QA-88] Resultado de Busca | Validar as dinâmicas SEO
 
   Contexto:
     Dado acesso o Portal da Lopes
-    E insiro "São Paulo, SP, Brasil" no campo de busca
-    E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
 
   Cenario: [QA-88] Resultado de Busca | SEO | Sobre o local

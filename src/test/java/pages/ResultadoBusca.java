@@ -77,4 +77,19 @@ public class ResultadoBusca {
         driver.waitElement("//*[@class='search-content__summary']", "xpath");
         driver.findElem("//*[@class='card ng-star-inserted']", "xpath").click();
     }
+
+    public void visualizarCardCalc() {
+        driver.findElem("//section[@class='card-calculadora']", "xpath").isDisplayed();
+    }
+
+    public void naoVisualizarCardCal() {
+        WebElement card = driver.findElem("//section[@class='card-calculadora']", "xpath");
+        if (card.isDisplayed()) {
+            Assert.fail();
+        }
+    }
+
+    public void clicarCardCalc() {
+        driver.click("//section[@class='card-calculadora']", "xpath");
+    }
 }

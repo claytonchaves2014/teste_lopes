@@ -71,12 +71,12 @@ public class ResultadoMapa {
 
     public void validarCards(String value) {
 
-        WebElement select = driver.findElem("//ul[@class='cardlist ng-star-inserted cardlist--search']", "xpath");
+        WebElement select = driver.findElem("//ul[@class='cardlist cardlist--search hideMap ng-star-inserted']", "xpath");
 
         List<WebElement> options = select.findElements(By.tagName("li"));
         int count = options.size();
 
-        if (count <= 24) {
+        if (count <= 32) {
             System.out.println("Existe essa qnt de links: " + count);
         }
         else {
