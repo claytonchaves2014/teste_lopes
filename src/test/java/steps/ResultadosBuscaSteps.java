@@ -81,4 +81,20 @@ public class ResultadosBuscaSteps extends BaseSteps {
     public void clicoEmUmaCard() {
         resultadosBusca.clicarCard();
     }
+
+    @Então("vejo o card da calculadora na segunda posição")
+    public void vejoOCardDaCalculadoraNaSegundaPosição() {
+        resultadosBusca.visualizarCardCalc();
+    }
+
+    @E("não visualizo o card da calculadora")
+    public void nãoVisualizoOCardDaCalculadora() {
+        resultadosBusca.naoVisualizarCardCal();
+    }
+
+    @Quando("clico na card da calculadora")
+    public void clicoNaCardDaCalculadora() {
+        resultadosBusca.clicarCardCalc();
+        homeFooter.trocarJanela();
+    }
 }
