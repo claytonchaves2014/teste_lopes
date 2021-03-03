@@ -36,7 +36,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então vejo a Ficha do Imóvel
 
   Cenário: [GROWTH-204] Resultado de Busca | Card da calculadora | Validar banner
-    Dado clico no botão Buscar
     Então vejo o card da calculadora na segunda posição
 
   Cenário: [GROWTH-204] Resultado da busca | Card da calculadora | Validar o clique no card
