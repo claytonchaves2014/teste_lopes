@@ -1,5 +1,8 @@
 #language: pt
-@REGRESSAO @HomeFiltros
+
+@REGRESSAO
+@HomeFiltros
+
 Funcionalidade: [QA-10] Home Page | Fazer buscas avançadas de empreendimentos utilizando Filtros
 
   Contexto:

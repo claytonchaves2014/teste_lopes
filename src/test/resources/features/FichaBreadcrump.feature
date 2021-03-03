@@ -1,5 +1,8 @@
 #language: pt
-@REGRESSAO @FichaBreadcrump
+
+@REGRESSAO
+@FichaBreadcrump
+
 Funcionalidade: [QA-25] Ficha do Imóvel | Validar o Breadcrump
 
   Contexto:

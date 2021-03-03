@@ -1,5 +1,6 @@
 #language: pt
-@REGRESSAO @Calculadora
+@REGRESSAO
+@Calculadora
 
 Funcionalidade: [GROWTH-188] Calculadora | Formulário do lead
 
@@ -29,7 +30,6 @@ Funcionalidade: [GROWTH-188] Calculadora | Formulário do lead
       E seleciono minha preferencia de contato "<Contato>"
       E clico em Receber sugestões
       Então clico em Procurar imóveis prontos
-#      Então visualizo a mensagem "Enviado com sucesso!"
 
       Exemplos:
       | Contato  |
@@ -67,7 +67,6 @@ Funcionalidade: [GROWTH-188] Calculadora | Formulário do lead
       E seleciono minha preferencia de contato "<Contato>"
       E clico em Receber sugestões
       Então clico em Procurar imóveis prontos
-#      Então visualizo a mensagem "Enviado com sucesso!"
 
       Exemplos:
         | Contato  |

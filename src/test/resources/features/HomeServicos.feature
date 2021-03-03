@@ -1,6 +1,7 @@
 #language: pt
 
-@REGRESSAO @HomeServicos
+@REGRESSAO
+@HomeServicos
 
 Funcionalidade: [QA-13] Home Page | Validar os links dos Serviços da Lopes
 

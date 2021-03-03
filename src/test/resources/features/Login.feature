@@ -1,4 +1,5 @@
 #language: pt
+
 @Login
 
 Funcionalidade: [QA-76] Login | Validar o login de Cliente
@@ -103,20 +104,6 @@ Funcionalidade: [QA-76] Login | Validar o login de Cliente
     Exemplos:
       | CPF            | Senha    |
       | 435.576.040-55 | lopes123 |
-
-#  Esquema do Cenario: [3087] Login | Marketing | Acessar aplicação CMS
-#    Dado clico em Minha conta
-#    Quando clico em Corretor
-#    E insiro meu CPF de corretor "<CPF>"
-#    E insiro minha Senha de corretor "<Senha>"
-#    E clico em Entrar
-#    Então clico em Aplicações
-#    E clico na aplicação CMS
-#    E verifico que a URL é aberta "frontcms.lpsbr.com"
-#
-#    Exemplos:
-#      | CPF            | Senha    |
-#      | 009.282.600-89 | lopes123 |
 
   Esquema do Cenario: [3087] Login | Lopes | Acessar aplicação CMS
     Dado clico em Minha conta

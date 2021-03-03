@@ -72,10 +72,7 @@ public class ResultadoBusca {
     }
 
     public void clicarCard() {
-        String url = driver.getCurrentUrl();
-        System.out.println("URL: " + url);
-        driver.waitElement("//*[@class='search-content__summary']", "xpath");
-        driver.forceClick("//*[@class='card ng-star-inserted']", "xpath");
+        driver.forceClick("/html/body/lps-root/lps-search/div/div/div/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[2]/lps-card-grid/div[1]/ul/li[1]/lps-card-product/lps-link-product/div/a", "xpath");
     }
 
     public void visualizarCardCalc() {

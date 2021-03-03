@@ -4,15 +4,12 @@ Funcionalidade: [QA-21] Ficha do Imóvel | Validar os detalhes do imóvel
 
   Contexto:
     Dado acesso o Portal da Lopes
+    Então clico no botão Buscar
 
   Cenario: [CT_016] Ficha do Imóvel | Detalhes | Validar detalhes
-    Dado insiro "São Paulo, SP, Brasil" no campo de busca
-    E seleciono a opção "São Paulo, SP, Brasil"
-    E clico no botão Buscar
-    E clico no botão avançar
-    Quando clico em uma card
-    Então vejo a Ficha do Imóvel
-    E vejo o carrossel de fotos
+    Dado clico em uma card
+    Quando vejo a Ficha do Imóvel
+    Então vejo o carrossel de fotos
     E vejo os botões da Galeria
     E vejo as informações do imóvel
     E vejo os valores do imóvel

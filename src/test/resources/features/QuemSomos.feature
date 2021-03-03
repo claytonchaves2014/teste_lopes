@@ -1,6 +1,7 @@
 #language: pt
 
-@REGRESSAO @QuemSomos
+@REGRESSAO
+@QuemSomos
 
 Funcionalidade: [2808] Quem Somos | Validar a página
 
@@ -19,9 +20,9 @@ Funcionalidade: [2808] Quem Somos | Validar a página
     E vejo a quarta card de informações com o texto "9 mil corretores associados"
     E vejo a quinta card de informações com o texto "102 lojas próprias e franquias"
 
-#  Cenário: [2808] Quem Somos | Quero investir
-#    Dado verifico o Footer da página
-#    Quando clico em Quem Somos
-#    E clico em Quero investir
-#    E vejo a nova aba aberta
-#    Então verifico que a URL é aberta "/busca/venda/br/"
+  Cenário: [2808] Quem Somos | Quero investir
+    Dado verifico o Footer da página
+    Quando clico em Quem Somos
+    E clico em Quero investir
+    E vejo a nova aba aberta
+    Então verifico que a URL é aberta "/busca/venda/br/"

@@ -1,6 +1,7 @@
 #language: pt
 
-@REGRESSAO @HomePage
+@REGRESSAO
+@HomePage
 
 Funcionalidade: [QA-11] Home Page | Validar os destaques do Portal
 

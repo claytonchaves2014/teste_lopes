@@ -2,6 +2,7 @@
 
 @REGRESSAO
 @FichaLead
+
 Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Contexto:
@@ -9,7 +10,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Validar opções de contato
     Dado clico no header Lançamentos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E clico no dropdown de formas de contato
@@ -20,7 +20,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Validar opções de contato
     Dado clico no header Prontos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E clico no dropdown de formas de contato
@@ -41,7 +40,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por Chat
     Dado clico no header Lançamentos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -54,7 +52,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por WhatsApp
     Dado clico no header Lançamentos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -67,7 +64,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por Telefone
     Dado clico no header Lançamentos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -80,7 +76,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Lançamento | Falar por E-mail
     Dado clico no header Lançamentos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -93,7 +88,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por WhatsApp
     Dado clico no header Prontos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -106,7 +100,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por Telefone
     Dado clico no header Prontos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"
@@ -119,7 +112,6 @@ Funcionalidade: [QA-23] Ficha do Imóvel | Preencher o formulário do Lead
 
   Cenario: [CT_019] Ficha do Imóvel | Lead | Prontos | Falar por E-mail
     Dado clico no header Prontos
-    E clico no botão avançar
     E clico em uma card
     Quando vejo a Ficha do Imóvel
     E insiro meu Nome como "QA Automação"

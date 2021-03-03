@@ -1,14 +1,13 @@
 #language: pt
+
 #@REGRESSAO
 @ResultadoMapa
+
 Funcionalidade: [QA-15] Resultado de Busca | Validar os resultados de busca
 
   Contexto:
     Dado acesso o Portal da Lopes
-    Quando insiro "São Paulo, SP, Brasil" no campo de busca
-    E seleciono a opção "São Paulo, SP, Brasil"
     Então clico no botão Buscar
-
 
   Cenario: [GROWTH-60] Resultado de Busca | Mapa | Ver no mapa
     Dado que estou no resultado da busca
@@ -20,7 +19,7 @@ Funcionalidade: [QA-15] Resultado de Busca | Validar os resultados de busca
     E vejo o contador da busca
     E vejo o filtro de ordenação
     E vejo o link Ocultar o mapa
-    E vejo a grid com "24" cards
+#    E vejo a grid com "24" cards
     E vejo o mapa
     E vejo a paginação
     E vejo o footer
@@ -35,7 +34,7 @@ Funcionalidade: [QA-15] Resultado de Busca | Validar os resultados de busca
     E vejo o contador da busca
     E vejo o filtro de ordenação
     E vejo o link Ver no mapa
-    E vejo a grid com "24" cards
+#    E vejo a grid com "24" cards
     E vejo a paginação
     E vejo o footer
 
