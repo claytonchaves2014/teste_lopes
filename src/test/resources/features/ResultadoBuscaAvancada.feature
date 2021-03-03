@@ -1,5 +1,7 @@
 #language: pt
-@REGRESSAO @ResultadoBuscaAvancada
+
+@REGRESSAO
+@ResultadoBuscaAvancada
 
 Funcionalidade: [QA-16] Resultado de Busca | Validar a busca avançada
   Contexto:

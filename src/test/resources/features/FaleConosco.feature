@@ -1,6 +1,7 @@
 #language: pt
 
-@REGRESSAO @FaleConosco
+@REGRESSAO
+@FaleConosco
 
 Funcionalidade: [QA-26] Fale Conosco | Validar a página e preencher formulário
 
@@ -28,5 +29,5 @@ Funcionalidade: [QA-26] Fale Conosco | Validar a página e preencher formulário
     E clico em Enviar contato
 
     Exemplos:
-    | Assunto  | Nome         | Email                  | CPF            |Telefone        | Contato  | Mensagem          |
-    | Distrato | QA Automação | keflin.rosa@tqi.com.br | 166.014.642-95 |(65) 99758-7724 | Telefone | [QA] Novo contato |
+    | Assunto  | Nome         | Email               | CPF            |Telefone        | Contato  | Mensagem          |
+    | Distrato | QA Automação | BSouza@lopes.com.br | 166.014.642-95 |(65) 99758-7724 | Telefone | [QA] Novo contato |

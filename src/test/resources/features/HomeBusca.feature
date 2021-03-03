@@ -1,5 +1,8 @@
 #language: pt
-@REGRESSAO @HomeBusca
+
+@REGRESSAO
+@HomeBusca
+
 Funcionalidade: [QA-9] Home Page | Fazer buscas de empreendimentos por Localização
 
   Contexto:

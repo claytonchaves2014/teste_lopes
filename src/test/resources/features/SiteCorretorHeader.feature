@@ -1,7 +1,8 @@
 #language: pt
+
 #@REGRESSAO
 @SiteCorretor
-  @HeaderCorretor
+@HeaderCorretor
 
 Funcionalidade: [3111] Site do Corretor | Validar o header
 

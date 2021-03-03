@@ -1,5 +1,8 @@
 #language: pt
-@REGRESSAO @HomeHeader
+
+@REGRESSAO
+@HomeHeader
+
 Funcionalidade: [QA-7] Home Page | Validar os links do Header
 
   Contexto:

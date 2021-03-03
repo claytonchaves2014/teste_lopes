@@ -4,6 +4,7 @@
 @FichaCorretor
 
 Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
+
   Contexto:
     Dado acesso o Portal da Lopes
 

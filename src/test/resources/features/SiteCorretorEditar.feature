@@ -1,7 +1,8 @@
 #language: pt
+
 #@REGRESSAO
 @SiteCorretor
-  @EditarCorretor
+@EditarCorretor
 
 Funcionalidade: [3068] Site do Corretor | Editar o perfil
 
@@ -20,7 +21,6 @@ Funcionalidade: [3068] Site do Corretor | Editar o perfil
     Exemplos:
     | CPF         | Senha     | Corretor       |
     | 26317760896 | 2631lopes | Maria.Luiza    |
-#    | 44167715848 | 4416lopes  | PEDRO.BROOKLIN |
     | 14014488608 | 1401lopes | ALURA          |
 
   Cenário: [3068] Site do Corretor | Editar | Validar campos no Editar

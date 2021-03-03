@@ -1,4 +1,5 @@
 #language: pt
+
 @ResultadoOutrosFiltros
 
 Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca

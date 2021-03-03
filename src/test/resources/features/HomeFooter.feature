@@ -1,5 +1,8 @@
 #language: pt
-@REGRESSAO @Footer
+
+@REGRESSAO
+@Footer
+
 Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da página
 
   Contexto:
