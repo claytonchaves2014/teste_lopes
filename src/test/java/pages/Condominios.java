@@ -91,4 +91,16 @@ public class Condominios {
     public void clicarEntrarContato() {
         driver.click("//a[@class='floating-card__link']", "xpath");
     }
+
+    public void clicarVerMaisVejaTambem() {
+        driver.forceClick("/html/body/lps-root/lps-search/div/div/div/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[2]/div[3]/lps-internal-link-widget/div/div[4]/lps-internal-link-search/div/button", "xpath");
+    }
+
+    public void verificarCondominioVejaTambem(String value) {
+        driver.findElem("//a[contains(text(), '" + value +"')]", "xpath").isDisplayed();
+    }
+
+    public void clicarCondominioVejaTambem(String value) {
+        driver.forceClick("//a[contains(text(), '" + value +"')]", "xpath");
+    }
 }
