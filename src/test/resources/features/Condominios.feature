@@ -79,3 +79,64 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Quando clico seleciono um condomínio
     E clico em Entre em contato com a Lopes
     Então verifico que a URL é aberta "/paginas/fale-conosco"
+
+  Esquema do Cenário: [GROWTH-228] Condomínios | Cidade | Veja também | Validar link do condomínio
+    Dado insiro "<Busca>" no campo de busca
+    E seleciono a opção "<Busca>"
+    E clico no botão Buscar
+    E que vejo as dinâmicas de SEO
+    Quando visualizo os links internos de Veja também
+    E clico em Ver mais do Veja também
+    Então vejo o link "<Link>"
+
+    Exemplos:
+      | Busca                 | Link                     |
+      | São Paulo, SP, Brasil | Condomínios em São Paulo |
+
+  Cenário: [GROWTH-228] Condomínios | Cidade | Veja também | Validar link do condomínio
+    Dado insiro "São Paulo, SP, Brasil" no campo de busca
+    E seleciono a opção "São Paulo, SP, Brasil"
+    E clico no botão Buscar
+    E que vejo as dinâmicas de SEO
+    Quando clico em Ver mais do Veja também
+    E clico no link "Condomínios em São Paulo"
+    Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo"
+
+  Esquema do Cenário: [GROWTH-228] Condomínios | Bairro | Veja também | Validar link do condomínio
+    Dado insiro "<Busca>" no campo de busca
+    E seleciono a opção "<Busca>"
+    E clico no botão Buscar
+    E que vejo as dinâmicas de SEO
+    Quando visualizo os links internos de Veja também
+    Então vejo o link "<Link>"
+
+    Exemplos:
+      | Busca                              | Link                      |
+      | Bela Vista, São Paulo - SP, Brasil | Condomínios em Bela Vista |
+
+  Cenário: [GROWTH-228] Condomínios | Bairro | Veja também | Validar link do condomínio
+    Dado insiro "Bela Vista, São Paulo - SP, Brasil" no campo de busca
+    E seleciono a opção "Bela Vista, São Paulo - SP, Brasil"
+    E clico no botão Buscar
+    E que vejo as dinâmicas de SEO
+    Quando clico no link "Condomínios em Bela Vista"
+    Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo/bela-vista"
+
+  Esquema do Cenário: [GROWTH-228] Condomínios | Rua | Veja também | Validar link do condomínio
+    Dado insiro "<Busca>" no campo de busca
+    E seleciono a opção "<Busca>"
+    E clico no botão Buscar
+    Quando que vejo as dinâmicas de SEO
+    Então vejo o link "<Link>"
+
+    Exemplos:
+      | Busca                                                 | Link                      |
+      | Avenida Paulista - Bela Vista, São Paulo - SP, Brasil | Condomínios em Bela Vista |
+
+  Cenário: [GROWTH-228] Condomínios | Bairro | Veja também | Validar link do condomínio
+    Dado insiro "Avenida Paulista - Bela Vista, São Paulo - SP, Brasil" no campo de busca
+    E seleciono a opção "Avenida Paulista - Bela Vista, São Paulo - SP, Brasil"
+    E clico no botão Buscar
+    E que vejo as dinâmicas de SEO
+    Quando clico no link "Condomínios em Bela Vista"
+    Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo/bela-vista"

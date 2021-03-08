@@ -96,7 +96,7 @@ Funcionalidade: [QA-8] Home Page | Validar os links localizados no Footer da pá
   Cenário: [CT_002] Home Page | Footer | YouTube
     Dado verifico o Footer da página
     Quando clico em YouTube
-    Então verifico que a URL é aberta "https://www.youtube.com/user/lopesconsultoria"
+    Então verifico que a URL é aberta "https://www.youtube.com/channel/UC-rT13gWhsBKwAulqsuqvqg"
 
   Cenário: [CT_002] Home Page | Footer | Blog
     Dado verifico o Footer da página

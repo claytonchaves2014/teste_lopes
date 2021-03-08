@@ -2,6 +2,7 @@ package steps;
 
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import pages.Condominios;
 import pages.HomeFooter;
@@ -92,5 +93,20 @@ public class CondominiosSteps extends BaseSteps {
     public void clicoEmEntreEmContatoComALopes() {
         condominios.clicarEntrarContato();
         footer.trocarJanela();
+    }
+
+    @E("clico em Ver mais do Veja também")
+    public void clicoEmVerMaisDoVejaTambém() {
+        condominios.clicarVerMaisVejaTambem();
+    }
+
+    @Então("vejo o link {string}")
+    public void vejoOLink(String value) {
+        condominios.verificarCondominioVejaTambem(value);
+    }
+
+    @E("clico no link {string}")
+    public void clicoNoLink(String value) {
+        condominios.clicarCondominioVejaTambem(value);
     }
 }
