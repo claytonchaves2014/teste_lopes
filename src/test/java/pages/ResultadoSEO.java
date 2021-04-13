@@ -80,9 +80,9 @@ public class ResultadoSEO {
     }
 
     public void verificarVejaTambem() {
-        WebElement elemento = driver.findElem("/html/body/lps-root/lps-search/div/div/div/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[2]/div[4]/lps-internal-link-widget/div/div[4]/lps-internal-link-search/h4", "xpath");
+        WebElement elemento = driver.findElem("lps-internal-link-widget > div > div:nth-child(4) > lps-internal-link-search > h4", "css");
         String vejatambem = elemento.getText();
-        Assert.assertTrue(vejatambem.contains("Veja Também"));
+        Assert.assertEquals(vejatambem, "Veja Também");
     }
 
     public void selecionarVejaTambem(String value) {

@@ -30,17 +30,17 @@ public class ResultadoBusca {
     }
 
     public void clicarAvançarPag() {
-        WebElement footer = driver.findElem("//*[@class='ant-pagination mini ng-star-inserted']", "xpath");
-        driver.ScrollTo(footer);
-        driver.waitElement("//*[@title='Próxima página']", "xpath");
-        driver.forceClick("//*[@title='Próxima página']", "xpath");
+        WebElement pagination = driver.findElem("lps-pagination", "css");
+        driver.ScrollTo(pagination);
+        driver.waitElement("//*[@aria-label='Próxima página']", "xpath");
+        driver.forceClick("//*[@aria-label='Próxima página']", "xpath");
     }
 
     public void clicarVoltarPag() {
-        WebElement footer = driver.findElem("//div[@class='search-content__pagination ng-star-inserted']", "xpath");
-        driver.ScrollTo(footer);
-        driver.waitElement("//li[@class='ant-pagination-next ng-star-inserted']", "xpath");
-        driver.forceClick("//li[@title='Página anterior']", "xpath");
+        WebElement pagination = driver.findElem("lps-pagination", "css");
+        driver.ScrollTo(pagination);
+        driver.waitElement("lps-pagination li[title='Página anterior'] a", "css");
+        driver.forceClick("lps-pagination li[title='Página anterior'] a", "css");
     }
 
     public void verificarCard() {
