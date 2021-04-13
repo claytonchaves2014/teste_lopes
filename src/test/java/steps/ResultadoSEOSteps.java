@@ -11,6 +11,11 @@ public class ResultadoSEOSteps extends BaseSteps {
 
     private static ResultadoSEO resultadoSEO = new ResultadoSEO(driver);
 
+    @Dado("que vejo os links das dinâmicas de SEO")
+    public void verificarDinamicasSeoLinks() {
+        resultadoSEO.verificarDinamicasLinks();
+    }
+
     @Dado("que vejo as dinâmicas de SEO")
     public void queVejoAsDinâmicasDeSEO() {
         resultadoSEO.verificarDinamicas();

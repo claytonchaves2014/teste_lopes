@@ -15,6 +15,11 @@ public class ResultadoSEO {
         driver = stepDriver;
     }
 
+    public void verificarDinamicasLinks() {
+        WebElement footer = driver.findElem("lps-internal-link-widget", "css");
+        driver.ScrollTo(footer);
+    }
+
     public void verificarDinamicas() {
         WebElement footer = driver.findElem("//div[@class='search-content__breadcrumb-list ng-star-inserted']", "xpath");
         driver.ScrollTo(footer);
@@ -81,13 +86,12 @@ public class ResultadoSEO {
 
     public void verificarVejaTambem() {
         WebElement elemento = driver.findElem("lps-internal-link-widget > div > div:nth-child(4) > lps-internal-link-search > h4", "css");
-        String vejatambem = elemento.getText();
-        Assert.assertEquals(vejatambem, "Veja Também");
+        String vejaTambem = elemento.getText();
+        Assert.assertEquals("Veja Também", vejaTambem);
     }
 
     public void selecionarVejaTambem(String value) {
-        WebElement select = driver.findElem("/html/body/lps-root/lps-search/div/div/div/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[2]/div[3]/lps-internal-link-widget/div/div[4]/lps-internal-link-search/div", "xpath");
-
+        WebElement select = driver.findElem("lps-internal-link-widget div:nth-child(4) lps-internal-link-search > div", "css");
         List<WebElement> options = select.findElements(By.linkText(value));
         for (WebElement option : options) {
             option.click();
