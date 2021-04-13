@@ -34,7 +34,7 @@ Funcionalidade: [QA-88] Resultado de Busca | Validar as dinâmicas SEO
     Então vejo os Resultados de Busca com a url "/busca/venda/br/sp/sao-paulo/santana/rua-voluntarios-da-patria"
 
   Cenario: [QA-92] Resultado de Busca | SEO | Veja Também
-    Dado que vejo as dinâmicas de SEO
+    Dado que vejo os links das dinâmicas de SEO
     Quando visualizo os links internos de Veja também
     E seleciono a opção "Apartamentos à venda em São Paulo" de Veja Também
     Então vejo os Resultados de Busca com a url "/busca/venda/br/sp/sao-paulo/tipo/apartamento?tipo=APARTMENT"

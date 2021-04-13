@@ -84,7 +84,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "<Busca>" no campo de busca
     E seleciono a opção "<Busca>"
     E clico no botão Buscar
-    E que vejo as dinâmicas de SEO
+    E que vejo os links das dinâmicas de SEO
     Quando visualizo os links internos de Veja também
     E clico em Ver mais do Veja também
     Então vejo o link "<Link>"
@@ -97,7 +97,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "São Paulo, SP, Brasil" no campo de busca
     E seleciono a opção "São Paulo, SP, Brasil"
     E clico no botão Buscar
-    E que vejo as dinâmicas de SEO
+    E que vejo os links das dinâmicas de SEO
     Quando clico em Ver mais do Veja também
     E clico no link "Condomínios em São Paulo"
     Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo"
@@ -106,7 +106,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "<Busca>" no campo de busca
     E seleciono a opção "<Busca>"
     E clico no botão Buscar
-    E que vejo as dinâmicas de SEO
+    E que vejo os links das dinâmicas de SEO
     Quando visualizo os links internos de Veja também
     Então vejo o link "<Link>"
 
@@ -118,7 +118,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "Bela Vista, São Paulo - SP, Brasil" no campo de busca
     E seleciono a opção "Bela Vista, São Paulo - SP, Brasil"
     E clico no botão Buscar
-    E que vejo as dinâmicas de SEO
+    E que vejo os links das dinâmicas de SEO
     Quando clico no link "Condomínios em Bela Vista"
     Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo/bela-vista"
 
@@ -126,7 +126,7 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "<Busca>" no campo de busca
     E seleciono a opção "<Busca>"
     E clico no botão Buscar
-    Quando que vejo as dinâmicas de SEO
+    Quando que vejo os links das dinâmicas de SEO
     Então vejo o link "<Link>"
 
     Exemplos:
@@ -137,6 +137,6 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     Dado insiro "Avenida Paulista - Bela Vista, São Paulo - SP, Brasil" no campo de busca
     E seleciono a opção "Avenida Paulista - Bela Vista, São Paulo - SP, Brasil"
     E clico no botão Buscar
-    E que vejo as dinâmicas de SEO
+    E que vejo os links das dinâmicas de SEO
     Quando clico no link "Condomínios em Bela Vista"
     Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo/bela-vista"
