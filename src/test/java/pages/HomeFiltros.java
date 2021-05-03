@@ -1,7 +1,9 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import support.Setup;
 
 public class HomeFiltros {
@@ -13,7 +15,7 @@ public class HomeFiltros {
     }
 
     public void clicarFiltros() {
-        driver.click("//*[@class='filter_btn ant-btn ant-btn-link']", "xpath");
+        driver.click(".filter_btn", "css");
     }
 
     public void inserirValorMin(String value) {
@@ -35,37 +37,13 @@ public class HomeFiltros {
     }
 
     public void selecionarBanheiro(String value) {
-        switch (value) {
-            case "1":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[1]/span", "xpath");
-                break;
-            case "2":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[2]/span", "xpath");
-                break;
-            case "3":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[3]/span", "xpath");
-                break;
-            case "4+":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[3]/lib-multi-selection/div/button[4]/span", "xpath");
-                break;
-        }
+        value = String.valueOf(Integer.valueOf(value) + 1);
+        driver.click("lps-home lps-searchbox .searchbox__filtersrow > div:nth-child(3) button:nth-child(" + value + ") span", "css");
     }
 
     public void selecionarVaga(String value) {
-        switch (value) {
-            case "1":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[1]/span", "xpath");
-                break;
-            case "2":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[2]/span", "xpath");
-                break;
-            case "3":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[3]/span", "xpath");
-                break;
-            case "4+":
-                driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-accordion/div/div[1]/div[4]/lib-multi-selection/div/button[4]/span", "xpath");
-                break;
-        }
+        value = String.valueOf(Integer.valueOf(value) + 1);
+        driver.click("lps-home lps-searchbox .searchbox__filtersrow > div:nth-child(4) button:nth-child(" + value + ") span", "css");
     }
 
     public void validarAlertaValor(String value) {

@@ -21,13 +21,13 @@ public class HomeBusca {
 
     public void clicarBuscar() throws InterruptedException {
         Thread.sleep(1000);
-        driver.waitElementToBeClickable("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/div/div/div[2]/div/input", "xpath");
-        driver.forceClick("//*[@value='Buscar']", "xpath");
+        driver.waitElementToBeClickable(".searchbox .search_btn", "css");
+        driver.forceClick(".searchbox .search_btn", "css");
     }
 
-    public void aguardarResultados() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.findElem("/html/body/lps-root/lps-search/div/div/div[1]/lps-search-grid/lps-search-content/div", "xpath").isDisplayed();
+public void aguardarResultados() throws InterruptedException {
+        Thread.sleep(20000);
+        driver.findElem("lps-search lps-search-content .search-content", "css").isDisplayed();
     }
 
     public void validarResultados(String value) {

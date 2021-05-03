@@ -15,9 +15,8 @@ public class HomeFooter {
     }
 
     public void verificarFooter() throws InterruptedException {
-        driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[2]", "xpath").isDisplayed();
-//        WebElement footer = driver.findElem("/html/body/lps-root/lps-home/div/nav-footer/div/div[3]", "xpath");
-        WebElement footer = driver.findElem("//div[@class='red-border']", "xpath");
+        driver.findElem("lps-root lps-home nav-footer .main-content", "css").isDisplayed();
+        WebElement footer = driver.findElem("lps-root lps-home nav-footer .red-border", "css");
         driver.ScrollTo(footer);
         Thread.sleep(2000);
     }
@@ -63,8 +62,9 @@ public class HomeFooter {
     }
 
     public void clicarCondominiosEdificios() {
-        driver.waitElementToBeClickable("linkpaginas/condominios/sp");
-        driver.forceClick("linkpaginas/condominios/sp");
+        driver.click("lps-root lps-home nav-footer .main-content #linkpaginas/condominios/sp", "css");
+//        driver.waitElementToBeClickable("linkpaginas/condominios/sp");
+//        driver.forceClick("linkpaginas/condominios/sp");
     }
 
     public void clicarVendaImovel() throws InterruptedException {

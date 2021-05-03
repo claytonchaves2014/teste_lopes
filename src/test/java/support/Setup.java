@@ -105,12 +105,14 @@ public class Setup {
 
     public WebElement findElem(String parValue, String... parType) {
         final By locator = getLocatorBy(parValue, parType);
+
         WebElement element;
         try {
             element = driver.findElement(locator);
         } catch (NoSuchElementException e) {
             element = null;
         }
+
         return element;
     }
 
