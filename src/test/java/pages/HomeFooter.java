@@ -62,9 +62,8 @@ public class HomeFooter {
     }
 
     public void clicarCondominiosEdificios() {
-        driver.click("lps-root lps-home nav-footer .main-content #linkpaginas/condominios/sp", "css");
-//        driver.waitElementToBeClickable("linkpaginas/condominios/sp");
-//        driver.forceClick("linkpaginas/condominios/sp");
+       driver.waitElementToBeClickable("linkpaginas/condominios/sp");
+       driver.forceClick("linkpaginas/condominios/sp");
     }
 
     public void clicarVendaImovel() throws InterruptedException {
