@@ -24,8 +24,6 @@ public class FichaCorretor {
     public void inserirParametro(String value) {
         String url = driver.getCurrentUrl();
         driver.openURL(url + value);
-        String parametro = driver.getCurrentUrl();
-        Assert.assertTrue(parametro.contains(value));
     }
 
     public void alterarParametro(String value) {
