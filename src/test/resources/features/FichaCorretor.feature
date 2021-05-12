@@ -10,9 +10,9 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
 
   Cenario: [2269] Ficha do Imóvel | Corretor | Parâmetro | Acessar URL
     Dado acesso a Ficha do Imóvel "REO41647"
-    Quando insiro o parâmetro do Corretor "?Corretor=Vasthi"
+    Quando insiro o parâmetro do Corretor "?Corretor=Ferba"
     Então visualizo apenas um Cartão do Corretor
-    E o Cartão do Corretor pertence ao "VASTHI"
+    E o Cartão do Corretor pertence ao "FERBA"
 
   Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Validar layout
     Dado acesso a Ficha do Imóvel "REO41647"
