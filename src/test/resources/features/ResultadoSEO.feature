@@ -9,12 +9,6 @@ Funcionalidade: [QA-88] Resultado de Busca | Validar as dinâmicas SEO
     Dado acesso o Portal da Lopes
     E clico no botão Buscar
 
-  Cenario: [QA-88] Resultado de Busca | SEO | Sobre o local
-    Dado que vejo as dinâmicas de SEO
-    Quando visualizo o texto Sobre o local
-    E clico em Ver mais
-    Então vejo o texto completo sobre o local buscado
-
   Cenario: [QA-89] Resultado de Busca | SEO | Cidades relacionadas
     Dado que vejo as dinâmicas de SEO
     Quando visualizo os links internos de Cidades relacionadas
