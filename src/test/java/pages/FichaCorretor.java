@@ -110,7 +110,7 @@ public class FichaCorretor {
     }
 
     public void verificarFoto() {
-        driver.findElem("//img[@alt='imagem padrão']", "xpath").isDisplayed();
+        driver.findElem("//img[@alt='imagem corretor']", "xpath").isDisplayed();
     }
 
     public void verificarLogo() {
