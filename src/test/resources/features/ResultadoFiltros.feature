@@ -203,7 +203,16 @@ Funcionalidade: [QA-16] Resultado de Busca | Filtrar os resultados de busca
     E clico em Características do Imóvel
     E seleciono "3" em "Dormitórios"
     E seleciono "2" em "Vagas"
+
+
+
+
     E clico em Aplicas os filtros selecionados
+
+
+
+
+
     E visualizo os filtros como "Filtros (2)"
     Quando clico em Tipo de Transação
     E seleciono o tipo de transação "Aluguel"

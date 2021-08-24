@@ -36,15 +36,15 @@ public class FichaCorretorSteps extends BaseSteps {
         fichaCorretor.validarParametro(value);
     }
 
-    @E("clico em Ver telefone no Lead")
-    public void clicoEmVerTelefoneNoLead() {
-        fichaCorretor.clicarVerTelefone();
-    }
+//    @E("clico em Ver telefone no Lead")
+//    public void clicoEmVerTelefoneNoLead() {
+//        fichaCorretor.clicarVerTelefone();
+//    }
 
-    @Então("visualizo o celular do Corretor no Lead como {string}")
-    public void visualizoOCelularDoCorretorNoLeadComo(String value) {
-        fichaCorretor.validarCelularLead(value);
-    }
+//    @Então("visualizo o celular do Corretor no Lead como {string}")
+//    public void visualizoOCelularDoCorretorNoLeadComo(String value) {
+//        fichaCorretor.validarCelularLead(value);
+//    }
 
     @Quando("verifico o Cartão do Corretor em {string}")
     public void verificoOCartãoDoCorretorEm(String value) {
@@ -76,40 +76,48 @@ public class FichaCorretorSteps extends BaseSteps {
         fichaCorretor.verificarCreci();
     }
 
-    @E("vejo o botão Falar com o corretor")
-    public void vejoOBotãoFalarComOCorretor() {
-        fichaCorretor.verificarFalarComCorretor();
-    }
+//    @E("vejo o botão Falar com o corretor")
+//    public void vejoOBotãoFalarComOCorretor() {
+//        fichaCorretor.verificarFalarComCorretor();
+//    }
 
-    @Quando("clico no botão Falar com o corretor")
-    public void clicoNoBotãoFalarComOCorretor() {
-        fichaCorretor.clicarFalarComCorretor();
-    }
+//    @Quando("clico no botão Falar com o corretor")
+//    public void clicoNoBotãoFalarComOCorretor() {
+//        fichaCorretor.clicarFalarComCorretor();
+//    }
 
-    @Então("vejo o popup {string}")
-    public void vejoOPopup(String value) {
-        fichaCorretor.verificarPopup(value);
-    }
 
-    @E("vejo o texto do popup {string}")
-    public void vejoOTextoDoPopup(String value) {
-        fichaCorretor.verificarTxtPopup(value);
-    }
 
-    @E("vejo o número do Corretor no popup")
-    public void vejoONúmeroDoCorretorNoPopup() {
-        fichaCorretor.verificarNumeroPopup();
-    }
+    // focus
 
-    @E("vejo o botão Fechar popup")
-    public void vejoOBotãoFecharPopup() {
-        fichaCorretor.verificarFecharPopup();
-    }
 
-    @Então("clico no botão Fechar popup")
-    public void clicoNoBotãoFecharPopup() {
-        fichaCorretor.clicarFecharPopup();
-    }
+
+
+
+//    @Então("vejo o popup {string}")
+//    public void vejoOPopup(String value) {
+//        fichaCorretor.verificarPopup(value);
+//    }
+//
+//    @E("vejo o texto do popup {string}")
+//    public void vejoOTextoDoPopup(String value) {
+//        fichaCorretor.verificarTxtPopup(value);
+//    }
+//
+//    @E("vejo o número do Corretor no popup")
+//    public void vejoONúmeroDoCorretorNoPopup() {
+//        fichaCorretor.verificarNumeroPopup();
+//    }
+//
+//    @E("vejo o botão Fechar popup")
+//    public void vejoOBotãoFecharPopup() {
+//        fichaCorretor.verificarFecharPopup();
+//    }
+//
+//    @Então("clico no botão Fechar popup")
+//    public void clicoNoBotãoFecharPopup() {
+//        fichaCorretor.clicarFecharPopup();
+//    }
 
     @Então("vejo que o número CRECI possui {string} no final")
     public void vejoQueONúmeroCRECIPossuiNoFinal(String value) {
