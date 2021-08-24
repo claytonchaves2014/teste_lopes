@@ -86,20 +86,6 @@ public class FichaCorretor {
         Assert.assertTrue(parametro.contains(value));
     }
 
-    public void clicarVerTelefone() {
-        WebElement lead = driver.findElem("//div[@class='show-phone ng-star-inserted']", "xpath");
-        driver.ScrollTo(lead);
-
-        driver.forceClick("//div[@class='show-phone ng-star-inserted']", "xpath");
-    }
-
-    public void validarCelularLead(String value) {
-        String url = driver.getCurrentUrl();
-        WebElement elemento = driver.findElem("//div[@class='phone ng-star-inserted']", "xpath");
-        String celular = elemento.getText();
-        Assert.assertTrue(celular.contains(value));
-    }
-
     public void verificarCartaoCorretor(String value) {
         WebElement cartao = driver.findElem("//span[@class='realtor__title-card']", "xpath");
         Assert.assertEquals(value, cartao.getText());
@@ -133,26 +119,8 @@ public class FichaCorretor {
         driver.forceClick("//a[@class='card__talk-realtor ng-star-inserted']", "xpath");
     }
 
-    public void verificarPopup(String value) {
-        driver.waitElement("//p[@class='modal-realtor__title']", "xpath");
-        WebElement popup = driver.findElem("//p[@class='modal-realtor__title']", "xpath");
-        Assert.assertEquals(value, popup.getText());
+    public void verificarFocusInput() {
+        driver.findElem("//input[@id='nome']", "xpath").isSelected();
     }
 
-    public void verificarTxtPopup(String value) {
-        WebElement popup = driver.findElem("//p[@class='modal-realtor__description']", "xpath");
-        Assert.assertEquals(value, popup.getText());
-    }
-
-    public void verificarNumeroPopup() {
-        driver.findElem("//p[@class='modal-realtor__description__number ng-star-inserted']", "xpath").isDisplayed();
-    }
-
-    public void verificarFecharPopup() {
-        driver.findElem("//div[@class='modal-realtor__close']", "xpath").isDisplayed();
-    }
-
-    public void clicarFecharPopup() {
-        driver.forceClick("//div[@class='modal-realtor__close']", "xpath");
-    }
 }
