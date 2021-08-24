@@ -29,7 +29,7 @@ Funcionalidade: [3111] Site do Corretor | Validar o header
 #    E não visualizo o link Minha Conta
 
 #  Cenário: [3111] Site do Corretor | Header | Logo | Clicar no logo sem estar logado
-#    Dado acesso o Site do Corretor "FERBA"
+#    Dado acesso o Site do Corretor "VASTHI"
 #    Quando clico no Logo do CRM
 #    Então verifico que a URL é aberta "frontcrm.lpsbr.com/associado/"
 #
