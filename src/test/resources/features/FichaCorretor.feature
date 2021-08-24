@@ -38,16 +38,7 @@ Funcionalidade: [2269] Ficha do Imóvel | Validar o Cartão do Corretor
     Dado acesso a Ficha do Imóvel "REO96788"
     E verifico o Cartão do Corretor em "Corretores associados ao imóvel"
     Quando clico no botão Falar com o corretor
-    Então vejo o popup "Entrar em Contato"
-    E vejo o texto do popup "Fale agora com o corretor pelo:"
-    E vejo o número do Corretor no popup
-    E vejo o botão Fechar popup
-
-  Cenario: [795] Ficha do Imóvel | Corretor | Cartão do Corretor | Fechar Falar com o corretor
-    Dado acesso a Ficha do Imóvel "REO96788"
-    E verifico o Cartão do Corretor em "Corretores associados ao imóvel"
-    Quando clico no botão Falar com o corretor
-    Então clico no botão Fechar popup
+    Então vejo o input Seu nome com focus
 
   Cenario: [3152] Ficha do Imóvel | Corretor | Parâmetro | Inserir apelido inválido
     Dado acesso a Ficha do Imóvel "REO96788"
