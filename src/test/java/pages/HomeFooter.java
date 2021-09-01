@@ -155,6 +155,13 @@ public class HomeFooter {
         Assert.assertTrue(currentURL.contains(value));
     }
 
+    public void clicarFooterConstrutoraEImpreendimentos() throws InterruptedException {
+        Thread.sleep(2000);
+        driver.waitElementToBeClickable("linkempreendimentos");
+        driver.forceClick("linkempreendimentos");
+
+    }
+
     public void validarFotografia(String value) {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("qa")) {

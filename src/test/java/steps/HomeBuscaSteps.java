@@ -16,6 +16,20 @@ public class HomeBuscaSteps extends BaseSteps {
         homeBusca.checkComprarPlanta();
     }
 
+    @Dado("que estou na página de resultado de busca por aluguel")
+    public void clicarEAlugar() {
+        homeBusca.clicarAluguel();
+    }
+
+    @Dado("que estou na página de resultado de busca por lançamento")
+    public void clicarEmLancamento() {
+        homeBusca.clicarLancamento();
+    }
+    @Dado("que estou na página de resultado de busca por prontos")
+    public void clicarEmProntos() {
+        homeBusca.clicarProntos();
+    }
+
     @Quando("clico no botão Buscar")
     public void clicoNoBotãoBuscar() throws InterruptedException {
         homeBusca.clicarBuscar();
@@ -45,6 +59,10 @@ public class HomeBuscaSteps extends BaseSteps {
     @E("retiro a seleção Comprar Pronto")
     public void retiroASeleçãoComprarPronto() {
         homeBusca.checkComprarPronto();
+    }
+    @E("que estou no resultado de busca por compra")
+    public void ComprarPronto() {
+        homeBusca.clicarComprarPronto();
     }
 
     @Quando("seleciono o checkbox Buscar pelo código do imóvel")

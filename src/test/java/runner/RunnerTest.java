@@ -6,11 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features"},
+        features = {"src/test/resources/features/ResultadoBusca.feature"},
         plugin = {
                 "pretty",
                 "json:target/reports/CucumberReport.json"},
-        tags = {__JENKINS_PIPELINE_TAG__},
+        //tags = {__JENKINS_PIPELINE_TAG__},
         glue = {"steps"}
 )
 

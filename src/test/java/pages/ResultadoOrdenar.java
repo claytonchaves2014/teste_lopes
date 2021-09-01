@@ -15,6 +15,8 @@ public class ResultadoOrdenar {
     public void clicarOrdenar() {
         driver.waitElement("//*[@class='search-content__summary']", "xpath");
         driver.click("/html/body/lps-root/lps-search/div/div/div[1]/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[1]/div/lps-search-order/button", "xpath");
+       // driver.click(".cdk-overlay-backdrop","css");
+     //   driver.click("//button[contains(.,'Ordenar')]","css");
     }
 
     public void verificarOrdem(String value) {
@@ -41,5 +43,20 @@ public class ResultadoOrdenar {
 
     public void clicarAreaImovel() {
         driver.forceClick("//*[text()=' Área do imóvel ']", "xpath");
+    }
+
+    //public void vejoRelevancia() {driver.findElem("//*[text()=' Relevância ']", "xpath").isDisplayed();
+    //}
+
+    public void vejoMenorValor() {driver.findElem("//span[contains(.,' Menor valor')]", "xpath").isDisplayed();
+    }
+
+    public void vejoMaiorValor() {driver.findElem("//span[contains(.,' Maior valor')]", "xpath").isDisplayed();
+    }
+
+    public void vejoDataAtualizacao() {driver.findElem("//span[contains(.,' Data de atualização')]", "xpath").isDisplayed();
+    }
+
+    public void vejoAreaImovel() {driver.findElem("//span[contains(.,' Área do imóvel')]","xpath").isDisplayed();
     }
 }

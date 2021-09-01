@@ -55,6 +55,13 @@ public class ResultadoBusca {
         driver.findElem("//*[@class='card__price ng-star-inserted']", "xpath").isDisplayed();
     }
 
+    public void verificarValorIptu() {
+        driver.findElem("//*[@class='card__price ng-star-inserted']", "xpath").isDisplayed();
+    }
+    public void verificarValorAluguel() {
+        driver.findElem("//*[@class='card__price ng-star-inserted']", "xpath").isDisplayed();
+    }
+
     public void verificarCondominio() {
         driver.findElem("//*[@class='card__subprice ng-star-inserted']", "xpath").isDisplayed();
     }

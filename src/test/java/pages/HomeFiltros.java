@@ -14,21 +14,35 @@ public class HomeFiltros {
         driver = stepDriver;
     }
 
-    public void clicarFiltros() {
-        driver.click(".filter_btn", "css");
+    public void clicarFiltros() throws InterruptedException {
+        driver.click(".filter-btn", "css");
+
+    }
+    public void clicarFiltrarValor() throws InterruptedException {
+        driver.click(".anticon > .ng-tns-c80-8","css");
+    }
+    public void clicoCheckBoxAluguel() throws InterruptedException {
+        driver.click(".cdk-focused .ant-radio-input","css");
+        Thread.sleep(2000);
+    }
+    public void clicoBtnAplicar() throws InterruptedException {
+        driver.click(".value-type-filter > .btn-extra","css");
+        Thread.sleep(2000);
     }
 
-    public void inserirValorMin(String value) {
+    public void inserirValorMin(String value) throws InterruptedException {
         driver.sendKeys(value, "minValue");
+        Thread.sleep(2000);
     }
 
-    public void inserirValorMax(String value) {
+    public void inserirValorMax(String value) throws InterruptedException {
         driver.sendKeys(value, "maxValue");
-        driver.click("minArea");
+   //     driver.click("minArea");
+        Thread.sleep(2000);
     }
 
     public void inserirAreaMin(String value) {
-        driver.sendKeys(value,"minArea");
+        driver.sendKeys(value, "minArea");
     }
 
     public void inserirAreaMax(String value) {
@@ -60,5 +74,21 @@ public class HomeFiltros {
 
     public void clicarLimparFiltros() {
         driver.forceClick("//*[@class='searchbox__clearbtn']", "xpath");
+    }
+
+    public void ValorTotalSelecionado() {
+        driver.forceClick("//span[contains(.,' Valor Total')]", "xpath");
+    }
+
+    public void vejoCheckBoxAluguel() {
+        driver.findElem("//*[text()=' Aluguel  ']", "xpath").isDisplayed();
+    }
+
+    public void vejoValorMinimo() {
+        driver.findElem("//*[text()=' minValue  ']", "xpath").isDisplayed();
+    }
+
+    public void vejoValorMaximo() {
+        driver.findElem("//*[text()=' maxValue  ']", "xpath").isDisplayed();
     }
 }

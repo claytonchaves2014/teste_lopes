@@ -31,18 +31,32 @@ public class ResultadoOrdenarSteps extends BaseSteps {
         resultadoOrdenar.clicarMenorValor();
     }
 
+    @E("vejo ordenar por Menor valor")
+    public void vejoOrdenarPorMenorValor() {
+        resultadoOrdenar.vejoMenorValor();
+    }
+
     @E("seleciono ordenar por Maior valor")
-    public void selecionoOrdenarPorMaiorValor() {
-        resultadoOrdenar.clicarMaiorValor();
+    public void selecionoOrdenarPorMaiorValor() {resultadoOrdenar.clicarMaiorValor();}
+
+    @E("vejo ordenar por Maior valor")
+    public void vejoOrdenarPorMaiorValor() {
+        resultadoOrdenar.vejoMaiorValor();
     }
 
     @E("seleciono ordenar por Data de atualização")
-    public void selecionoOrdenarPorDataDeAtualização() {
-        resultadoOrdenar.clicarDataAtualizacao();
+    public void selecionoOrdenarPorDataDeAtualização() {resultadoOrdenar.clicarDataAtualizacao();
+    }
+
+    @E("vejo ordenar por Data de atualização")
+    public void vejoOrdenarPorDataDeAtualização() {
+        resultadoOrdenar.vejoDataAtualizacao();
     }
 
     @E("seleciono ordenar por Área do imóvel")
-    public void selecionoOrdenarPorÁreaDoImóvel() {
-        resultadoOrdenar.clicarAreaImovel();
+    public void selecionoOrdenarPorÁreaDoImóvel() {resultadoOrdenar.clicarAreaImovel();}
+
+    @E("vejo ordenar por Área do imóvel")
+    public void vejoOrdenarPorÁreaDoImóvel() {resultadoOrdenar.vejoAreaImovel();
     }
 }

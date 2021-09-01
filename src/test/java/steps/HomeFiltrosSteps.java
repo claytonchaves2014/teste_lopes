@@ -1,9 +1,6 @@
 package steps;
 
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
-import io.cucumber.java.pt.Então;
-import io.cucumber.java.pt.Quando;
+import io.cucumber.java.pt.*;
 import pages.HomeFiltros;
 import support.BaseSteps;
 
@@ -12,17 +9,47 @@ public class HomeFiltrosSteps extends BaseSteps {
     private static HomeFiltros homeFiltros = new HomeFiltros(driver);
 
     @Dado("clico em Filtros na Home Page")
-    public void clicoEmFiltrosNaHomePage() {
+    public void clicoEmFiltrosNaHomePage() throws InterruptedException {
         homeFiltros.clicarFiltros();
     }
 
+    @Quando("clico em filtrar por Valor")
+    public void clicoEmFiltrosPorValor() throws InterruptedException {
+        homeFiltros.clicarFiltrarValor();
+    }
+    @E("clico no checkbox Aluguel")
+    public void clicoCheckAluguel() throws InterruptedException {
+        homeFiltros.clicoCheckBoxAluguel();
+    }
+    @E("clico no botão Aplicar")
+    public void clicoBotaoAplicar() throws InterruptedException {
+        homeFiltros.clicoBtnAplicar();
+    }
+
+    @Então("vejo o checkbox Valor Total selecionado")
+    public void vejoValorTotalSelecionado() {
+        homeFiltros.ValorTotalSelecionado();
+    }
+    @E("vejo o checkbox Aluguel")
+    public void vejoCheckBAluguel() {
+        homeFiltros.vejoCheckBoxAluguel();
+    }
+    @Entao("vejo o filtro de valor com Valor mínimo")
+    public void vejoVlMinimo() {
+        homeFiltros.vejoValorMinimo();
+    }
+    @E("vejo o filtro de valor com Valor máximo")
+    public void vejoVlMaximo() {
+        homeFiltros.vejoValorMaximo();
+    }
+
     @Quando("insiro um valor mínimo de {string}")
-    public void insiroUmValorMínimoDe(String value) {
+    public void insiroUmValorMínimoDe(String value) throws InterruptedException {
         homeFiltros.inserirValorMin(value);
     }
 
     @E("insiro um valor máximo de {string}")
-    public void insiroUmValorMáximoDe(String value) {
+    public void insiroUmValorMáximoDe(String value) throws InterruptedException {
         homeFiltros.inserirValorMax(value);
     }
 

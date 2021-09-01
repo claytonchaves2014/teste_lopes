@@ -140,3 +140,4 @@ Funcionalidade: [Growth-102] Condomínios | Validar as  páginas de Condomínio 
     E que vejo os links das dinâmicas de SEO
     Quando clico no link "Condomínios em Bela Vista"
     Então verifico que a URL é aberta "/paginas/condominios/sp/sao-paulo/bela-vista"
+

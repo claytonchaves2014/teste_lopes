@@ -1,6 +1,7 @@
 package steps;
 
 import io.cucumber.java.pt.E;
+import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import pages.HomeFooter;
@@ -56,6 +57,15 @@ public class ResultadosBuscaSteps extends BaseSteps {
     public void vejoOValorDoImóvelNaCard() {
         resultadosBusca.verificarValor();
     }
+    @E("vejo o valor do aluguel na card")
+    public void vejoOValorDoAluguelNaCard() {
+        resultadosBusca.verificarValorAluguel();
+    }
+
+    @E("vejo o valor do iptu na card")
+    public void vejoOValorDoIptuNaCard() {
+        resultadosBusca.verificarValorIptu();
+    }
 
     @E("vejo o valor de condomínio na card")
     public void vejoOValorDeCondomínioNaCard() {
@@ -97,4 +107,7 @@ public class ResultadosBuscaSteps extends BaseSteps {
         resultadosBusca.clicarCardCalc();
         homeFooter.trocarJanela();
     }
+
+
+
 }

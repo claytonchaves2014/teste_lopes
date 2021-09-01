@@ -18,6 +18,9 @@ public class HomeBusca {
     public void checkComprarPronto() {
         driver.click("//*[@text=\"Comprar Pronto\"]", "xpath");
     }
+    public void clicarComprarPronto() {
+        driver.click("//*[@text=\"Comprar Pronto\"]", "xpath");
+    }
 
     public void clicarBuscar() throws InterruptedException {
         Thread.sleep(1000);
@@ -49,6 +52,13 @@ public void aguardarResultados() throws InterruptedException {
     public void clicarAlugar() {
         driver.click("/html/body/lps-root/lps-home/div/lps-home-main/div[1]/div[1]/lps-searchbox/lps-search/div[1]/lib-tabs/div/div[2]/span", "xpath");
     }
+    public void clicarLancamento() {
+        driver.click("logo_menu_header-Lançamentos", "id");
+    }
+    public void clicarProntos() {
+        driver.click("logo_menu_header-Prontos", "id");
+    }
+    public void clicarAluguel() {driver.click("logo_menu_header-Aluguel", "id");}
 
     public void clicarCodigo() {
         driver.click("/html/body/lps-root/lps-home/div/lps-info-home/div[1]/div[1]/lps-searchbox/lps-search/div[2]/lps-checkbox/div/label/span", "xpath");
