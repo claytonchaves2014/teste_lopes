@@ -253,6 +253,27 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo   |
       | 1000    | 2000    |
 
+    Cenario: [CT_01_22]: Página do imóvel | Parcela | Pronto (venda) | Validar o layout
+      Dado que estou na página de resultado de busca por prontos
+      E vejo o valor do imóvel na card
+      E vejo o valor do iptu na card
+      E vejo o valor de condomínio na card
+      E vejo o link "Simule o valor financiado"
+
+    Cenario: [CT_02_23]: Página do imóvel | Parcela | Pronto (aluguel) | Validar o layout
+      Dado que estou na página de resultado de busca por aluguel
+      E vejo o valor do aluguel na card
+      E vejo o valor do iptu na card
+      E vejo o valor de condomínio na card
+
+    Cenario: [CT_03_24]: Página do imóvel | Parcela | Lançamento | Validar o layout
+      Dado que estou na página de resultado de busca por lançamento
+      E vejo o valor do imóvel na card
+
+
+
+
+
 
 
 
