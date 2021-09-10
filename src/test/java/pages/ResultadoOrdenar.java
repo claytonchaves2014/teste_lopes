@@ -12,10 +12,11 @@ public class ResultadoOrdenar {
         driver = stepDriver;
     }
 
-    public void clicarOrdenar() {
+    public void clicarOrdenar() throws InterruptedException {
         driver.waitElement("//*[@class='search-content__summary']", "xpath");
         driver.click("/html/body/lps-root/lps-search/div/div/div[1]/lps-search-grid/lps-search-content/div/perfect-scrollbar/div/div[1]/div[1]/div/lps-search-order/button", "xpath");
-       // driver.click(".cdk-overlay-backdrop","css");
+        Thread.sleep(2000);
+        // driver.click(".cdk-overlay-backdrop","css");
      //   driver.click("//button[contains(.,'Ordenar')]","css");
     }
 
@@ -25,38 +26,52 @@ public class ResultadoOrdenar {
         Assert.assertEquals(value, ordem);
     }
 
-    public void clicarRelevancia() {
+    public void clicarRelevancia() throws InterruptedException {
         driver.click("//*[text()=' Relevância ']", "xpath");
+        Thread.sleep(1000);
     }
 
-    public void clicarMenorValor() {
-        driver.click("//*[text()=' Menor valor ']", "xpath");
+    public void clicarMenorValor() throws InterruptedException {
+     //   driver.click("//*[text()=' Menor valor ']", "xpath");
+          driver.click("//span[contains(.,' Menor valor')]", "xpath");
+        Thread.sleep(1000);
     }
 
-    public void clicarMaiorValor() {
-        driver.click("//*[text()=' Maior valor ']", "xpath");
+    public void clicarMaiorValor() throws InterruptedException {
+       // driver.click("//*[text()=' Maior valor ']", "xpath");
+        driver.click("//span[contains(.,' Maior valor')]", "xpath");
+        Thread.sleep(1000);
     }
 
-    public void clicarDataAtualizacao() {
+    public void clicarDataAtualizacao() throws InterruptedException {
         driver.click("//*[text()=' Data de atualização ']", "xpath");
+        Thread.sleep(1000);
     }
 
-    public void clicarAreaImovel() {
+
+
+    public void clicarAreaImovel() throws InterruptedException {
         driver.forceClick("//*[text()=' Área do imóvel ']", "xpath");
+        Thread.sleep(1000);
     }
 
     //public void vejoRelevancia() {driver.findElem("//*[text()=' Relevância ']", "xpath").isDisplayed();
     //}
 
-    public void vejoMenorValor() {driver.findElem("//span[contains(.,' Menor valor')]", "xpath").isDisplayed();
+    public void vejoMenorValor() throws InterruptedException {driver.findElem("//span[contains(.,' Menor valor')]", "xpath").isDisplayed();
+        Thread.sleep(1000);
     }
 
-    public void vejoMaiorValor() {driver.findElem("//span[contains(.,' Maior valor')]", "xpath").isDisplayed();
+    public void vejoMaiorValor() throws InterruptedException {
+        driver.findElem("//span[contains(.,' Maior valor')]", "xpath").isDisplayed();
+        Thread.sleep(1000);
     }
 
-    public void vejoDataAtualizacao() {driver.findElem("//span[contains(.,' Data de atualização')]", "xpath").isDisplayed();
+    public void vejoDataAtualizacao() throws InterruptedException {driver.findElem("//span[contains(.,' Data de atualização')]", "xpath").isDisplayed();
+        Thread.sleep(1000);
     }
 
-    public void vejoAreaImovel() {driver.findElem("//span[contains(.,' Área do imóvel')]","xpath").isDisplayed();
+    public void vejoAreaImovel() throws InterruptedException {driver.findElem("ant-radio-wrapper:nth-child(5) > span:nth-child(2)","css").isDisplayed();
+        Thread.sleep(1000);
     }
 }

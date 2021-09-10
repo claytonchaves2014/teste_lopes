@@ -25,19 +25,25 @@ public class HomeFiltrosSteps extends BaseSteps {
     public void clicoBotaoAplicar() throws InterruptedException {
         homeFiltros.clicoBtnAplicar();
     }
-
+    @E("clico em Ordenar")
+    public void clicoBotaoOrdenar() throws InterruptedException {
+        homeFiltros.clicoBtnOrdenar();
+    }
     @Então("vejo o checkbox Valor Total selecionado")
     public void vejoValorTotalSelecionado() {
         homeFiltros.ValorTotalSelecionado();
     }
+
     @E("vejo o checkbox Aluguel")
     public void vejoCheckBAluguel() {
         homeFiltros.vejoCheckBoxAluguel();
     }
+
     @Entao("vejo o filtro de valor com Valor mínimo")
     public void vejoVlMinimo() {
         homeFiltros.vejoValorMinimo();
     }
+
     @E("vejo o filtro de valor com Valor máximo")
     public void vejoVlMaximo() {
         homeFiltros.vejoValorMaximo();
@@ -55,21 +61,25 @@ public class HomeFiltrosSteps extends BaseSteps {
 
     @Então("vejo o alerta para Valor {string}")
     public void vejoOAlertaParaValor(String value) {
+
         homeFiltros.validarAlertaValor(value);
     }
 
     @Quando("insiro uma área mínima de {string}")
     public void insiroUmaÁreaMínimaDe(String value) {
+
         homeFiltros.inserirAreaMin(value);
     }
 
     @E("insiro uma área máxima de {string}")
     public void insiroUmaÁreaMáximaDe(String value) {
+
         homeFiltros.inserirAreaMax(value);
     }
 
     @Então("vejo o alerta para Area {string}")
     public void vejoOAlertaParaArea(String value) {
+
         homeFiltros.validarAlertaArea(value);
     }
 

@@ -29,6 +29,11 @@ public class HomeFiltros {
         driver.click(".value-type-filter > .btn-extra","css");
         Thread.sleep(2000);
     }
+    public void clicoBtnOrdenar() throws InterruptedException {
+        driver.click(".cdk-overlay-backdrop","css");
+        driver.click("//button[contains(.,'Ordenar')]","xpath");
+        Thread.sleep(2000);
+    }
 
     public void inserirValorMin(String value) throws InterruptedException {
         driver.sendKeys(value, "minValue");
@@ -72,12 +77,13 @@ public class HomeFiltros {
         Assert.assertEquals(value, alerta.getText());
     }
 
+
     public void clicarLimparFiltros() {
         driver.forceClick("//*[@class='searchbox__clearbtn']", "xpath");
     }
 
     public void ValorTotalSelecionado() {
-        driver.forceClick("//span[contains(.,' Valor Total')]", "xpath");
+        driver.forceClick("xpath=//span[contains(.,' Valor Total')]", "xpath");
     }
 
     public void vejoCheckBoxAluguel() {

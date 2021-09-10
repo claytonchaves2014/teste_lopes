@@ -12,51 +12,58 @@ public class ResultadoOrdenarSteps extends BaseSteps {
     private static ResultadoOrdenar resultadoOrdenar = new ResultadoOrdenar(driver);
 
     @Dado("que clico em Ordenar")
-    public void queClicoEmOrdenar() {
+    public void queClicoEmOrdenar() throws InterruptedException {
         resultadoOrdenar.clicarOrdenar();
+
     }
 
     @Quando("seleciono ordenar por Relevância")
-    public void selecionoOrdenarPorRelevância() {
+    public void selecionoOrdenarPorRelevância() throws InterruptedException {
         resultadoOrdenar.clicarRelevancia();
+
     }
 
     @Então("verifico que os resultados são ordenados por {string}")
-    public void verificoQueOsResultadosSãoOrdenadosPor(String value) {
+    public void verificoQueOsResultadosSãoOrdenadosPor(String value) throws InterruptedException {
         resultadoOrdenar.verificarOrdem(value);
+
     }
 
     @E("seleciono ordenar por Menor valor")
-    public void selecionoOrdenarPorMenorValor() {
+    public void selecionoOrdenarPorMenorValor() throws InterruptedException {
         resultadoOrdenar.clicarMenorValor();
     }
 
     @E("vejo ordenar por Menor valor")
-    public void vejoOrdenarPorMenorValor() {
+    public void vejoOrdenarPorMenorValor() throws InterruptedException {
         resultadoOrdenar.vejoMenorValor();
     }
 
     @E("seleciono ordenar por Maior valor")
-    public void selecionoOrdenarPorMaiorValor() {resultadoOrdenar.clicarMaiorValor();}
+    public void selecionoOrdenarPorMaiorValor() throws InterruptedException {
+        resultadoOrdenar.clicarMaiorValor();}
 
     @E("vejo ordenar por Maior valor")
-    public void vejoOrdenarPorMaiorValor() {
+    public void vejoOrdenarPorMaiorValor() throws InterruptedException {
         resultadoOrdenar.vejoMaiorValor();
     }
 
     @E("seleciono ordenar por Data de atualização")
-    public void selecionoOrdenarPorDataDeAtualização() {resultadoOrdenar.clicarDataAtualizacao();
+    public void selecionoOrdenarPorDataDeAtualização() throws InterruptedException {
+        resultadoOrdenar.clicarDataAtualizacao();
     }
 
     @E("vejo ordenar por Data de atualização")
-    public void vejoOrdenarPorDataDeAtualização() {
+    public void vejoOrdenarPorDataDeAtualização() throws InterruptedException {
         resultadoOrdenar.vejoDataAtualizacao();
     }
 
     @E("seleciono ordenar por Área do imóvel")
-    public void selecionoOrdenarPorÁreaDoImóvel() {resultadoOrdenar.clicarAreaImovel();}
+    public void selecionoOrdenarPorÁreaDoImóvel() throws InterruptedException {
+        resultadoOrdenar.clicarAreaImovel();}
 
     @E("vejo ordenar por Área do imóvel")
-    public void vejoOrdenarPorÁreaDoImóvel() {resultadoOrdenar.vejoAreaImovel();
+    public void vejoOrdenarPorÁreaDoImóvel() throws InterruptedException {
+        resultadoOrdenar.vejoAreaImovel();
     }
 }
