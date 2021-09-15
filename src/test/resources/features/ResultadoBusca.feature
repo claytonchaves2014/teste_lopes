@@ -65,8 +65,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo |
       | 100    | 100    |
 
-
-
   Esquema do Cenario: [CT_06]: Resultado da busca | Lançamento | Filtro por valor | Validar o layout do filtro por valor
     Dado que estou na página de resultado de busca por lançamento
     Dado clico em Filtros na Home Page
@@ -92,12 +90,40 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo   |
       | 100    | 10000000 |
 
+  Cenario: [CT_09]: Home | Filtro por valor | Validar o layout do filtro por valor
+    Dado que estou na página de resultado de busca por aluguel
+    Dado clico em Filtros na Home Page
+    Quando clico em filtrar por Valor
+
+  Esquema do Cenario:[CT_10]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Valor Total“
+    Dado que estou na página de resultado de busca por aluguel
+    Dado clico em Filtros na Home Page
+    Quando clico em filtrar por Valor
+    Quando insiro um valor mínimo de "<Minimo>"
+    E insiro um valor máximo de "<Maximo>"
+    E clico no botão Aplicar
+
+    Exemplos:
+      | Minimo | Maximo |
+      | 100    | 100    |
+
+  Esquema do Cenario:[CT_11]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Aluguel“
+    Dado que estou na página de resultado de busca por aluguel
+    Dado clico em Filtros na Home Page
+    Quando clico em filtrar por Valor
+    Quando insiro um valor mínimo de "<Minimo>"
+    E insiro um valor máximo de "<Maximo>"
+    E clico no botão Aplicar
+
+    Exemplos:
+      | Minimo | Maximo |
+      | 100    | 100    |
+
   Cenario: [CT_13]: Resultado da busca | Ordenar | Validar layout com filtro “Valor Total“
       Dado que estou na página de resultado de busca por aluguel
       Dado que clico em Ordenar
       Quando seleciono ordenar por Relevância
       Entao verifico que os resultados são ordenados por "Relevância"
-
 
   Cenario: [CT_14]: Resultado da busca | Ordenar | Validar layout com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
@@ -110,7 +136,6 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Dado que clico em Ordenar
     Quando seleciono ordenar por Relevância
     Então verifico que os resultados são ordenados por "Relevância"
-
 
   Esquema do Cenario: [CT_16]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Valor Total“
     Dado que estou na página de resultado de busca por aluguel

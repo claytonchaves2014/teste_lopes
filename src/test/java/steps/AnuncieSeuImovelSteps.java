@@ -61,7 +61,7 @@ public class AnuncieSeuImovelSteps extends BaseSteps {
         anuncieSeuImovel.informarBairro(value);
     }
 
-    @Então("clico no botao Enviar")
+    @E("clico no botao Enviar")
     public void clicoBtnEnviar() {
         anuncieSeuImovel.clicarBtnEnviar();
     }
