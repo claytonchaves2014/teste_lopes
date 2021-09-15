@@ -22,7 +22,7 @@ public class HomeFiltros {
         driver.click(".anticon > .ng-tns-c80-8","css");
     }
     public void clicoCheckBoxAluguel() throws InterruptedException {
-        driver.click(".cdk-focused .ant-radio-input","css");
+        driver.click("//label[2]/span/input","xpath");
         Thread.sleep(2000);
     }
     public void clicoBtnAplicar() throws InterruptedException {
@@ -83,18 +83,21 @@ public class HomeFiltros {
     }
 
     public void ValorTotalSelecionado() {
-        driver.forceClick("xpath=//span[contains(.,' Valor Total')]", "xpath");
+        driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[5]/div[2]/div/lps-value-type-filter/div[2]/nz-radio-group/label[1]/span[1]", "xpath").isDisplayed();;
     }
 
     public void vejoCheckBoxAluguel() {
-        driver.findElem("//*[text()=' Aluguel  ']", "xpath").isDisplayed();
+
+        driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[5]/div[2]/div/lps-value-type-filter/div[2]/nz-radio-group/label[2]/span[2]", "xpath").isDisplayed();
     }
 
     public void vejoValorMinimo() {
+
         driver.findElem("//*[text()=' minValue  ']", "xpath").isDisplayed();
     }
 
     public void vejoValorMaximo() {
+
         driver.findElem("//*[text()=' maxValue  ']", "xpath").isDisplayed();
     }
 }

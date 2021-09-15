@@ -98,5 +98,9 @@ public class AnuncieSeuImovel {
         WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/div[1]/owner-select-checkbox/div[2]/span", "xpath");
         Assert.assertEquals(value, mensagem.getText());
     }
+    public void verificarOpcaoSemTipoImovel(String value) {
+        WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/owner-select-autocomplete/div/div[3]/span", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
 
 }

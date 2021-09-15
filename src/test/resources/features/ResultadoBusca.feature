@@ -21,7 +21,7 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     E vejo o endereço do imóvel na card
     E vejo as características do imóvel na card
 
-  Cenario: [CT_02]: Resultado da busca | Card | Validar exibição valor total com Aluguel, sem Condomínio e IPTU
+   Cenario: [CT_02]: Resultado da busca | Card | Validar exibição valor total com Aluguel, sem Condomínio e IPTU
     Dado que estou na página de resultado de busca por aluguel
     E vejo a card do imóvel
     Quando vejo o tipo de imóvel na card
@@ -59,7 +59,9 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    Entao vejo o checkbox Valor Total selecionado
     E clico no botão Aplicar
+    E vejo o checkbox Aluguel
 
     Exemplos:
       | Minimo | Maximo |
@@ -90,59 +92,75 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo   |
       | 100    | 10000000 |
 
-  Cenario: [CT_09]: Home | Filtro por valor | Validar o layout do filtro por valor
+  Cenario: [CT_08]: Home | Filtro por valor | Validar o layout do filtro por valor
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
 
-  Esquema do Cenario:[CT_10]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Valor Total“
+
+  Esquema do Cenario:[CT_09]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Valor Total“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E vejo o checkbox Valor Total selecionado
     E clico no botão Aplicar
 
     Exemplos:
       | Minimo | Maximo |
       | 100    | 100    |
 
-  Esquema do Cenario:[CT_11]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Aluguel“
+  Esquema do Cenario:[CT_10]: Resultado da busca | Filtro por valor | Validar o comportamento do filtro por “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E clico no checkbox Aluguel
     E clico no botão Aplicar
 
     Exemplos:
       | Minimo | Maximo |
       | 100    | 100    |
 
-  Cenario: [CT_13]: Resultado da busca | Ordenar | Validar layout com filtro “Valor Total“
+  Cenario: [CT_11]: Resultado da busca | Ordenar | Validar layout com filtro “Valor Total“
     Dado que estou na página de resultado de busca por aluguel
+    Dado clico em Filtros na Home Page
+    Quando clico em filtrar por Valor
+    Quando insiro um valor mínimo de "<Minimo>"
+    E insiro um valor máximo de "<Maximo>"
+    E vejo o checkbox Valor Total selecionado
+    E clico no botão Aplicar
     Dado que clico em Ordenar
     Quando seleciono ordenar por Relevância
     Entao verifico que os resultados são ordenados por "Relevância"
 
-  Cenario: [CT_14]: Resultado da busca | Ordenar | Validar layout com filtro “Aluguel“
-    Dado que estou na página de resultado de busca por aluguel
-    Dado que clico em Ordenar
-    Quando seleciono ordenar por Relevância
-    Então verifico que os resultados são ordenados por "Relevância"
-
-  Cenario:[CT_15]: Resultado da busca | Ordenar | Validar layout com filtro por Compra
-    Dado que estou no resultado de busca por compra
-    Dado que clico em Ordenar
-    Quando seleciono ordenar por Relevância
-    Então verifico que os resultados são ordenados por "Relevância"
-
-  Esquema do Cenario: [CT_16]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Valor Total“
+  Cenario: [CT_12]: Resultado da busca | Ordenar | Validar layout com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E clico no checkbox Aluguel
+    E clico no botão Aplicar
+    E clico em Ordenar
+    Quando seleciono ordenar por Relevância
+    Então verifico que os resultados são ordenados por "Relevância"
+
+  Cenario:[CT_13]: Resultado da busca | Ordenar | Validar layout com filtro por Compra
+    Dado que estou no resultado de busca por compra
+    Dado que clico em Ordenar
+    Quando seleciono ordenar por Relevância
+    Então verifico que os resultados são ordenados por "Relevância"
+
+  Esquema do Cenario: [CT_14]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Valor Total“
+    Dado que estou na página de resultado de busca por aluguel
+    Dado clico em Filtros na Home Page
+    Quando clico em filtrar por Valor
+    Quando insiro um valor mínimo de "<Minimo>"
+    E insiro um valor máximo de "<Maximo>"
+    E vejo o checkbox Valor Total selecionado
     E clico no botão Aplicar
     E clico em Ordenar
     E seleciono ordenar por Menor valor
@@ -152,12 +170,13 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo |
       | 1000   | 2000   |
 
-  Esquema do Cenario: [CT_17]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Valor Total“
+  Esquema do Cenario: [CT_15]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Valor Total“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E vejo o checkbox Valor Total selecionado
     E clico no botão Aplicar
     E clico em Ordenar
     E seleciono ordenar por Maior valor
@@ -167,12 +186,13 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo |
       | 1000   | 2000   |
 
-  Esquema do Cenario: [CT_18]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Aluguel“
+  Esquema do Cenario: [CT_16]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E clico no checkbox Aluguel
     E clico no botão Aplicar
     E clico em Ordenar
     E seleciono ordenar por Menor valor
@@ -182,12 +202,13 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo |
       | 1000   | 2000   |
 
-  Esquema do Cenario: [CT_19]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Aluguel“
+  Esquema do Cenario: [CT_17]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
+    E clico no checkbox Aluguel
     E clico no botão Aplicar
     E clico em Ordenar
     E seleciono ordenar por Maior valor
@@ -197,7 +218,7 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | Minimo | Maximo |
       | 1000   | 2000   |
 
-  Esquema do Cenario: [CT_20]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro por Compra
+  Esquema do Cenario: [CT_18]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
@@ -210,9 +231,9 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
 
     Exemplos:
       | Minimo | Maximo |
-      | 900    | 2000   |
+      | 1000   | 6000   |
 
-  Esquema do Cenario: [CT_21]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro por Compra
+  Esquema do Cenario: [CT_19]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
     Dado clico em Filtros na Home Page
     Quando clico em filtrar por Valor
@@ -225,7 +246,7 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
 
     Exemplos:
       | Minimo | Maximo |
-      | 900    | 2000   |
+      | 1000   | 6000   |
 
 
   Cenario: [CT_01]: Página do imóvel | Parcela | Pronto (venda) | Validar o layout

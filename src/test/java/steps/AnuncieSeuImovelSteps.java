@@ -30,7 +30,8 @@ public class AnuncieSeuImovelSteps extends BaseSteps {
     }
 
     @E("clico na opção {string}")
-    public void clicoNaOpcao(String value){ anuncieSeuImovel.clicarOpcao(value); }
+    public void clicoNaOpcao(String value){
+        anuncieSeuImovel.clicarOpcao(value); }
 
    @E("seleciono o tipo de imovel {string}")
    public void selecionoTipoImovel(String value) throws InterruptedException {
@@ -72,19 +73,26 @@ public class AnuncieSeuImovelSteps extends BaseSteps {
     }
     @Então("vejo a mensagem para preencher seu nome {string}")
     public void vejoAMensagemVerificarNome(String value) {
+
         anuncieSeuImovel.verificarNomeInvalido(value);
     }
     @Então("vejo a mensagem para preencher seu email {string}")
     public void vejoAMensagemVerificarEmail(String value) {
+
         anuncieSeuImovel.verificarEmailInvalido(value);
     }
     @Então("vejo a mensagem para preencher seu telefone {string}")
     public void vejoAMensagemVerificarTelefone(String value) {
+
         anuncieSeuImovel.verificarTelefoneInvalido(value);
     }
     @Então("vejo a mensagem para selecionar uma opção de imovel {string}")
     public void vejoAMensagemVerificarOpcaoImovel (String value) {
         anuncieSeuImovel.verificarOpcaoSemPreenchimento(value);
+    }
+    @Então("vejo a mensagem para selecionar o tipo de Imovel {string}")
+    public void vejoAMensagemVerificarTipoImovel (String value) {
+        anuncieSeuImovel.verificarOpcaoSemTipoImovel(value);
     }
 
 }

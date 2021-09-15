@@ -58,20 +58,25 @@ public class ResultadoOrdenar {
     //public void vejoRelevancia() {driver.findElem("//*[text()=' Relevância ']", "xpath").isDisplayed();
     //}
 
-    public void vejoMenorValor() throws InterruptedException {driver.findElem("//span[contains(.,' Menor valor')]", "xpath").isDisplayed();
+    public void vejoMenorValor() throws InterruptedException {
+        driver.findElem("//*[@id=\"cdk-overlay-2\"]/div/div/div/nz-radio-group/label[2]/span[2]", "xpath").isDisplayed();
         Thread.sleep(1000);
+
+
     }
 
     public void vejoMaiorValor() throws InterruptedException {
-        driver.findElem("//span[contains(.,' Maior valor')]", "xpath").isDisplayed();
+        driver.findElem("#cdk-overlay-2 > div > div > div > nz-radio-group > label.ant-radio-wrapper.ant-dropdown-menu-item.ng-star-inserted.ant-radio-wrapper-checked > span:nth-child(2)", "xpath").isDisplayed();
         Thread.sleep(1000);
     }
 
-    public void vejoDataAtualizacao() throws InterruptedException {driver.findElem("//span[contains(.,' Data de atualização')]", "xpath").isDisplayed();
+    public void vejoDataAtualizacao() throws InterruptedException {
+        driver.findElem("//*[@id=\"cdk-overlay-2\"]/div/div/div/nz-radio-group/label[4]/span[2]", "xpath").isDisplayed();
         Thread.sleep(1000);
     }
 
-    public void vejoAreaImovel() throws InterruptedException {driver.findElem("ant-radio-wrapper:nth-child(5) > span:nth-child(2)","css").isDisplayed();
+    public void vejoAreaImovel() throws InterruptedException {
+        driver.findElem("//*[@id=\"cdk-overlay-2\"]/div/div/div/nz-radio-group/label[5]/span[2]","css").isDisplayed();
         Thread.sleep(1000);
     }
 }

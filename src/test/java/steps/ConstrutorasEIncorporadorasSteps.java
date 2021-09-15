@@ -11,7 +11,7 @@ public class ConstrutorasEIncorporadorasSteps extends BaseSteps {
 
  private static ConstrutorasEIncorporadoras construtorasEIncorporadoras = new ConstrutorasEIncorporadoras(driver);
 
-        @Então("visualizo a página carregada")
+        @Então("visualizo a lista de Construtoras e Incorporadoras em ordem alfabética")
         public void vejoPaginaConstrutorasIncorporadoras() {
             construtorasEIncorporadoras.vejoPageConstruturaseIncorporadoras();
     }

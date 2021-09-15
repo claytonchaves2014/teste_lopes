@@ -14,10 +14,10 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
     E informo o nome "Clayton" do Anunciante
     E preencho o Email "cchaves@lopes.com.br" do Anunciante
-    E preencho o Telefone "11986220622" do Anunciante
+    E preencho o Telefone "11986220522" do Anunciante
     E clico na opção "Vender"
     E seleciono o tipo de imovel "Apartamento"
-    E informo o CEP "06140040"
+    E informo o CEP "01427-002"
     E informo o numero do endereco "440"
     E clico no botao Enviar
 
@@ -27,11 +27,11 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     E clico no header Anuncie Seu Imovel
     E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
     E preencho o Email "cchaves@lopes.com.br" do Anunciante
-    E preencho o Telefone "11986220622" do Anunciante
+    E preencho o Telefone "11986220522" do Anunciante
     E clico na opção "Vender"
     E seleciono o tipo de imovel "Apartamento"
-    E informo o CEP "06140040"
-    E informo o numero do endereco "440"
+    E informo o CEP "01427-002"
+    E informo o numero do endereco "1971"
     E clico no botao Enviar
     Então vejo a mensagem para preencher seu nome "Por favor, preencha seu nome."
 
@@ -40,11 +40,11 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     E clico no header Anuncie Seu Imovel
     E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
     E informo o nome "Clayton" do Anunciante
-    E preencho o Telefone "11986220622" do Anunciante
+    E preencho o Telefone "11986220522" do Anunciante
     E clico na opção "Vender"
     E seleciono o tipo de imovel "Apartamento"
-    E informo o CEP "06140040"
-    E informo o numero do endereco "440"
+    E informo o CEP "01427-002"
+    E informo o numero do endereco "1971"
     E clico no botao Enviar
     Então vejo a mensagem para preencher seu email "Por favor, preencha seu e-mail."
 
@@ -56,8 +56,8 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     E preencho o Email "cchaves@lopes.com.br" do Anunciante
     E clico na opção "Vender"
     E seleciono o tipo de imovel "Apartamento"
-    E informo o CEP "06140040"
-    E informo o numero do endereco "440"
+    E informo o CEP "01427-002"
+    E informo o numero do endereco "1971"
     E clico no botao Enviar
     Então vejo a mensagem para preencher seu telefone "Por favor, preencha seu telefone."
 
@@ -68,11 +68,23 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     E informo o nome "Clayton" do Anunciante
     E preencho o Email "cchaves@lopes.com.br" do Anunciante
     E seleciono o tipo de imovel "Apartamento"
-    E informo o CEP "06140040"
-    E informo o numero do endereco "440"
+    E informo o CEP "01427-002"
+    E informo o numero do endereco "1971"
     E clico no botao Enviar
     Então vejo a mensagem para selecionar uma opção de imovel "Por favor, selecione uma opção."
 
+  Cenário:[CT_06]: Anuncie seu imóvel | Formulário | Validar formulário campo Tipo do imóvel sem preenchimento
+
+    E clico no header Anuncie Seu Imovel
+    E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
+    E informo o nome "Clayton" do Anunciante
+    E preencho o Email "cchaves@lopes.com.br" do Anunciante
+    E preencho o Telefone "11986220522" do Anunciante
+    E clico na opção "Vender"
+    E informo o CEP "01427-002"
+    E informo o numero do endereco "440"
+    E clico no botao Enviar
+    Então vejo a mensagem para selecionar o tipo de Imovel "Por favor, preencha o tipo de imóvel."
 
 
 
