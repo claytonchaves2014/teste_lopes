@@ -120,10 +120,10 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
       | 100    | 100    |
 
   Cenario: [CT_13]: Resultado da busca | Ordenar | Validar layout com filtro “Valor Total“
-      Dado que estou na página de resultado de busca por aluguel
-      Dado que clico em Ordenar
-      Quando seleciono ordenar por Relevância
-      Entao verifico que os resultados são ordenados por "Relevância"
+    Dado que estou na página de resultado de busca por aluguel
+    Dado que clico em Ordenar
+    Quando seleciono ordenar por Relevância
+    Entao verifico que os resultados são ordenados por "Relevância"
 
   Cenario: [CT_14]: Resultado da busca | Ordenar | Validar layout com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
@@ -149,8 +149,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Menor valor"
 
     Exemplos:
-      | Minimo     | Maximo       |
-      | 1000       | 2000         |
+      | Minimo | Maximo |
+      | 1000   | 2000   |
 
   Esquema do Cenario: [CT_17]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Valor Total“
     Dado que estou na página de resultado de busca por aluguel
@@ -164,8 +164,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Maior valor"
 
     Exemplos:
-      | Minimo | Maximo     |
-      | 1000    | 2000      |
+      | Minimo | Maximo |
+      | 1000   | 2000   |
 
   Esquema do Cenario: [CT_18]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
@@ -179,8 +179,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Menor valor"
 
     Exemplos:
-      | Minimo | Maximo     |
-      | 1000    | 2000      |
+      | Minimo | Maximo |
+      | 1000   | 2000   |
 
   Esquema do Cenario: [CT_19]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro “Aluguel“
     Dado que estou na página de resultado de busca por aluguel
@@ -194,8 +194,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Maior valor"
 
     Exemplos:
-      | Minimo | Maximo   |
-      | 1000    | 2000    |
+      | Minimo | Maximo |
+      | 1000   | 2000   |
 
   Esquema do Cenario: [CT_20]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
@@ -209,8 +209,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Menor valor"
 
     Exemplos:
-      | Minimo | Maximo   |
-      | 900    | 2000     |
+      | Minimo | Maximo |
+      | 900    | 2000   |
 
   Esquema do Cenario: [CT_21]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
@@ -224,8 +224,8 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
     Então verifico que os resultados são ordenados por "Maior valor"
 
     Exemplos:
-      | Minimo | Maximo   |
-      | 900    | 2000     |
+      | Minimo | Maximo |
+      | 900    | 2000   |
 
 
   Cenario: [CT_01]: Página do imóvel | Parcela | Pronto (venda) | Validar o layout

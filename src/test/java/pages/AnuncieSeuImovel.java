@@ -38,13 +38,21 @@ public class AnuncieSeuImovel {
 
         }
 }
-    public void selecionarImovel() throws InterruptedException {
-        driver.sendKeys("","owner-select-autocomplete input","css");
-        driver.ScrollTo( driver.findElem("//span[contains(text(),'Casa')]","xpath"));
-        Thread.sleep(2000);
-        driver.click("//span[contains(text(),'Casa')]","xpath");
-        Thread.sleep(2000);
-    }
+        public void selecionarImovel(String value) throws InterruptedException {
+            driver.sendKeys("", "owner-select-autocomplete input", "css");
+            driver.ScrollTo(driver.findElem("//span[contains(text(),'Apartamento')]", "xpath"));
+            Thread.sleep(2000);
+            driver.click("//span[contains(text(),'Apartamento')]", "xpath");
+            Thread.sleep(2000);
+        }
+
+      /*  public void selecionarImovel(String value) throws InterruptedException {
+            driver.sendKeys("", "owner-select-autocomplete input", "css");
+            driver.ScrollTo(driver.findElem("//span[contains(text(),'Apartamento')]", "xpath"));
+            Thread.sleep(2000);
+            driver.click("//span[contains(text(),'Apartamento')]", "xpath");
+            Thread.sleep(2000);
+        }*/
 
     public void informarCEP(String value) throws InterruptedException {
         WebElement cep = driver.findElem("postalCode");
@@ -68,6 +76,27 @@ public class AnuncieSeuImovel {
     }
     public void informarcpf(String value) { driver.sendKeys(value, "cpf"); }
 
+    public void verificarEnvioFormulario(String value) {
+        driver.waitElement("//div[@class='success-txt']", "xpath");
+        WebElement mensagem = driver.findElem("//div[@class='success-txt']", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
 
+    public void verificarNomeInvalido(String value) {
+        WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/owner-input[1]/div/div/span[1]", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
+    public void verificarEmailInvalido(String value) {
+        WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/owner-input[2]/div/div/span[1]", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
+    public void verificarTelefoneInvalido(String value) {
+        WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/owner-phone-input/div/owner-input/div/div/span", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
+    public void verificarOpcaoSemPreenchimento(String value) {
+        WebElement mensagem = driver.findElem("/html/body/app-root/div/owner-home/owner-new-advertise/div/div/section[2]/owner-advertise-form/form/div[1]/owner-select-checkbox/div[2]/span", "xpath");
+        Assert.assertEquals(value, mensagem.getText());
+    }
 
 }
