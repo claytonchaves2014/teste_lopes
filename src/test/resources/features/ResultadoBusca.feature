@@ -175,7 +175,7 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
   Esquema do Cenario: [CT_20]: Resultado da busca | Ordenar “Menor valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
     Dado clico em Filtros na Home Page
-    E clico em filtrar por Valor
+    Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
     E clico no botão Aplicar
@@ -190,7 +190,7 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
   Esquema do Cenario: [CT_21]: Resultado da busca | Ordenar “Maior valor“ | Validar comportamento com filtro por Compra
     Dado que estou no resultado de busca por compra
     Dado clico em Filtros na Home Page
-    E clico em filtrar por Valor
+    Quando clico em filtrar por Valor
     Quando insiro um valor mínimo de "<Minimo>"
     E insiro um valor máximo de "<Maximo>"
     E clico no botão Aplicar
@@ -200,20 +200,20 @@ Funcionalidade: [QA-14] Resultado de Busca | Validar os resultados de busca
 
     Exemplos:
       | Minimo | Maximo   |
-      | 900    | 2000    |
+      | 900    | 2000     |
 
 
-  Cenario: [CT_01_22]: Página do imóvel | Parcela | Pronto (venda) | Validar o layout
+  Cenario: [CT_01]: Página do imóvel | Parcela | Pronto (venda) | Validar o layout
     Dado que estou na página de resultado de busca por prontos
     Dado clico em uma card
     Então vejo a Ficha do Imóvel
     E vejo o valor do imóvel na card
     E vejo o valor do iptu na card
     E vejo o valor de condomínio na card
-    E vejo o link "Simule o valor financiado"
+    E vejo o link "Simular valor financiado"
 
 
-  Cenario: [CT_02_23]: Página do imóvel | Parcela | Pronto (aluguel) | Validar o layout
+  Cenario: [CT_02]: Página do imóvel | Parcela | Pronto (aluguel) | Validar o layout
     Dado que estou na página de resultado de busca por aluguel
     E vejo o valor do aluguel na card
     E vejo o valor do iptu na card
