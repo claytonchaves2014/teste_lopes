@@ -18,32 +18,53 @@ public class HomeFiltros {
         driver.click(".filter-btn", "css");
 
     }
+
+    public void clicarFiltrarValorEmCompra() throws InterruptedException {
+        driver.click(".ng-tns-c80-9 > .ant-collapse-header", "css");
+        Thread.sleep(2000);
+    }
+
+    public void clicarFiltrarValorEmAluguel() throws InterruptedException {
+        driver.click(".ng-tns-c80-8 > .ant-collapse-header", "css");
+        Thread.sleep(2000);
+    }
+
+    public void clicarFiltrarValorEmLancamento() throws InterruptedException {
+        driver.click(".anticon > .ng-tns-c80-8", "css");
+        Thread.sleep(2000);
+    }
+
+
     public void clicarFiltrarValor() throws InterruptedException {
-        driver.click(".anticon > .ng-tns-c80-8","css");
+        driver.click(".anticon > .ng-tns-c80-8", "css");
+        Thread.sleep(2000);
     }
+
     public void clicoCheckBoxAluguel() throws InterruptedException {
-        driver.click("//label[2]/span/input","xpath");
+        driver.click("//label[2]/span/input", "xpath");
         Thread.sleep(2000);
     }
+
     public void clicoBtnAplicar() throws InterruptedException {
-        driver.click(".value-type-filter > .btn-extra","css");
+        driver.click(".value-type-filter > .btn-extra", "css");
         Thread.sleep(2000);
     }
+
     public void clicoBtnOrdenar() throws InterruptedException {
-        driver.click(".cdk-overlay-backdrop","css");
-        driver.click("//button[contains(.,'Ordenar')]","xpath");
+        driver.click(".cdk-overlay-backdrop", "css");
+        driver.click("//button[contains(.,'Ordenar')]", "xpath");
         Thread.sleep(2000);
     }
 
     public void inserirValorMin(String value) throws InterruptedException {
         driver.sendKeys(value, "minValue");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 
     public void inserirValorMax(String value) throws InterruptedException {
         driver.sendKeys(value, "maxValue");
-   //     driver.click("minArea");
-        Thread.sleep(2000);
+        //     driver.click("minArea");
+        Thread.sleep(3000);
     }
 
     public void inserirAreaMin(String value) {
@@ -83,7 +104,8 @@ public class HomeFiltros {
     }
 
     public void ValorTotalSelecionado() {
-        driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[5]/div[2]/div/lps-value-type-filter/div[2]/nz-radio-group/label[1]/span[1]", "xpath").isDisplayed();;
+        driver.findElem("//*[@id=\"cdk-overlay-1\"]/div/div/div/lps-search-filter/div/div/div/nz-collapse/div/nz-collapse-panel[5]/div[2]/div/lps-value-type-filter/div[2]/nz-radio-group/label[1]/span[1]", "xpath").isDisplayed();
+        ;
     }
 
     public void vejoCheckBoxAluguel() {

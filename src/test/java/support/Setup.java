@@ -47,8 +47,8 @@ public class Setup {
                     chromeOptions.addArguments("--disable-geolocation");
                     chromeOptions.addArguments("--no-sandbox");
 
-                    if(System.getProperty("headless") != null &&
-                            System.getProperty("headless").equals("true")){
+                    if (System.getProperty("headless") != null &&
+                            System.getProperty("headless").equals("true")) {
                         chromeOptions.addArguments("--headless");
                     }
                     chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -191,6 +191,7 @@ public class Setup {
 
         return element.getAttribute("href");
     }
+
     public String getAlt(String parValue, String... parType) {
         final WebElement element = findElem(parValue, parType);
 
@@ -264,7 +265,7 @@ public class Setup {
 
     public void allowGeo() {
 //        ((JavascriptExecutor)driver).executeScript("navigator.geolocation.getCurrentPosition = function(success) { success({coords: {latitude: -23.5534427, longitude: --46.4481535}}); }");
-        ((JavascriptExecutor)driver).executeScript("window.navigator.geolocation.getCurrentPosition = function(success){ var position = {\"coords\" : {  \"latitude\": \"18.975080\",   \"longitude\": \"72.825838\" }  };  success(position);}");
+        ((JavascriptExecutor) driver).executeScript("window.navigator.geolocation.getCurrentPosition = function(success){ var position = {\"coords\" : {  \"latitude\": \"18.975080\",   \"longitude\": \"72.825838\" }  };  success(position);}");
     }
 
     public String getTitle() {
@@ -273,9 +274,9 @@ public class Setup {
 
     public void allowGeolocation() {
         ChromeOptions options = new ChromeOptions();
-        Map< String, Object > prefs = new HashMap < String, Object > ();
-        Map < String, Object > profile = new HashMap < String, Object > ();
-        Map < String, Object > contentSettings = new HashMap < String, Object > ();
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        Map<String, Object> profile = new HashMap<String, Object>();
+        Map<String, Object> contentSettings = new HashMap<String, Object>();
 
         contentSettings.put("geolocation", 1);
         profile.put("managed_default_content_settings", contentSettings);

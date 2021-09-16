@@ -13,9 +13,23 @@ public class HomeFiltrosSteps extends BaseSteps {
         homeFiltros.clicarFiltros();
     }
 
+    @E("clico em filtrar por Valor em Compra")
+    public void  clicoEmFiltrosPorValorCompra() throws InterruptedException {
+        homeFiltros.clicarFiltrarValorEmCompra();
+    }
+    @E("clico em filtrar por Valor em Aluguel")
+    public void  clicoEmFiltrosPorValorEmAluguel() throws InterruptedException {
+        homeFiltros.clicarFiltrarValorEmAluguel();
+    }
+    @E("clico em filtrar por Valor em Lançamento")
+    public void  clicoEmFiltrosPorValorEmLancamento() throws InterruptedException {
+        homeFiltros.clicarFiltrarValorEmLancamento();
+    }
+
     @Quando("clico em filtrar por Valor")
-    public void clicoEmFiltrosPorValor() throws InterruptedException {
-        homeFiltros.clicarFiltrarValor();
+        public void  clicoEmFiltrosPorValor()throws InterruptedException  {
+            homeFiltros.clicarFiltrarValor();
+
     }
     @E("clico no checkbox Aluguel")
     public void clicoCheckAluguel() throws InterruptedException {
