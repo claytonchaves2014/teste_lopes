@@ -48,7 +48,7 @@ public class Setup {
                     chromeOptions.addArguments("--no-sandbox");
 
                     if (System.getProperty("headless") != null &&
-                            System.getProperty("headless").equals("true")) {
+                            System.getProperty("headless").equals("false")) {
                         chromeOptions.addArguments("--headless");
                     }
                     chromeOptions.addArguments("--disable-dev-shm-usage");
