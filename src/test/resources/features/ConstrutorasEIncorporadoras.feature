@@ -7,7 +7,7 @@ Funcionalidade: Construtoras e Incorporadoras
   Contexto:
 
     Dado acesso o Portal da Lopes
-    Quando clico no footer da página Construtoras e Incorporadoras
+    E clico no footer da página Construtoras e Incorporadoras
 
 
   Cenário: [CT_01]: Construtoras e Incorporadoras| Card | Validar layout
