@@ -1,6 +1,6 @@
 #language: pt
 
-@Construtoras
+@ConstrutorasEIncorporadoras
 
 Funcionalidade: Construtoras e Incorporadoras
 
@@ -12,5 +12,12 @@ Funcionalidade: Construtoras e Incorporadoras
 
     E clico no footer da página Construtoras e Incorporadoras
     Então visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
+
+  Cenário: [CT_02]: Construtoras e Incorporadoras| Card | Validar layout
+
+    E clico no footer da página Construtoras e Incorporadoras
+    E visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
+    Quando clico sobre uma incorporadora exibida na tela
+    Então é exibido informações sobre a Incorporadora
 
 
