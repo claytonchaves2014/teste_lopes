@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "json:target/reports/CucumberReport.json"},
        // tags = {__JENKINS_PIPELINE_TAG__},
-        tags = "@Construtoras",
+        //tags = "@Construtoras",
         glue = {"steps"}
 )
 

@@ -158,7 +158,7 @@ public class HomeFooterSteps extends BaseSteps {
         homeFooter.clicarCondominiosEdificios();
     }
 
-    @E("clico no footer da página Construtoras e Incorporadoras")
+    @Quando("clico no footer da página Construtoras e Incorporadoras")
     public void cliqueFooterConstrutoraEImpreendimentos() throws InterruptedException {
         homeFooter.clicarFooterConstrutoraEImpreendimentos();
 
