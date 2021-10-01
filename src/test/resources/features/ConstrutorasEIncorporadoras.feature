@@ -12,7 +12,7 @@ Funcionalidade: Construtoras e Incorporadoras
 
   Cenário: [CT_01]: Construtoras e Incorporadoras| Card | Validar layout
 
-    Então visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
+    E visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
 
   Cenário: [CT_02]: Construtoras e Incorporadoras| Card | Validar layout
 

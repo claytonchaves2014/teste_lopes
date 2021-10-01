@@ -17,6 +17,7 @@ public class ConstrutorasEIncorporadorasSteps extends BaseSteps {
         public void vejoPaginaConstrutorasIncorporadoras() {
             construtorasEIncorporadoras.vejoPageConstruturaseIncorporadoras();
     }
+
         @Quando("clico sobre uma incorporadora exibida na tela")
         public void clicoPaginaConstrutorasIncorporadoras() throws InterruptedException {
         construtorasEIncorporadoras.clicoPageConstruturaseIncorporadoras();
