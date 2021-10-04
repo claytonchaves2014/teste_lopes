@@ -1,5 +1,5 @@
 #language: pt
-
+@REGRESSAO
 @ConstrutorasEIncorporadoras
 
 Funcionalidade: Construtoras e Incorporadoras
