@@ -16,7 +16,8 @@ public class ResultadoBuscaAvancada {
     }
 
     public void selecionarBusca(String value) {
-        driver.waitElement("//*[@class='search-input__dropdown']", "xpath");
+      //  driver.waitElement("//*[@class='search-input__dropdown']", "xpath");
+        driver.waitElement("search-input", "id");
         driver.findElem("//*[text()='" + value + "']", "xpath").click();
     }
 }

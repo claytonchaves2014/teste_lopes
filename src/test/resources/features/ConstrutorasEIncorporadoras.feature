@@ -15,5 +15,3 @@ Funcionalidade: Construtoras e Incorporadoras
     E visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
     Quando clico sobre uma incorporadora exibida na tela
     Então é exibido informações sobre a Incorporadora
-
-

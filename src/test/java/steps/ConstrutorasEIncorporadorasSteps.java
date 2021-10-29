@@ -11,27 +11,24 @@ import support.BaseSteps;
 public class ConstrutorasEIncorporadorasSteps extends BaseSteps {
 
 
- private static ConstrutorasEIncorporadoras construtorasEIncorporadoras = new ConstrutorasEIncorporadoras(driver);
+    private static ConstrutorasEIncorporadoras construtorasEIncorporadoras = new ConstrutorasEIncorporadoras(driver);
 
-        @E("visualizo a lista de Construtoras e Incorporadoras em ordem alfabética")
-        public void vejoPaginaConstrutorasIncorporadoras() {
-            construtorasEIncorporadoras.vejoPageConstruturaseIncorporadoras();
+    @E("visualizo a lista de Construtoras e Incorporadoras em ordem alfabética")
+    public void vejoPaginaConstrutorasIncorporadoras() {
+        construtorasEIncorporadoras.vejoPageConstruturaseIncorporadoras();
     }
 
-        @Quando("clico sobre uma incorporadora exibida na tela")
-        public void clicoPaginaConstrutorasIncorporadoras() throws InterruptedException {
+    @Quando("clico sobre uma incorporadora exibida na tela")
+    public void clicoPaginaConstrutorasIncorporadoras() throws InterruptedException {
         construtorasEIncorporadoras.clicoPageConstruturaseIncorporadoras();
     }
-       @Entao("é exibido informações sobre a Incorporadora")
-        public void exibeInfoConstrutorasIncorporadoras() throws InterruptedException {
+    @Entao("é exibido informações sobre a Incorporadora")
+    public void exibeInfoConstrutorasIncorporadoras() throws InterruptedException {
         construtorasEIncorporadoras.exibirInfoConstrutorasIncorporadoras();
     }
 
 
 }
-
-
-
 
 
 
