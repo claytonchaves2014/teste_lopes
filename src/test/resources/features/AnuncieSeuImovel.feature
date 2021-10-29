@@ -88,4 +88,30 @@ Funcionalidade: AnuncieSeuImovel| Enviar Formulario
     Então vejo a mensagem para selecionar o tipo de Imovel "Por favor, preencha o tipo de imóvel."
 
 
+  Cenário:[CT_07]: Anuncie seu imóvel | Formulário | Validar formulário campo CEP sem preenchimento
 
+    E clico no header Anuncie Seu Imovel
+    E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
+    E informo o nome "Clayton" do Anunciante
+    E preencho o Email "cchaves@lopes.com.br" do Anunciante
+    E seleciono o tipo de imovel "Apartamento"
+    E informo o CEP "01427-002"
+    E preencho o Telefone "11986220522" do Anunciante
+    E clico na opção "Vender"
+    E informo o numero do endereco "440"
+    E clico no botao Enviar
+    Então vejo a mensagem para selecionar o tipo de Imovel "Por favor, preencha o CEP."
+
+
+  Cenário:[CT_08]: Anuncie seu imóvel | Formulário | Validar formulário campo Número sem preenchimento
+
+    E clico no header Anuncie Seu Imovel
+    E verifico que a URL é aberta "/paginas/anuncie-seu-imovel"
+    E informo o nome "Clayton" do Anunciante
+    E preencho o Email "cchaves@lopes.com.br" do Anunciante
+    E seleciono o tipo de imovel "Apartamento"
+    E informo o CEP "01427-002"
+    E preencho o Telefone "11986220522" do Anunciante
+    E clico na opção "Vender"
+    E clico no botao Enviar
+    Então vejo a mensagem para selecionar o tipo de Imovel "Por favor, preencha o número."
