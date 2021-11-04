@@ -14,4 +14,4 @@ Funcionalidade: Construtoras e Incorporadoras
   Cenário: [CT_02]: Construtoras e Incorporadoras| Card | Validar layout
     E visualizo a lista de Construtoras e Incorporadoras em ordem alfabética
     Quando clico sobre uma incorporadora exibida na tela
-    Então é exibido informações sobre a Incorporadora
+    Então é  exibido informações sobre a Incorporadora
